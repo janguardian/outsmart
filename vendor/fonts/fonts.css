@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'GraphikLCG';
+  src:
+    url(./GraphikLCG/GraphikLCG-Extralight.woff2) format('woff2'),
+    url(./GraphikLCG/GraphikLCG-Extralight.woff) format('woff');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'GraphikLCG';
+  src:
+    url(./GraphikLCG/GraphikLCG-Light.woff2) format('woff2'),
+    url(./GraphikLCG/GraphikLCG-Light.woff) format('woff');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'GraphikLCG';
+  src:
+    url(./GraphikLCG/GraphikLCG-Regular.woff2) format('woff2'),
+    url(./GraphikLCG/GraphikLCG-Regular.woff) format('woff');
+  font-weight: 400;
+}
