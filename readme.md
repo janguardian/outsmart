@@ -13,7 +13,7 @@
 * Верстка по [БЭМ](https://ru.bem.info/)
 * Организация файлов по [Nested БЭМ](https://ru.bem.info/methodology/filestructure/#nested)
 * Валидность кода по [W3C](https://validator.w3.org/)
-* Соответствие [требованиям к комит сообщениям](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/)
+* Соответствие [требованиям к коммит сообщениям](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/)
 
 ## Запуск проекта
 
