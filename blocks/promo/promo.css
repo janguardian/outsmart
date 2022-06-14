@@ -1,0 +1,9 @@
+.promo {
+  box-sizing: border-box;
+  padding: 100px 120px;
+  background-image: url(../../images/background/background-main-direct.jpg);
+  height: 920px;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}

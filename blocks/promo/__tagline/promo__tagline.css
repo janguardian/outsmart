@@ -1,0 +1,10 @@
+.promo__tagline {
+  margin: 0;
+  font-family: 'Graphik';
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  color: #fff;
+  mix-blend-mode: normal;
+}

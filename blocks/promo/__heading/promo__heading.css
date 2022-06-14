@@ -1,0 +1,11 @@
+.promo__heading {
+  font-family: 'Graphik';
+  font-weight: 200;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: -2px;
+  color: #fff;
+  mix-blend-mode: normal;
+
+  margin: 0 0 40px;
+}
