@@ -1,23 +1,31 @@
 @font-face {
-  font-family: 'GraphikLCG';
+  font-family: 'Graphik';
   src:
-    url(./GraphikLCG/GraphikLCG-Extralight.woff2) format('woff2'),
-    url(./GraphikLCG/GraphikLCG-Extralight.woff) format('woff');
+    url(./Graphik/Graphik-Extralight.woff2) format('woff2'),
+    url(./Graphik/Graphik-Extralight.woff) format('woff');
   font-weight: 200;
 }
 
 @font-face {
-  font-family: 'GraphikLCG';
+  font-family: 'Graphik';
   src:
-    url(./GraphikLCG/GraphikLCG-Light.woff2) format('woff2'),
-    url(./GraphikLCG/GraphikLCG-Light.woff) format('woff');
+    url(./Graphik/Graphik-Light.woff2) format('woff2'),
+    url(./Graphik/Graphik-Light.woff) format('woff');
   font-weight: 300;
 }
 
 @font-face {
-  font-family: 'GraphikLCG';
+  font-family: 'Graphik';
   src:
-    url(./GraphikLCG/GraphikLCG-Regular.woff2) format('woff2'),
-    url(./GraphikLCG/GraphikLCG-Regular.woff) format('woff');
+    url(./Graphik/Graphik-Regular.woff2) format('woff2'),
+    url(./Graphik/Graphik-Regular.woff) format('woff');
   font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src:
+    url(./Graphik/Graphik-Medium.woff2) format('woff2'),
+    url(./Graphik/Graphik-Medium.woff) format('woff');
+  font-weight: 500;
 }
