@@ -17,5 +17,7 @@
 @import url(../blocks/coverage/coverage.css);
 @import url(../blocks/coverage/__cards/coverage__cards.css);
 @import url(../blocks/coverage/__card/coverage__card.css);
+@import url(../blocks/coverage/__card/_background-part/coverage__card_background-part_center-top.css);
+@import url(../blocks/coverage/__card/_background-part/coverage__card_background-part_left-bottom.css);
 @import url(../blocks/coverage/__card-heading/coverage__card-heading.css);
 @import url(../blocks/coverage/__card-text/coverage__card-text.css);
