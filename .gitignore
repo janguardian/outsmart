@@ -7,3 +7,6 @@ node_modules
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+vendor/.DS_Store
+vendor/fonts/.DS_Store
+.DS_Store
