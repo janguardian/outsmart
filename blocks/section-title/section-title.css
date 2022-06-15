@@ -1,0 +1,12 @@
+.section-title {
+  margin: 0;
+
+  font-family: 'Graphik';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 16px;
+  text-transform: uppercase;
+  color: #63727E;
+  mix-blend-mode: normal;
+}

@@ -1,0 +1,10 @@
+.coverage__card-heading {
+  margin: 0 0 40px;
+
+  font-family: 'Graphik';
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 36px;
+  color: #fff;
+  mix-blend-mode: normal;
+}

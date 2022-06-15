@@ -17,18 +17,56 @@
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body>
-    <div class="promo">
-      <div class="promo__overlay"></div>
+    <section class="promo">
+      <div class="overlay overlay_mode_fill"></div>
 
       <header class="promo__header">
-        <img src="./images/logo.png" alt="outsmart" class="promo__logo">
-      </header> <!-- /.promo__header -->
+        <img src="./images/logo.png" alt="outsmart" class="promo__logo" />
+        <!-- TODO: add buttons -->
+      </header>
+      <!-- /.promo__header -->
 
       <div class="promo__text">
         <h1 class="promo__heading">Progress through numbers</h1>
-        <p class="promo__tagline">We are a marketing consultant. We help small and medium-sized software development companies gain traction by attracting new prospects and leading them all the way up to becoming your customers.</p>
-      </div> <!-- /.promo__text -->
-    </div> <!-- /.promo -->
+        <p class="promo__tagline">
+          We are a marketing consultant. We help small and medium-sized software
+          development companies gain traction by attracting new prospects and
+          leading them all the way up to becoming your customers.
+        </p>
+      </div>
+      <!-- /.promo__text -->
+    </section>
+    <!-- /.promo -->
+
+    <section class="coverage">
+      <h2 class="section-title">Coverage</h2>
+
+      <div class="overlay overlay_mode_outline"></div>
+
+      <div class="coverage__cards">
+        <div class="coverage__card">
+          <h3 class="coverage__card-heading">Outsourcing companies</h3>
+          <p class="coverage__card-text">
+            We provide marketing and sales support services for custom software
+            development companies whatever domain or industry they are operating
+            in.
+          </p>
+        </div>
+        <!-- /.coverage__card -->
+
+        <div class="coverage__card">
+          <h3 class="coverage__card-heading">Product developers</h3>
+          <p class="coverage__card-text">
+            Outsmart renders marketing, promotion, placement, enhancement and
+            sales services for independent software vendors with proprietary
+            products.
+          </p>
+        </div>
+        <!-- /.coverage__card -->
+      </div>
+      <!-- /.coverage__cards -->
+    </section>
+    <!-- /.coverage -->
 
     <script type="module" src="/pages/index.js"></script>
   </body>

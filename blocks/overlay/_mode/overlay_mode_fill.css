@@ -1,11 +1,5 @@
-.promo__overlay {
+.overlay_mode_fill {
   background-image: url(../../../images/overlay-fill.png);
-  width: 1000px;
-  height: 920px;
-
-  position: absolute;
-  left: calc(50% - 1000px/2);
-  top: calc(50% - 920px/2);
 
   /* background: linear-gradient(180deg, #000000 52.11%, rgba(0, 0, 0, 0) 87.18%); */
   mix-blend-mode: soft-light;

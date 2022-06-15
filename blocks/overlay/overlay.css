@@ -1,0 +1,8 @@
+.overlay {
+  width: 1000px;
+  height: 920px;
+
+  position: absolute;
+  left: calc(50% - 1000px/2);
+  top: calc(50% - 920px/2);
+}

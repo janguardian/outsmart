@@ -1,0 +1,8 @@
+.coverage__card {
+  box-sizing: border-box;
+  padding: 100px 60px;
+  width: 588px;
+
+  background-image: url(../../../images/background/background-main-direct.jpg);
+  background-repeat: no-repeat;
+}
