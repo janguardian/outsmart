@@ -1,0 +1,23 @@
+.services__item {
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.services__item:hover {
+  cursor: pointer;
+  background: url('../../../images/background/background-main-reverse.png') center center no-repeat;
+}
+
+.services__item:hover .services__subtitle {
+  color: var(--colorWhite);
+}
+
+.services__item:hover .services__text {
+  color: var(--colorWhite);
+}
+
+.services__item:hover .services__state {
+  color: var(--colorJellyBeanBlue);
+  background-color: var(--colorWhite);
+}

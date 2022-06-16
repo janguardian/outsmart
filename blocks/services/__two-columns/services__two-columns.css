@@ -1,0 +1,5 @@
+.services__two-columns {
+  -webkit-column-gap: 100px;
+     -moz-column-gap: 100px;
+          column-gap: 100px;
+}

@@ -1,4 +1,4 @@
-.coverage__cards {
+.cards {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 24px 1fr;

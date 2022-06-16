@@ -4,7 +4,11 @@
   --colorJapaneseIndigo: #1c3c56;
   --colorAuroMetalSaurus: #63727e;
   --colorUsafaBlue: #005499;
+  --colorPurple: #5f4cff;
+  --colorJellyBeanBlue: #4e7595;
 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   line-height: 32px;
   font-family: 'Graphik', 'Arial', sans-serif;
   font-weight: 300;

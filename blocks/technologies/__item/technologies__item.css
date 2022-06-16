@@ -1,0 +1,9 @@
+.technologies__item {
+  background-color: var(--colorPurple);
+  padding: 8px 20px;
+  border-radius: 16px;
+  color: var(--colorWhite);
+  line-height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+}

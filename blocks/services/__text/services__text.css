@@ -1,0 +1,7 @@
+.services__text {
+  overflow: hidden;
+  margin: 0;
+  color: var(--colorAuroMetalSaurus);
+  line-height: 32px;
+  letter-spacing: 1px;
+}
