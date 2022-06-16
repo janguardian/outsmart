@@ -10,3 +10,12 @@
 @import url(../blocks/promo/__title/promo__title.css);
 @import url(../blocks/promo/__subtitle/promo__subtitle.css);
 @import url(../blocks/promo/__overlay/promo__overlay.css);
+/*coverage*/
+@import url(../blocks/coverage/coverage.css);
+@import url(../blocks/coverage/__title/coverage__title.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/_back/card_back_purple.css);
+@import url(../blocks/card/_back/card_back_blue.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__description/card__description.css);
