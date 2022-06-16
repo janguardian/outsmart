@@ -1,0 +1,11 @@
+.page {
+  width: 1440px;
+  margin: 0 auto;
+  font-family: "Graphik", "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+* {
+  border: 1px red solid;
+  box-sizing: border-box;
+}
