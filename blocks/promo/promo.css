@@ -3,7 +3,7 @@
   z-index: 5;
   height: 920px;
   overflow: hidden;
-  background: url('../../images/promo/Background.png') center center no-repeat;
+  background: url('../../images/background.png') center center no-repeat;
   background-size: cover;
   color: var(--colorWhite);
 }
@@ -19,6 +19,6 @@
           transform: translateX(-50%);
   width: 1000px;
   height: 920px;
-  background: url('../../images/promo/overlay.png') center top no-repeat;
+  background: url('../../images/promo/promo-overlay.png') center top no-repeat;
   opacity: 0.5;
 }
