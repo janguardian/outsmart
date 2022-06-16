@@ -1,4 +1,10 @@
 .header {
-  background-image: url(../../images/header__back-gradient.png);
-  min-height: 920px;
+  padding: 0;
+  margin: 0 auto;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  box-sizing: border-box;
 }

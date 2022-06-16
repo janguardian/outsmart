@@ -1,0 +1,13 @@
+.header__button {
+  padding: 0;
+  margin-right: 32px;
+  height: 100%;
+  width: 138px;
+  border-radius: 24px;
+  background-color: #fff;
+  border: 0;
+  color: #5f4cff;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+}
