@@ -29,5 +29,7 @@
 @import url(../blocks/cards/__card-text/cards__card-text.css);
 @import url(../blocks/cards/__card-labels/cards__card-labels.css);
 @import url(../blocks/cards/__card-label/cards__card-label.css);
+@import url(../blocks/cards/__card-label/_color/cards__card-label_color_blue.css);
+@import url(../blocks/cards/__card-label/_color/cards__card-label_color_white.css);
 
 @import url(../blocks/services/services.css);
