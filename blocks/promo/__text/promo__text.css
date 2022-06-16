@@ -1,0 +1,13 @@
+.promo__text {
+  box-sizing: border-box;
+  /* box-sizing: content-box; */
+  margin: 0;
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 120px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: flex-start;
+  row-gap: 40px;
+}

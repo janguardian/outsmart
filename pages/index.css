@@ -1,1 +1,30 @@
-@import url('../blocks/paragraph/paragraph.css')
+@import url('../vendor/normalize.css');
+@import url('../fonts/fonts.css');
+@import url('../blocks/page/page.css');
+
+@import url('../blocks/promo/promo.css');
+@import url('../blocks/promo/__header/promo__header.css');
+@import url('../blocks/promo/__logo/promo__logo.css');
+@import url('../blocks/promo/__buttons/promo__buttons.css');
+@import url('../blocks/promo/__menu/promo__menu.css');
+@import url('../blocks/promo/__text/promo__text.css');
+@import url('../blocks/promo/__heading/promo__heading.css');
+@import url('../blocks/promo/__tagline/promo__tagline.css');
+
+
+@import url('../blocks/button/button.css');
+@import url('../blocks/button/_place/button_place_promo.css');
+
+
+@import url('../blocks/coverage/coverage.css');
+
+
+@import url('../blocks/our-services/our-services.css');
+@import url('../blocks/approach/approach.css');
+@import url('../blocks/certifications/certifications.css');
+@import url('../blocks/afterword/afterword.css');
+@import url('../blocks/why-outsmart/why-outsmart.css');
+@import url('../blocks/portfolio/portfolio.css');
+@import url('../blocks/selected-customers/selected-customers.css');
+@import url('../blocks/get-in-touch/get-in-touch.css');
+@import url('../blocks/footer/footer.css');

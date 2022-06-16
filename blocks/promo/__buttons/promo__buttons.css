@@ -1,0 +1,6 @@
+.promo__buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  column-gap: 32px;
+}
