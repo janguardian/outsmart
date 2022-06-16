@@ -1,0 +1,15 @@
+.button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 14px 24px;
+  border: 0;
+  border-radius: 24px;
+  cursor: pointer;
+  background-color: var(--colorWhite);
+  color: var(--colorPurple);
+  -webkit-box-shadow: 0px 5px 30px rgba(50, 137, 255, 0.5);
+          box-shadow: 0px 5px 30px rgba(50, 137, 255, 0.5);
+  line-height: 16px;
+  font-weight: 300;
+  font-size: 16px;
+}

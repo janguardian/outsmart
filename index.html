@@ -13,20 +13,28 @@
     <title>Outsmart</title>
   </head>
   <body class="root">
+    
     <section class="promo wrapper">
       <div class="promo__container container">
         <header class="header">
           <a href="#" class="logo"></a>
           <div class="header__nav">
-            <button class="header__button button">Get in touch</button>
+            <button class="header__button button button_states">Get in touch</button>
             <nav class="menu">
-              <img src="./images/promo/menu.svg" alt="Button to open the menu." class="menu__image">
+              <a href="#" class="menu__link menu__link_states">
+                <svg class="menu__image">
+                  <use xlink:href="./images/promo/menu.svg#menu"></use>
+                </svg>
+              </a>
             </nav>
           </div>
         </header>
-        <h1 class="promo__title">Progress through numbers</h1>
-        <p class="promo__text">We are a marketing consultant. We help small and medium-sized software development companies gain traction by attracting new prospects and leading them all the way up to becoming your customers.</p>
-        <button class="promo__button button">Get in touch</button>
+        <div class="promo__content">
+          <h1 class="promo__title">Progress<br> through numbers</h1>
+          <p class="promo__text">We are a marketing consultant. We help small and medium-sized software development companies
+            gain traction by attracting new prospects and leading them all the way up to becoming your customers.</p>
+          <button class="promo__button button button_states">Get in touch</button>
+        </div>        
       </div>
     </section>
 

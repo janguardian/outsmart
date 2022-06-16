@@ -1,5 +1,10 @@
 .root {
+  --colorWhite: #fff;
+  --colorPurple: #5f4cff;
+  --colorJapaneseIndigo: #1c3c56;
+
+  line-height: 32px;
   font-family: 'Graphik', 'Arial', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 20px;
 }
