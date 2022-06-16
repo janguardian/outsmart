@@ -2,5 +2,5 @@
   padding: 60px;
   display: flex;
   justify-content: space-between;
-  /* TODO: add shadows with modifiers */
+  border-radius: 6px;
 }
