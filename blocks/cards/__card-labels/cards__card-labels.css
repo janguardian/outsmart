@@ -1,0 +1,6 @@
+.cards__card-labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 8px;
+}

@@ -1,0 +1,11 @@
+.cards__card-label {
+  margin: 0;
+  padding: 8px 20px;
+  border-radius: 16px;
+
+  font-family: 'Graphik';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  mix-blend-mode: normal;
+}

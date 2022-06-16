@@ -1,0 +1,7 @@
+.cards__card-content {
+  width: 660px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 32px;
+}
