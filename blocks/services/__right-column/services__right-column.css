@@ -1,13 +1,13 @@
 .services__right-column {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 660px;
-          flex: 0 1 660px;
-  display: -webkit-box;
+    display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 660px;
+      flex: 0 1 660px;
   row-gap: 32px;
 }

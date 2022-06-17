@@ -1,0 +1,7 @@
+.approach__image_type_audit {
+  width: 60px;
+  height: 60px;
+  fill: none;
+  stroke: var(--colorWhite);
+  stroke-width: 2;
+}

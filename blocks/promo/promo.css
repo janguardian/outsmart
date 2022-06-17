@@ -2,7 +2,6 @@
   position: relative;
   z-index: 5;
   height: 920px;
-  overflow: hidden;
   background: url('../../images/background/background-main-direct.png') center center no-repeat;
   background-size: cover;
   color: var(--colorWhite);

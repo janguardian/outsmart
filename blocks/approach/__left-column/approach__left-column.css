@@ -1,0 +1,7 @@
+.approach__left-column {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  flex: 0 1 120px;
+  position: relative;
+  overflow: hidden;
+}

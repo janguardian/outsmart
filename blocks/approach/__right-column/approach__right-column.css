@@ -1,4 +1,4 @@
-.promo__content {
+.approach__right-column {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6,6 +6,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  row-gap: 40px;
-  max-width: 840px;
+  flex: 0 1 290px;
+  row-gap: 48px;
 }
