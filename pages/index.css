@@ -27,6 +27,7 @@
 @import url('../blocks/pagination/pagination.css');
 @import url('../blocks/pagination/pagination__item/pagination.__item.css');
 @import url('../blocks/pagination/pagination__item/_active/pagination__item_active.css');
+@import url('../blocks/banners/banners.css');
 @import url('../blocks/promo/promo.css');
 @import url('../blocks/promo/__container/promo__container.css');
 @import url('../blocks/promo/__content/promo__content.css');
@@ -61,3 +62,6 @@
 @import url('../blocks/approach/__right-column/approach__right-column.css');
 @import url('../blocks/approach/__text/approach__text.css');
 @import url('../blocks/approach/__pagination/approach__pagination.css');
+@import url('../blocks/certifications/__container/certifications__container.css');
+@import url('../blocks/certifications/__left-column/certifications__left-column.css');
+@import url('../blocks/certifications/__right-column/certifications__right-column.css');
