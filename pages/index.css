@@ -65,3 +65,14 @@
 @import url('../blocks/certifications/__container/certifications__container.css');
 @import url('../blocks/certifications/__left-column/certifications__left-column.css');
 @import url('../blocks/certifications/__right-column/certifications__right-column.css');
+@import url('../blocks/afterword/afterword.css');
+@import url('../blocks/afterword/__container/afterword__container.css');
+@import url('../blocks/afterword/__columns/afterword__columns.css');
+@import url('../blocks/afterword/__left-column/afterword__left-column.css');
+@import url('../blocks/afterword/__image/afterword__image.css');
+@import url('../blocks/afterword/__right-column/afterword__right-column.css');
+@import url('../blocks/afterword/__author/afterword__author.css');
+@import url('../blocks/afterword/__author-speciality/afterword__author-speciality.css');
+@import url('../blocks/afterword/__quote/afterword__quote.css');
+@import url('../blocks/afterword/__quote-main/afterword__quote-main.css');
+@import url('../blocks/afterword/__quote-secondary/afterword__quote-secondary.css');
