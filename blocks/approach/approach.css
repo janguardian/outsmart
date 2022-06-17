@@ -1,0 +1,7 @@
+.approach {
+  min-height: 960px;
+  padding: 0 120px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+}

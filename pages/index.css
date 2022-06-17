@@ -33,3 +33,9 @@
 @import url(../blocks/long-card/__buttons/long-card__buttons.css);
 @import url(../blocks/long-card/__button/long-card__button.css);
 @import url(../blocks/long-card/__button/_hover/long-card__button_hover.css);
+/*approach*/
+@import url(../blocks/approach/approach.css);
+@import url(../blocks/items/items.css);
+@import url(../blocks/item/item.css);
+@import url(../blocks/item/__images/item__images.css);
+@import url(../blocks/item/__images/_back/item__images_back_stroke.css);
