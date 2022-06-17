@@ -46,6 +46,10 @@
 @import url(../blocks/certifications/__logos/certifications__logos.css);
 @import url(../blocks/certifications/__logo/certifications__logo.css);
 
+@import url(../blocks/afterword/afterword.css);
+@import url(../blocks/afterword/__content/afterword__content.css);
+@import url(../blocks/afterword/__photo/afterword__photo.css);
+
 @import url(../blocks/customers/customers.css);
 @import url(../blocks/customers/__cards/customers__cards.css);
 @import url(../blocks/customers/__card/customers__card.css);
@@ -58,4 +62,4 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__line/footer__line.css);
-@import url(../blocks/footer/__copyright-text/footer__copyright-text.css);
+@import url(../blocks/footer/__copyright-text/footer__copyright-text.css); ;

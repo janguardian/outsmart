@@ -1,0 +1,9 @@
+.afterword {
+  box-sizing: border-box;
+  padding: 100px 120px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  background: linear-gradient(180deg, #ebf4fa 0%, #ffffff 48.7%);
+}
