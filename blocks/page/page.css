@@ -1,11 +1,12 @@
 .page {
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
   font-family: "Graphik", "Arial", sans-serif;
   display: flex;
   flex-direction: column;
 }
 * {
-  /* border: 1px red solid; */
+  border: 1px red solid;
   box-sizing: border-box;
 }

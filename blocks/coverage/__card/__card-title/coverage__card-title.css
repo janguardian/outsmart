@@ -1,8 +1,6 @@
-.card__title {
-  width: 468px;
-  height: 36px;
+.coverage__card-title {
   padding: 0;
-  margin: 100px auto 40px;
+  margin: 0 0 40px 0;
   font-size: 36px;
   line-height: 36px;
   font-weight: 300;

@@ -1,7 +1,10 @@
 .coverage {
   min-height: 772px;
-  padding: 100px 0 160px;
+  padding: 100px 120px 0 120px;
   background-image: url(../../images/coverage__overlay.png);
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
 }

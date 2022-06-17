@@ -1,0 +1,8 @@
+.coverage__card {
+  padding: 100px 60px;
+  margin: 0;
+  max-width: 588px;
+  width: 100%;
+  min-height: 396px;
+  border-radius: 6px;
+}
