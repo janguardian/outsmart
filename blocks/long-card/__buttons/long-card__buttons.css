@@ -1,0 +1,11 @@
+.long-card__buttons {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 8px;
+  /*background: #5F4CFF; */
+}
