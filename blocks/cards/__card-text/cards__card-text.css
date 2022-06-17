@@ -1,10 +1,16 @@
 .cards__card-text {
   margin: 0;
-  font-family: 'Graphik';
+  font-family: "Graphik";
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
   line-height: 32px;
   letter-spacing: 1px;
   mix-blend-mode: normal;
+
+  color: #63727e;
+}
+
+.cards__card:hover .cards__card-text {
+  color: #fff;
 }

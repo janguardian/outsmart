@@ -24,15 +24,10 @@
 
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__card/cards__card.css);
-@import url(../blocks/cards/__card/_background/cards__card_background_white.css);
 @import url(../blocks/cards/__card-heading/cards__card-heading.css);
-@import url(../blocks/cards/__card-heading/_color/cards__card-heading_color_blue.css);
-@import url(../blocks/cards/__card-heading/_color/cards__card-heading_color_white.css);
 @import url(../blocks/cards/__card-content/cards__card-content.css);
 @import url(../blocks/cards/__card-text/cards__card-text.css);
 @import url(../blocks/cards/__card-labels/cards__card-labels.css);
 @import url(../blocks/cards/__card-label/cards__card-label.css);
-@import url(../blocks/cards/__card-label/_color/cards__card-label_color_blue.css);
-@import url(../blocks/cards/__card-label/_color/cards__card-label_color_white.css);
 
 @import url(../blocks/services/services.css);

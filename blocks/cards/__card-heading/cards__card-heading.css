@@ -1,8 +1,14 @@
 .cards__card-heading {
   margin: 0;
-  font-family: 'Graphik';
+  font-family: "Graphik";
   font-weight: 300;
   font-size: 36px;
   line-height: 36px;
   mix-blend-mode: normal;
+
+  color: #005499;
+}
+
+.cards__card:hover .cards__card-heading {
+  color: #fff;
 }

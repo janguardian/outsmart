@@ -3,9 +3,17 @@
   padding: 8px 20px;
   border-radius: 16px;
 
-  font-family: 'Graphik';
+  font-family: "Graphik";
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
   mix-blend-mode: normal;
+
+  background-color: #5f4cff;
+  color: #fff;
+}
+
+.cards__card:hover .cards__card-label {
+  background-color: #fff;
+  color: #4e7595;
 }
