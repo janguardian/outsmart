@@ -1,0 +1,12 @@
+.certifications__text {
+  font-family: 'Graphik';
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  color: #63727e;
+  mix-blend-mode: normal;
+
+  width: 600px;
+  margin: 0;
+}

@@ -1,0 +1,7 @@
+.certifications {
+  box-sizing: border-box;
+  padding: 0px 120px 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
