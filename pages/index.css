@@ -32,6 +32,14 @@
 
 @import url(../blocks/services/services.css);
 
+@import url(../blocks/approach/approach.css);
+@import url(../blocks/approach/__cards/approach__cards.css);
+@import url(../blocks/approach/__card/approach__card.css);
+@import url(../blocks/approach/__card-num/approach__card-num.css);
+@import url(../blocks/approach/__card-image/approach__card-image.css);
+@import url(../blocks/approach/__card-heading/approach__card-heading.css);
+@import url(../blocks/approach/__card-text/approach__card-text.css);
+
 @import url(../blocks/customers/customers.css);
 @import url(../blocks/customers/__cards/customers__cards.css);
 @import url(../blocks/customers/__card/customers__card.css);

@@ -1,0 +1,14 @@
+.approach__card-num {
+  font-family: 'Graphik';
+  font-weight: 300;
+  font-size: 120px;
+  line-height: 120px;
+  text-align: right;
+  color: #edf5fb;
+  mix-blend-mode: normal;
+
+  margin: 0;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}

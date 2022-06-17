@@ -1,0 +1,7 @@
+.approach {
+  box-sizing: border-box;
+  padding: 0 120px 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
