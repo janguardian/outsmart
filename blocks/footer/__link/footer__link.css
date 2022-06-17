@@ -1,0 +1,18 @@
+.footer__link {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  text-decoration: none;
+  font-family: 'Graphik';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #b2cfdb;
+  mix-blend-mode: normal;
+}
+
+/* .footer__link:not(:nth-of-type(4n)) {
+  margin-bottom: 20px;
+} */

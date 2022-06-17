@@ -31,3 +31,12 @@
 @import url(../blocks/cards/__card-label/cards__card-label.css);
 
 @import url(../blocks/services/services.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links-container/footer__links-container.css);
+@import url(../blocks/footer/__phone/footer__phone.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__line/footer__line.css);
+@import url(../blocks/footer/__copyright-text/footer__copyright-text.css);
