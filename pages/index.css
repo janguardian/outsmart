@@ -32,6 +32,11 @@
 
 @import url(../blocks/services/services.css);
 
+@import url(../blocks/customers/customers.css);
+@import url(../blocks/customers/__cards/customers__cards.css);
+@import url(../blocks/customers/__card/customers__card.css);
+@import url(../blocks/customers/__card-image/customers__card-image.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links-container/footer__links-container.css);
 @import url(../blocks/footer/__phone/footer__phone.css);

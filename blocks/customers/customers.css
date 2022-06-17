@@ -1,0 +1,7 @@
+.customers {
+  padding: 0 120px 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 100px;
+}
