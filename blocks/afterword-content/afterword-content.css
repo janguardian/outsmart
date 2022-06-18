@@ -1,0 +1,8 @@
+.afterword-content {
+  display: flex;
+  flex-direction: row;
+  column-gap: 80px;
+  max-width: 1080px;
+  padding: 0;
+  margin: 0;
+}

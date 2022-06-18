@@ -52,3 +52,11 @@
 @import url(../blocks/certificate-content/certificate-content.css);
 @import url(../blocks/certificate-content/__text/certificate-content__text.css);
 @import url(../blocks/logos/logos.css);
+/*afterword*/
+@import url(../blocks/afterword/afterword.css);
+@import url(../blocks/afterword-content/afterword-content.css);
+@import url(../blocks/afterword-content/__image/afterword-content__image.css);
+@import url(../blocks/afterword-content/__title/afterword-content__title.css);
+@import url(../blocks/afterword-content/__subtitle/afterword-content__subtitle.css);
+@import url(../blocks/afterword-content/__main-quote/afterword-content__main-quote.css);
+@import url(../blocks/afterword-content/__secondary-quote/afterword-content__secondary-quote.css);
