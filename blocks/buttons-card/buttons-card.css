@@ -1,4 +1,4 @@
-.long-card__buttons {
+.buttons-card {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -7,5 +7,4 @@
   justify-content: flex-start;
   align-items: center;
   column-gap: 8px;
-  /*background: #5F4CFF; */
 }

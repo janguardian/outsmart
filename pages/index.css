@@ -31,9 +31,9 @@
 @import url(../blocks/long-card/__content/long-card__content.css);
 @import url(../blocks/long-card/__description/long-card__description.css);
 @import url(../blocks/long-card/__description/_hover/long-card__description_hover.css);
-@import url(../blocks/long-card/__buttons/long-card__buttons.css);
-@import url(../blocks/long-card/__button/long-card__button.css);
-@import url(../blocks/long-card/__button/_hover/long-card__button_hover.css);
+@import url(../blocks/buttons-card/buttons-card.css);
+@import url(../blocks/buttons-card/__button/buttons-card__button.css);
+@import url(../blocks/buttons-card/__button/_hover/buttons-card__button_hover.css);
 /*approach*/
 @import url(../blocks/approach/approach.css);
 @import url(../blocks/items/items.css);
@@ -67,3 +67,17 @@
 @import url(../blocks/mark/__content/mark__content.css);
 @import url(../blocks/mark/__title/mark__title.css);
 @import url(../blocks/mark/__description/mark__description.css);
+/* portfolio */
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/customer/customer.css);
+@import url(../blocks/customer/_back/customer_back_dwkit.css);
+@import url(../blocks/customer/__logos/customer__logos.css);
+@import url(../blocks/customer/__content/customer__content.css);
+@import url(../blocks/achievements/achievements.css);
+@import url(../blocks/achievement/achievement.css);
+@import url(../blocks/achievement/__title/achievement__title.css);
+@import url(../blocks/achievement/__subtitle/achievement__subtitle.css);
+@import url(../blocks/achievement/__description/customer__description.css);
+@import url(../blocks/customer/_back/customer_back_jet.css);
+@import url(../blocks/customer/_back/customer_back_flow.css);
+/* partners */

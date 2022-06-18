@@ -1,0 +1,12 @@
+.customer {
+  width: 1200px;
+  min-height: 448px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px;
+  gap: 40px;
+  box-shadow: 0px 1px 5px 0px #0051c080;
+  border-radius: 6px;
+}

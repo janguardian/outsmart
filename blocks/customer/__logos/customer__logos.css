@@ -1,0 +1,10 @@
+.customer__logos {
+  padding: 0;
+  margin: 0;
+  min-width: 168px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
