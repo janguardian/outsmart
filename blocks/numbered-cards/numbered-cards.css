@@ -1,9 +1,9 @@
 .numbered-cards {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 20px 1fr;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 0;
   margin: 0;
   list-style: none;

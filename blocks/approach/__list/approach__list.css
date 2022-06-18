@@ -1,0 +1,5 @@
+.approach__list {
+  -ms-grid-columns: (49.16%)[2];
+  grid-template-columns: repeat(2, 49.16%);
+  row-gap: 20px;
+}

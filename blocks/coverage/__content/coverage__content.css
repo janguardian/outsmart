@@ -1,4 +1,4 @@
-.container {
+.coverage__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6,8 +6,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  row-gap: 100px;
-  max-width: 1200px;
-  padding: 100px 0 160px;
-  margin: 0 auto;
+  row-gap: 40px;
+  max-height: 720px;
+  overflow: hidden;
 }
