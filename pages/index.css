@@ -39,3 +39,10 @@
 @import url(../blocks/item/item.css);
 @import url(../blocks/item/__images/item__images.css);
 @import url(../blocks/item/__images/_back/item__images_back_stroke.css);
+@import url(../blocks/item/__content/item__content.css);
+@import url(../blocks/item/__title/item__title.css);
+@import url(../blocks/item/__description/item__description.css);
+@import url(../blocks/item/__number/item__number.css);
+@import url(../blocks/item/__images/_back/item__images_back_magnifier.css);
+@import url(../blocks/item/__images/_back/item__images_back_arrow.css);
+@import url(../blocks/item/__images/_back/item__images_back_finger.css);
