@@ -1,0 +1,8 @@
+.certificate {
+  min-height: 440px;
+  padding: 0 120px 160px 120px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+}
