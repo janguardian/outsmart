@@ -1,0 +1,12 @@
+.marks {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-width: 1200px;
+  min-height: 252px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  column-gap: 40px;
+}

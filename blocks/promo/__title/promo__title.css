@@ -6,4 +6,5 @@
   line-height: 80px;
   color: #fff;
   letter-spacing: -2px;
+  min-height: fit-content;
 }

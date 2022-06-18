@@ -60,3 +60,10 @@
 @import url(../blocks/afterword-content/__subtitle/afterword-content__subtitle.css);
 @import url(../blocks/afterword-content/__main-quote/afterword-content__main-quote.css);
 @import url(../blocks/afterword-content/__secondary-quote/afterword-content__secondary-quote.css);
+/* why outsmart */
+@import url(../blocks/dignitys/dignitys.css);
+@import url(../blocks/marks/marks.css);
+@import url(../blocks/mark/mark.css);
+@import url(../blocks/mark/__content/mark__content.css);
+@import url(../blocks/mark/__title/mark__title.css);
+@import url(../blocks/mark/__description/mark__description.css);
