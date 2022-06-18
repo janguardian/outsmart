@@ -1,0 +1,9 @@
+.form__button_type_reset {
+  position: absolute;
+  bottom: 48px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border: none;
+}

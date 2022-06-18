@@ -1,0 +1,11 @@
+.form__input-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  min-height: 260px;
+  padding: 0px;
+  margin: 0;
+  position: relative;
+  border: none;
+}

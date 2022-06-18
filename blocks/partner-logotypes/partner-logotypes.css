@@ -1,0 +1,12 @@
+.partner-logotypes {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+  width: 1200px;
+}

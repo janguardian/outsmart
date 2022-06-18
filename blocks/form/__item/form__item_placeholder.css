@@ -1,0 +1,9 @@
+.form__item_placeholder::placeholder {
+  align-items: center;
+  color: #B2CFDB;
+  display: flex;
+  font-family: "Graphik", "Arial", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}

@@ -1,0 +1,9 @@
+.partners {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  min-height: 1036px;
+  padding: 0px 120px 160px;
+  width: 1440px;
+}

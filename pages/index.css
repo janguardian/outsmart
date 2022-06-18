@@ -47,6 +47,7 @@
 @import url(../blocks/item/__images/_back/item__images_back_magnifier.css);
 @import url(../blocks/item/__images/_back/item__images_back_arrow.css);
 @import url(../blocks/item/__images/_back/item__images_back_finger.css);
+@import url(../blocks/line/line.css);
 /*certifications*/
 @import url(../blocks/certificate/certificate.css);
 @import url(../blocks/certificate-content/certificate-content.css);
@@ -71,7 +72,7 @@
 @import url(../blocks/portfolio/portfolio.css);
 @import url(../blocks/customer/customer.css);
 @import url(../blocks/customer/_back/customer_back_dwkit.css);
-@import url(../blocks/customer/__logos/customer__logos.css);
+@import url(../blocks/customer/__logotype/customer__logotype.css);
 @import url(../blocks/customer/__content/customer__content.css);
 @import url(../blocks/achievements/achievements.css);
 @import url(../blocks/achievement/achievement.css);
@@ -81,3 +82,20 @@
 @import url(../blocks/customer/_back/customer_back_jet.css);
 @import url(../blocks/customer/_back/customer_back_flow.css);
 /* partners */
+@import url(../blocks/partners/partners.css);
+@import url(../blocks/partner-logotypes/partner-logotypes.css);
+@import url(../blocks/partner-logotype/partner-logotype.css);
+/* feedback */
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/section-title/_color/section-title_color_white.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/input-container/form__input-container.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/form/__button/_type/form__button_type_reset.css);
+@import url(../blocks/form/__item/form__item_placeholder.css);
+@import url(../blocks/form/__item/form__item_focus.css);
+@import url(../blocks/form/__item/form__item_valid.css);
+@import url(../blocks/form/__error-message/form__error-message.css);
+/* footer */
+@import url(../blocks/footer/footer.css);
