@@ -14,12 +14,14 @@
     <header class="header">
       <img class="header__logo" src="./images/Logo.svg" alt="logotype outsmart" />
       <div class="header__buttons">
-        <a href="#name"><button class="header__button">Get in touch</button></a>
-        <img class="header__menu" src="./images/Menu.svg" alt="button of menu" />
+        <a href="#get-in-touch"><button class="header__button header__button_hover header__button_checked">
+          Get in touch</button>
+        </a>
+        <div class="header__menu header__menu_hover"></div>
       </div>
     </header>
     <img class="promo__overlay" src="./images/promo__overlay.png" alt="two triangles" />
-    <h1 class="promo__title">Progress <br />through numbers</h1>
+    <h1 class="promo__title">Progress <br>through numbers</h1>
     <p class="promo__subtitle">
       We&nbsp;are a&nbsp;marketing consultant. We&nbsp;help small and
       medium-sized software development companies gain traction by&nbsp;
@@ -28,7 +30,7 @@
     </p>
   </section>
   <!-- Coverage -->
-  <section class="coverage">
+  <section class="coverage" id="coverage">
     <h2 class="section-title">Coverage</h2>
     <ul class="short-cards">
       <li class="short-cards__card short-cards__card_back_purple">
@@ -50,7 +52,7 @@
     </ul>
   </section>
   <!-- Out services -->
-  <section class="services">
+  <section class="services" id="services">
     <h2 class="section-title">Our services</h2>
     <ul class="long-cards">
       <li class="long-cards__card long-cards__card_hover">
@@ -148,7 +150,7 @@
     </ul>
   </section>
   <!-- Approach -->
-  <section class="approach">
+  <section class="approach" id="approach">
     <h2 class="section-title">approach</h2>
     <ul class="items-list">
       <li class="items-list__item">
@@ -207,7 +209,7 @@
     </ul>
   </section>
   <!-- Certifications -->
-  <section class="certificate">
+  <section class="certificate" id="certificate">
     <div class="certificate-content">
       <h2 class="section-title section-title_padding_9">Certifications</h2>
       <p class="certificate-content__text">
@@ -233,7 +235,7 @@
     </ul>
   </section>
   <!-- Afterword -->
-  <section class="afterword">
+  <section class="afterword" id="afterword">
     <h2 class="section-title">afterword</h2>
     <div class="afterword-content">
       <img src="./images/Photo.png" alt="photo of Jan Guardian" class="afterword-content__image" />
@@ -254,7 +256,7 @@
     </div>
   </section>
   <!-- Outsmart -->
-  <section class="dignitys">
+  <section class="dignitys" id="dignitys">
     <h2 class="section-title">why outsmart</h2>
     <ul class="marks-list">
       <li class="marks-list__mark">
@@ -302,7 +304,7 @@
     <div class="line"></div>
   </section>
   <!-- portfolio  -->
-  <section class="portfolio">
+  <section class="portfolio" id="portfolio">
     <h2 class="section-title">portfolio</h2>
     <ul class="long-cards">
       <li class="customer customer_back_dwkit">
@@ -411,40 +413,40 @@
     </ul>
   </section>
   <!-- partners -->
-  <section class="partners">
+  <section class="partners" id="partners">
     <h2 class="section-title">Selected customers</h2>
     <ul class="partner-logotypes">
-      <li class="partner-logotypes__logo">
+      <li class="partner-logotypes__logo partner-logotypes__logo_hover">
         <img src="./images/portfolio/partner_logotypes/staytime.png" alt="logotype of staytime">
       </li>
-      <li class="partner-logotypes__logo">
+      <li class="partner-logotypes__logo partner-logotypes__logo_hover">
         <img src="./images/portfolio/partner_logotypes/paralect.png" alt="logotype of paralect">
       </li>
-      <li class="partner-logotypes__logo">
+      <li class="partner-logotypes__logo partner-logotypes__logo_hover">
         <img src="./images/portfolio/partner_logotypes/jet.png" alt="logotype of jet">
       </li>
-      <li class="partner-logotypes__logo">
+      <li class="partner-logotypes__logo partner-logotypes__logo_hover">
         <img src="./images/portfolio/partner_logotypes/customatix.png" alt="logotype of customatix">
       </li>
-      <li class="partner-logotypes__logo">
+      <li class="partner-logotypes__logo partner-logotypes__logo_hover">
         <img src="./images/portfolio/partner_logotypes/webile-soft.png" alt="logotype of webile-soft">
       </li>
-      <li class="partner-logotypes__logo">
+      <li class="partner-logotypes__logo partner-logotypes__logo_hover">
         <img src="./images/portfolio/partner_logotypes/intosoft.png" alt="logotype of intosoft">
       </li>
-      <li class="partner-logotypes__logo">
+      <li class="partner-logotypes__logo partner-logotypes__logo_hover">
         <img src="./images/portfolio/partner_logotypes/optimajet.png" alt="logotype of optimajet">
       </li>
-      <li class="partner-logotypes__logo">
+      <li class="partner-logotypes__logo partner-logotypes__logo_hover">
         <img src="./images/portfolio/partner_logotypes/alverden.png" alt="logotype of alverden">
       </li>
-      <li class="partner-logotypes__logo">
+      <li class="partner-logotypes__logo partner-logotypes__logo_hover">
         <img src="./images/portfolio/partner_logotypes/smartym.png" alt="logotype of smartym">
       </li>
     </ul>
   </section>
   <!-- get-in-touch -->
-  <section class="feedback">
+  <section class="feedback" id="get-in-touch">
     <h2 class="section-title section-title_color_white">get in touch</h2>
     <form class="form">
       <fieldset class="form__input-container">
@@ -458,7 +460,7 @@
           <img src="./images/Cross.png" alt="image of vross"></button>
         <p class="form__error-message">Please, enter your message</p>
       </fieldset>
-      <button type="submit" class="form__button">Send message</button>
+      <button type="submit" class="form__button form__button_hover form__button_checked ">Send message</button>
     </form>
   </section>
   <!-- footer -->
@@ -469,32 +471,32 @@
       <nav>
         <ul class="footer__column footer__column_content_links">
           <li>
-            <a class="footer__link link" href="#coverage">Coverage</a>
+            <a class="footer__link link_hover" href="#coverage">Coverage</a>
           </li>
           <li>
-            <a class="footer__link link" href="#our-services">Our services</a>
+            <a class="footer__link link_hover" href="#services">Our services</a>
           </li>
           <li>
-            <a class="footer__link link" href="#approach">Approach</a>
+            <a class="footer__link link_hover" href="#approach">Approach</a>
           </li>
           <li>
-            <a class="footer__link link" href="#certifications">Certifications</a>
+            <a class="footer__link link_hover" href="#certificate">Certifications</a>
           </li>
         </ul>
       </nav>
       <nav>
         <ul class="footer__column footer__column_content_links">
           <li>
-            <a class="footer__link link" href="#afterword">Afterword</a>
+            <a class="footer__link link_hover" href="#afterword">Afterword</a>
           </li>
           <li>
-            <a class="footer__link link" href="#why-outsmarts">Why Outsmarts</a>
+            <a class="footer__link link_hover" href="#dignitys">Why Outsmarts</a>
           </li>
           <li>
-            <a class="footer__link link" href="#portfolio">Portfolio</a>
+            <a class="footer__link link_hover" href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <a class="footer__link link" href="#our-customers">Our customers</a>
+            <a class="footer__link link_hover" href="#partners">Our customers</a>
           </li>
         </ul>
       </nav>

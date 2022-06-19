@@ -1,0 +1,4 @@
+.form__button_checked:checked {
+  background: #024780;
+  box-shadow: 0px 1px 2px rgba(50, 137, 255, 0.9);
+}

@@ -1,0 +1,5 @@
+.header__menu_hover:hover {
+  background-image: url(../../../../images/Menu_hover.svg);
+  background-position: center;
+  background-repeat: none;
+}

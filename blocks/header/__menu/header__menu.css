@@ -1,4 +1,7 @@
 .header__menu {
+  background-image: url(../../../images/Menu.svg);
+  background-position: center;
+  background-repeat: none;
   padding: 0;
   margin: 0;
   height: 4px;

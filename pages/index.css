@@ -9,7 +9,10 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__buttons/header__buttons.css);
 @import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__button/_hover/header__button_hover.css);
+@import url(../blocks/header/__button/_checked/header__button_checked.css);
 @import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu/_hover/header__menu_hover.css);
 @import url(../blocks/promo/__title/promo__title.css);
 @import url(../blocks/promo/__subtitle/promo__subtitle.css);
 @import url(../blocks/promo/__overlay/promo__overlay.css);
@@ -85,6 +88,7 @@
 @import url(../blocks/partners/partners.css);
 @import url(../blocks/partner-logotypes/partner-logotypes.css);
 @import url(../blocks/partner-logotypes/__logo/partner-logotype__logo.css);
+@import url(../blocks/partner-logotypes/__logo/_hover/partner-logotypes__logo_hover.css);
 /* feedback */
 @import url(../blocks/feedback/feedback.css);
 @import url(../blocks/section-title/_color/section-title_color_white.css);
@@ -93,10 +97,12 @@
 @import url(../blocks/form/__item/form__item.css);
 @import url(../blocks/form/__button/form__button.css);
 @import url(../blocks/form/__button/_type/form__button_type_reset.css);
-@import url(../blocks/form/__item/form__item_placeholder.css);
-@import url(../blocks/form/__item/form__item_focus.css);
-@import url(../blocks/form/__item/form__item_valid.css);
+@import url(../blocks/form/__item/_placeholder/form__item_placeholder.css);
+@import url(../blocks/form/__item/_focus/form__item_focus.css);
+@import url(../blocks/form/__item/_valid/form__item_valid.css);
 @import url(../blocks/form/__error-message/form__error-message.css);
+@import url(../blocks/form/__button/_hover/form__button_hover.css);
+@import url(../blocks/form/__button/_checked/form__button_checked.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
@@ -106,3 +112,4 @@
 @import url(../blocks/footer/__row/footer__row.css);
 @import url(../blocks/footer/__copy/footer__copy.css);
 @import url(../blocks/line/_position/line_position_footer.css);
+@import url(../blocks/link/_hover/link_hover.css);
