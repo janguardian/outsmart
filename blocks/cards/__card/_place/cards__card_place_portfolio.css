@@ -1,0 +1,12 @@
+.cards__card_place_portfolio {
+  pointer-events: none;
+  background-position: center center;
+}
+
+.cards__card_place_portfolio:nth-child(even) {
+  background-image: url(../../../../images/background/background-secondary-reverse.jpg);
+}
+
+.cards__card_place_portfolio:nth-child(odd) {
+  background-image: url(../../../../images/background/background-secondary-direct.jpg);
+}

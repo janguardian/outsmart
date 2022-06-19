@@ -1,0 +1,5 @@
+.cards__card-stats {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}

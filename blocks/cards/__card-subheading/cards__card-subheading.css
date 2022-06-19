@@ -1,0 +1,10 @@
+.cards__card-subheading {
+  font-family: 'Graphik';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #4e7595;
+  mix-blend-mode: normal;
+
+  margin: 20px 0 0;
+}

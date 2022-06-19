@@ -25,8 +25,14 @@
 
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__card/cards__card.css);
+@import url(../blocks/cards/__card/_place/cards__card_place_portfolio.css);
+@import url(../blocks/cards/__card-image/cards__card-image.css);
 @import url(../blocks/cards/__card-heading/cards__card-heading.css);
+@import url(../blocks/cards/__card-subheading/cards__card-subheading.css);
 @import url(../blocks/cards/__card-content/cards__card-content.css);
+@import url(../blocks/cards/__card-content/_place/cards__card-content_place_portfolio.css);
+@import url(../blocks/cards/__card-stats/cards__card-stats.css);
+@import url(../blocks/cards/__card-stat/cards__card-stat.css);
 @import url(../blocks/cards/__card-text/cards__card-text.css);
 @import url(../blocks/cards/__card-labels/cards__card-labels.css);
 @import url(../blocks/cards/__card-label/cards__card-label.css);
