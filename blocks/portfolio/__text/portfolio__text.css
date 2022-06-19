@@ -1,0 +1,7 @@
+.portfolio__text {
+  max-height: 544px;
+  margin: 0;
+  color: var(--colorAuroMetalSaurus);
+  overflow: hidden;
+  letter-spacing: 1px;
+}

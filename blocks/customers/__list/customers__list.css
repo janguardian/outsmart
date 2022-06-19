@@ -1,0 +1,5 @@
+.customers__list {
+  -ms-grid-columns: (32.22%)[3];
+  grid-template-columns: repeat(3, 32.22%);
+  row-gap: 20px;
+}

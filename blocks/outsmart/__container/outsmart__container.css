@@ -1,3 +1,4 @@
 .outsmart__container {
-  padding: 0 0 100px;
+  padding: 0 0 99px;
+  border-bottom: 1px solid var(--colorLightSteelBlue);
 }

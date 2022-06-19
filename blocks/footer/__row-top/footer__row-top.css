@@ -1,0 +1,5 @@
+.footer__row-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

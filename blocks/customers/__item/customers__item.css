@@ -1,0 +1,5 @@
+.customers__item{
+  position: relative;
+  height: 240px;
+  border: 1px solid var(--colorGrey);
+}

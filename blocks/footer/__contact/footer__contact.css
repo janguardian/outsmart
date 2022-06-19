@@ -1,0 +1,11 @@
+.footer__contact {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  padding-right: 100px;
+  margin-right: auto;
+  line-height: 36px;
+  font-size: 36px;
+}

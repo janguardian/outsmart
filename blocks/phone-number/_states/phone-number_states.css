@@ -1,0 +1,10 @@
+.phone-number_states {
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.phone-number_states:hover,
+.phone-number_states:focus {
+  color: #37e0ff;
+}

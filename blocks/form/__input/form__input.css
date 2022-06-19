@@ -1,0 +1,42 @@
+.form__input {
+  display: block;
+  width: 100%;
+  height: 64px;
+  color: var(--colorUsafaBlue);
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  padding: 0 48px 0 24px;
+  border: 0;
+  border-radius: 6px;
+  line-height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form__input::-webkit-input-placeholder {
+  color: var(--colorLightSteelBlue);
+}
+
+.form__input::-moz-placeholder {
+  color: var(--colorLightSteelBlue);
+}
+
+.form__input:-ms-input-placeholder {
+  color: var(--colorLightSteelBlue);
+}
+
+.form__input::-ms-input-placeholder {
+  color: var(--colorLightSteelBlue);
+}
+
+.form__input::placeholder {
+  color: var(--colorLightSteelBlue);
+}
+
+.form__input:focus {
+  border: 1px solid #e21111;
+}

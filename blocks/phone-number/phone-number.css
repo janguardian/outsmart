@@ -1,0 +1,5 @@
+.phone-number {
+  display: inline-block;  
+  color: var(--colorWhite);
+  text-decoration: none;
+}
