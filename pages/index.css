@@ -99,3 +99,10 @@
 @import url(../blocks/form/__error-message/form__error-message.css);
 /* footer */
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_phone.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__row/footer__row.css);
+@import url(../blocks/footer/__copy/footer__copy.css);
+@import url(../blocks/line/_position/line_position_footer.css);

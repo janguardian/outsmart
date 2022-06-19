@@ -1,0 +1,11 @@
+.footer__copy {
+  align-items: center;
+  color: #B2CFDB;
+  display: flex;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px; 
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
+}

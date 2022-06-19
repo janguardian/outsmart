@@ -1,0 +1,10 @@
+.footer__link {
+  align-items: center;
+  color: #B2CFDB;
+  display: flex;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 16px;
+  text-decoration: none;
+}

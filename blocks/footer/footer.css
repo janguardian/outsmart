@@ -1,10 +1,11 @@
 .footer {
   align-items: flex-start;
   background: #1C3C56;
+  box-sizing: content-box;
   display: flex;
   flex-direction: column;
   gap: 100px;
   min-height: 440px;
   padding: 80px 120px 60px;
-  width: 1440px;
+  max-width: 1440px;
 }
