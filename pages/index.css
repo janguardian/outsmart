@@ -13,6 +13,7 @@
 @import url(../blocks/promo/__tagline/promo__tagline.css);
 
 @import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_place/section-title_place_certifications.css);
 
 @import url(../blocks/coverage/coverage.css);
 @import url(../blocks/coverage/__cards/coverage__cards.css);
