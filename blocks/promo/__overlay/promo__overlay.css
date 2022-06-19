@@ -1,0 +1,13 @@
+.promo__overlay {
+  align-self: center;
+  background-image: url(../../../images/promo-overlay.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 920px;
+  object-position: center;
+  opacity: 50%;
+  position: absolute;
+  top:0;
+  width: 100%;
+}

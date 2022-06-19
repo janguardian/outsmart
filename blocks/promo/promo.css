@@ -1,0 +1,14 @@
+.promo {
+  background-image: url(../../images/promo-back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+   max-height: 920px; 
+  box-sizing: border-box;
+  /* height: 920px; */
+  padding: 100px 120px 0;
+  position: relative;
+}
