@@ -50,6 +50,11 @@
 @import url(../blocks/afterword/afterword.css);
 @import url(../blocks/afterword/__content/afterword__content.css);
 @import url(../blocks/afterword/__photo/afterword__photo.css);
+@import url(../blocks/afterword/__text-content/afterword__text-content.css);
+@import url(../blocks/afterword/__name/afterword__name.css);
+@import url(../blocks/afterword/__title/afterword__title.css);
+@import url(../blocks/afterword/__text-main/afterword__text-main.css);
+@import url(../blocks/afterword/__text-secondary/afterword__text-secondary.css);
 
 @import url(../blocks/customers/customers.css);
 @import url(../blocks/customers/__cards/customers__cards.css);

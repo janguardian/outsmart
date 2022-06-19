@@ -1,0 +1,12 @@
+.afterword__text-main {
+  font-family: 'Graphik';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  color: #005499;
+  mix-blend-mode: normal;
+
+  width: 440px;
+  margin: 0 0 20px;
+}
