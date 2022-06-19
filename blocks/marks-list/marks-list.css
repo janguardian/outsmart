@@ -1,12 +1,13 @@
 .marks-list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  max-width: 1200px;
-  min-height: 252px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  column-gap: 40px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
-  column-gap: 40px;
+  list-style: none;
+  margin: 0;
+  max-width: 1200px;
+  min-height: 252px;
+  padding: 0;
 }

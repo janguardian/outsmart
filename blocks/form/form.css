@@ -1,5 +1,6 @@
 .form {
   align-items: center;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   gap: 80px;

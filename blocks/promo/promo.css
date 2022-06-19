@@ -1,6 +1,7 @@
 .promo {
   background-image: url(../../images/promo__back-gradient.png);
   background-repeat: no-repeat;
+  box-sizing: border-box;
   min-height: 920px;
   padding-top: 100px;
   position: relative;

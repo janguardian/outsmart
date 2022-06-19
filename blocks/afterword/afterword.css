@@ -1,10 +1,11 @@
 .afterword {
-  padding: 100px 120px 120px 120px;
-  min-height: 956px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  row-gap: 40px;
   align-self: start;
   background: linear-gradient(180deg, #EBF4FA 0%, #FFFFFF 48.7%);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 956px;
+  padding: 100px 120px 120px 120px;
+  row-gap: 40px;
+  width: 100%;
 }

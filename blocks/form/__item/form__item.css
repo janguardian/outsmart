@@ -1,6 +1,7 @@
 .form__item {
   align-items: center;
   background: #FFF;
+  box-sizing: border-box;
   border: none;
   border-radius: 6px;
   display: flex;

@@ -1,5 +1,6 @@
 .marks-list__content {
   align-items: flex-start;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   padding: 0px;

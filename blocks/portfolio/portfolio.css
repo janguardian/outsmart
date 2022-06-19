@@ -1,6 +1,7 @@
 .portfolio {
   display: flex;
   align-items: flex-start;
+  box-sizing: border-box;
   flex-direction: column;
   gap: 100px;
   min-height: 1752px;

@@ -1,7 +1,8 @@
 .certificate-content {
-  display: flex;
+  align-self: start;
+  box-sizing: border-box;
   column-gap: 252px;
+  display: flex;
   max-width: 1200px;
   width: 100%;
-  align-self: start;
 }

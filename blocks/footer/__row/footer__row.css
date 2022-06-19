@@ -1,7 +1,9 @@
 .footer__row {
   align-items: flex-start;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   gap: 60px;  
+  height: 76px;
   padding: 0px;
 }

@@ -1,8 +1,9 @@
 .afterword-content {
+  box-sizing: border-box;
+  column-gap: 80px;
   display: flex;
   flex-direction: row;
-  column-gap: 80px;
+  margin: 0;
   max-width: 1080px;
   padding: 0;
-  margin: 0;
 }

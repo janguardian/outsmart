@@ -1,9 +1,10 @@
 .short-cards__card {
-  padding: 100px 60px;
-  margin: 0;
-  max-width: 588px;
-  max-height: 396px;
-  width: 100%;
-  min-height: 396px;
   border-radius: 6px;
+  box-sizing: border-box;
+  margin: 0;
+  max-height: 396px;
+  max-width: 588px;
+  min-height: 396px;
+  padding: 100px 60px;
+  width: 100%;
 }

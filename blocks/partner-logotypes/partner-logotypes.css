@@ -1,5 +1,6 @@
 .partner-logotypes {
   align-items: center;
+  box-sizing: border-box;
   justify-content: space-between;
   display: flex;
   flex-direction: row;

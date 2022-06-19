@@ -8,4 +8,7 @@
   height: 800px;
   background-image: url(../../images/promo__back-gradient.png);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
 }

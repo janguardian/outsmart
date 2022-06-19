@@ -1,10 +1,11 @@
 .achievements-list__achievement {
-  display: flex;
   align-items: flex-start;
+  box-sizing: border-box;
+  display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 0px 40px 0px 0px;
   margin: 0;
-  width: 240px;
   min-height: 88px;
+  padding: 0px 40px 0px 0px;
+  width: 240px;
 }
