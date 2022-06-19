@@ -1,0 +1,10 @@
+.footer__phone-link {
+  font-family: 'Graphik';
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 36px;
+  color: #fff;
+  mix-blend-mode: normal;
+
+  text-decoration: none;
+}
