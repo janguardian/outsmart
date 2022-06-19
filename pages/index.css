@@ -56,6 +56,13 @@
 @import url(../blocks/afterword/__text-main/afterword__text-main.css);
 @import url(../blocks/afterword/__text-secondary/afterword__text-secondary.css);
 
+@import url(../blocks/why-outsmart/why-outsmart.css);
+@import url(../blocks/why-outsmart/__cards/why-outsmart__cards.css);
+@import url(../blocks/why-outsmart/__card/why-outsmart__card.css);
+@import url(../blocks/why-outsmart/__card-image/why-outsmart__card-image.css);
+@import url(../blocks/why-outsmart/__card-title/why-outsmart__card-title.css);
+@import url(../blocks/why-outsmart/__card-text/why-outsmart__card-text.css);
+
 @import url(../blocks/customers/customers.css);
 @import url(../blocks/customers/__cards/customers__cards.css);
 @import url(../blocks/customers/__card/customers__card.css);
