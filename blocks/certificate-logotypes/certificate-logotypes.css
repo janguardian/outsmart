@@ -1,0 +1,10 @@
+.certificate-logotypes {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  list-style: none;
+  flex-wrap: wrap;
+}

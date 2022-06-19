@@ -3,8 +3,7 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 100px;
-  height: 1752px;
-  isolation: isolate;
+  min-height: 1752px;
   padding: 100px 120px 160px;
   width: 1440px;
 }

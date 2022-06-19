@@ -1,4 +1,4 @@
-.long-card_hover:hover .buttons-card__button_hover {
+.long-cards__card_hover:hover .buttons-card__button_hover {
   background-color: #fff;
   color: #4E7595;
 }

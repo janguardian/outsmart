@@ -1,0 +1,12 @@
+.items-list__item {
+  padding: 60px;
+  margin: 0;
+  display: flex;
+  align-self: start;
+  column-gap: 60px;
+  width: 590px;
+  height: 332px;
+  position: relative;
+  border: 1px solid #DFF0F6;
+  border-radius: 6px;
+}
