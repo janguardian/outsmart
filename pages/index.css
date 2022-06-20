@@ -50,3 +50,9 @@
 @import url(../blocks/approach/__card-content/approach__card-content.css);
 @import url(../blocks/approach/__card-figure/approach__card-figure.css);
 @import url(../blocks/approach/__card-icon/approach__card-icon.css);
+/*section approach*/
+@import url(../blocks/certification/certification.css);
+@import url(../blocks/certification/__content/certification__content.css);
+@import url(../blocks/certification/__text/certification__text.css);
+@import url(../blocks/certification/__logos/certification__logos.css);
+@import url(../blocks/certification/__logo/certification__logo.css);
