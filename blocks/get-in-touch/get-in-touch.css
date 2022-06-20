@@ -1,0 +1,8 @@
+.get-in-touch {
+  box-sizing: border-box;
+  padding: 120px 120px 160px;
+  background-image: url(../../images/background/background-main-direct.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
