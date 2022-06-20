@@ -14,3 +14,14 @@
 @import url(../blocks/promo/__text/promo__text.css);
 @import url(../blocks/promo/__overlay/promo__overlay.css);
 @import url(../blocks/promo/__wrapper/promo__wrapper.css);
+/*section coverage*/
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/__title/section__title.css);
+@import url(../blocks/coverage/coverage.css);
+@import url(../blocks/coverage/__cards/coverage__cards.css);
+@import url(../blocks/coverage/__card/coverage__card.css);
+@import url(../blocks/coverage/__card-title/coverage__card-title.css);
+@import url(../blocks/coverage/__card-text/coverage__card-text.css);
+@import url(../blocks/coverage/__card/_background/coverage__card_background-blue.css);
+@import url(../blocks/coverage/__card/_background/coverage__card_background-red.css);
+@import url(../blocks/coverage/__overlay/coverage__overlay.css);

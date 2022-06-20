@@ -1,0 +1,7 @@
+.section{
+  font-family: 'Graphik', Arial, sans-serif;
+  padding: 100px 120px 160px 120px;
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}

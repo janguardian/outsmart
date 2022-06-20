@@ -1,0 +1,12 @@
+.section__title{
+  margin: 0;
+  margin-bottom: 100px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 16px;
+  text-transform: uppercase;
+  color: #63727E;
+  z-index: 2;
+  padding: 0;
+}

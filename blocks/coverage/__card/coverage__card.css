@@ -1,0 +1,10 @@
+.coverage__card{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border-radius: 6px;
+  max-width: 588px;
+  align-items: stretch;
+  padding: 100px 60px;
+  color: white;
+}
