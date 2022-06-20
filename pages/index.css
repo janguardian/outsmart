@@ -15,12 +15,22 @@
 
 @import url(../blocks/section-header/section-header.css);
 
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/_size/card_size_long.css);
+@import url(../blocks/card/_size/card_size_mini.css);
+@import url(../blocks/card/_size/card_size_large.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__content/card__content.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__labels/card__labels.css);
+@import url(../blocks/card/__label/card__label.css);
+
 @import url(../blocks/coverage/coverage.css);
 @import url(../blocks/coverage/__overlay/coverage__overlay.css);
 @import url(../blocks/coverage/__cards/coverage__cards.css);
-@import url(../blocks/coverage/__card/coverage__card.css);
-@import url(../blocks/coverage/__card/_position/coverage__card_position_left.css);
-@import url(../blocks/coverage/__card/_position/coverage__card_position_right.css);
-@import url(../blocks/coverage/__subtitle/coverage__subtitle.css);
-@import url(../blocks/coverage/__text/coverage__text.css);
+@import url(../blocks/coverage/__left-card/coverage__left-card.css);
+@import url(../blocks/coverage/__right-card/coverage__right-card.css);
+
+
 
