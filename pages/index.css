@@ -12,3 +12,15 @@
 @import url(../blocks/promo/__text/promo__text.css);
 @import url(../blocks/promo/__title/promo__title.css);
 @import url(../blocks/promo/__description/promo__description.css);
+
+@import url(../blocks/section-header/section-header.css);
+
+@import url(../blocks/coverage/coverage.css);
+@import url(../blocks/coverage/__overlay/coverage__overlay.css);
+@import url(../blocks/coverage/__cards/coverage__cards.css);
+@import url(../blocks/coverage/__card/coverage__card.css);
+@import url(../blocks/coverage/__card/_position/coverage__card_position_left.css);
+@import url(../blocks/coverage/__card/_position/coverage__card_position_right.css);
+@import url(../blocks/coverage/__subtitle/coverage__subtitle.css);
+@import url(../blocks/coverage/__text/coverage__text.css);
+

@@ -1,0 +1,8 @@
+.coverage__card {
+  border-radius: 6px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 100px 60px 100px 60px;
+}
