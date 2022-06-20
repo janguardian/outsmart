@@ -1,3 +1,5 @@
 .footer {
-  background-color: var(--colorJapaneseIndigo);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }

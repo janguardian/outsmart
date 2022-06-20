@@ -1,0 +1,5 @@
+.wrapper_section_services {
+  background: -webkit-gradient(linear, left top, left bottom, from(#EBF4FA), color-stop(48.7%, #FFFFFF));
+  background: -o-linear-gradient(top, #EBF4FA 0%, #FFFFFF 48.7%);
+  background: linear-gradient(180deg, #EBF4FA 0%, #FFFFFF 48.7%);
+}

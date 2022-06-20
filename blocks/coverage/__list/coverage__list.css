@@ -1,6 +1,0 @@
-.coverage__list {
-  -ms-grid-columns: (49%)[2];
-  grid-template-columns: repeat(2, 49%);
-  row-gap: 24px;
-  color: var(--colorWhite);
-}

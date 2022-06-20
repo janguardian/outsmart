@@ -1,5 +1,0 @@
-.outsmart__list {
-  -ms-grid-columns: (21.66%)[4];
-  grid-template-columns: repeat(4, 21.66%);
-  row-gap: 20px;
-}

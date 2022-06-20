@@ -1,6 +1,6 @@
 .coverage {
-  overflow: hidden;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.35)), to(rgba(255, 255, 255, 0.35))), url('../../images/coverage/coverage-overlay.png') center center no-repeat;
-  background: -o-linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)), url('../../images/coverage/coverage-overlay.png') center center no-repeat;
-  background: linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)), url('../../images/coverage/coverage-overlay.png') center center no-repeat;
+  -ms-grid-columns: (49%)[2];
+  grid-template-columns: repeat(2, 49%);
+  row-gap: 24px;
+  color: var(--colorWhite);
 }
