@@ -1,0 +1,19 @@
+.promo__button-form {
+  padding: 0px 24px;
+  height: 44px;
+  background: #ffffff;
+  box-shadow: 0px 5px 30px rgba(50, 137, 255, 0.5);
+  border-radius: 24px;
+
+  font-family: 'Graphik';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #5f4cff;
+  text-decoration: none;
+
+  mix-blend-mode: normal;
+}

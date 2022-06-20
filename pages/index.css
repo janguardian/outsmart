@@ -8,6 +8,9 @@
 @import url(../blocks/promo/promo.css);
 @import url(../blocks/promo/__header/promo__header.css);
 @import url(../blocks/promo/__logo/promo__logo.css);
+@import url(../blocks/promo/__buttons/promo__buttons.css);
+@import url(../blocks/promo/__button-form/promo__button-form.css);
+@import url(../blocks/promo/__button-more/promo__button-more.css);
 @import url(../blocks/promo/__text/promo__text.css);
 @import url(../blocks/promo/__heading/promo__heading.css);
 @import url(../blocks/promo/__tagline/promo__tagline.css);
