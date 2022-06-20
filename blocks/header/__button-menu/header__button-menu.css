@@ -1,3 +1,16 @@
 .header__button-menu {
-/* TODO empty */
+  background: transparent;
+  background-image: url(../../../images/header/menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  width: 24px;
+  height: 30px;
+  transition: all .3s linear;
+}
+
+
+.header__button-menu:hover {
+  background-image: url(../../../images/header/menu-hover.svg);
+  cursor: pointer;
 }
