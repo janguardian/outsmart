@@ -1,0 +1,10 @@
+.approach__cards{
+  list-style: none;
+  display: grid;
+  gap: 20px;
+  justify-items: stretch;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  margin: 0;
+  padding: 0;
+}
