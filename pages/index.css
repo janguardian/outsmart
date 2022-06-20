@@ -10,6 +10,7 @@
 @import url('../blocks/wrapper/_section/wrapper_section_footer.css');
 @import url('../blocks/container/container.css');
 @import url('../blocks/container/_type/container_type_promo.css');
+@import url('../blocks/container/_type/container_type_coverage.css');
 @import url('../blocks/container/_type/container_type_approach.css');
 @import url('../blocks/container/_type/container_type_certifications.css');
 @import url('../blocks/container/_type/container_type_afterword.css');
@@ -17,7 +18,9 @@
 @import url('../blocks/container/_type/container_type_customers.css');
 @import url('../blocks/container/_type/container_type_touch.css');
 @import url('../blocks/container/_type/container_type_footer.css');
-@import url('../blocks/overlay-promo/overlay-promo.css');
+@import url('../blocks/overlay/overlay.css');
+@import url('../blocks/overlay/_section/overlay_section_promo.css');
+@import url('../blocks/overlay/_section/overlay_section_coverage.css');
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/_states/button_states.css');
