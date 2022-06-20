@@ -1,0 +1,14 @@
+.promo{
+  background-image: url("./images/promo-background.png");
+  max-width: 1440px;
+  min-height: 920px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 100px 120px;
+  box-sizing: border-box;
+  font-family: 'Graphik', Arial, sans-serif;
+  color: white;
+  position: relative;
+}
