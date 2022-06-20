@@ -13,6 +13,6 @@
   mix-blend-mode: normal;
 }
 
-/* .footer__link:not(:nth-of-type(4n)) {
-  margin-bottom: 20px;
-} */
+.footer__link:hover {
+  color: #dff0f6;
+}

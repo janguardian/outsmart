@@ -1,5 +1,13 @@
 .promo__button-more {
   background-image: url(../../../images/button-more.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+
   width: 24px;
   height: 4px;
+}
+
+.promo__button-more:hover {
+  background-image: url(../../../images/button-more_hover.png);
 }

@@ -19,6 +19,10 @@
   color: #b2cfdb;
 }
 
+.form__input:hover {
+  box-shadow: 0px 2px 5px rgba(50, 137, 255, 0.3);
+}
+
 .form__input:focus {
   box-shadow: 0px 2px 7px rgba(50, 137, 255, 0.7);
   outline: none;
