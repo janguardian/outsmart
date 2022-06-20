@@ -38,5 +38,7 @@
 }
 
 .form__input:focus {
-  border: 1px solid #e21111;
+  outline: 1px solid #e21111;
+  -webkit-box-shadow: 0px 2px 7px rgba(50, 137, 255, 0.7);
+          box-shadow: 0px 2px 7px rgba(50, 137, 255, 0.7);
 }

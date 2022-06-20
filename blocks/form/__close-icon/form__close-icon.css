@@ -4,6 +4,7 @@
   right: 24px;
   width: 20px;
   height: 20px;
-  opacity: 0;
-  background: url(../../../images/form/close.png) center center no-repeat;
+  opacity: 1;
+  cursor: pointer;
+  background: url('../../../images/form/close-icon.svg') center center no-repeat;
 }
