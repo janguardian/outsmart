@@ -1,0 +1,14 @@
+.overlay {
+  background-image: url('../../images/overlay-type-1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1000px;
+  width: 100%;
+  height: 920px;
+  opacity: 0.2;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 220px;
+  z-index: 1;
+}

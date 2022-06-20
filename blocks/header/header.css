@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 120px 0px;
+  position: relative;
+  z-index: 2;
+}

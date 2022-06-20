@@ -1,0 +1,4 @@
+.header__column-right {
+  display: flex;
+  gap: 32px;
+}

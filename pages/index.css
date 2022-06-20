@@ -1,4 +1,47 @@
+/*normalize*/
+@import url(../vendor/normalize.css);
+
 /*fonts import*/
 @import url('../vendor/fonts/fonts.css');
 
-@import url('../blocks/paragraph/paragraph.css')
+/*button*/
+@import url('../blocks/button/_get-in-touch/button_get-in-touch.css');
+@import url('../blocks/button/_menu/button_menu.css');
+@import url('../blocks/button/button.css');
+
+/*footer*/
+
+/*header*/
+@import url('../blocks/header/__column-right/header__column-right.css');
+@import url('../blocks/header/header.css');
+
+/*heading*/
+@import url('../blocks/heading/heading.css');
+
+/*logo*/
+@import url('../blocks/logo/logo.css');
+
+/*logo*/
+@import url('../blocks/overlay/overlay.css');
+
+/*page*/
+@import url('../blocks/page/page.css');
+
+/*promo*/
+@import url('../blocks/promo/promo.css');
+
+/*text*/
+@import url('../blocks/text/_button/text_button.css');
+@import url('../blocks/text/_promo/text_promo.css');
+@import url('../blocks/text/text.css');
+
+
+
+
+
+
+
+
+
+
+
