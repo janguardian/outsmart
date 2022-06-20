@@ -1,0 +1,6 @@
+.promo__header {
+  max-width: calc(100% - 120px * 2);
+  position: absolute;
+  top: 100px;
+  left: 120px;
+}

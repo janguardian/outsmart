@@ -1,0 +1,7 @@
+.promo {
+  background-image: url(../../images/promo/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}

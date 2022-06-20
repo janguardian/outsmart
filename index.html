@@ -4,9 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Outsmart</title>
+    <link rel="stylesheet" href="./pages/index.css" />
   </head>
-  <body>
-    <p class="paragraph">Hello, World!</p>
-    <script type="module" src="/pages/index.js"></script>
+  <body class="page">
+    <header class="promo">
+      <img src="./images/promo/overlay.svg" class="promo__overlay" />
+      <div class="header promo__header">
+        <img
+          src="./images/header/logo.svg"
+          alt="Logo-outsmart"
+          class="header__logo"
+        />
+        <form class="header__buttons">
+          <input
+            type="submit"
+            class="button header__button-get-in-touch"
+            value="Get in touch"
+          />
+          <input
+            type="image"
+            class="header__button-menu"
+            src="./images/header/menu.svg"
+          />
+        </form>
+      </div>
+      <div class="promo__text">
+        <h1 class="promo__heading">Progress <br> through numbers</h1>
+        <p class="promo__tagline">
+          We are a marketing consultant. We help small and medium-sized software
+          development companies gain traction by attracting new prospects and
+          leading them all the way up to becoming your customers.
+        </p>
+      </div>
+    </header>
+    <script type="module" src="./pages/index.js"></script>
   </body>
 </html>
