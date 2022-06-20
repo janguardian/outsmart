@@ -17,6 +17,7 @@
 @import url('../blocks/container/_type/container_type_customers.css');
 @import url('../blocks/container/_type/container_type_touch.css');
 @import url('../blocks/container/_type/container_type_footer.css');
+@import url('../blocks/overlay-promo/overlay-promo.css');
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/_states/button_states.css');
