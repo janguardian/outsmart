@@ -8,6 +8,7 @@
       content="We are a marketing consultant. We help small and medium-sized software development companies gain traction by attracting new prospects and leading them all the way up to becoming your customers">
     <meta name="keywords" content="marketing consultant, small and medium-sized software development companies, outsourcing companies, product developers, digital marketing, content marketing, branding & design">
     <meta name="author" content="Кирилл Бегей">
+    <script src="./scripts/modernizr-wepb.js"></script>
     <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
     <link rel="stylesheet" href="./pages/index.css">
     <title>Outsmart</title>
@@ -20,23 +21,27 @@
           <h1 class="promo__title">Progress through&nbsp;numbers</h1>
           <p class="promo__text">We are a marketing consultant. We help small and medium-sized software development companies
             gain traction by attracting new prospects and leading them all the way up to becoming your customers.</p>
-          <a href="#touch" class="promo__button button button_states">Get in touch</a>
+          <div class="promo__button">
+            <a href="#touch" class=" button button_states">Get in touch</a>
+          </div>
         </div>
         <header class="header">
-          <div class="logo"></div>
+          <img src="./images/promo/logo.svg" alt="Logo Outsmart." class="logo">
           <div class="header__nav">
-            <a href="#touch" class="header__button button button_states">Get in touch</a>
+            <div class="header__button">
+              <a href="#touch" class="button button_states">Get in touch</a>
+            </div>
             <nav class="menu">
               <a href="#" class="menu__link menu__link_states">
-                <svg class="menu__image">
-                  <use xlink:href="./images/promo/menu.svg#menu"></use>
-                </svg>
+              <svg class="menu__image">
+                <use xlink:href="./images/promo/menu.svg#menu"></use>
+              </svg>
               </a>
             </nav>
           </div>
         </header>        
-      </div>      
-      <svg class="overlay overlay_section_promo" width="1000" height="920" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 920 500 0l500 920H789L500 400 211 920H0Z" fill="url(#a)" style="mix-blend-mode:soft-light" opacity=".5"/><defs><linearGradient id="a" x1="500" y1="479.422" x2="500" y2="1117.29" gradientUnits="userSpaceOnUse"><stop/><stop offset=".506" stop-opacity="0"/></linearGradient></defs></svg>
+      </div>  
+      <img src="./images/promo/overlay-promo.svg" alt="Overlay section promo." class="overlay overlay_section_promo">
     </section>
 
     <section class="wrapper wrapper_section_coverage" id="coverage">
@@ -61,7 +66,7 @@
           </li>
         </ul>
       </div>
-      <svg class="overlay overlay_section_coverage" width="1002" height="923" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 922 501 2l500 920H790L501 402 212 922H1Z" stroke="url(#a)" opacity=".35"/><defs><linearGradient id="a" x1="501" y1="2" x2="501" y2="922" gradientUnits="userSpaceOnUse"><stop stop-color="#63727E"/><stop offset=".865" stop-color="#63727E"/><stop offset="1" stop-color="#63727E" stop-opacity="0"/></linearGradient></defs></svg>
+      <img src="./images/coverage/overlay-coverage.svg" alt="Overlay section coverage." class="overlay overlay_section_coverage">
     </section>
 
     <section class="wrapper wrapper_section_services" id="services">
