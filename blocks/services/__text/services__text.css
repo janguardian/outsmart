@@ -1,0 +1,6 @@
+.services__text{
+  width: 660px;
+}
+.services__long-card:hover .services__text {
+  color: #FFF;
+}
