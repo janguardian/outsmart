@@ -75,7 +75,6 @@
 @import url('../blocks/promo/__button/promo__button.css');
 @import url('../blocks/coverage/coverage.css');
 @import url('../blocks/coverage/__item/coverage__item.css');
-@import url('../blocks/coverage/__item-container/coverage__item-container.css');
 @import url('../blocks/coverage/__content/coverage__content.css');
 @import url('../blocks/coverage/__title/coverage__title.css');
 @import url('../blocks/coverage/__text/coverage__text.css');
@@ -86,6 +85,7 @@
 @import url('../blocks/services/__right-column/services__right-column.css');
 @import url('../blocks/services/__text/services__text.css');
 @import url('../blocks/approach/approach.css');
+@import url('../blocks/approach/__item/approach__item.css');
 @import url('../blocks/approach/__two-columns/approach__two-columns.css');
 @import url('../blocks/approach/__left-column/approach__left-column.css');
 @import url('../blocks/approach/__image-container/approach__image-container.css');

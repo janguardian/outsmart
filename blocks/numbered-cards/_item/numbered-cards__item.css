@@ -1,11 +1,5 @@
 .numbered-cards__item {
   position: relative;
-  width: 590px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  overflow: hidden;
-  border: 1px solid var(--colorGrey);
-  border-radius: 6px;
 }
 
 .numbered-cards__item::before {

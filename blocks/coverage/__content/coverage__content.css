@@ -7,6 +7,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   row-gap: 40px;
+  max-width: 470px;
   max-height: 720px;
   overflow: hidden;
 }

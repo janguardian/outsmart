@@ -1,5 +1,8 @@
 .coverage__item {
-  width: 588px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
   max-height: 920px;
   border-radius: 6px;
+  padding: 100px 58px 100px 60px;
 }
