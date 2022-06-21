@@ -1,0 +1,29 @@
+.approach__image-container {
+  position: relative;
+  max-width: 100%;
+  padding-bottom: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.no-webp .approach__image-container {
+  background-image: url('../../../images/background/background-main-direct-1x.png');
+}
+
+.webp .approach__image-container {
+  background-image: url('../../../images/background/background-main-direct-1x.webp');
+}
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+  .no-webp .wrapper_section_promo {
+    background-image: url('../../../images/background/background-main-direct-2x.png');
+  }
+  
+  .webp .wrapper_section_promo {
+    background-image: url('../../../images/background/background-main-direct-2x.webp');
+  }
+}
