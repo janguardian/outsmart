@@ -1,5 +1,6 @@
 .wrapper_section_promo {
   height: 920px;
+  overflow: hidden;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

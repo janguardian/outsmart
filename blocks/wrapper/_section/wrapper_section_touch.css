@@ -1,6 +1,28 @@
 .wrapper_section_touch {
   max-height: 920px;
   overflow: hidden;
-  background: url('../../../images/background/background-main-direct.png') center center no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover;
+}
+
+.no-webp .wrapper_section_touch {
+  background-image: url('../../../images/background/background-main-direct-1x.png');
+}
+
+.webp .wrapper_section_touch {
+  background-image: url('../../../images/background/background-main-direct-1x.webp');
+}
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+  .no-webp .wrapper_section_touch {
+    background-image: url('../../../images/background/background-main-direct-2x.png');
+  }
+  
+  .webp .wrapper_section_touch {
+    background-image: url('../../../images/background/background-main-direct-2x.webp');
+  }
 }
