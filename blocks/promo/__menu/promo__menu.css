@@ -1,7 +1,9 @@
 .promo__menu {
+  background-color: rgba(255, 255, 255, 0);
   background-image: url(../../../images/menu.png);
   background-repeat: no-repeat;
   background-size: cover;
+  border: 0;
   display: inline-block;
   height: 4px;
   width: 24px;
@@ -10,4 +12,5 @@
 
 .promo__menu:hover {
   background-image: url(../../../images/menu-hover.png);
+  cursor: pointer;
 }

@@ -1,5 +1,5 @@
-@import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+@import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/main/main.css);
 @import url(../blocks/container/container.css);
@@ -82,6 +82,7 @@
 @import url(../blocks/get-in-touch/__form/get-in-touch__form.css);
 @import url(../blocks/get-in-touch/__fieldset/get-in-touch__fieldset.css);
 @import url(../blocks/get-in-touch/__form-item/get-in-touch__form-item.css);
+@import url(../blocks/get-in-touch/__form-item/_type/get-in-touch__form-item_type_textarea.css);
 @import url(../blocks/get-in-touch/__form-button/get-in-touch__form-button.css);
 
 @import url(../blocks/footer/footer.css);
