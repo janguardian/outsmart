@@ -1,0 +1,13 @@
+.promo__menu {
+  background-image: url(../../../images/menu.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  height: 4px;
+  width: 24px;
+  z-index: 2;
+}
+
+.promo__menu:hover {
+  background-image: url(../../../images/menu-hover.png);
+}

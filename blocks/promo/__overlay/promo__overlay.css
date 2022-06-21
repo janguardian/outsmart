@@ -1,0 +1,6 @@
+.promo__overlay {
+  left: calc(50% - 500px);
+  opacity: .5;
+  position: absolute;
+  top: 0;
+}

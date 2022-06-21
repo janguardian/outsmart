@@ -1,0 +1,4 @@
+.long-cards__achievements {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,8 @@
+.get-in-touch__form {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin: 0 auto;
+  max-width: 560px;
+  width: 100%;
+}

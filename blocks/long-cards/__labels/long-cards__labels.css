@@ -1,0 +1,4 @@
+.long-cards__labels {
+  display: flex;
+  gap: 8px;
+}
