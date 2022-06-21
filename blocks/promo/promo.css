@@ -1,4 +1,6 @@
 .promo {
+  position: relative;
+  z-index: 10;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
