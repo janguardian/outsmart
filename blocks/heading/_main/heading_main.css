@@ -1,0 +1,9 @@
+.heading_main {
+  margin: 394px 480px 40px 120px;
+  color: #fff;
+  font-weight: 200;
+  font-size: 80px;
+  line-height: 80px;
+  position: relative;
+  z-index: 2;
+}

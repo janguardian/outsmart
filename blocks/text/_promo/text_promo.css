@@ -1,12 +1,10 @@
 .text_promo {
-  font-family: 'Graphik Extralight';
   color: #fff;
-  font-weight: 300;
   font-size: 20px;
   line-height: 32px;
   max-width: 840px;
   width: 100%;
-  margin: 0px 480px 0px 120px;
+  padding: 0px 480px 0px 120px;
   position: relative;
   z-index: 2;
 }
