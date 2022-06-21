@@ -9,7 +9,7 @@
   <body class="page">
     <header class="promo">
       <img src="./images/promo/overlay.svg" class="promo__overlay" />
-      <div class="header promo__header">
+      <div class="header">
         <img
           src="./images/header/logo.svg"
           alt="Logo-outsmart"
@@ -21,15 +21,14 @@
             class="button header__button-get-in-touch"
             value="Get in touch"
           />
-          <input
-            type="submit"
-            class="header__button-menu"
-            value=""
-          />
+          <input type="submit" class="header__button-menu" value="" />
         </form>
       </div>
       <div class="promo__text">
-        <h1 class="promo__heading">Progress <br> through numbers</h1>
+        <h1 class="promo__heading">
+          Progress <br />
+          through numbers
+        </h1>
         <p class="promo__tagline">
           We are a marketing consultant. We help small and medium-sized software
           development companies gain traction by attracting new prospects and
@@ -37,6 +36,34 @@
         </p>
       </div>
     </header>
+    <main class="content">
+      <section class="coverage">
+        <img
+          src="./images/coverage/coverage-overlay.svg"
+          alt=""
+          class="coverage__overlay"
+        />
+        <h3 class="coverage__heading heading-h2">Coverage</h3>
+        <div class="coverage__cards">
+          <div class="coverage__card coverage_background_pink">
+            <h3 class="coverage__heading-card heading-h3">Outsourcing companies</h3>
+            <p class="coverage__text-card">
+              We provide marketing and sales support services for custom
+              software development companies whatever domain or industry they
+              are operating in.
+            </p>
+          </div>
+          <div class="coverage__card coverage_background_blue">
+            <h3 class="coverage__heading-card heading-h3">Product developers</h3>
+            <p class="coverage__text-card">
+              Outsmart renders marketing, promotion, placement, enhancement and
+              sales services for independent software vendors with proprietary
+              products.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
     <script type="module" src="./pages/index.js"></script>
   </body>
 </html>

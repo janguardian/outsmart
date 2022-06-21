@@ -2,9 +2,10 @@
 @import url(../vendor/fonts/Graphik-LC.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/button/button.css);
+@import url(../blocks/heading-h2/heading-h2.css);
+@import url(../blocks/heading-h3/heading-h3.css);
 @import url(../blocks/promo/promo.css);
 @import url(../blocks/promo/__overlay/promo__overlay.css);
-@import url(../blocks/promo/__header/promo__header.css);
 @import url(../blocks/promo/__text/promo__text.css);
 @import url(../blocks/promo/__heading/promo__heading.css);
 @import url(../blocks/promo/__tagline/promo__tagline.css);
@@ -13,3 +14,13 @@
 @import url(../blocks/header/__buttons/header__buttons.css);
 @import url(../blocks/header/__button-get-in-touch/header__button-get-in-touch.css);
 @import url(../blocks/header/__button-menu/header__button-menu.css);
+@import url(../blocks/content/content.css);
+@import url(../blocks/coverage/coverage.css);
+@import url(../blocks/coverage/__overlay/coverage__overlay.css);
+@import url(../blocks/coverage/__heading/coverage__heading.css);
+@import url(../blocks/coverage/__cards/coverage__cards.css);
+@import url(../blocks/coverage/__card/coverage__card.css);
+@import url(../blocks/coverage/__heading-card/coverage__heading-card.css);
+@import url(../blocks/coverage/__text-card/coverage__text-card.css);
+@import url(../blocks/coverage/_background/coverage_background_blue.css);
+@import url(../blocks/coverage/_background/coverage_background_pink.css);

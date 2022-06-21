@@ -1,6 +1,6 @@
-.promo__text {
+.coverage__card {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  margin: 0 100px 120px;
+  border-radius: 6px;
 }
