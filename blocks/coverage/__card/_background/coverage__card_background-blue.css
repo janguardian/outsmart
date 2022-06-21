@@ -1,4 +1,9 @@
-.coverage__card_background-blue{
+.coverage__card_background-blue {
   background-image: url("./images/coverage-background-blue.png");
+}
 
+@media (min-resolution: 2dppx) {
+  .coverage__card_background-blue {
+    background-image: url("./images/coverage-background-blue-x2.png");
+  }
 }

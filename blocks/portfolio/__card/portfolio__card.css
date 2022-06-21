@@ -1,5 +1,9 @@
 .portfolio__card{
   align-items: flex-start;
   background-image: url("./images/portfolio-background-1.png");
-
+}
+@media (min-resolution: 2dppx) {
+  .portfolio__card{
+    background-image: url("./images/portfolio-background-1-x2.png");
+  }
 }

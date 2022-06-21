@@ -1,4 +1,10 @@
-.services__card_bg-color{
+.services__card_bg-color {
   background-image: url("./images/services-background-color.png");
   color: #FFFFFF;
+}
+
+@media (min-resolution: 2dppx) {
+  .services__card_bg-color {
+    background-image: url("./images/services-background-color-x2.png");
+  }
 }

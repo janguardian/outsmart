@@ -1,3 +1,8 @@
 .services__card{
   background-image: url("./images/services-background.png");
 }
+@media (min-resolution: 2dppx) {
+  .services__card{
+    background-image: url("./images/services-background-x2.png");
+  }
+}
