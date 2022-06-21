@@ -1,0 +1,9 @@
+.customers__card{
+  border: 1px solid #DFF0F6;
+  min-height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}

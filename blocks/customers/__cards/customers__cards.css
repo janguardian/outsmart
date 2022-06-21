@@ -1,0 +1,11 @@
+.customers__cards{
+  list-style: none;
+  display: grid;
+  gap: 20px;
+  justify-items: stretch;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+  margin: 0;
+  padding: 0;
+
+}
