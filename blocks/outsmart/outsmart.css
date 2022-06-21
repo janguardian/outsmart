@@ -1,5 +1,6 @@
 .outsmart {
-  -ms-grid-columns: (21.66%)[4];
-  grid-template-columns: repeat(4, 21.66%);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   row-gap: 20px;
 }

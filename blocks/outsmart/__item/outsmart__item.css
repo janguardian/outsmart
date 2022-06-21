@@ -6,5 +6,6 @@
   -webkit-box-pack: normal;
       -ms-flex-pack: normal;
           justify-content: normal;
+  width: 260px;
   row-gap: 40px;
 }
