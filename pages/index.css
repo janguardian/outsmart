@@ -68,4 +68,12 @@
 @import url(../blocks/afterword/__text/afterword__text.css);
 @import url(../blocks/afterword/__text-wrapper/afterword__text-wrapper.css);
 @import url(../blocks/afterword/__text/_bold/afterword__text_bold.css);
-
+/*section why*/
+@import url(../blocks/why/why.css);
+@import url(../blocks/why/__cards/why__cards.css);
+@import url(../blocks/why/__card/why__card.css);
+@import url(../blocks/why/__card-icon/why__card-icon.css);
+@import url(../blocks/why/__card-content/why__card-content.css);
+@import url(../blocks/why/__card-title/why__card-title.css);
+@import url(../blocks/why/__card-text/why__card-text.css);
+@import url(../blocks/why/__line/why__line.css);

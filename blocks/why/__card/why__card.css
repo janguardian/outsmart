@@ -1,0 +1,6 @@
+.why__card{
+  max-width: 260px;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+}
