@@ -221,7 +221,12 @@
         <h2 class="section-title">Afterword</h2>
         <div class="two-columns afterword">
           <div class="afterword__left-column">
-            <img src="./images/afterword/photo.png" alt="Photography by Jan Guardian." class="afterword__image">
+            <picture class="afterword__image">
+              <source srcset="./images/afterword/photo-2x.webp" media="(resolution:300dpi)">
+              <source srcset="./images/afterword/photo-2x.png" media="(resolution:300dpi)">
+              <source srcset="./images/afterword/photo-1x.webp">
+              <img src="./images/afterword/photo-1x.png" alt="Photography by Jan Guardian.">
+            </picture>
           </div>
           <div class="afterword__right-column">
             <div class="afterword__author">
