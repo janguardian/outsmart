@@ -9,5 +9,6 @@
   z-index: 0;
   mix-blend-mode: soft-light;
   opacity: .5;
-  height: 100vh;
+  /* height: 100vh; */
+  height: 920px;
 }
