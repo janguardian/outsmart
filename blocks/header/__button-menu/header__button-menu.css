@@ -1,0 +1,10 @@
+.header__button-menu {
+  background:  transparent;
+  background-image: url(../../../images/button-menu-normal.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  width: 24px;
+  height: 30px;
+}
