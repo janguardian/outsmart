@@ -106,3 +106,13 @@
 @import url(../blocks/get/__input/_invalid/get__input_invalid.css);
 @import url(../blocks/get/__reset/get__reset.css);
 @import url(../blocks/get/__input/_placeholder/get__input_placeholder.css);
+/*footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__phone/footer__phone.css);
+@import url(../blocks/footer/__wrapper/footer__wrapper.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__line/footer__line.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
