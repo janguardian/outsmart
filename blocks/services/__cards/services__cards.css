@@ -1,0 +1,6 @@
+.services__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 120px 160px;
+}

@@ -1,0 +1,7 @@
+.services__card {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 5px rgba(0, 81, 192, 0.5);
+}

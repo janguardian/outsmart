@@ -1,0 +1,9 @@
+.labels__element {
+  margin: 0;
+  color: #4E7595;
+  align-items: center;
+  padding: 8px 20px;
+  background: #fff;
+  border-radius: 16px;
+  width: max-content;
+}
