@@ -1,0 +1,4 @@
+.portfolio__cards{
+  flex-direction: column;
+  gap: 20px;
+}

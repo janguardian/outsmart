@@ -77,3 +77,15 @@
 @import url(../blocks/why/__card-title/why__card-title.css);
 @import url(../blocks/why/__card-text/why__card-text.css);
 @import url(../blocks/why/__line/why__line.css);
+/*section portfolio*/
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__cards/portfolio__cards.css);
+@import url(../blocks/portfolio/__card/portfolio__card.css);
+@import url(../blocks/portfolio/__card-logo/portfolio__card-logo.css);
+@import url(../blocks/portfolio/__card-content/portfolio__card-content.css);
+@import url(../blocks/portfolio/__achievements/portfolio__achievements.css);
+@import url(../blocks/portfolio/__achievement/portfolio__achievement.css);
+@import url(../blocks/portfolio/__card-text/portfolio__card-text.css);
+@import url(../blocks/portfolio/__achievement-caption/portfolio__achievement-caption.css);
+@import url(../blocks/portfolio/__achievement-figure/portfolio__achievement-figure.css);
+@import url(../blocks/portfolio/__card/_bgd-inverse/portfolio__card_bgd-inverse.css);
