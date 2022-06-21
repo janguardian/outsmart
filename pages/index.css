@@ -1,4 +1,3 @@
-@import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
 /*header*/
@@ -8,6 +7,9 @@
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_header/button_header.css);
+@import url(../blocks/button/_hover/button_hover.css);
+@import url(../blocks/button/_clicked/button_clicked.css);
+@import url(../blocks/header/__menu/_hover/header__menu_hover.css);
 /*section promo*/
 @import url(../blocks/promo/promo.css);
 @import url(../blocks/promo/__heading/promo__heading.css);
@@ -93,6 +95,7 @@
 @import url(../blocks/customers/customers.css);
 @import url(../blocks/customers/__cards/customers__cards.css);
 @import url(../blocks/customers/__card/customers__card.css);
+@import url(../blocks/customers/__card/_hover/customers__card_hover.css);
 @import url(../blocks/customers/__logo/customers__logo.css);
 /*section get*/
 @import url(../blocks/get/get.css);
@@ -100,6 +103,8 @@
 @import url(../blocks/get/__form/get__form.css);
 @import url(../blocks/get/__input/get__input.css);
 @import url(../blocks/get/__button/get__button.css);
+@import url(../blocks/get/__button/_hover/get__button_hover.css);
+@import url(../blocks/get/__button/_clicked/get__button_clicked.css);
 @import url(../blocks/get/__err-message/get__err-message.css);
 @import url(../blocks/get/__fieldset/get__fieldset.css);
 @import url(../blocks/get/__input/_focus/get__input_focus.css);
@@ -114,5 +119,7 @@
 @import url(../blocks/footer/__column/footer__column.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__link/_hover/footer__link_hover.css);
+@import url(../blocks/footer/__link/_clicked/footer__link_clicked.css);
 @import url(../blocks/footer/__line/footer__line.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);

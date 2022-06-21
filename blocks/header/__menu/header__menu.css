@@ -1,6 +1,9 @@
 .header__menu{
-}
-.header__menu:hover{
-  stroke: #1C3C56;
-  fill: #1C3C56;
+  background-image: url("./images/menu.svg");
+  width: 24px;
+  height: 4px;
+  background-repeat: no-repeat;
+  margin: auto 0;
+  padding: 0;
+
 }
