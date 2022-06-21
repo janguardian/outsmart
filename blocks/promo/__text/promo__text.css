@@ -1,0 +1,8 @@
+.promo__text {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
+  row-gap: 40px;
+  width: 100%;
+}

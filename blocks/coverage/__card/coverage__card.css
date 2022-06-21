@@ -1,0 +1,19 @@
+.coverage__card {
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 100px 0;
+  width: 588px;
+}
+
+.coverage__card:first-of-type {
+  background-image: url(../../../images/bg.png);
+  background-position: top center;
+}
+
+.coverage__card:last-of-type {
+  background-image: url(../../../images/bg.png);
+  background-position: bottom left;
+}

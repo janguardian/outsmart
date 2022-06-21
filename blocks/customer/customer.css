@@ -1,0 +1,9 @@
+.customer {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-bottom: 160px;
+  width: 100%;
+}

@@ -1,0 +1,20 @@
+.get-in-touch__form-button {
+  align-self: center;
+  background-color: #1c3c56;
+  border-radius: 32px;
+  border: 0;
+  box-shadow: 0px 5px 30px rgba(50, 137, 255, 0.5);
+  color: #fff;
+  font-size: 20px;
+  height: 64px;
+  line-height: 32px;
+  width: 218px;
+}
+
+.get-in-touch__form-button:hover {
+  cursor: pointer;
+}
+
+.get-in-touch__form-button:focus {
+  outline: 0;
+}

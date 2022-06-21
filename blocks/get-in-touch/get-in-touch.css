@@ -1,0 +1,11 @@
+.get-in-touch {
+  background-image: url(../../images/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 120px 20px 160px;
+}

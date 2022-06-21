@@ -1,0 +1,7 @@
+.coverage__overlay {
+  left: calc(50% - 501px);
+  opacity: .35;
+  position: absolute;
+  top: -74px;
+  z-index: -1;
+}

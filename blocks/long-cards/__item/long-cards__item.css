@@ -1,0 +1,42 @@
+.long-cards__item {
+  background-image: url(../../../images/bg-secondary.png);
+  background-position: center;
+  border-radius: 6px;
+  box-shadow: 0 1px 5px rgba(0, 81, 192, 0.5);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  padding: 60px;
+  width: 100%;
+}
+
+.long-cards__item:nth-child(2) {
+  background-image: url(../../../images/bg-secondary-reverse.png);
+}
+
+.long-cards__item:hover .long-cards__heading,
+.long-cards__item:hover .long-cards__caption,
+.long-cards__item:hover .long-cards__text {
+  color: #fff;
+}
+
+.long-cards__item:hover .long-cards__label {
+  background-color: #fff;
+  color: #4e7595;
+}
+
+.long-cards__item:hover:nth-child(1) {
+  background-image: url(../../../images/bg-reverse.png);
+  background-position: top center;
+}
+
+.long-cards__item:hover:nth-child(2) {
+  background-image: url(../../../images/bg-reverse.png);
+  background-position: center center;
+}
+
+.long-cards__item:hover:nth-child(3) {
+  background-image: url(../../../images/bg-reverse.png);
+  background-position: bottom center;
+}

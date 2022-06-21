@@ -1,12 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Outsmart</title>
-  </head>
-  <body>
-    <p class="paragraph">Hello, World!</p>
-    <script type="module" src="/pages/index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Outsmart</title>
+</head>
+<body class="body">
+  <div class="page">
+    <header class="promo">
+      <img class="promo__overlay" src="./images/Overlay.png" alt="">
+      <div class="promo__header">
+        <img class="promo__logo" src="./images/outsmart.png" alt="outsmart">
+        <nav class="promo__buttons">
+          <a href="#get-in-touch" class="promo__button">Get in touch</a>
+          <button href="#" class="promo__menu"></button>
+        </nav>
+      </div>
+      <div class="promo__text">
+        <h1 class="promo__heading">Progress<br>through numbers</h1>
+        <p class="promo__tagline">We are a marketing consultant. We help small and medium-sized software development companies gain traction by attracting new prospects and leading them all the way up to becoming your customers.</p>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="coverage">
+        <img class="coverage__overlay" src="./images/Overlay2.png" alt="">
+        <h2 class="heading">Coverage</h2>
+        <div class="coverage__cards">
+          <div class="coverage__card">
+            <h3 class="coverage__card-heading">Outsourcing companies</h3>
+            <p class="coverage__card-text">We provide marketing and sales support services for custom software development companies whatever domain or industry they are operating in.</p>
+          </div>
+          <div class="coverage__card">
+            <h3 class="coverage__card-heading">Product developers</h3>
+            <p class="coverage__card-text">Outsmart renders marketing, promotion, placement, enhancement and sales services for independent software vendors with proprietary products.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="container">
+          <h2 class="heading">Our services</h2>
+          <div class="long-cards">
+            <div class="long-cards__item">
+              <h3 class="long-cards__heading">Digital marketing</h3>
+              <div class="long-cards__content">
+                <p class="long-cards__text">We provide marketing and sales support services for custom software development companies whatever domain or industry they are operating in.</p>
+                <div class="long-cards__labels">
+                  <a class="long-cards__label" href="#">Digital content</a>
+                  <a class="long-cards__label" href="#">Online advertising</a>
+                  <a class="long-cards__label" href="#">Placement</a>
+                  <a class="long-cards__label" href="#">SEO</a>
+                  <a class="long-cards__label" href="#">SMM</a>
+                </div>
+              </div>
+            </div>
+            <div class="long-cards__item">
+              <h3 class="long-cards__heading">Content marketing</h3>
+              <div class="long-cards__content">
+                <p class="long-cards__text">Outsmart renders descriptive and technical content on digital and in-print media, lowering presale expenses, shortening cycles, enhancing user engagement, increasing sales, and decreasing support loads.</p>
+                <div class="long-cards__labels">
+                  <a class="long-cards__label" href="#">Collaterals</a>
+                  <a class="long-cards__label" href="#">Offerings</a>
+                  <a class="long-cards__label" href="#">Case studies</a>
+                  <a class="long-cards__label" href="#">Whitepapers</a>
+                  <a class="long-cards__label" href="#">Guides</a>
+                </div>
+              </div>
+            </div>
+            <div class="long-cards__item">
+              <h3 class="long-cards__heading">Branding & design</h3>
+              <div class="long-cards__content">
+                <p class="long-cards__text">We develop unique and compelling brand identities, visuals, and web designs with legible and correct typography to ensure consistent delivery of your brand message across all digital channels.</p>
+                <div class="long-cards__labels">
+                  <a class="long-cards__label" href="#">Brand messaging</a>
+                  <a class="long-cards__label" href="#">Brand identity</a>
+                  <a class="long-cards__label" href="#">Typograph</a>
+                  <a class="long-cards__label" href="#">Visuals</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="approach">
+        <h2 class="heading">Approach</h2>
+        <div class="cards">
+
+          <div class="cards__item">
+            <div class="cards__icon">
+              <img class="cards__image" src="./images/cards-icon1.png" alt="Discovery">
+            </div>
+            <div class="cards__content">
+              <h3 class="cards__heading">Discovery</h3>
+              <p class="cards__text">We hold online and face-to-face sessions with C-level executives to understand your pains.</p>
+            </div>
+            <img class="cards__figure" src="./images/1.png" alt="1">
+          </div>
+
+          <div class="cards__item">
+            <div class="cards__icon">
+              <img class="cards__image" src="./images/cards-icon2.png" alt="Audit">
+            </div>
+            <div class="cards__content">
+              <h3 class="cards__heading">Audit</h3>
+              <p class="cards__text">We audit your current expertise or product, pinpointing weaknesses along the way.</p>
+            </div>
+            <img class="cards__figure" src="./images/2.png" alt="2">
+          </div>
+
+          <div class="cards__item">
+            <div class="cards__icon">
+              <img class="cards__image" src="./images/cards-icon3.png" alt="Delivery">
+            </div>
+            <div class="cards__content">
+              <h3 class="cards__heading">Delivery</h3>
+              <p class="cards__text">We implement a strategy that achieves the agreed KPIs, staying within the budget.</p>
+            </div>
+            <img class="cards__figure" src="./images/3.png" alt="3">
+          </div>
+
+          <div class="cards__item">
+            <div class="cards__icon">
+              <img class="cards__image" src="./images/cards-icon4.png" alt="Support">
+            </div>
+            <div class="cards__content">
+              <h3 class="cards__heading">Support</h3>
+              <p class="cards__text">We offer continuous support to further expand your newly acquired marketing capabilities.</p>
+            </div>
+            <img class="cards__figure" src="./images/4.png" alt="4">
+          </div>
+
+        </div>
+      </section>
+
+      <section class="certifications">
+        <div class="certifications__content">
+          <h2 class="heading">Certifications</h2>
+          <p class="certifications__text">Our marketing consultants are certiﬁed by industry leaders. That means you’re getting effcient advertising, comprehensive analytics and detailed reporting that will help you gain deep insights on your performance and boost ROI. </p>
+        </div>
+        <div class="certifications__logos">
+          <img class="certifications__logo" src="./images/logos/Microsoft.svg" alt="Microsoft">
+          <img class="certifications__logo" src="./images/logos/Google_Analytics.svg" alt="Google_Analytics">
+          <img class="certifications__logo" src="./images/logos/Google_Ads.svg" alt="Google_Ads">
+          <img class="certifications__logo" src="./images/logos/HubSpot.svg" alt="HubSpot">
+        </div>
+      </section>
+
+      <section class="afterword">
+        <div class="container container_place_afterword">
+          <h2 class="heading">Afterword</h2>
+          <div class="afterword__content">
+            <img class="afterword__photo" src="./images/Photo.png" alt="Photo: Jan Guardian.">
+            <div class="afterword__content-text">
+              <h3 class="afterword__heading">Jan Guardian</h3>
+              <h4 class="afterword__caption">Marketing Executive</h4>
+              <p class="afterword__main-text">Hi, I’m Jan. Becoming our customer, you’re doomed to fall in my hands.</p>
+              <p class="afterword__secondary-text">If you do, I will eagerly share a wide range of handpicked practices and over 10 years of experience in visual design, web development, and digital marketing.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-outsmart">
+        <h2 class="heading">Why outsmart</h2>
+        <div class="why-outsmart__cards">
+
+          <div class="why-outsmart__card">
+            <img class="why-outsmart__icon" src="./images/cost.png" alt="Cost.">
+            <div class="why-outsmart__content">
+              <h3 class="why-outsmart__card-heading">Cost</h3>
+              <p class="why-outsmart__card-text">You get a team of experts at a fraction  of the cost of a full-time executive with no commitment.</p>
+            </div>
+          </div>
+
+          <div class="why-outsmart__card">
+            <img class="why-outsmart__icon" src="./images/time.png" alt="Time.">
+            <div class="why-outsmart__content">
+              <h3 class="why-outsmart__card-heading">Time</h3>
+              <p class="why-outsmart__card-text">You receive deliverables across multiple channels faster than you would from an in-house team.</p>
+            </div>
+          </div>
+
+          <div class="why-outsmart__card">
+            <img class="why-outsmart__icon" src="./images/ownership.png" alt="Ownership.">
+            <div class="why-outsmart__content">
+              <h3 class="why-outsmart__card-heading">Ownership</h3>
+              <p class="why-outsmart__card-text">You remain the owner of all the accumulated data, learnings and marketing deliverables. </p>
+            </div>
+          </div>
+
+          <div class="why-outsmart__card">
+            <img class="why-outsmart__icon" src="./images/experience.png" alt="Experience.">
+            <div class="why-outsmart__content">
+              <h3 class="why-outsmart__card-heading">Experience</h3>
+              <p class="why-outsmart__card-text">You get familiar with the target market, marketing channels and opportunities available.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="portfolio">
+        <div class="container">
+          <h2 class="heading">Portfolio</h2>
+          <div class="long-cards">
+
+            <div class="long-cards__item">
+              <div class="long-cards__customer-logo">
+                <img src="./images/logos/dwkit.svg" alt="logo dwkit.">
+              </div>
+              <div class="long-cards__content long-cards__content_place_portfolio">
+                <div class="long-cards__achievements">
+                  <div class="long-cards__achievement">
+                    <h3 class="long-cards__heading">99%</h3>
+                    <p class="long-cards__caption">PageSpeed Insights</p>
+                  </div>
+                  <div class="long-cards__achievement">
+                    <h3 class="long-cards__heading">A+</h3>
+                    <p class="long-cards__caption">Decrease in sales cycle</p>
+                  </div>
+                  <div class="long-cards__achievement">
+                    <h3 class="long-cards__heading">50ms</h3>
+                    <p class="long-cards__caption">Sales efforts saved</p>
+                  </div>
+                </div>
+                <div class="long-cards__content">
+                  <p class="long-cards__text">In a time span of 4 months we delivered 1 collateral, 20 case studies and 17 oﬀerings covering Jetsys’ industrial, technological, solution and service expertise to support company’s oﬀshore sales eﬀorts.</p>
+                  <div class="long-cards__labels">
+                    <a class="long-cards__label" href="#">Collaterals</a>
+                    <a class="long-cards__label" href="#">Visual design</a>
+                    <a class="long-cards__label" href="#">Typography</a>
+                    <a class="long-cards__label" href="#">Web design</a>
+                    <a class="long-cards__label" href="#">Content</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="long-cards__item">
+              <div class="long-cards__customer-logo">
+                <img src="./images/logos/jet.svg" alt="logo jet.">
+              </div>
+              <div class="long-cards__content long-cards__content_place_portfolio">
+                <div class="long-cards__achievements">
+                  <div class="long-cards__achievement">
+                    <h3 class="long-cards__heading">+$8</h3>
+                    <p class="long-cards__caption">Increase in hourly rates</p>
+                  </div>
+                  <div class="long-cards__achievement">
+                    <h3 class="long-cards__heading">x2</h3>
+                    <p class="long-cards__caption">Decrease in sales cycle</p>
+                  </div>
+                  <div class="long-cards__achievement">
+                    <h3 class="long-cards__heading">20%</h3>
+                    <p class="long-cards__caption">Sales efforts saved</p>
+                  </div>
+                </div>
+                <div class="long-cards__content">
+                  <p class="long-cards__text">In a time span of 4 months we delivered 1 collateral, 20 case studies and 17 oﬀerings covering Jetsys’ industrial, technological, solution and service expertise to support company’s oﬀshore sales eﬀorts.</p>
+                  <div class="long-cards__labels">
+                    <a class="long-cards__label" href="#">Collaterals</a>
+                    <a class="long-cards__label" href="#">Offerings</a>
+                    <a class="long-cards__label" href="#">Case studies</a>
+                    <a class="long-cards__label" href="#">Whitepapers</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="long-cards__item">
+              <div class="long-cards__customer-logo">
+                <img src="./images/logos/workflowengine.svg" alt="logo workflowengine.">
+              </div>
+              <div class="long-cards__content long-cards__content_place_portfolio">
+                <div class="long-cards__achievements">
+                  <div class="long-cards__achievement">
+                    <h3 class="long-cards__heading">x2</h3>
+                    <p class="long-cards__caption">Increase in sales</p>
+                  </div>
+                  <div class="long-cards__achievement">
+                    <h3 class="long-cards__heading">#1</h3>
+                    <p class="long-cards__caption">SERP in 2 months</p>
+                  </div>
+                  <div class="long-cards__achievement">
+                    <h3 class="long-cards__heading">$0.35</h3>
+                    <p class="long-cards__caption">Average CPC</p>
+                  </div>
+                </div>
+                <div class="long-cards__content">
+                  <p class="long-cards__text">We revamped the product’s website, having delivered a 360° overview wrapped in a brand-new design. A PPC campaign boosted lead-gen in a short term, whereas keyword infusion and targeted media placements improved SERPs.</p>
+                  <div class="long-cards__labels">
+                    <a class="long-cards__label" href="#">Digital content</a>
+                    <a class="long-cards__label" href="#">Online advertising</a>
+                    <a class="long-cards__label" href="#">Placement</a>
+                    <a class="long-cards__label" href="#">SEO</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="customer">
+        <h2 class="heading">Selected customers</h2>
+        <div class="customer__cards">
+
+          <div class="customer__card">
+            <img class="customer__logo" src="./images/logos/Customer_logo1.svg" alt="Staylime logo.">
+          </div>
+          <div class="customer__card">
+            <img class="customer__logo" src="./images/logos/Customer_logo2.svg" alt="Paralect logo.">
+          </div>
+          <div class="customer__card">
+            <img class="customer__logo" src="./images/logos/Customer_logo3.svg" alt="Jet logo.">
+          </div>
+          <div class="customer__card">
+            <img class="customer__logo" src="./images/logos/Customer_logo4.svg" alt="Customatix logo.">
+          </div>
+          <div class="customer__card">
+            <img class="customer__logo" src="./images/logos/Customer_logo5.svg" alt="Webile soft logo.">
+          </div>
+          <div class="customer__card">
+            <img class="customer__logo" src="./images/logos/Customer_logo6.svg" alt="Intosoft logo.">
+          </div>
+          <div class="customer__card">
+            <img class="customer__logo" src="./images/logos/Customer_logo7.svg" alt="Optimajet logo.">
+          </div>
+          <div class="customer__card">
+            <img class="customer__logo" src="./images/logos/Customer_logo8.svg" alt="Alverden logo.">
+          </div>
+          <div class="customer__card">
+            <img class="customer__logo" src="./images/logos/Customer_logo9.svg" alt="Smartym logo.">
+          </div>
+
+        </div>
+      </section>
+
+      <section class="get-in-touch" id="get-in-touch">
+        <h2 class="heading heading_place_get-in-touch">Get in touch</h2>
+        <form class="get-in-touch__form" action="/" method="POST">
+          <fieldset class="get-in-touch__fieldset">
+            <input class="get-in-touch__form-item" type="text" name="username" placeholder="Name" required>
+            <input class="get-in-touch__form-item" type="email" name="email" placeholder="Email" required>
+            <textarea class="get-in-touch__form-item get-in-touch__form-item_type_textarea" name="text" rows="1" placeholder="Enter your message" required></textarea>
+          </fieldset>
+          <button class="get-in-touch__form-button" type="submit" name="submit-button">Send message</button>
+        </form>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="container container_place_footer">
+        <div class="footer__navigation">
+          <div class="footer__contacts">
+            <a class="footer__phone-number" href="tel:+375445536117">+375 (44) 553-61-17</a>
+          </div>
+          <nav class="footer__links">
+            <ul class="footer__links-column">
+              <li><a class="footer__link" href="">Coverage</a></li>
+              <li><a class="footer__link" href="">Our services</a></li>
+              <li><a class="footer__link" href="">Approach</a></li>
+              <li><a class="footer__link" href="">Certifications</a></li>
+            </ul>
+            <ul class="footer__links-column">
+              <li><a class="footer__link" href="">Afterword</a></li>
+              <li><a class="footer__link" href="">Why Outsmart</a></li>
+              <li><a class="footer__link" href="">Ourcustomers</a></li>
+              <li><a class="footer__link" href="">Portfolio</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__copyright">
+          <p class="footer__copyright-text">&#169; 2022 Outsmart</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
 </html>

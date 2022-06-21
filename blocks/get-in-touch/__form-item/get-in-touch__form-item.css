@@ -1,0 +1,28 @@
+.get-in-touch__form-item {
+  border-radius: 6px;
+  border: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 16px;
+  height: 64px;
+  line-height: 16px;
+  padding: 24px;
+  resize: none;
+  transition: box-shadow .2s linear;
+  width: 100%;
+}
+
+.get-in-touch__form-item:focus {
+  box-shadow: 0px 2px 7px rgba(50, 137, 255, .7);
+  outline: 0;
+}
+
+.get-in-touch__form-item::placeholder {
+  color: #b2cfdb;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.get-in-touch__form-item:focus::placeholder {
+  color: #005499;
+}

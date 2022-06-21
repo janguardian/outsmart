@@ -1,0 +1,12 @@
+.long-cards__label {
+  background-color: #5f4cff;
+  border-radius: 16px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  padding: 8px 20px;
+  text-decoration: none;
+  transition: color .3s linear, background-color .3s linear;
+}
