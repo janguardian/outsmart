@@ -1,0 +1,5 @@
+.get__input_invalid{
+  border: 1px solid #E21111;
+  box-shadow: 0 2px 7px rgba(50, 137, 255, 0.7);
+  outline-width: 0;
+}

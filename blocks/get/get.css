@@ -1,0 +1,9 @@
+.get{
+  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  background-image: url("./images/get-background.png");
+  background-size: cover;
+}

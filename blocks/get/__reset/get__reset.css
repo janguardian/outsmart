@@ -1,0 +1,9 @@
+.get__reset{
+  position: absolute;
+  background-color: #fff;
+  border: none;
+  bottom: 46px;
+  right: 26px;
+  width: 24px;
+  height: 24px;
+}

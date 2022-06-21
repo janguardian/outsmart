@@ -1,0 +1,7 @@
+.get__form{
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  align-items: center;
+
+}
