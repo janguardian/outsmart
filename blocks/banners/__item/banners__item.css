@@ -1,4 +1,3 @@
-.banners__item {
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
+.banners__item {  
+  max-height: 40px;
 }

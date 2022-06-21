@@ -55,7 +55,6 @@
 @import url('../blocks/pagination/pagination__item/_active/pagination__item_active.css');
 @import url('../blocks/banners/banners.css');
 @import url('../blocks/banners/__item/banners__item.css');
-@import url('../blocks/banners/__image/banners__image.css');
 @import url('../blocks/properties/properties.css');
 @import url('../blocks/properties/__column/properties__column.css');
 @import url('../blocks/properties/__caption/properties__caption.css');
