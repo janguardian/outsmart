@@ -7,6 +7,16 @@
 .services__item:hover {
   cursor: pointer;
   background: url('../../../images/background/background-main-reverse.png') center center no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.no-webp .services__item:hover {
+  background-image: url('../../../images/background/background-main-reverse-1x.png');
+}
+
+.webp .services__item:hover {
+  background-image: url('../../../images/background/background-main-reverse-1x.webp');
 }
 
 .services__item:hover .services__subtitle {
@@ -20,4 +30,17 @@
 .services__item:hover .services__state {
   color: var(--colorJellyBeanBlue);
   background-color: var(--colorWhite);
+}
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+  .no-webp .box__item_background_bottom {
+    background-image: url('../../../images/background/background-main-reverse-2x.png');
+  }
+  
+  .webp .box__item_background_bottom {
+    background-image: url('../../../images/background/background-main-reverse-2x.webp');
+  }
 }
