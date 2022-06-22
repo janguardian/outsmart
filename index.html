@@ -11,17 +11,78 @@
 <body class="root">
   <div class="page">
 
-        <header class="header">
+    <header class="header">
+      <img class="background-image" src="images/header-bg.jpg" alt="Background abstract picture">
+      <div class="header__container">
+        <div class="header__block-logo-links block-logo-links">
+          <img class="block-logo-links__logo" src="images/logo.svg" alt="logo">
+          <div class="block-logo-links__box">
+            <a class="block-logo-links__button link" href="#">Get in touch</a>
+            <svg class="block-logo-links__action-menu" fill="none">
+              <path
+                d="M4 2C4 3.10457 3.10457 4 2 4C0.895431 4 0 3.10457 0 2C0 0.895431 0.895431 0 2 0C3.10457 0 4 0.895431 4 2Z"
+                fill="white" />
+              <path
+                d="M14 2C14 3.10457 13.1046 4 12 4C10.8954 4 10 3.10457 10 2C10 0.895431 10.8954 0 12 0C13.1046 0 14 0.895431 14 2Z"
+                fill="white" />
+              <path
+                d="M22 4C23.1046 4 24 3.10457 24 2C24 0.895431 23.1046 0 22 0C20.8954 0 20 0.895431 20 2C20 3.10457 20.8954 4 22 4Z"
+                fill="white" />
+            </svg>
+          </div>
+        </div>
+        <h1 class="header__title">Progress through numbers</h1>
+        <p class="header__text text text_color_white">We are a marketing consultant. We help small and medium-sized
+          software development
+          companies gain traction by attracting new prospects and leading them all the way up to becoming your
+          customers.</p>
+      </div>
+    </header>
 
-        </header>
+    <main class="main">
 
-        <main class="main">
+      <section class="coverage">
+        <div class="coverage__container">
+          <h2 class="coverage__title-section title-section">coverage</h2>
+          <ul class="coverage__cads-block">
+            <li class="coverage__card">
+              <img class="background-image" src="images/coverage-bg-1.jpg" alt="Background abstract picture">
+              <h2 class="coverage__title title title_color_white">Outsourcing companies</h2>
+              <p class="coverage__text text text_color_white">We provide marketing and sales support services for custom
+                software development companies whatever domain or industry they are operating in.</p>
+            </li>
+            <li class="coverage__card">
+              <img class="background-image" src="images/coverage-bg-2.jpg" alt="Background abstract picture">
+              <h2 class="coverage__title title title_color_white">Product developers</h2>
+              <p class="coverage__text text text_color_white">Outsmart renders marketing, promotion, placement,
+                enhancement and sales services for independent software vendors with proprietary products.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        </main>
+    </main>
 
-        <footer class="footer">
-
-        </footer>
+    <footer class="footer">
+      <div class="footer__container">
+        <a class="footer__phone-number link" href="tel:+375445536117">+375 (44) 553-61-17</a>
+        <nav class="footer__menu">
+          <ul class="footer__column-links">
+            <li class="footer__item"><a class="footer__link link" href="#">Coverage</a></li>
+            <li class="footer__item"><a class="footer__link link" href="#">Our services</a></li>
+            <li class="footer__item"><a class="footer__link link" href="#">Approach</a></li>
+            <li class="footer__item"><a class="footer__link link" href="#">Certifications</a></li>
+          </ul>
+          <ul class="footer__column-links">
+            <li class="footer__item"><a class="footer__link link" href="#">Afterword</a></li>
+            <li class="footer__item"><a class="footer__link link" href="#">Why Outsmart</a></li>
+            <li class="footer__item"><a class="footer__link link" href="#">Portfolio</a></li>
+            <li class="footer__item"><a class="footer__link link" href="#">Our customers</a></li>
+          </ul>
+        </nav>
+        <p class="footer__copyright">© 2022 Outsmart</p>
+      </div>
+    </footer>
 
   </div>
   <script type="module" src="/pages/index.js"></script>
