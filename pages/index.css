@@ -35,6 +35,9 @@
 @import url('../blocks/cards/__item/_type-3/cards__item_type-3.css');
 @import url('../blocks/cards/__item/_type-4/cards__item_type-4.css');
 @import url('../blocks/cards/__item/_type-5/cards__item_type-5.css');
+@import url('../blocks/cards/__item/_type-6/cards__item_type-6.css');
+@import url('../blocks/cards/__item/_type-7/cards__item_type-7.css');
+@import url('../blocks/cards/__item/_type-8/cards__item_type-8.css');
 @import url('../blocks/cards/__item/_services/cards__item_services.css');
 @import url('../blocks/cards/__heading/cards__heading.css');
 @import url('../blocks/cards/__heading/_white-background/cards__heading_white-background.css');
@@ -50,6 +53,7 @@
 @import url('../blocks/cards/__subitem/cards__subitem.css');
 @import url('../blocks/cards/__subitem/_why-outsmart/cards__subitem_why-outsmart.css');
 @import url('../blocks/cards/_why-outsmart/cards_why-outsmart.css');
+@import url('../blocks/cards/__item/_portfolio/cards__item_portfolio.css');
 
 /*cards*/
 @import url('../blocks/certifications/certifications.css');
@@ -95,6 +99,13 @@
 /*page*/
 @import url('../blocks/page/page.css');
 
+/*portfolio*/
+@import url('../blocks/portfolio/portfolio.css');
+@import url('../blocks/portfolio/__achievement/portfolio__achievement.css');
+@import url('../blocks/portfolio/__achievements/portfolio__achievements.css');
+@import url('../blocks/portfolio/__caption/portfolio__caption.css');
+@import url('../blocks/portfolio/__figure/portfolio__figure.css');
+
 /*promo*/
 @import url('../blocks/promo/promo.css');
 
@@ -110,6 +121,7 @@
 @import url('../blocks/text/_services-background-white/text_services-background-white.css');
 @import url('../blocks/text/_certifications/text_certifications.css');
 @import url('../blocks/text/_why-outsmart/text_why-outsmart.css');
+@import url('../blocks/text/_portfolio/text_portfolio.css');
 
 /*why-outsmart*/
 @import url('../blocks/why-outsmart/why-outsmart.css');
