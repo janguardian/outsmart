@@ -54,3 +54,11 @@
 @import url(../blocks/certificat/__content/certificat__content.css);
 @import url(../blocks/certificat/__text/certificat__text.css);
 @import url(../blocks/certificat/__logos/certificat__logos.css);
+@import url(../blocks/afterword/afterword.css);
+@import url(../blocks/afterword/__content/afterword__content.css);
+@import url(../blocks/afterword/__author-info/afterword__author-info.css);
+@import url(../blocks/afterword/__author-name/afterword__author-name.css);
+@import url(../blocks/afterword/__author-description/afterword__author-description.css);
+@import url(../blocks/afterword/__paragraphs/afterword__paragraphs.css);
+@import url(../blocks/afterword/__paragraph/afterword__paragraph.css);
+@import url(../blocks/afterword/__paragraph-accent/afterword__paragraph-accent.css);
