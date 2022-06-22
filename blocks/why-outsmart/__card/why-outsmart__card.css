@@ -1,0 +1,7 @@
+.why-outsmart__card {
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}

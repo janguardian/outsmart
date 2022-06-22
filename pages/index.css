@@ -73,4 +73,11 @@
 @import url(../blocks/afterword/__text/afterword__text.css);
 @import url(../blocks/afterword/__text-main/afterword__text-main.css);
 @import url(../blocks/afterword/__text-secondary/afterword__text__secondary.css);
-
+@import url(../blocks/why-outsmart/why-outsmart.css);
+@import url(../blocks/why-outsmart/__heading/why-outsmart__heading.css);
+@import url(../blocks/why-outsmart/__cards/why-outsmart__cards.css);
+@import url(../blocks/why-outsmart/__card/why-outsmart__card.css);
+@import url(../blocks/why-outsmart/__icon/why-outsmart__icon.css);
+@import url(../blocks/why-outsmart/__content/why-outsmart__content.css);
+@import url(../blocks/why-outsmart/__content-heading/why-outsmart__content-heading.css);
+@import url(../blocks/why-outsmart/__content-text/why-outsmart__content-text.css);

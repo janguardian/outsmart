@@ -1,0 +1,7 @@
+.why-outsmart__cards {
+  margin: 100px 120px 0;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #B2CFDB;
+}
