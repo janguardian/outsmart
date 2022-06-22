@@ -81,3 +81,16 @@
 @import url(../blocks/why-outsmart/__content/why-outsmart__content.css);
 @import url(../blocks/why-outsmart/__content-heading/why-outsmart__content-heading.css);
 @import url(../blocks/why-outsmart/__content-text/why-outsmart__content-text.css);
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__heading/portfolio__heading.css);
+@import url(../blocks/portfolio/__cards/portfolio__cards.css);
+@import url(../blocks/portfolio/__card/portfolio__card.css);
+@import url(../blocks/portfolio/__card/_bg/portfolio__card_bg_cc.css);
+@import url(../blocks/portfolio/__card/_bg/portfolio__card_bg_cc-r.css);
+@import url(../blocks/portfolio/__logo/portfolio__logo.css);
+@import url(../blocks/portfolio/__content/portfolio__content.css);
+@import url(../blocks/portfolio/__achievements/portfolio__achievements.css);
+@import url(../blocks/portfolio/__achievement/portfolio__achievement.css);
+@import url(../blocks/portfolio/__figure/portfolio__figure.css);
+@import url(../blocks/portfolio/__caption/portfolio__caption.css);
+@import url(../blocks/portfolio/__text/portfolio__text.css);
