@@ -1,0 +1,4 @@
+.cards_services {
+  flex-wrap: wrap;
+  gap: 40px;
+}
