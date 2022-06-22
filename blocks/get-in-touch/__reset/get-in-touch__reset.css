@@ -1,0 +1,15 @@
+.get-in-touch__reset {
+  background: transparent;
+  background-image: url(../../../images/logo-reset.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: none;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: -52px;
+  right: 24px;
+  font-size: 0;
+}

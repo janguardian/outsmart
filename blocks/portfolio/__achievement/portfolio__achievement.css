@@ -1,0 +1,6 @@
+.portfolio__achievement {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

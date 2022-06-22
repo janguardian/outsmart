@@ -1,0 +1,14 @@
+.get-in-touch__button {
+  padding: 16px 40px;
+  background: #1C3C56;
+  box-shadow: 0px 5px 30px rgba(50, 137, 255, 0.5);
+  border-radius: 32px;
+  width: min-content;
+  margin: 0 auto 160px;
+  border: none;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #FFFFFF;
+}

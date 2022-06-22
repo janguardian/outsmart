@@ -1,0 +1,16 @@
+.get-in-touch__input_el_three {
+  box-sizing: border-box;
+  border: 1px solid #E21111;
+  box-shadow: 0px 2px 7px rgba(50, 137, 255, 0.7);
+  height: 68px;
+  padding-left: 24px;
+}
+
+.get-in-touch__input_el_three {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #005499;
+}

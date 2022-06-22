@@ -1,0 +1,7 @@
+.coverage__cards {
+  display: flex;
+  margin: 0 120px 160px;
+  gap: 24px;
+  position: relative;
+  z-index: 1;
+}

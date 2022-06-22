@@ -1,0 +1,7 @@
+.approach__card {
+  padding: 60px;
+  border: 1px solid #DFF0F6;
+  border-radius: 6px;
+  display: flex;
+  gap: 60px;
+}

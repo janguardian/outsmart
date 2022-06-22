@@ -1,0 +1,14 @@
+.promo__overlay {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  text-align: center;
+  z-index: 0;
+  mix-blend-mode: soft-light;
+  opacity: .5;
+  /* height: 100vh; */
+  height: 920px;
+}

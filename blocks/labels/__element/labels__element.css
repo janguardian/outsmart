@@ -1,0 +1,12 @@
+.labels__element {
+  margin: 0;
+  padding: 8px 20px;
+  background: #5F4CFF;
+  border-radius: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+  width: max-content;
+  letter-spacing: 0;
+}

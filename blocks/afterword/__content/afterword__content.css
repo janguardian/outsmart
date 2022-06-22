@@ -1,0 +1,6 @@
+.afterword__content {
+  margin: 40px 0 120px 120px;
+  max-width: 1080px;
+  display: flex;
+  gap: 80px;
+}

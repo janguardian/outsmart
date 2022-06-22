@@ -1,0 +1,6 @@
+.portfolio__cards {
+  margin: 0 120px 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

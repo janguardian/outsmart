@@ -1,0 +1,7 @@
+.approach__cards {
+  margin: 100px 120px 160px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}

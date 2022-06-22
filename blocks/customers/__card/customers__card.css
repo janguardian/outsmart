@@ -1,0 +1,5 @@
+.customers__card {
+  border: 1px solid #DFF0F6;
+  height: 240px;
+  display: flex;
+}

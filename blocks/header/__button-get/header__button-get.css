@@ -1,0 +1,14 @@
+.header__button-get {
+  padding: 14px 24px;
+  background: #ffffff;
+  box-shadow: 0px 5px 30px rgba(50, 137, 255, 0.5);
+  border-radius: 24px;
+  font-family: "Graphik LC";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  color: #5f4cff;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.promo__text {
+  max-width: 840px;
+  /* margin: calc(100vh - 540px) 120px 0; */
+  margin: calc(920px - 540px) 120px 0;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 100px;
+}

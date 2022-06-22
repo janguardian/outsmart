@@ -1,0 +1,6 @@
+.services__content {
+  width: 660px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

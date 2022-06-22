@@ -1,0 +1,6 @@
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  gap: 20px;
+}
