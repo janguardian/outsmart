@@ -56,3 +56,9 @@
 @import url(../blocks/approach/__content/approach__content.css);
 @import url(../blocks/approach/__card-heading/approach__card-heading.css);
 @import url(../blocks/approach/__card-text/approach__card-text.css);
+@import url(../blocks/certifications/certifications.css);
+@import url(../blocks/certifications/__content/certifications__content.css);
+@import url(../blocks/certifications/__heading/certifications__heading.css);
+@import url(../blocks/certifications/__text/certifications__text.css);
+@import url(../blocks/certifications/__logos/certifications__logos.css);
+@import url(../blocks/certifications/__logo/certifications__logo.css);

@@ -1,0 +1,5 @@
+.certifications__logos {
+  margin: 80px 120px 160px;
+  display: flex;
+  justify-content: space-between;
+}
