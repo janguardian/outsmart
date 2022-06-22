@@ -1,0 +1,14 @@
+.get-in-touch__input_el_two {
+  padding-left: 24px;
+  box-sizing: border-box;
+  margin-bottom: 32px;
+}
+
+.get-in-touch__input_el_two::placeholder {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #B2CFDB;
+}

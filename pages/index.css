@@ -99,3 +99,13 @@
 @import url(../blocks/customers/__cards/customers__cards.css);
 @import url(../blocks/customers/__card/customers__card.css);
 @import url(../blocks/customers/__logo/customers__logo.css);
+@import url(../blocks/get-in-touch/get-in-touch.css);
+@import url(../blocks/get-in-touch/__heading/get-in-touch__heading.css);
+@import url(../blocks/get-in-touch/__form/get-in-touch__form.css);
+@import url(../blocks/get-in-touch/__input/get-in-touch__input.css);
+@import url(../blocks/get-in-touch/__input/_el/get-in-touch__input_el_one.css);
+@import url(../blocks/get-in-touch/__input/_el/get-in-touch__input_el_two.css);
+@import url(../blocks/get-in-touch/__input/_el/get-in-touch__input_el_three.css);
+@import url(../blocks/get-in-touch/__label/get-in-touch__label.css);
+@import url(../blocks/get-in-touch/__reset/get-in-touch__reset.css);
+@import url(../blocks/get-in-touch/__button/get-in-touch__button.css);

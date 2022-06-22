@@ -1,0 +1,12 @@
+.get-in-touch__input_el_one {
+  box-shadow: 0px 2px 7px rgba(50, 137, 255, 0.7);
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #005499;
+  padding-left: 24px;
+  box-sizing: border-box;
+  margin-bottom: 32px;
+}
