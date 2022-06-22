@@ -1,6 +1,5 @@
 .afterword__content {
-    outline: 1px solid red;
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 40px auto 0;
     display: flex;
 }
