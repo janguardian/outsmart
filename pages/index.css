@@ -46,6 +46,10 @@
 @import url('../blocks/cards/_approach/cards_approach.css');
 @import url('../blocks/cards/__content/_approach/cards__content_approach.css');
 @import url('../blocks/cards/__number/cards__number.css');
+@import url('../blocks/cards/__heading/_sub/cards__heading_sub.css');
+@import url('../blocks/cards/__subitem/cards__subitem.css');
+@import url('../blocks/cards/__subitem/_why-outsmart/cards__subitem_why-outsmart.css');
+@import url('../blocks/cards/_why-outsmart/cards_why-outsmart.css');
 
 /*cards*/
 @import url('../blocks/certifications/certifications.css');
@@ -67,8 +71,12 @@
 @import url('../blocks/heading/_in-container/heading_in-container.css');
 @import url('../blocks/heading/_main/heading_main.css');
 
+/*heading*/
+@import url('../blocks/horizontal-line/horizontal-line.css');
+
 /*icon*/
 @import url('../blocks/icon/icon.css');
+@import url('../blocks/icon/_why-outsmart/icon_why-outsmart.css');
 
 /*list*/
 @import url('../blocks/list/list.css');
@@ -83,7 +91,6 @@
 @import url('../blocks/overlay/overlay.css');
 @import url('../blocks/overlay/_type-1/overlay_type-1.css');
 @import url('../blocks/overlay/_type-2/overlay-type-2.css');
-
 
 /*page*/
 @import url('../blocks/page/page.css');
@@ -102,9 +109,10 @@
 @import url('../blocks/text/_services-background-misc/text_services-background-misc.css');
 @import url('../blocks/text/_services-background-white/text_services-background-white.css');
 @import url('../blocks/text/_certifications/text_certifications.css');
+@import url('../blocks/text/_why-outsmart/text_why-outsmart.css');
 
-
-
+/*why-outsmart*/
+@import url('../blocks/why-outsmart/why-outsmart.css');
 
 
 

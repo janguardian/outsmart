@@ -1,0 +1,9 @@
+.cards__heading_sub {
+  font-family: 'Graphik Light';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: rgba(0, 84, 153, 1);
+}
