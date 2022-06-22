@@ -4,6 +4,9 @@
 /*fonts import*/
 @import url('../vendor/fonts/fonts.css');
 
+/*approach*/
+@import url('../blocks/approach/approach.css');
+
 /*button*/
 @import url('../blocks/button/_get-in-touch/button_get-in-touch.css');
 @import url('../blocks/button/_menu/button_menu.css');
@@ -26,7 +29,10 @@
 @import url('../blocks/cards/__heading/_services/cards__heading_services.css');
 @import url('../blocks/cards/_services/cards_services.css');
 @import url('../blocks/cards/__content/cards__content.css');
-
+@import url('../blocks/cards/__item/_approach/cards__item_approach.css');
+@import url('../blocks/cards/_approach/cards_approach.css');
+@import url('../blocks/cards/__content/_approach/cards__content_approach.css');
+@import url('../blocks/cards/__number/cards__number.css');
 
 /*coverage*/
 @import url('../blocks/coverage/coverage.css');
@@ -41,6 +47,9 @@
 @import url('../blocks/heading/heading.css');
 @import url('../blocks/heading/_for-section/heading_for-section.css');
 @import url('../blocks/heading/_main/heading_main.css');
+
+/*icon*/
+@import url('../blocks/icon/icon.css');
 
 /*list*/
 @import url('../blocks/list/list.css');
