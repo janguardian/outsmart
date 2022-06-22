@@ -1,0 +1,9 @@
+.outsmart__title_type_label::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48px;
+    height: 48px;
+    background-image: url(../../../../images/ico/label_ico.svg);
+}
