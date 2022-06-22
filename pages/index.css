@@ -49,3 +49,14 @@
 @import url(../blocks/certifications/__text/certifications__text.css);
 @import url(../blocks/certifications/__logos/certifications__logos.css);
 @import url(../blocks/certifications/__logo/certifications__logo.css);
+
+@import url(../blocks/afterword/afterword.css);
+@import url(../blocks/afterword/__content/afterword__content.css);
+@import url(../blocks/afterword/__photo/afterword__photo.css);
+@import url(../blocks/afterword/__column/afterword__column.css);
+@import url(../blocks/afterword/__heading/afterword__heading.css);
+@import url(../blocks/afterword/__name/afterword__name.css);
+@import url(../blocks/afterword/__position/afterword__position.css);
+@import url(../blocks/afterword/__comments/afterword_comments.css);
+@import url(../blocks/afterword/__text/afterword__text.css);
+@import url(../blocks/afterword/__span-accent/afterword__span-accent.css);

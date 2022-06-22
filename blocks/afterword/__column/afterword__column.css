@@ -1,0 +1,6 @@
+.afterword__column {
+  display: flex;
+  flex-direction: column;
+  padding: 112px 0 0 0;
+  gap: 72px;
+}
