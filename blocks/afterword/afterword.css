@@ -1,9 +1,11 @@
-.services {
+.afterword {
+  height: 956px;
   background: linear-gradient(180deg, #EBF4FA 0%, #FFFFFF 48.7%);
-  height: 1320px;
   position: relative;
   z-index: 2;
-  padding: 0 120px;
+  padding: 0px 120px;
   max-width: 1220px;
   width: 100%;
 }
+
+

@@ -1,0 +1,4 @@
+.afterword__cards {
+  display: flex;
+  flex-direction: column;
+}

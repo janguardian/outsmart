@@ -1,0 +1,6 @@
+.afterword__cards_type-2 {
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+}

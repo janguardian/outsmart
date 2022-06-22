@@ -4,6 +4,19 @@
 /*fonts import*/
 @import url('../vendor/fonts/fonts.css');
 
+/*afterword*/
+@import url('../blocks/afterword/afterword.css');
+@import url('../blocks/afterword/__content/afterword__content.css');
+@import url('../blocks/afterword/__subcontent/afterword__subcontent.css');
+@import url('../blocks/afterword/__cards/_type-1/afterword__cards_type-1.css');
+@import url('../blocks/afterword/__cards/_type-2/afterword__cards_type-2.css');
+@import url('../blocks/afterword/__cards/afterword__cards.css');
+@import url('../blocks/afterword/__item/afterword__item.css');
+@import url('../blocks/afterword/__item/_heading/afterword__item_heading.css');
+@import url('../blocks/afterword/__item/_subheading/afterword__item_subheading.css');
+@import url('../blocks/afterword/__item/_subtext/afterword__item_subtext.css');
+@import url('../blocks/afterword/__item/_text/afterword__item_text.css');
+
 /*approach*/
 @import url('../blocks/approach/approach.css');
 
@@ -82,10 +95,10 @@
 @import url('../blocks/services/services.css');
 
 /*text*/
+@import url('../blocks/text/text.css');
 @import url('../blocks/text/_button/text_button.css');
 @import url('../blocks/text/_promo/text_promo.css');
 @import url('../blocks/text/_coverage/text_coverage.css');
-@import url('../blocks/text/text.css');
 @import url('../blocks/text/_services-background-misc/text_services-background-misc.css');
 @import url('../blocks/text/_services-background-white/text_services-background-white.css');
 @import url('../blocks/text/_certifications/text_certifications.css');
