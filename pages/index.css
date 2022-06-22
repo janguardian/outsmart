@@ -62,3 +62,15 @@
 @import url(../blocks/certifications/__text/certifications__text.css);
 @import url(../blocks/certifications/__logos/certifications__logos.css);
 @import url(../blocks/certifications/__logo/certifications__logo.css);
+@import url(../blocks/afterword/afterword.css);
+@import url(../blocks/afterword/__heading/afterword__heading.css);
+@import url(../blocks/afterword/__content/afterword__content.css);
+@import url(../blocks/afterword/__photo/afterword__photo.css);
+@import url(../blocks/afterword/__content-text/afterword__content-text.css);
+@import url(../blocks/afterword/__text-heading/afterword__text-heading.css);
+@import url(../blocks/afterword/__name/afterword__name.css);
+@import url(../blocks/afterword/__title/afterword__title.css);
+@import url(../blocks/afterword/__text/afterword__text.css);
+@import url(../blocks/afterword/__text-main/afterword__text-main.css);
+@import url(../blocks/afterword/__text-secondary/afterword__text__secondary.css);
+

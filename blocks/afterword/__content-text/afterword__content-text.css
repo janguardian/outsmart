@@ -1,0 +1,6 @@
+.afterword__content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  padding-top: 112px;
+}
