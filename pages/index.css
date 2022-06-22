@@ -43,3 +43,9 @@
 @import url(../blocks/approach/__content/approach__content.css);
 @import url(../blocks/approach/__text/approach__text.css);
 
+@import url(../blocks/certifications/certifications.css);
+@import url(../blocks/certifications/__content/certifications__content.css);
+@import url(../blocks/certifications/__title/certifications__title.css);
+@import url(../blocks/certifications/__text/certifications__text.css);
+@import url(../blocks/certifications/__logos/certifications__logos.css);
+@import url(../blocks/certifications/__logo/certifications__logo.css);

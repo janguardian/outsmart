@@ -1,0 +1,6 @@
+.certifications__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  width: 1200px;
+}
