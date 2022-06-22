@@ -36,3 +36,10 @@
 @import url(../blocks/services/__long-card/services__long-card.css);
 @import url(../blocks/services/__text/services__text.css);
 
+@import url(../blocks/approach/approach.css);
+@import url(../blocks/approach/__cards/approach__cards.css);
+@import url(../blocks/approach/__card/approach__card.css);
+@import url(../blocks/approach/__order/approach__order.css);
+@import url(../blocks/approach/__content/approach__content.css);
+@import url(../blocks/approach/__text/approach__text.css);
+
