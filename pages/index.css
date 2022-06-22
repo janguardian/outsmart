@@ -34,6 +34,11 @@
 @import url('../blocks/cards/__content/_approach/cards__content_approach.css');
 @import url('../blocks/cards/__number/cards__number.css');
 
+/*cards*/
+@import url('../blocks/certifications/certifications.css');
+@import url('../blocks/certifications/__content/certifications__content.css');
+@import url('../blocks/certifications/__logos/certifications__logos.css');
+
 /*coverage*/
 @import url('../blocks/coverage/coverage.css');
 
@@ -46,6 +51,7 @@
 /*heading*/
 @import url('../blocks/heading/heading.css');
 @import url('../blocks/heading/_for-section/heading_for-section.css');
+@import url('../blocks/heading/_in-container/heading_in-container.css');
 @import url('../blocks/heading/_main/heading_main.css');
 
 /*icon*/
@@ -82,6 +88,7 @@
 @import url('../blocks/text/text.css');
 @import url('../blocks/text/_services-background-misc/text_services-background-misc.css');
 @import url('../blocks/text/_services-background-white/text_services-background-white.css');
+@import url('../blocks/text/_certifications/text_certifications.css');
 
 
 

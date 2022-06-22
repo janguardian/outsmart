@@ -1,0 +1,10 @@
+.certifications__content {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  height: 160px;
+  padding-bottom: 86px;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 0;
+}
