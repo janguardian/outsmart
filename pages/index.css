@@ -109,3 +109,10 @@
 @import url(../blocks/get-in-touch/__label/get-in-touch__label.css);
 @import url(../blocks/get-in-touch/__reset/get-in-touch__reset.css);
 @import url(../blocks/get-in-touch/__button/get-in-touch__button.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__phone/footer__phone.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
