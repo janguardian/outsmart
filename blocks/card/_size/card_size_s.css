@@ -1,0 +1,7 @@
+.card_size_s {
+    max-width: 588px;
+    min-height: 396px;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 3;
+}

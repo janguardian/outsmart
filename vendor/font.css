@@ -1,0 +1,27 @@
+@font-face {
+    src: url(fonts/Graphik-Extralight-Web.woff2) format('woff2'),
+        url(fonts/Graphik-Extralight-Web.woff) format('woff');
+    font-family: 'Graphik LC';
+    font-weight: 200;
+}
+
+@font-face {
+    src: url(fonts/Graphik-Light-Web.woff2) format('woff2'),
+        url(fonts/Graphik-Light-Web.woff) format('woff');
+    font-family: 'Graphik LC';
+    font-weight: 300;
+}
+
+@font-face {
+    src: url(fonts/Graphik-Regular-Web.woff2) format('woff2'),
+        url(fonts/Graphik-Regular-Web.woff) format('woff');
+    font-family: 'Graphik LC';
+    font-weight: 400;
+}
+
+@font-face {
+    src: url(fonts/Graphik-Medium-Web.woff2) format('woff2'),
+        url(fonts/Graphik-Medium-Web.woff) format('woff');
+    font-family: 'Graphik LC';
+    font-weight: 500;
+}

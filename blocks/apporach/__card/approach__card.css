@@ -1,0 +1,7 @@
+.approach__card {
+    outline: 1px solid #DFF0F6;
+    border-radius: 6px;
+    max-width: 590px;
+    min-height: 332px;
+    position: relative;
+}

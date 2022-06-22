@@ -1,0 +1,6 @@
+.header__buttons {
+    width: 194px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+}

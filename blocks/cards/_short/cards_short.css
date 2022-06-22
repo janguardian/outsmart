@@ -1,0 +1,4 @@
+.cards_short {
+    gap: 24px;
+    flex-direction: row;
+}

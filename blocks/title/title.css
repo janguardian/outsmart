@@ -1,0 +1,12 @@
+.title {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 16px;
+    color: #63727E;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 0;
+}

@@ -1,0 +1,23 @@
+.approach__title_ico_like::before {
+    content: '';
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    width: 120px;
+    height: 120px;
+    background-image: url(../../../../images/ico/like_ico.png);
+    background-size: cover;
+}
+
+.approach__title_ico_like::after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    right: 32px;
+    width: 67px;
+    height: 90px;
+    background-image: url(../../../../images/ico/Figure_four.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
