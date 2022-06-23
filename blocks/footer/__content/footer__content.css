@@ -1,0 +1,6 @@
+.footer__content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 3.01fr 1fr 1fr;
+}

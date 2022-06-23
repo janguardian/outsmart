@@ -98,3 +98,11 @@
 @import url(../blocks/form/__fieldset/form__fieldset.css);
 @import url(../blocks/form/__message-text/form__message-text.css);
 @import url(../blocks/form/__button-reset/form__button-reset.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__phone/footer__phone.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__links_item/footer__links-item.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyritht/footer__copyright.css);
