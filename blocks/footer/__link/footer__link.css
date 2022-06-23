@@ -1,0 +1,10 @@
+.footer__link {
+  font-family: 'Graphik Extralight';
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: rgba(178, 207, 219, 1);
+  text-decoration: none;
+}
