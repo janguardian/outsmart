@@ -1,0 +1,8 @@
+.customers__cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin:0;
+}

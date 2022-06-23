@@ -1,8 +1,10 @@
 .afterword {
   background-image: linear-gradient(#EBF4FA, #FFFFFF);
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   gap: 40px;
   justify-content: space-between;
   padding: 100px 120px 120px 120px;
+  width: 100%;
 }

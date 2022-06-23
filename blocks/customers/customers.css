@@ -1,9 +1,8 @@
-.approach {
-  box-sizing: border-box;
+.customers {
   display: flex;
   flex-direction: column;
   gap: 100px;
-  justify-content: space-between;
   padding: 0 120px 160px 120px;
   width: 100%;
+  box-sizing: border-box;
 }

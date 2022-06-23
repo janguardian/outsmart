@@ -1,9 +1,9 @@
 .promo {
-  /* height: 920px; */
   background-image: url(../../images/promo-back.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  box-sizing: border-box;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -11,4 +11,5 @@
   max-height: 920px;
   padding: 100px 120px 0;
   position: relative;
+  width: 100%;
 }

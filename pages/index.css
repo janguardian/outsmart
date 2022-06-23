@@ -85,3 +85,10 @@
 @import url(../blocks/portfolio/__logo/portfolio__logo.css);
 @import url(../blocks/portfolio/__logo/_middle/portfolio__logo_middle.css);
 @import url(../blocks/portfolio/__text/portfolio__text.css);
+
+@import url(../blocks/customers/customers.css);
+@import url(../blocks/customers/__cards/customers__cards.css);
+@import url(../blocks/customers/__card/customers__card.css);
+@import url(../blocks/customers/__icon/customers__icon.css);
+@import url(../blocks/customers/__icon/_company/customers__icon_company_jet.css);
+@import url(../blocks/customers/__icon/_company/customers__icon_company_paralect.css);

@@ -1,7 +1,8 @@
 .why-outsmart {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   gap: 100px;
-  padding:0 120px 100px 120px;
-  /* width: 100%; */
+  padding: 0 120px 100px 120px;
+  width: 100%;
 }
