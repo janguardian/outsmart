@@ -54,6 +54,8 @@
 @import url('../blocks/cards/__subitem/_why-outsmart/cards__subitem_why-outsmart.css');
 @import url('../blocks/cards/_why-outsmart/cards_why-outsmart.css');
 @import url('../blocks/cards/__item/_portfolio/cards__item_portfolio.css');
+@import url('../blocks/cards/__item/_selected-customers/cards__item_selected-customers.css');
+@import url('../blocks/cards/_selected-customers/cards_selected-customers.css');
 
 /*cards*/
 @import url('../blocks/certifications/certifications.css');
@@ -90,6 +92,7 @@
 
 /*logo*/
 @import url('../blocks/logo/logo.css');
+@import url('../blocks/logo/_selected-customers/logo_selected-customers.css');
 
 /*overlay*/
 @import url('../blocks/overlay/overlay.css');
@@ -111,6 +114,9 @@
 
 /*services*/
 @import url('../blocks/services/services.css');
+
+/*selected customers*/
+@import url('../blocks/selected-customers/selected-customers.css');
 
 /*text*/
 @import url('../blocks/text/text.css');
