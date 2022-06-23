@@ -1,12 +1,11 @@
-.customers__item {
+.customers__link {
+    display: block;
+    height: 100%;
     padding: 0px 0 0;
-    border: 1px solid red;
+    border: 1px solid #DFF0F6;
     box-sizing: border-box;
-    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* min-height: 240px; */
-
 }

@@ -1,0 +1,20 @@
+.form__item {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 1;
+    color: #005499;
+    width: 560px;
+    height: 64.5px;
+    margin: 0 0 32px;
+    padding: 24px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 7px rgba(50, 137, 255, 0.7);
+    box-sizing: border-box;
+}
+
+.form__item:disabled {
+    background-color: #fff;
+    border: none;
+    color: #B2CFDB;
+    box-shadow: none;
+}
