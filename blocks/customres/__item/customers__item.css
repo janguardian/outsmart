@@ -1,0 +1,12 @@
+.customers__item {
+    padding: 0px 0 0;
+    border: 1px solid red;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 240px; */
+
+}

@@ -1,7 +1,7 @@
-.promo__overlay {
+.header__overlay {
     background-image: url(../../../images/promo_overlay.png);
     background-repeat: no-repeat;
-    background-position: 220px 26px;
+    background-position: center 0;
     position: absolute;
     top: 0;
     left: 0;

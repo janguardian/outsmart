@@ -1,11 +1,5 @@
 .promo {
-    background-image: url(../../images/promo_background.jpg);
-    background-position: 0 26px;
-    /* background-size: cover; */
-    background-repeat: no-repeat;
-    width: 100%;
-    position: relative;
-    top: -70px;
-    min-height: 945px;
-    color: white;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 0 107px;
 }

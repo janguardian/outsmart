@@ -5,3 +5,7 @@
     border-radius: 6px;
     margin-bottom: 20px;
 }
+
+.card:last-of-type {
+    margin-bottom: 0px;
+}

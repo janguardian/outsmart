@@ -9,21 +9,19 @@
 </head>
 
 <body class="page">
+
+  <!-- HEADER / PROMO -->
+
   <header class="header">
-    <a class="header__logo" href="#">
-      <img class="header__logo-img" src="images/main_logo/Logo.svg" alt="main logo">
-    </a>
-    <div class="header__buttons">
-      <button class="button button_size_m button_shadow_active">Get in touch</button>
-      <button class="header__button-menu"></button>
-    </div>
-  </header>
-  <main class="main">
-
-    <!-- PROMO -->
-
-    <section class="promo">
-      <div class="promo__text">
+    <article class="promo">
+      <header class="promo__header">
+        <img class="promo__header-logo" src="images/main_logo/Logo.svg" alt="main logo">
+        <div class="promo__header-buttons">
+          <button class="button button_size_m button_shadow_active">Get in touch</button>
+          <button class="promo__header-button-menu"></button>
+        </div>
+      </header>
+      <main class="promo__main">
         <h1 class="promo__title">
           <span class="promo__title-wrap">Progress</span> through numbers
         </h1>
@@ -32,9 +30,12 @@
           companies gain traction by&nbsp;attracting new prospects and leading them all the way up&nbsp;to&nbsp;becoming
           your
           customers.</p>
-      </div>
-      <div class="promo__overlay"></div>
-    </section>
+        </div>
+      </main>
+    </article>
+    <div class="header__overlay"></div>
+  </header>
+  <main class="main">
 
     <!-- COVERAGE -->
 
@@ -54,7 +55,6 @@
             independent software vendors with proprietary products.</p>
         </li>
       </ul>
-      <div class="coverage__overlay"></div>
     </section>
 
     <!-- SERVICES -->
@@ -67,13 +67,23 @@
           <div class="card__content">
             <p class="card__text">We&nbsp;provide marketing and sales support services for custom software development
               companies whatever domain or&nbsp;industry they are operating&nbsp;in.</p>
-            <div class="card__buttons">
-              <button class="button button_size_s button_theme_dark">Digital content</button>
-              <button class="button button_size_s button_theme_dark">Online advertising</button>
-              <button class="button button_size_s button_theme_dark">Placement</button>
-              <button class="button button_size_s button_theme_dark">SEO</button>
-              <button class="button button_size_s button_theme_dark">SMM</button>
-            </div>
+            <ul class="card__buttons">
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">Digital content</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">Online advertising</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">Placement</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">SEO</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">SMM</button>
+              </li>
+            </ul>
           </div>
         </li>
         <li class="card card_background_blue-purple card_shadow-size_l">
@@ -82,13 +92,23 @@
             <p class="card__text">Outsmart renders descriptive and technical content on&nbsp;digital and in-print media,
               lowering presale expenses, shortening cycles, enhancing user engagement, increasing sales, and decreasing
               support loads.</p>
-            <div class="card__buttons">
-              <button class="button button_size_s">Collaterals</button>
-              <button class="button button_size_s">Offerings</button>
-              <button class="button button_size_s">Case studies</button>
-              <button class="button button_size_s">Whitepapers</button>
-              <button class="button button_size_s">Guides</button>
-            </div>
+            <ul class="card__buttons">
+              <li class="card__button">
+                <button class="button button_size_s">Collaterals</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s">Offerings</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s">Case studies</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s">Whitepapers</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s">Guides</button>
+              </li>
+              </г>
           </div>
         </li>
         <li class="card card_theme_light card_background_light card_shadow-size_s">
@@ -97,12 +117,20 @@
             <p class="card__text">We&nbsp;develop unique and compelling brand identities, visuals, and web designs with
               legible and correct typography to&nbsp;ensure consistent delivery of&nbsp;your brand message across all
               digital channels.</p>
-            <div class="card__buttons">
-              <button class="button button_size_s button_theme_dark">Brand messaging</button>
-              <button class="button button_size_s button_theme_dark">Brand identity</button>
-              <button class="button button_size_s button_theme_dark">Typograph</button>
-              <button class="button button_size_s button_theme_dark">Visuals</button>
-            </div>
+            <ul class="card__buttons">
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">Brand messaging</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">Brand identity</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">Typograph</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">Visuals</button>
+              </li>
+            </ul>
           </div>
         </li>
       </ul>
@@ -112,28 +140,28 @@
 
     <section class="approach">
       <h2 class="title">Approach</h2>
-      <div class="approach__cards">
-        <div class="approach__card">
+      <ul class="approach__cards">
+        <li class="approach__card">
           <h3 class="approach__title approach__title_ico_bino">Discovery</h3>
           <p class="approach__subtitle">We&nbsp;hold online and face-to-face sessions with C-level executives
             to&nbsp;understand your pains.</p>
-        </div>
-        <div class="approach__card">
+        </li>
+        <li class="approach__card">
           <h3 class="approach__title approach__title_ico_lens">Audit</h3>
           <p class="approach__subtitle">We&nbsp;audit your current expertise or&nbsp;product, pinpointing weaknesses
             along the way.</p>
-        </div>
-        <div class="approach__card">
+        </li>
+        <li class="approach__card">
           <h3 class="approach__title approach__title_ico_arrow">Delivery</h3>
           <p class="approach__subtitle">We&nbsp;implement a&nbsp;strategy that achieves the agreed KPIs, staying within
             the budget.</p>
-        </div>
-        <div class="approach__card">
+        </li>
+        <li class="approach__card">
           <h3 class="approach__title approach__title_ico_like">Support</h3>
           <p class="approach__subtitle">We&nbsp;offer continuous support to&nbsp;further expand your newly acquired
             marketing capabilities.</p>
-        </div>
-      </div>
+        </li>
+      </ul>
     </section>
 
     <!-- CERTIFICATIONS -->
@@ -146,13 +174,21 @@
           effcient advertising, comprehensive analytics and detailed reporting that will help you gain deep insights
           on&nbsp;your performance and boost ROI.</p>
       </div>
-      <div class="certificat__logos">
-        <img class="certificat__logo" src="images/logos/Microsoft.svg" alt="logo Microdoft">
-        <img class="certificat__logo" src="images/logos/Google_Analytics.svg"
-          alt="logo one of marketing services google">
-        <img class="certificat__logo" src="images/logos/Google_Ads.svg" alt="logo one of analytics services google">
-        <img class="certificat__logo" src="images/logos/HubSpot.svg" alt="logo of HubSpot">
-      </div>
+      <ul class="certificat__logos">
+        <li class="certificat__logos-item">
+          <img class="certificat__logo" src="images/logos/Microsoft.svg" alt="logo Microdoft">
+        </li>
+        <li class="certificat__logos-item">
+          <img class="certificat__logo" src="images/logos/Google_Analytics.svg"
+            alt="logo one of marketing services google">
+        </li>
+        <li class="certificat__logos-item">
+          <img class="certificat__logo" src="images/logos/Google_Ads.svg" alt="logo one of analytics services google">
+        </li>
+        <li class="certificat__logos-item">
+          <img class="certificat__logo" src="images/logos/HubSpot.svg" alt="logo of HubSpot">
+        </li>
+      </ul>
     </section>
 
     <!-- AFTERWORD -->
@@ -181,28 +217,181 @@
 
     <section class="outsmart">
       <h2 class="title">why Outsmart</h2>
-      <div class="outsmart__cards">
-        <div class="outsmart__card">
+      <ul class="outsmart__cards">
+        <li class="outsmart__card">
           <h3 class="outsmart__title outsmart__title_type_label">Cost</h3>
           <p class="outsmart__paragraph">You get a&nbsp;team of&nbsp;experts at&nbsp;a&nbsp;fraction of&nbsp;the cost
             of&nbsp;a&nbsp;full-time executive with no&nbsp;commitment.</p>
-        </div>
-        <div class="outsmart__card">
+        </li>
+        <li class="outsmart__card">
           <h3 class="outsmart__title outsmart__title_type_clock">Time</h3>
           <p class="outsmart__paragraph">You receive deliverables across multiple channels faster than you would from
             an&nbsp;in-house team.</p>
-        </div>
-        <div class="outsmart__card">
+        </li>
+        <li class="outsmart__card">
           <h3 class="outsmart__title outsmart__title_type_key">Ownership</h3>
           <p class="outsmart__paragraph">You remain the owner of&nbsp;all the accumulated data, learnings and marketing
             deliverables.</p>
-        </div>
-        <div class="outsmart__card">
+        </li>
+        <li class="outsmart__card">
           <h3 class="outsmart__title outsmart__title_type_cloud">Experience</h3>
           <p class="outsmart__paragraph">You get familiar with the target market, marketing channels and opportunities
             available.</p>
-        </div>
-      </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- PORTFOLIO -->
+
+    <section class="portfolio">
+      <h2 class="title title_padding_active">portfolio</h2>
+      <ul class="cards">
+        <li class="card card_theme_light card_background_light card_shadow-size_s">
+          <img class="card__logo" src="images/logos/DWKIT.svg" alt="logo DWKIT">
+          <div class="card__content card__content_size_l">
+            <ul class="card__achivments">
+              <li class="card__achivments-item">
+                <p class="card__achivment">99%</p>
+                <p class="card__achivment-text">PageSpeed Insights</p>
+              </li>
+              <li class="card__achivments-item">
+                <p class="card__achivment">A+</p>
+                <p class="card__achivment-text">WebPageTest</p>
+              </li>
+              <li class="card__achivments-item">
+                <p class="card__achivment">50ms</p>
+                <p class="card__achivment-text">TTFB</p>
+              </li>
+            </ul>
+            <p class="card__text card__text_box-size_l">We&nbsp;developed a&nbsp;new brand identity for a&nbsp;BPM
+              provider, spanning
+              a&nbsp;logo, palette and typography, and delivered a&nbsp;website and product look-and-feel revamp
+              in&nbsp;preparation for the release of&nbsp;version 2.0.</p>
+            <ul class="card__buttons">
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">Brand identity</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">Visual design</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">Typography</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">Web design</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">Content</button>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="card card_theme_light card_background_light-reversed card_shadow-size_s">
+          <img class="card__logo card__logo_size_s" src="images/logos/Jet.svg" alt="logo Jet">
+          <div class="card__content card__content_size_l">
+            <ul class="card__achivments">
+              <li class="card__achivments-item">
+                <p class="card__achivment">+$8</p>
+                <p class="card__achivment-text">Increase in&nbsp;hourly rates</p>
+              </li>
+              <li class="card__achivments-item">
+                <p class="card__achivment">x2</p>
+                <p class="card__achivment-text">Decrease in&nbsp;sales cycle</p>
+              </li>
+              <li class="card__achivments-item">
+                <p class="card__achivment">20%</p>
+                <p class="card__achivment-text">Sales efforts saved</p>
+              </li>
+            </ul>
+            <p class="card__text card__text_box-size_l">In&nbsp;a&nbsp;time span of&nbsp;4&nbsp;months we&nbsp;delivered
+              1&nbsp;collateral, 20&nbsp;case studies and 17&nbsp;oﬀerings covering Jetsys&rsquo; industrial,
+              technological, solution and service expertise to&nbsp;support company&rsquo;s oﬀshore sales eﬀorts.</p>
+            <ul class="card__buttons">
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">Collaterals</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">Offerings</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">Case studies</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">Whitepapers</button>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="card card_theme_light card_background_light card_shadow-size_s">
+          <img class="card__logo card__logo_size_l" src="images/logos/workflow.svg" alt="logo Workflow Engine">
+          <div class="card__content card__content_size_l">
+            <ul class="card__achivments">
+              <li class="card__achivments-item">
+                <p class="card__achivment">x2</p>
+                <p class="card__achivment-text">Increase in&nbsp;sales</p>
+              </li>
+              <li class="card__achivments-item">
+                <p class="card__achivment">#1</p>
+                <p class="card__achivment-text">SERP in&nbsp;2&nbsp;months</p>
+              </li>
+              <li class="card__achivments-item">
+                <p class="card__achivment">$0.35</p>
+                <p class="card__achivment-text">Average CPC</p>
+              </li>
+            </ul>
+            <p class="card__text card__text_box-size_l">We&nbsp;revamped the product&rsquo;s website, having delivered
+              a&nbsp;360&deg; overview wrapped in&nbsp;a&nbsp;brand-new design. A&nbsp;PPC campaign boosted lead-gen
+              in&nbsp;a&nbsp;short term, whereas keyword infusion and targeted media placements improved SERPs.</p>
+            <ul class="card__buttons">
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">Digital content</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">Online advertising</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">Placement</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark">SEO</button>
+              </li>
+            </ul>
+          </div>
+        </li>
+    </section>
+
+
+    <section class="customers">
+      <h2 class="title">Selected customers</h2>
+      <ul class="customers__list">
+        <li class="customers__item">
+          <img class="customers__customer-logo" src="images/logos/staylime.svg" alt="logo Staylime">
+        </li>
+        <li class="customers__item">
+          <img class="customers__customer-logo" src="images/logos/paralect.svg" alt="logo Paralect">
+        </li>
+        <li class="customers__item">
+          <img class="customers__customer-logo" src="images/logos/Jet.svg" alt="logo Jet">
+        </li>
+        <li class="customers__item">
+          <img class="customers__customer-logo" src="images/logos/customatix.svg" alt="logo Customatix">
+        </li>
+        <li class="customers__item">
+          <img class="customers__customer-logo" src="images/logos/webile_soft.svg" alt="logo Webile Soft">
+        </li>
+        <li class="customers__item">
+          <img class="customers__customer-logo" src="images/logos/intosoft.svg" alt="logo Intosoft">
+        </li>
+        <li class="customers__item">
+          <img class="customers__customer-logo" src="images/logos/optimajet.svg" alt="logo Optimajet">
+        </li>
+        <li class="customers__item">
+          <img class="customers__customer-logo" src="images/logos/alverden.svg" alt="logo Alverden">
+        </li>
+        <li class="customers__item">
+          <img class="customers__customer-logo" src="images/logos/smartym.svg" alt="logo Smartym">
+        </li>
+      </ul>
     </section>
 
 

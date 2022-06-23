@@ -1,6 +1,7 @@
 .coverage {
-    position: relative;
-    top: -70px;
-    min-height: 772px;
+    background-image: url(../../../images/coverage_overlay.png);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    padding: 0 0 160px;
     overflow: visible;
 }

@@ -3,4 +3,6 @@
     margin: 80px auto;
     display: flex;
     justify-content: space-between;
+    padding: 0;
+    list-style: none;
 }

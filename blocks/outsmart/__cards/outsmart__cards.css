@@ -3,4 +3,7 @@
     margin: 100px auto 0;
     display: flex;
     gap: 53.33px;
+    padding: 0 0 108px;
+    border-bottom: 1px solid #B2CFDB;
+    list-style: none;
 }

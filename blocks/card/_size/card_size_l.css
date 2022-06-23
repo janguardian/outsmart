@@ -1,3 +1,4 @@
 .card_size_l {
-    min-height: 280px;
+    margin-bottom: 20px;
+    outline: 1px solid red;
 }

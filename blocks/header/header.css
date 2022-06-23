@@ -1,10 +1,6 @@
 .header {
-    position: relative;
-    top: 100px;
-    max-width: 1200px;
-    margin: 0 auto;
-    min-height: 44px;
-    z-index: 2;
-    display: flex;
-    justify-content: space-between;
+    background-image: url(../../images/promo_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
 }
