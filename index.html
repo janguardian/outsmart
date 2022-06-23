@@ -11,31 +11,30 @@
 <body class="root">
   <div class="page">
 
-    <header class="header">
-      <img class="background-image" src="images/header-bg.jpg" alt="Background abstract picture">
+    <header class="main__header header header_theme_neon-light">
+      <img class="background-image background-image_position_absolute" src="images/header-bg.jpg" alt="Background abstract picture">
       <div class="header__container">
         <div class="header__block-logo-links block-logo-links">
           <img class="block-logo-links__logo" src="images/logo.svg" alt="logo">
           <div class="block-logo-links__box">
-            <a class="block-logo-links__button link" href="#">Get in touch</a>
-            <svg class="block-logo-links__action-menu" fill="none">
-              <path
+            <a class="block-logo-links__button" href="#">Get in touch</a>
+            <svg class="action-menu" fill="none">
+              <path class="action-menu__path"
                 d="M4 2C4 3.10457 3.10457 4 2 4C0.895431 4 0 3.10457 0 2C0 0.895431 0.895431 0 2 0C3.10457 0 4 0.895431 4 2Z"
                 fill="white" />
-              <path
+              <path class="action-menu__path"
                 d="M14 2C14 3.10457 13.1046 4 12 4C10.8954 4 10 3.10457 10 2C10 0.895431 10.8954 0 12 0C13.1046 0 14 0.895431 14 2Z"
                 fill="white" />
-              <path
+              <path class="action-menu__path"
                 d="M22 4C23.1046 4 24 3.10457 24 2C24 0.895431 23.1046 0 22 0C20.8954 0 20 0.895431 20 2C20 3.10457 20.8954 4 22 4Z"
                 fill="white" />
             </svg>
           </div>
         </div>
         <h1 class="header__title">Progress through numbers</h1>
-        <p class="header__text text text_color_white">We are a marketing consultant. We help small and medium-sized
-          software development
-          companies gain traction by attracting new prospects and leading them all the way up to becoming your
-          customers.</p>
+        <p class="header__text">We&nbsp;are a&nbsp;marketing consultant. We&nbsp;help small and
+          medium-sized software development companies gain traction by&nbsp;attracting new prospects and leading them
+          all the way up&nbsp;to becoming your customers.</p>
       </div>
     </header>
 
@@ -43,19 +42,85 @@
 
       <section class="coverage">
         <div class="coverage__container">
-          <h2 class="coverage__title-section title-section">coverage</h2>
+          <h2 class="coverage__section-title section-title">coverage</h2>
           <ul class="coverage__cads-block">
-            <li class="coverage__card">
-              <img class="background-image" src="images/coverage-bg-1.jpg" alt="Background abstract picture">
-              <h2 class="coverage__title title title_color_white">Outsourcing companies</h2>
-              <p class="coverage__text text text_color_white">We provide marketing and sales support services for custom
-                software development companies whatever domain or industry they are operating in.</p>
+            <li class="coverage__card coverage__card_theme_neon-light">
+              <img class="background-image background-image_position_absolute" src="images/coverage-bg-1.jpg" alt="Background abstract picture">
+              <h3 class="coverage__title title title_theme_neon-light">Outsourcing companies</h3>
+              <p class="coverage__text">We&nbsp;provide marketing and sales support services for
+                custom software development companies whatever domain or&nbsp;industry they are operating&nbsp;in.</p>
             </li>
-            <li class="coverage__card">
-              <img class="background-image" src="images/coverage-bg-2.jpg" alt="Background abstract picture">
-              <h2 class="coverage__title title title_color_white">Product developers</h2>
-              <p class="coverage__text text text_color_white">Outsmart renders marketing, promotion, placement,
+            <li class="coverage__card coverage__card_theme_neon-light">
+              <img class="background-image background-image_position_absolute" src="images/coverage-bg-2.jpg" alt="Background abstract picture">
+              <h3 class="coverage__title title title_theme_neon-light">Product developers</h3>
+              <p class="coverage__text">Outsmart renders marketing, promotion, placement,
                 enhancement and sales services for independent software vendors with proprietary products.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="our-services">
+
+        <div class="our-services__container">
+
+          <h2 class="our-services__tsection-titlet section-title">Our services</h2>
+
+          <ul class="our-services__cards-block">
+
+            <li class="our-services__card">
+              <h3 class="our-services__title title">Digital marketing</h3>
+              <p class="our-services__text">We&nbsp;offer and implement digital marketing strategies that advertise
+                your products or&nbsp;services through online channels and have a&nbsp;measurable impact on&nbsp;the
+                performance of&nbsp;your business.</p>
+              <nav class="our-services__buttons-block buttons-block">
+                <ul class="buttons-block__links-row">
+                  <li class="buttons-block__item"><a class="buttons-block__link" href="#">Digital content</a></li>
+                  <li class="buttons-block__item"><a class="buttons-block__link" href="#">Online advertising</a>
+                  </li>
+                  <li class="buttons-block__item"><a class="buttons-block__link" href="#">Placement</a></li>
+                  <li class="buttons-block__item"><a class="buttons-block__link" href="#">SEO</a></li>
+                  <li class="buttons-block__item"><a class="buttons-block__link" href="#">SMM</a></li>
+                </ul>
+              </nav>
+            </li>
+
+            <li class="our-services__card">
+              <!-- <img class="background-image background-image_position_absolute" src="images/our-servises-bg-1.jpg"
+                alt="Background abstract picture"> -->
+              <h3 class="our-services__title title ">Content marketing</h3>
+              <p class="our-services__text">Outsmart renders descriptive and technical content on
+                digital and in-print media, lowering presale expenses, shortening cycles, enhancing user engagement,
+                increasing sales, and decreasing support loads.</p>
+              <nav class="our-services__buttons-block buttons-block_theme_neon-light">
+                <ul class="buttons-block__links-row">
+                  <li class="buttons-block__item"><a class="buttons-block__link buttons-block__link_theme_neon-light"
+                      href="#">Collaterals</a></li>
+                  <li class="buttons-block__item"><a class="buttons-block__link buttons-block__link_theme_neon-light"
+                      href="#">Offerings</a></li>
+                  <li class="buttons-block__item"><a class="buttons-block__link buttons-block__link_theme_neon-light"
+                      href="#">Case studies</a></li>
+                  <li class="buttons-block__item"><a class="buttons-block__link buttons-block__link_theme_neon-light"
+                      href="#">Whitepapers</a></li>
+                  <li class="buttons-block__item"><a class="buttons-block__link buttons-block__link_theme_neon-light"
+                      href="#">Guides</a></li>
+                </ul>
+              </nav>
+            </li>
+
+            <li class="our-services__card">
+              <h3 class="our-services__title title">Branding & design</h3>
+              <p class="our-services__text">We&nbsp;develop unique and compelling brand identities, visuals, and
+                web designs with legible and correct typography to&nbsp;ensure consistent delivery of&nbsp;your brand
+                message across all digital channels.</p>
+              <nav class="our-services__buttons-block buttons-block">
+                <ul class="buttons-block__links-row">
+                  <li class="buttons-block__item"><a class="buttons-block__link" href="#">Brand messaging</a></li>
+                  <li class="buttons-block__item"><a class="buttons-block__link" href="#">Brand identity</a></li>
+                  <li class="buttons-block__item"><a class="buttons-block__link" href="#">Typograph</a></li>
+                  <li class="buttons-block__item"><a class="buttons-block__link" href="#">Visuals</a></li>
+                </ul>
+              </nav>
             </li>
           </ul>
         </div>
@@ -65,19 +130,19 @@
 
     <footer class="footer">
       <div class="footer__container">
-        <a class="footer__phone-number link" href="tel:+375445536117">+375 (44) 553-61-17</a>
+        <a class="footer__phone-number" href="tel:+375445536117">+375 (44) 553-61-17</a>
         <nav class="footer__menu">
           <ul class="footer__column-links">
-            <li class="footer__item"><a class="footer__link link" href="#">Coverage</a></li>
-            <li class="footer__item"><a class="footer__link link" href="#">Our services</a></li>
-            <li class="footer__item"><a class="footer__link link" href="#">Approach</a></li>
-            <li class="footer__item"><a class="footer__link link" href="#">Certifications</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Coverage</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Our services</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Approach</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Certifications</a></li>
           </ul>
           <ul class="footer__column-links">
-            <li class="footer__item"><a class="footer__link link" href="#">Afterword</a></li>
-            <li class="footer__item"><a class="footer__link link" href="#">Why Outsmart</a></li>
-            <li class="footer__item"><a class="footer__link link" href="#">Portfolio</a></li>
-            <li class="footer__item"><a class="footer__link link" href="#">Our customers</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Afterword</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Why Outsmart</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Portfolio</a></li>
+            <li class="footer__item"><a class="footer__link" href="#">Our customers</a></li>
           </ul>
         </nav>
         <p class="footer__copyright">© 2022 Outsmart</p>
