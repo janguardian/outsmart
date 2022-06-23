@@ -2,3 +2,8 @@
   background-image: url('../../../../images/background-branding-&-design.png');
   box-shadow: 0px 1px 5px 0px rgba(0, 81, 192, 0.5);
 }
+
+.cards__item_type-5:hover {
+  background-image: url('../../../../images/background-content-marketing.png');
+  box-shadow: 0px 10px 20px 0px rgba(50, 137, 255, 0.4);
+} 

@@ -1,3 +1,7 @@
 .list__text_background-violet {
   color: #fff;
 }
+
+.cards__item_services:hover .list__text_background-violet {
+  color: #000;
+}
