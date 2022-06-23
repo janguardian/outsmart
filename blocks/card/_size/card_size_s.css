@@ -3,4 +3,12 @@
     margin: 0;
     flex-direction: column;
     justify-content: flex-start;
+
+}
+
+.card_size_s {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 36px;
+    padding-bottom: 94px;
 }

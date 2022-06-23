@@ -1,5 +1,6 @@
 .certificat__content {
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
+    margin-top: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: baseline;
 }

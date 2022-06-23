@@ -10,3 +10,15 @@
 .card:last-of-type {
     margin-bottom: 0px;
 }
+
+.card {
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(max-content, min-content));
+    /* 1fr 1.78fr; */
+    gap: 75px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    align-content: center;
+}

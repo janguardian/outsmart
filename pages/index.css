@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/font.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/center-content/center-content.css);
 @import url(../blocks/title/title.css);
 @import url(../blocks/title/_padding-size/title_padding-size_s.css);
 @import url(../blocks/title/_padding-size/title_padding-size_l.css);
@@ -21,12 +22,10 @@
 @import url(../blocks/promo/__header-logo/promo__header-logo.css);
 @import url(../blocks/promo/__header-buttons/promo__header-buttons.css);
 @import url(../blocks/promo/__header-button-menu/promo__header-button-menu.css);
-@import url(../blocks/promo/__text/promo__text.css);
 @import url(../blocks/promo/__title/promo__title.css);
 @import url(../blocks/promo/__title-wrap/promo__title-wrap.css);
 @import url(../blocks/promo/__subtitle/promo__subtitle.css);
 @import url(../blocks/coverage/coverage.css);
-@import url(../blocks/coverage/__title/coverage__title.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/_size/cards_size_short.css);
 @import url(../blocks/card/card.css);
@@ -56,6 +55,7 @@
 @import url(../blocks/card/_theme/card_theme_light.css);
 @import url(../blocks/card/_shadow-size/card_shadow-size_s.css);
 @import url(../blocks/card/_shadow-size/card_shadow-size_l.css);
+@import url(../blocks/card/__head/card__head.css);
 @import url(../blocks/services/services.css);
 @import url(../blocks/apporach/approach.css);
 @import url(../blocks/apporach/__cards/approach__cards.css);
@@ -72,12 +72,15 @@
 @import url(../blocks/certificat/__logos/certificat__logos.css);
 @import url(../blocks/afterword/afterword.css);
 @import url(../blocks/afterword/__content/afterword__content.css);
+@import url(../blocks/afterword/__image-container/afterwood__image-container.css);
+@import url(../blocks/afterword/__author-image/afterword__author-image.css);
 @import url(../blocks/afterword/__author-info/afterword__author-info.css);
 @import url(../blocks/afterword/__author-name/afterword__author-name.css);
 @import url(../blocks/afterword/__author-description/afterword__author-description.css);
 @import url(../blocks/afterword/__paragraphs/afterword__paragraphs.css);
 @import url(../blocks/afterword/__paragraph/afterword__paragraph.css);
 @import url(../blocks/afterword/__paragraph-accent/afterword__paragraph-accent.css);
+@import url(../blocks/outsmart/outsmart.css);
 @import url(../blocks/outsmart/__cards/outsmart__cards.css);
 @import url(../blocks/outsmart/__card/outsmart__card.css);
 @import url(../blocks/outsmart/__title/outsmart__title.css);
@@ -89,7 +92,6 @@
 @import url(../blocks/portfolio/portfolio.css);
 @import url(../blocks/customres/customers.css);
 @import url(../blocks/customres/__list/customers__list.css);
-@import url(../blocks/customres/__item/customers__item.css);
 @import url(../blocks/customres/__link/customers__link.css);
 @import url(../blocks/feedback/feedback.css);
 @import url(../blocks/form/form.css);
