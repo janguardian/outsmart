@@ -6,3 +6,7 @@
   margin: auto;
   padding: 16px 40px;
 }
+
+.form__button:hover {
+  cursor: pointer;
+}

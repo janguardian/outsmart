@@ -6,3 +6,12 @@
   text-align: center;
   padding: 14px 0;
 }
+
+.text_button:hover {
+  color: rgba(28, 60, 86, 1);
+  cursor: pointer;
+}
+
+.text_button:focus {
+  color: rgba(28, 60, 86, 1);
+}

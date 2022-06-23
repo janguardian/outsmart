@@ -1,5 +1,8 @@
-.menu {
+.button_menu {
   background-repeat: no-repeat;
   align-self: center;
  }
  
+ .button_menu:hover {
+  cursor: pointer;
+ }
