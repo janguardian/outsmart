@@ -1,8 +1,9 @@
 .why-outsmart__cards {
+  /* width: 100%; */
   display: flex;
   gap: 40px;
   justify-content: space-between;
-  /* width: 100%; */
-  margin: 0;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }

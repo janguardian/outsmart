@@ -12,7 +12,6 @@
 
 .services__long-card:hover {
   background-image: url(../../../images/long-card-back-hover.png);
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0 10px 20px rgba(50, 137, 255, 0.4);

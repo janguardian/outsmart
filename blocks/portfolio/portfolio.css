@@ -1,0 +1,6 @@
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 120px 160px 120px;
+  gap: 100px;
+}
