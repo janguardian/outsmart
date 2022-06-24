@@ -1,0 +1,17 @@
+.approach_type_support {
+  background-image: url(../../../images/support.webp);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .approach_type_support {
+    background: url(../../../images/support-x2.webp);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}

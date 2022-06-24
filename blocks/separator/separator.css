@@ -1,8 +1,6 @@
-.separator{
-  size: 1px;
-  width: 1200px;
-  color: #B2CFDB;
+.separator {
   align-self: center;
+  border: 1px solid #B2CFDB;
   margin: 0;
-  border: none;
+  width: 100%;
 }

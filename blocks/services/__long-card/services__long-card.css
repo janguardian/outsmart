@@ -1,8 +1,11 @@
 .services__long-card {
   background-color: #FFF;
+  background-position: center;
+  background-repeat: no-repeat;
   box-shadow: 0 1px 5px rgba(0, 81, 192, 0.5);
+  box-sizing: border-box;
   flex-direction: row;
-  gap: 145px;
+  gap: 40px;
   justify-content: space-between;
   mix-blend-mode: multiply;
   padding: 60px;
@@ -11,12 +14,22 @@
 }
 
 .services__long-card:hover {
-  background-image: url(../../../images/long-card-back-hover.png);
+  background-image: url(../../../images/reverse-background.webp);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
   box-shadow: 0 10px 20px rgba(50, 137, 255, 0.4);
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .services__long-card:hover {
+  background-image: url(../../../images/reverse-background-x2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 10px 20px rgba(50, 137, 255, 0.4);
+  }
+}
 .services__long-card:hover .card__label {
   background-color: #FFF;
   color: #4E7595;

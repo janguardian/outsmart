@@ -1,6 +1,10 @@
 .portfolio__card {
   background-color: #FFF;
+  background-image: url(../../../images/background-portfolio.svg);
+  background-position: center;
+  background-size: 1440px 920px;
   box-shadow: 0px 1px 5px 0px #0051C080;
+  box-sizing: border-box;
   flex-direction: row;
   justify-content: space-between;
   mix-blend-mode: multiply;
@@ -8,8 +12,4 @@
   padding: 60px;
   position: relative;
   width: 1200px;
-
-  background-image: url(../../../images/background-portfolio.png);
-  background-position: center;
-  background-size: 1440px 920px;
 }

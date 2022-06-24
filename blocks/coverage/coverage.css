@@ -1,10 +1,6 @@
 .coverage {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
   gap: 100px;
   overflow: hidden;
   padding: 100px 120px 0;
   position: relative;
-  width: 100%;
 }

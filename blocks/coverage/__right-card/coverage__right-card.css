@@ -1,6 +1,17 @@
 .coverage__right-card {
-  background-image: url(../../../../images/coverage-card-right.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url(../../../images/background.webp);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    width: 588px;
+    box-sizing: border-box;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .coverage__right-card {
+    background-image: url(../../../images/reverse-background-x2.webp);
+    background-position: top;
+    background-repeat: no-repeat;
+  }
 }

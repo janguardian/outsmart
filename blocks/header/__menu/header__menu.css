@@ -1,7 +1,7 @@
 .header__menu {
   cursor: pointer;
   background-color: transparent;
-  background-image: url(../../../images/header-menu.png);
+  background-image: url(../../../images/menu.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -13,5 +13,5 @@
 }
 
 .header__menu:hover {
-  background-image: url(../../../images/promo-menu-hover.png);
+  background-image: url(../../../images/menu-hover.svg);
 }

@@ -2,6 +2,13 @@
 
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/_background/section_background_image.css);
+@import url(../blocks/section/_background/section_background_gradient.css);
+@import url(../blocks/section/__heading/section__heading.css);
+@import url(../blocks/section/__content/section__content.css);
+@import url(../blocks/section/_promo/section_promo.css);
+
 @import url(../blocks/promo/promo.css);
 @import url(../blocks/promo/__overlay/promo__overlay.css);
 @import url(../blocks/header/header.css);
@@ -12,8 +19,6 @@
 @import url(../blocks/promo/__text/promo__text.css);
 @import url(../blocks/promo/__title/promo__title.css);
 @import url(../blocks/promo/__description/promo__description.css);
-
-@import url(../blocks/section-header/section-header.css);
 
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__title/card__title.css);
@@ -42,6 +47,10 @@
 @import url(../blocks/approach/__order/approach__order.css);
 @import url(../blocks/approach/__content/approach__content.css);
 @import url(../blocks/approach/__text/approach__text.css);
+@import url(../blocks/approach/_type/approach_type_discovery.css);
+@import url(../blocks/approach/_type/approach_typr_audit.css);
+@import url(../blocks/approach/_type/approach_type_support.css);
+@import url(../blocks/approach/_type/approach_type_delivery.css);
 
 @import url(../blocks/certifications/certifications.css);
 @import url(../blocks/certifications/__content/certifications__content.css);
@@ -92,3 +101,12 @@
 @import url(../blocks/customers/__icon/customers__icon.css);
 @import url(../blocks/customers/__icon/_company/customers__icon_company_jet.css);
 @import url(../blocks/customers/__icon/_company/customers__icon_company_paralect.css);
+
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/feedback/__heading/feedback__heading.css);
+@import url(../blocks/feedback/__form/feedback__form.css);
+@import url(../blocks/feedback/__inputs/feedback__inputs.css);
+@import url(../blocks/feedback/__input/feedback__input.css);
+@import url(../blocks/feedback/__textarea/feedback__textarea.css);
+@import url(../blocks/feedback/__button/feedback__button.css);
+@import url(../blocks/feedback/__strong-text/feedback__strong-text.css);

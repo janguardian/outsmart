@@ -1,0 +1,9 @@
+.section__content {
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin: 0;
+  max-width: 1200px;
+  padding: 100px 120px 160px 120px;
+}

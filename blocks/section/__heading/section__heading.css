@@ -1,0 +1,10 @@
+.section__heading {
+  color: #63727E;
+  font-family: 'Graphik LC';
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 16px;
+  line-height: 16px;
+  margin: 0;
+  text-transform: uppercase;
+}
