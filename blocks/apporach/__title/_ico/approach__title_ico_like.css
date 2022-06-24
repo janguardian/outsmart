@@ -5,8 +5,9 @@
     left: 60px;
     width: 120px;
     height: 120px;
-    background-image: url(../../../../images/ico/like_ico.png);
-    background-size: cover;
+    background-image: url(../../../../images/ico/like_ico.svg), url(../../../../images/ico/back_like.svg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .approach__title_ico_like::after {
