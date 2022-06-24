@@ -134,6 +134,7 @@
 
 /*promo*/
 @import url('../blocks/promo/promo.css');
+@import url('../blocks/promo/__container/promo__container.css');
 
 /*services*/
 @import url('../blocks/services/services.css');
@@ -153,7 +154,6 @@
 
 /*why-outsmart*/
 @import url('../blocks/why-outsmart/why-outsmart.css');
-
 
 
 
