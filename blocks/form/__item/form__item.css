@@ -9,18 +9,15 @@
     padding: 24px;
     border-radius: 6px;
     border: none;
-    -webkit-box-shadow: 0px 2px 7px rgba(50, 137, 255, 0.7);
-    box-shadow: 0px 2px 7px rgba(50, 137, 255, 0.7);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-.form__item:disabled {
-    background-color: #fff;
-    border: none;
-    color: #989a9b;
-    -webkit-box-shadow: none;
-    box-shadow: none;
+.form__item:invalid {
+    background-image: url(../../../images/form-cross.svg);
+    background-position: 515px 22px;
+    background-repeat: no-repeat;
+    outline: 1px solid red;
 }
 
 .form__item::-webkit-input-placeholder {
@@ -44,7 +41,8 @@
 }
 
 .form__item:focus {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    outline: 2px solid #1C3C56;
+    -webkit-box-shadow: 0px 2px 7px rgba(50, 137, 255, 0.7);
+    box-shadow: 0px 2px 7px rgba(50, 137, 255, 0.7);
+    /* -webkit-box-sizing: border-box; */
+    outline: none;
 }
