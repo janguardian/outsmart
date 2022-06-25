@@ -1,4 +1,9 @@
 .form__item_type_message {
-    height: 67px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    min-height: 67px;
     margin: 0;
+    resize: vertical;
 }

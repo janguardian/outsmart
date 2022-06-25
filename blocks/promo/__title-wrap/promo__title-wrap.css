@@ -1,4 +1,6 @@
 .promo__title-wrap {
     display: block;
     max-width: 500px;
+    padding: 0;
+    margin: 0;
 }

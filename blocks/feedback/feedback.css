@@ -1,5 +1,29 @@
 .feedback {
-    background-image: url(../../images/promo_background.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 160px;
+}
+
+.webp .feedback {
+    background-image: url(../../images/header-background.webp);
+}
+
+.no-webp .feedback {
+    background-image: url(../../images/header-background.jpg);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+
+    .webp .feedback {
+        background-image: url(../../images/header-backgroundx2.webp);
+    }
+
+    .no-webp .feedback {
+        background-image: url(../../images/header-backgroundx2.jpg);
+    }
 }

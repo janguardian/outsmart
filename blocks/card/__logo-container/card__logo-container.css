@@ -1,0 +1,6 @@
+.card__logo-container {
+    width: 21px;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    overflow: visible;
+}

@@ -5,4 +5,14 @@
     letter-spacing: 1px;
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    color: #B2CFDB;
+}
+
+.footer__link:hover {
+    opacity: .8;
+}
+
+.footer__link:visited {
+    color: #B2CFDB;
 }

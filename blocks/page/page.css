@@ -1,3 +1,17 @@
 .page {
+    margin: 0;
+    padding: 0;
     font-family: 'Graphik LC', 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-font-variant-ligatures:
+        normal contextual common-ligatures discretionary-ligatures historical-ligatures;
+    font-variant-ligatures:
+        normal contextual common-ligatures discretionary-ligatures historical-ligatures;
 }
+
+/* -webkit- -moz- -o- -ms- */

@@ -1,5 +1,7 @@
 .promo__header-logo {
     max-width: 200px;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
     align-self: center;
     margin: 0;
     padding: 0;

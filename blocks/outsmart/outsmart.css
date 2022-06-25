@@ -1,4 +1,6 @@
 .outsmart {
     max-width: 1200px;
     margin: 0 auto;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #B2CFDB;
 }

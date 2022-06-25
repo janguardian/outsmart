@@ -1,8 +1,10 @@
 .outsmart__cards {
-    margin: 102px 0 0;
+    margin: 0;
+    padding: 101px 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 53.33px;
-    padding: 0 0 106px;
-    border-bottom: 1px solid #B2CFDB;
     list-style: none;
+    position: relative;
 }

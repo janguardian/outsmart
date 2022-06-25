@@ -1,0 +1,46 @@
+.approach__card_ico_bino::before {
+    content: '';
+    position: absolute;
+    top: 61px;
+    left: 60px;
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+}
+
+.approach__card_ico_bino::after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    right: 43px;
+    width: 34px;
+    height: 90px;
+    background-image: url(../../../../images/ico/one-ico.svg);
+    background-size: cover;
+}
+
+.webp .approach__card_ico_bino::before {
+    background-image: url(../../../../images/ico/bino-ico.svg), url(../../../../images/ico/backs-ico/bino-back-ico.webp);
+}
+
+.no-webp .approach__card_ico_bino::before {
+    background-image: url(../../../../images/ico/bino-ico.svg), url(../../../../images/ico/backs-ico/bino-back-ico.jpg);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+
+    .webp .approach__card_ico_bino::before {
+        background-image: url(../../../../images/ico/bino-ico.svg), url(../../../../images/ico/backs-ico/bino-back-icox2.webp);
+    }
+
+    .no-webp .approach__card_ico_bino::before {
+        background-image: url(../../../../images/ico/bino-ico.svg), url(../../../../images/ico/backs-ico/bino-back-icox2.jpg);
+    }
+}

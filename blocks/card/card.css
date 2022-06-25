@@ -1,24 +1,22 @@
 .card {
     color: #fff;
-    display: flex;
-    justify-content: space-between;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 2fr 90px 4fr;
+    grid-template-columns: 2fr 4fr;
+    -webkit-column-gap: 90px;
+    -moz-column-gap: 90px;
+    column-gap: 90px;
     border-radius: 6px;
     margin-bottom: 20px;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    padding: 60px;
+    z-index: 2;
 }
 
 .card:last-of-type {
     margin-bottom: 0px;
-}
-
-.card {
-    color: #fff;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(max-content, min-content));
-    /* 1fr 1.78fr; */
-    gap: 75px;
-    border-radius: 6px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    align-content: center;
 }

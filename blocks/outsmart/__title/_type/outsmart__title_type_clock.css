@@ -1,9 +1,0 @@
-.outsmart__title_type_clock::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 32px;
-    height: 48px;
-    background-image: url(../../../../images/ico/clock_ico.svg);
-}
