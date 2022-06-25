@@ -205,8 +205,10 @@
         <article class="afterword__content">
           <div class="afterwood__image-container">
             <picture>
-              <source src="images/afterword-author.webp" srcset="images/afterword-authorx2.webp 2x" type="image/webp">
-              <source src="images/afterword-author.png" srcset="images/afterword-authorx2.png 2x" type="image/png">
+              <source srcset="images/afterword-authorx2.webp 2x" type="image/webp">
+              <source srcset="images/afterword-author.webp" type="image/webp">
+              <source srcset="images/afterword-authorx2.png 2x" type="image/png">
+              <source srcset="images/afterword-author.png" type="image/png">
               <img class="afterword__author-image" src="images/afterwood_iamage.png" alt="Photo of Jan Guardian.">
             </picture>
           </div>
@@ -495,7 +497,7 @@
   <script>
     document.documentElement.classList.remove("no-js");
   </script>
-  <script type="" src="/vendor/modernizr-custom.js"></script>
+  <script type="module" src="/vendor/modernizr-custom.js"></script>
   <script type="module" src="/pages/index.js"></script>
 </body>
 
