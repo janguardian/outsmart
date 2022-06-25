@@ -1,16 +1,6 @@
-.button {
-  display: inline-block;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 14px 24px;
-  border: 0;
-  border-radius: 24px;
-  color: var(--colorPurple);
-  background-color: var(--colorWhite);
+.button {  
+  border: 0;  
   -webkit-box-shadow: 0px 5px 30px rgba(50, 137, 255, .5);
           box-shadow: 0px 5px 30px rgba(50, 137, 255, .5);
-  line-height: 16px;
-  font-weight: 300;
-  font-size: 16px;  
-  text-decoration: none;
+  cursor: pointer;
 }

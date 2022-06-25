@@ -66,6 +66,7 @@
 @import url('../blocks/form/__caption/form__caption.css');
 @import url('../blocks/form/__close-icon/form__close-icon.css');
 @import url('../blocks/form/__button/form__button.css');
+@import url('../blocks/form/__button/_states/form__button_states.css');
 @import url('../blocks/phone-number/phone-number.css');
 @import url('../blocks/phone-number/_states/phone-number_states.css');
 @import url('../blocks/promo/promo.css');

@@ -3,13 +3,9 @@
       -ms-grid-row-align: center;
       align-self: center;
   padding: 15px 40px;
-  border: 0;
   border-radius: 32px;
   color: var(--colorWhite);
   background-color: var(--colorJapaneseIndigo);
-  -webkit-box-shadow: 0px 5px 30px rgba(50, 137, 255, 0.5);
-          box-shadow: 0px 5px 30px rgba(50, 137, 255, 0.5);
-  cursor: pointer;
   line-height: 32px;
   font-family: "Graphik", "Arial", sans-serif;
   font-weight: 400;

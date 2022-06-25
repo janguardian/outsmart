@@ -6,4 +6,8 @@
       -ms-flex-align: center;
           align-items: center;
   height: 10px;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
 }

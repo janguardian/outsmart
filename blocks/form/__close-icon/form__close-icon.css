@@ -7,4 +7,6 @@
   opacity: 0;
   cursor: pointer;
   background: url('../../../images/form/close-icon.svg') center center no-repeat;
+  -moz-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
 }

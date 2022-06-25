@@ -5,7 +5,6 @@
 }
 
 .services__item:hover {
-  cursor: pointer;
   background: url('../../../images/background/background-main-reverse.png') center center no-repeat;
   background-position: center center;
   background-repeat: no-repeat;

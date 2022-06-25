@@ -10,6 +10,7 @@
     <meta name="author" content="Кирилл Бегей">
     <script src="./scripts/modernizr-wepb.js"></script>
     <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./pages/index.css">
     <title>Outsmart</title>
   </head>
   <body class="root">
@@ -20,22 +21,18 @@
           <h1 class="promo__title">Progress through&nbsp;numbers</h1>
           <p class="promo__text">We are a marketing consultant. We help small and medium-sized software development companies
             gain traction by attracting new prospects and leading them all the way up to becoming your customers.</p>
-          <div class="promo__button">
-            <a href="#touch" class=" button button_states">Get in touch</a>
-          </div>
+          <button href="#touch" class="promo__button button button_states">Get in touch</button>
         </div>
         <header class="header">
           <img src="./images/promo/logo.svg" alt="Logo Outsmart." class="logo">
           <div class="header__nav">
-            <div class="header__button">
-              <a href="#touch" class="button button_states">Get in touch</a>
-            </div>
+            <button href="#touch" class="header__button button button_states">Get in touch</button>
             <nav class="menu">
-              <a href="#" class="menu__link menu__link_states">
+              <button href="#" class="menu__link menu__link_states">
               <svg class="menu__image">
-                <use xlink:href="./images/promo/menu.svg#menu"></use>
+                <use href="./images/promo/menu.svg#menu"></use>
               </svg>
-              </a>
+              </button>
             </nav>
           </div>
         </header>
@@ -444,12 +441,12 @@
               <div class="form__close-icon"></div>
             </div>
             <div class="form__row">
-              <textarea class="form__input form__textarea" placeholder="Message"></textarea>
+              <textarea class="form__input form__textarea" id="autosize-example" placeholder="Message"></textarea>
               <p class="form__caption">Please, enter your message</p>
               <div class="form__close-icon"></div>
             </div>
           </div>
-          <button class="form__button">Send message</button>
+          <button class="form__button form__button_states button button_states">Send message</button>
         </form>
       </div>
     </section>
@@ -499,6 +496,8 @@
       </div>
     </footer>
 
+    <script src="./scripts/autosize.min.js"></script>
+    <script>autosize(document.getElementById('autosize-example'));</script>
     <script type="module" src="/pages/index.js"></script>
   </body>
 </html>

@@ -1,0 +1,10 @@
+.form__button_states {
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.form__button_states:hover,
+.form__button_states:focus {
+  background-color: var(--colorWhite);
+}
