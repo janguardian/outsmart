@@ -13,5 +13,6 @@ only screen and (min-resolution: 2dppx) {
   background-image: url(../../../images/reverse-background-x2.webp);
     background-position: top;
     background-repeat: no-repeat;
+    background-size: 1440px 920px;
   }
 }

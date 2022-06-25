@@ -5,6 +5,7 @@
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/_background/section_background_image.css);
 @import url(../blocks/section/_background/section_background_gradient.css);
+@import url(../blocks/section/_background/section_background_footer.css);
 @import url(../blocks/section/__heading/section__heading.css);
 @import url(../blocks/section/__content/section__content.css);
 @import url(../blocks/section/_promo/section_promo.css);
@@ -107,6 +108,17 @@
 @import url(../blocks/feedback/__form/feedback__form.css);
 @import url(../blocks/feedback/__inputs/feedback__inputs.css);
 @import url(../blocks/feedback/__input/feedback__input.css);
-@import url(../blocks/feedback/__textarea/feedback__textarea.css);
+@import url(../blocks/feedback/__input/_invisible/feedback__input_invisible.css);
+@import url(../blocks/feedback/__message/feedback__message.css);
 @import url(../blocks/feedback/__button/feedback__button.css);
 @import url(../blocks/feedback/__strong-text/feedback__strong-text.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__header-box/footer__header-box.css);
+@import url(../blocks/footer/__heading/footer__heading.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__separator/footer__separator.css);
+@import url(../blocks/footer/__text/footer__text.css);

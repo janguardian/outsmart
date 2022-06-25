@@ -1,0 +1,16 @@
+.footer__link {
+  color: #B2CFDB;
+  font-family: 'Graphik LC';
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer__link:hover{
+  color:#37E0FF;
+}

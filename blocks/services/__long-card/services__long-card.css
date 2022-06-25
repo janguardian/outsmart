@@ -24,12 +24,14 @@
 only screen and (min-resolution: 192dpi),
 only screen and (min-resolution: 2dppx) {
   .services__long-card:hover {
-  background-image: url(../../../images/reverse-background-x2.webp);
-    background-repeat: no-repeat;
+    background-image: url(../../../images/reverse-background-x2.webp);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     box-shadow: 0 10px 20px rgba(50, 137, 255, 0.4);
   }
 }
+
 .services__long-card:hover .card__label {
   background-color: #FFF;
   color: #4E7595;

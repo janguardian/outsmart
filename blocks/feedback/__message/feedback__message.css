@@ -1,0 +1,5 @@
+.feedback__message {
+  display: block;
+  overflow: auto;
+  resize: none;
+}

@@ -1,0 +1,5 @@
+.footer__header-box {
+  display: flex;
+  gap: 414px;
+  justify-content: space-between;
+}
