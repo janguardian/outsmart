@@ -3,5 +3,6 @@
   max-height: 126px;
   resize: none;
   overflow: hidden;
-  padding: 24px 48px 24px 24px;
+  padding: 19px 43px 19px 19px;
+  border: 5px solid transparent;
 }
