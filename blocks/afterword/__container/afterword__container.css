@@ -1,0 +1,9 @@
+.afterword__container {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 80px;
+  max-width: 1080px;
+}

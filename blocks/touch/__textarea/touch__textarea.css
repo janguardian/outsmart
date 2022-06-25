@@ -1,0 +1,28 @@
+.touch__textarea {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  width: 560px;
+  border: none;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  resize: vertical;
+  margin-bottom: 8px;
+  font-family: inherit; 
+}
+
+.touch__textarea:focus {
+  box-shadow: 0px 2px 7px rgba(50, 137, 255, 0.7);
+}
+
+.touch__textarea:invalid {
+  border: 1px solid #E21111;
+}

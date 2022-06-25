@@ -1,0 +1,9 @@
+.portfolio__content {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  max-width: 760px;
+  z-index: 2;
+}

@@ -1,0 +1,9 @@
+.portfolio {
+  background: #FFFFFF;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 100px 120px 160px;
+  gap: 100px;
+}

@@ -1,0 +1,11 @@
+.services__card-text {
+  margin: 0;
+  font-family: 'Graphik LC';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  color: #63727E;
+  z-index: 2;
+}

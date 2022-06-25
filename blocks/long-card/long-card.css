@@ -1,0 +1,10 @@
+.long-card {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px;
+  gap: 40px;
+  max-width: 1200px;
+}

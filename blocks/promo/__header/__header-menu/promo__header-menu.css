@@ -1,0 +1,14 @@
+.promo__header-menu {
+  margin: 0;
+  align-self: center;
+  max-width: 24px;
+  width: 100%;
+  min-height: 4px;
+  border: none;
+  background: url(../../../../images/Menu.svg) ;
+}
+.promo__header-menu:hover {
+  opacity: .5;
+  transition: opacity .5 ease-in-out;
+  cursor: pointer;
+}

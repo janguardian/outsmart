@@ -1,0 +1,7 @@
+.selected__img {
+  margin: 0;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

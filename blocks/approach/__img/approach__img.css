@@ -1,0 +1,20 @@
+.approach__img {
+  margin: 0;
+  background: url(../../../images/promo_image.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  border-radius: 6px;
+}
+.no-wep .approach__img {
+  background: url(../../../images/promo_image.png);
+}
+
+.webp .approach__img {
+  background: url(../../../images/promo_image.webp);
+}
+.no-js .approach__img {
+  background: url(../../../images/promo_image.png);
+}

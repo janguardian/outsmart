@@ -1,0 +1,9 @@
+.services__card-content {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  width: 660px;
+  z-index: 2;
+}

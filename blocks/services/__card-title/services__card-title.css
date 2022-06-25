@@ -1,0 +1,9 @@
+.services__card-title {
+  margin: 0;
+  color: #005499;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 36px;
+  z-index: 2;
+}

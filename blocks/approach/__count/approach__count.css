@@ -1,0 +1,13 @@
+.approach__count {
+  margin: 0;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 120px;
+  line-height: 1;
+  text-align: right;
+  color: #EDF5FB;
+  z-index: 15;
+}

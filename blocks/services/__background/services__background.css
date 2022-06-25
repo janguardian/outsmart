@@ -1,0 +1,41 @@
+.services__background {
+  position: relative;
+  background: url(../../../images/background.jpg);
+  background-size: cover;
+  box-shadow: 0px 1px 5px rgba(0, 81, 192, 0.5);
+  z-index: 0;
+}
+
+.services__background:hover {
+  box-shadow: 0px 10px 20px rgba(50, 137, 255, 0.4);
+  background-image: url(../../../images/mirror-background.png);
+  background-position: 100% -100%;
+  transition: box-shadow .3 ease-in-out;
+} 
+
+.no-webp .services__background:hover {
+  background-image: url(../../../images/mirror-background.png);
+}
+.webp .services__background:hover {
+  background-image: url(../../../images/mirror-background.webp);
+}
+.no-js .services__background:hover {
+  background-image: url(../../../images/mirror-background.png);
+}
+
+.services__background:hover .services__card-title {
+  color: #FFFFFF;
+  transition: color .3 ease-in-out;
+
+}
+
+.services__background:hover p {
+  color: #FFFFFF;
+  transition: color .3 ease-in-out;
+}
+
+.services__background:hover .label {
+  background: #FFFFFF;
+  color: #4E7595;
+  transition: color .3 ease-in-out;
+}

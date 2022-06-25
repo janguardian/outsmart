@@ -1,0 +1,10 @@
+.certifications {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 120px 160px;
+  gap: 100px;
+  max-width: 1200px;
+  width: 100%;
+}

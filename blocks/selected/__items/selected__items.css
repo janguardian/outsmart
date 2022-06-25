@@ -1,0 +1,11 @@
+.selected__items {
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, minmax(min-content, 240px));
+  gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+  list-style-type: none;
+}

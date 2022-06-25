@@ -1,0 +1,26 @@
+.coverage {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 100px 120px 160px;
+  gap: 100px;
+  max-width: 1200px;
+  z-index: 0;
+}
+.coverage::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: url(../../images/coverage-triangle.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 1;
+  mix-blend-mode: normal;
+  opacity: 0.35;
+}

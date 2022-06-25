@@ -1,0 +1,10 @@
+.approach {
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 120px 160px;
+  gap: 100px;
+  z-index: 0;
+}

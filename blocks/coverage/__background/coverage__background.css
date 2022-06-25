@@ -1,0 +1,13 @@
+.coverage__background {
+  background-image: url(../../../images/promo_image.png);
+  background-position: -425px 0;
+}
+.no-webp .coverage__background {
+  background-image: url(../../../images/promo_image.png);
+}
+.webp .coverage__background {
+  background-image: url(../../../images/promo_image.webp);
+}
+.no-js .coverage__background {
+  background-image: url(../../../images/promo_image.png);
+}

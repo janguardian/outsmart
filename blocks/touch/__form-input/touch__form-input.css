@@ -1,0 +1,25 @@
+.touch__form-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px;
+  width: 560px;
+  border: none;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  font-family: inherit; 
+}
+.touch__form-input:focus {
+  border: none;
+  box-shadow: 0px 2px 7px rgba(50, 137, 255, 0.7);
+}
+
+.touch__form-input:invalid {
+  border: 1px solid #E21111;
+  box-shadow: 0px 2px 7px rgba(50, 137, 255, 0.7);
+}

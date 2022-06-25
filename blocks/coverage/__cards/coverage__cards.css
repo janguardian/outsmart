@@ -1,0 +1,10 @@
+.coverage__cards {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: 1200px;
+  width: 100%;
+  z-index: 2;
+}

@@ -1,0 +1,36 @@
+.promo {
+  position: relative;
+  margin: 0 auto;
+  background-image: url(../../images/promo_image.png);
+  background-size: cover;
+  min-height: 720px;
+  padding: 100px 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 0; 
+}
+.no-webp .promo {
+  background-image: url(../../images/promo_image.png);
+}
+.webp .promo {
+  background-image: url(../../images/promo_image.webp);
+}
+.no-js .promo {
+  background-image: url(../../images/promo_image.png);
+}
+
+.promo::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(../../images/promo__triangle.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  mix-blend-mode: soft-light;
+  opacity: 0.5;
+}

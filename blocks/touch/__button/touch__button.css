@@ -1,0 +1,18 @@
+.touch__button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 40px;
+  gap: 10px;
+  background: #1C3C56;
+  box-shadow: 0px 5px 30px rgba(50, 137, 255, 0.5);
+  border-radius: 32px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}

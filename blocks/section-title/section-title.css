@@ -1,0 +1,13 @@
+.section-title {
+  margin: 0 auto;
+  color: #63727E;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;  
+  letter-spacing: 16px;
+  text-transform: uppercase;
+  z-index: 2;
+  max-width: 1200px;
+  width: 100%;
+}
