@@ -1,4 +1,4 @@
-.button_get-in-touch {
+.promo__button_get-in-touch {
   width: 136px;
   height: 44px;
   background-color: #fff;
@@ -6,11 +6,10 @@
   box-shadow: 0px 5px 30px 8px rgba(50, 137, 255, 0.5) ;
   }
   
-.button_get-in-touch:hover {
+.promo__button_get-in-touch:hover {
   box-shadow: 0px 2px 7px 0px rgba(50, 137, 255, 0.7);
-  cursor: pointer;
 }
 
-.button_get-in-touch:focus {
+.promo__button_get-in-touch:focus {
   box-shadow: 0px 1px 2px 0px rgba(50, 137, 255, 0.9);
 }

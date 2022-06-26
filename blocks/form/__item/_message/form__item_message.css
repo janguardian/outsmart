@@ -1,7 +1,7 @@
 .form__item_message {
   outline: none;
   border: 0;
-  padding: 26px 0px 26px 24px;
+  padding: 26px 24px;
   font-family: 'Graphik Light';
   color: rgba(0, 84, 153, 1);
   font-size: 16px;
@@ -11,8 +11,13 @@
   width: 560px;
   box-sizing: border-box;
   overflow: hidden;
-}
+  resize: none;
+  height: 100%;
+} 
+
 
 .form__item_message:focus {
   box-shadow: 0px 2px 7px 0px rgba(50, 137, 255, 0.7);
 }
+
+

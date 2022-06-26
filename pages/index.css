@@ -18,8 +18,6 @@
 @import url('../blocks/approach/approach.css');
 
 /*button*/
-@import url('../blocks/button/_get-in-touch/button_get-in-touch.css');
-@import url('../blocks/button/_menu/button_menu.css');
 @import url('../blocks/button/_cards/_cards-violet/button_cards-violet.css');
 @import url('../blocks/button/button.css');
 
@@ -116,8 +114,8 @@
 
 /*overlay*/
 @import url('../blocks/overlay/overlay.css');
-@import url('../blocks/overlay/_type-1/overlay_type-1.css');
-@import url('../blocks/overlay/_type-2/overlay-type-2.css');
+@import url('../blocks/overlay/_first/overlay_first.css');
+@import url('../blocks/overlay/_second/overlay_second.css');
 
 /*page*/
 @import url('../blocks/page/page.css');
@@ -132,6 +130,12 @@
 /*promo*/
 @import url('../blocks/promo/promo.css');
 @import url('../blocks/promo/__container/promo__container.css');
+@import url('../blocks/promo/__button/_get-in-touch/promo__button_get-in-touch.css');
+@import url('../blocks/promo/__button/_menu/promo__button_menu.css');
+@import url('../blocks/promo/__button/promo__button.css');
+@import url('../blocks/promo/__button/_text/promo__button_text.css');
+@import url('../blocks/promo/__button/_text/_text-left/promo__button_text-left.css');
+@import url('../blocks/promo/__button/_text/_text-right/promo__button_text-right.css');
 
 /*services*/
 @import url('../blocks/services/services.css');

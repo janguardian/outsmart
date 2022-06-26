@@ -1,0 +1,8 @@
+.promo__button {
+  border: 0;  
+  }
+  
+.promo__button:hover {
+  cursor: pointer;
+}
+
