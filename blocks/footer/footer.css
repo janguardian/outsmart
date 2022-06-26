@@ -1,0 +1,8 @@
+.footer {
+  min-height: 440px;
+  min-width: 1220px;
+  width: 100%;
+  padding: 0px 120px;
+  background-color: rgba(28, 60, 86, 1);
+  box-sizing: border-box;
+}

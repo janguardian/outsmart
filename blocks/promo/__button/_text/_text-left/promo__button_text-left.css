@@ -1,0 +1,14 @@
+.promo__button_text-left {
+  font-size: 16px;
+  line-height: 16px;
+  color: #5F4CFF;
+  padding: 14px 0;
+}
+
+.promo__button_text-left:hover {
+  color: rgba(28, 60, 86, 1);
+}
+
+.promo__button_text-left:focus {
+  color: rgba(28, 60, 86, 1);
+}

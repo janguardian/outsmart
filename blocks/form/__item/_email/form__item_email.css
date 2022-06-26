@@ -1,0 +1,28 @@
+.form__item_email {
+  outline: none;
+  border: 0;
+  padding: 0px 0px 0px 24px;
+  font-family: 'Graphik Light';
+  color: rgba(0, 84, 153, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  width: 560px;
+  box-sizing: border-box;
+}
+
+
+.form__item_email[type="email"]:focus {
+  box-shadow: 0px 2px 7px 0px rgba(50, 137, 255, 0.7);
+}
+
+
+/*.form__item_email[type="email"]:user-invalid {
+  border: 1px solid rgba(226, 17, 17, 1)
+}
+
+.form__item_email:user-invalid + span::before {
+  content: '✖';
+  color: rgba(226, 17, 17, 1);
+}*/

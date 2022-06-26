@@ -1,0 +1,7 @@
+.cards_services {
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  width: 100%;
+}
+

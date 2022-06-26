@@ -1,0 +1,9 @@
+.promo__button {
+  border: 0; 
+  transition: cursor 1s ease; 
+  }
+  
+.promo__button:hover {
+  cursor: pointer;
+}
+

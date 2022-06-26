@@ -1,0 +1,15 @@
+.cards__number {
+  font-family: 'Graphik Extralight';
+  font-size: 120px;
+  font-weight: 300;
+  line-height: 120px;
+  letter-spacing: 0px;
+  text-align: right;
+  margin: 0;
+  align-self: flex-start;
+  color: rgba(237, 245, 251, 1);
+  position: absolute;
+  right: 50px;
+  top: 20px;
+
+}

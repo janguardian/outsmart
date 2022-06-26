@@ -1,0 +1,10 @@
+.text_portfolio {
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: rgba(99, 114, 126, 1);
+  max-width: 660px;
+  width: 100%;
+  padding-top: 32px;
+}

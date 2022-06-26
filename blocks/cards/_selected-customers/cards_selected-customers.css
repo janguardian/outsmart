@@ -1,0 +1,8 @@
+.cards_selected-customers {
+  flex-wrap: wrap;
+  max-height: 760px;
+  max-width: 1200px;
+  width: 100%;
+  gap: 20px;
+  padding-top: 100px;
+}

@@ -1,0 +1,14 @@
+.cards__item_services { 
+  display: flex;
+  justify-content:  space-between;
+  align-items: flex-start;
+  max-height: 280px;
+  height: 100%;
+  max-width: 1200px;
+  width: 100%;
+  padding: 60px;
+  gap: 113px;
+}
+
+
+

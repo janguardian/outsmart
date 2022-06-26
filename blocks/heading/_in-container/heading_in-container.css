@@ -1,0 +1,7 @@
+.heading_in-container {
+  margin: 0px auto 0px;
+  padding: 0;
+  align-self: flex-start;
+  max-width: 1200px;
+  width: 100%;
+}

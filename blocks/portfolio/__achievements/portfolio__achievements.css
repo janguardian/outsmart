@@ -1,0 +1,5 @@
+.portfolio__achievements {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}

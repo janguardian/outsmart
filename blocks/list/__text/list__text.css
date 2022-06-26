@@ -1,0 +1,10 @@
+.list__text {
+  font-family: 'Graphik Light';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin: 0;
+  padding: 8px 20px;
+}

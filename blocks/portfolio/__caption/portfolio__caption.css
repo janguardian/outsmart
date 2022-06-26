@@ -1,0 +1,10 @@
+.portfolio__caption {
+  font-family: 'Graphik Extralight';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(78, 117, 149, 1);
+  margin: 0;
+}

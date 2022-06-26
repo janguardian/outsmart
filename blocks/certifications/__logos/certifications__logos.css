@@ -1,0 +1,7 @@
+.certifications__logos {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}

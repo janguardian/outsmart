@@ -1,0 +1,10 @@
+.cards__item_type-3 {
+  background-image: url('../../../../images/background-our-services-card.png');
+  box-shadow: 0px 1px 5px 0px rgba(0, 81, 192, 0.5);
+  transition: background-image 0.5s ease-in, box-shadow 0.5s ease-in-out;
+}
+
+.cards__item_type-3:hover {
+  background-image: url('../../../../images/background-our-services-card-on-hover.png');
+  box-shadow: 0px 10px 20px 0px rgba(50, 137, 255, 0.4);
+} 

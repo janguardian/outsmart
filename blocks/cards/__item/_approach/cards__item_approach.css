@@ -1,0 +1,14 @@
+.cards__item_approach {
+  display: flex;
+  justify-content: center;
+  max-width: 550px;
+  width: 100%;
+  min-height: 332px;
+  height: 100%;
+  border: 1px solid rgba(223, 240, 246, 1);
+  padding: 50px 0px 50px;
+  box-sizing: border-box;
+  gap: 60px;
+}
+
+

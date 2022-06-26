@@ -1,0 +1,10 @@
+.portfolio__figure {
+  font-family: 'Graphik Extralight';
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(0, 84, 153, 1);
+  margin: 0;
+}

@@ -1,0 +1,14 @@
+.promo {
+  background-image: url('../../images/background-main.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 1220px;
+  width: 100%;
+  min-height: 920px;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+  padding: 0 120px;
+  box-sizing: border-box;
+}
+

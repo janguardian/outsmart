@@ -1,0 +1,11 @@
+.footer__copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 60px;
+  padding-bottom: 60px;
+  height: 76px;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}

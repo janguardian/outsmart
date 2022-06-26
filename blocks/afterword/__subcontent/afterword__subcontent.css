@@ -1,0 +1,10 @@
+.afterword__subcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 72px;
+  padding-top: 112px;
+  max-width: 440px;
+  width: 100%;
+}

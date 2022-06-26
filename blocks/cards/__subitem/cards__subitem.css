@@ -1,0 +1,4 @@
+.cards__subitem {
+  display: flex;
+  flex-direction: column;
+}

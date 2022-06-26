@@ -1,0 +1,13 @@
+.cards__item_portfolio { 
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-height: 448px;
+  max-width: 1200px;
+  width: 100%;
+  padding: 60px;
+  gap: 70px;
+}
+
+
+

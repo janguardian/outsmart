@@ -1,0 +1,9 @@
+.cards__heading_services {  
+  max-width: 307px;
+  width: 100%;
+  color: #005499;
+}
+
+.cards__item_services:hover .cards__heading_services {
+  color: #fff;
+}

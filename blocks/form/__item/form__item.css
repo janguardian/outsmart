@@ -1,0 +1,17 @@
+.form__item {
+  min-height: 64px;
+  height: 100%;
+  max-width: 560px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.form__item::placeholder {
+  color: rgba(178, 207, 219, 1);
+  font-family: 'Graphik Extralight';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+}

@@ -1,0 +1,10 @@
+.services {
+  background: linear-gradient(180deg, #EBF4FA 0%, #FFFFFF 48.7%);
+  height: 1320px;
+  position: relative;
+  z-index: 2;
+  padding: 0 120px;
+  min-width: 1220px;
+  width: 100%;
+  box-sizing: border-box;
+}

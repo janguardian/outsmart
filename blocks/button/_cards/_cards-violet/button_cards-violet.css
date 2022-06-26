@@ -1,0 +1,10 @@
+.button_cards-violet {
+  border-radius: 16px;
+  background-color: rgba(95, 76, 255, 1);
+  margin: 0;
+}
+
+.cards__item_services:hover .button_cards-violet {
+  border-radius: 16px;
+  background-color: #fff;
+}
