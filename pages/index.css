@@ -85,7 +85,6 @@
 @import url(../blocks/portfolio/__cards/portfolio__cards.css);
 @import url(../blocks/portfolio/__card/portfolio__card.css);
 @import url(../blocks/portfolio/__card/_middle/portfolio__card_middle.css);
-@import url(../blocks/portfolio/__background/portfolio__background.css);
 @import url(../blocks/portfolio/__content/portfolio__content.css);
 @import url(../blocks/portfolio/__achievements/portfolio__achievements.css);
 @import url(../blocks/portfolio/__achievement/portfolio__achievement.css);
@@ -103,15 +102,18 @@
 @import url(../blocks/customers/__icon/_company/customers__icon_company_jet.css);
 @import url(../blocks/customers/__icon/_company/customers__icon_company_paralect.css);
 
+@import url(../blocks/input-box/input-box.css);
+@import url(../blocks/input-box/__input/input-box__input.css);
+@import url(../blocks/input-box/__clear-button/input-box__clear-button.css);
+@import url(../blocks/input-box/__error-message/input-box__error-message.css);
+
 @import url(../blocks/feedback/feedback.css);
 @import url(../blocks/feedback/__heading/feedback__heading.css);
 @import url(../blocks/feedback/__form/feedback__form.css);
 @import url(../blocks/feedback/__inputs/feedback__inputs.css);
-@import url(../blocks/feedback/__input/feedback__input.css);
-@import url(../blocks/feedback/__input/_invisible/feedback__input_invisible.css);
-@import url(../blocks/feedback/__message/feedback__message.css);
 @import url(../blocks/feedback/__button/feedback__button.css);
-@import url(../blocks/feedback/__strong-text/feedback__strong-text.css);
+@import url(../blocks/feedback/__message/feedback__message.css);
+
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__header-box/footer__header-box.css);

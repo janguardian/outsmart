@@ -28,7 +28,7 @@
     </div>
   </section>
   <section class="section" id="coverage">
-    <div class="section__content coverage" >
+    <div class="section__content coverage">
       <div class="coverage__overlay"></div>
       <h2 class="section__heading">Coverage</h2>
       <ul class="coverage__cards">
@@ -164,7 +164,7 @@
     <div class="section__content afterword">
       <h2 class="section__heading">Afterword</h2>
       <div class="afterword__content">
-        <div class="afterword__photo"></div>>
+        <div class="afterword__photo"></div>
         <div class="afterword__column">
           <div class="afterword__heading">
             <h3 class="afterword__name">Jan Guardian</h3>
@@ -356,13 +356,26 @@
       <h2 class="section__heading feedback__heading">Get in touch</h2>
       <form class="feedback__form" novalidate>
         <fieldset class="feedback__inputs">
-          <input type="text" value="Jan" placeholder="Name" class="feedback__input" required>
-          <input type="email" value="" placeholder="Email" class="feedback__input" required>
-          <input type="text" placeholder="Message" class="feedback__input feedback__input_invisible" required>
-          <textarea name="message" id="message" cols="1" rows="1" class="feedback__input feedback__message"></textarea>
-          <span class="feedback__input feedback__message"></span>
+          <div class="input-box">
+            <input type="text" placeholder="Name" class="input-box__input">
+            <button class="input-box__clear-button"></button>
+            <p class="input-box__error-message">This field is incorrect</p>
+          </div>
+          
+          <div class="input-box">
+            <input type="email" placeholder="Email" class="input-box__input">
+            <button type="reset" class="input-box__clear-button"></button>
+            <p class="input-box__error-message">This field is incorrect</p>
+          </div>
+
+          <div class="input-box">
+            <span class="input-box__input feedback__message" contenteditable></span>
+            <button class="input-box__clear-button"></button>
+            <p class="input-box__error-message">Please, enter your message</p>
+          </div>
+        
         </fieldset>
-        <button class="feedback__button"><strong class="feedback__strong-text">Send message</strong></button>
+        <button type="button" class="feedback__button">Send message</button>
       </form>
     </div>
   </section>
@@ -371,18 +384,18 @@
       <div class="footer__header-box">
         <h3 class="footer__heading">+375 (44) 553-61-17</h3>
         <nav class="footer__links">
-          <ul class="footer__column">
+          <div class="footer__column">
             <a href="#coverage" class="footer__link">Coverage</a>
             <a href="#services" class="footer__link">Our services</a>
             <a href="#approach" class="footer__link">Approach</a>
             <a href="#certifications" class="footer__link">Certifications</a>
-          </ul>
-          <ul class="footer__column">
+          </div>
+          <div class="footer__column">
             <a href="#afterword" class="footer__link">Afterword</a>
             <a href="#why-outsmart" class="footer__link">Why Outsmart</a>
             <a href="#portfolio" class="footer__link">Portfolio</a>
             <a href="#customers" class="footer__link">Our customers</a>
-          </ul>
+          </div>
         </nav>
       </div>
       <div class="footer__copyright">

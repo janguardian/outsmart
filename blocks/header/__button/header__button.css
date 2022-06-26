@@ -11,9 +11,7 @@
   line-height: 16px;
   padding: 14px 24px;
   text-align: center;
-  transition: all 0.3s ease-in-out;
-  /* max-height: 44px;
-  max-width: 138px; */
+  transition: all 0.1s ease-in-out;
 }
 
 .header__button:hover {

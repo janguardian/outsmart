@@ -1,0 +1,13 @@
+.input-box__error-message {
+  bottom: 0;
+  color: #FFF;
+  display: none;
+  font-family: 'Graphik LC';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+}

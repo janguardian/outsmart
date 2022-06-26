@@ -1,64 +1,70 @@
-.feedback__input {
+.input-box__input {
   background-color: #FFF;
   border-radius: 6px;
   border: none;
   box-shadow: 0px 2px 7px 0px #3289FFB2;
   box-sizing: border-box;
-  color: #4E7595;
+  color: #005499;
   font-family: 'Graphik LC';
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   height: 68px;
-  letter-spacing: 1px;
-  line-height: 35px;
+  line-height: 16px;
   outline: none;
   padding: 24px;
   width: 560px;
 }
-
-.feedback__input::-webkit-input-placeholder {
+.input-box__input::-webkit-input-placeholder {
   color: #4E7595;
   font-family: 'Graphik LC';
   font-size: 16px;
   font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 35px;
+  line-height: 16px;
 }
 
-.feedback__input::-moz-placeholder {
+.input-box__input::-moz-placeholder {
   color: #4E7595;
   font-family: 'Graphik LC';
   font-size: 16px;
   font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 35px;
+  line-height: 16px;
 }
 
-.feedback__input:-moz-placeholder {
+.input-box__input:-moz-placeholder {
   color: #4E7595;
   font-family: 'Graphik LC';
   font-size: 16px;
   font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 35px;
+  line-height: 16px;
 }
 
-.feedback__input:-ms-input-placeholder {
+.input-box__input:-ms-input-placeholder {
   color: #4E7595;
   font-family: 'Graphik LC';
   font-size: 16px;
   font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 35px;
+  line-height: 16px;
 }
 
-.feedback__input:hover {
+.input-box__input:hover {
   box-shadow: 0px 2px 5px 0px #3289FF4D;
 }
 
-.feedback__input:focus-visible {
+.input-box__input:active {
   font-size: 20px;
   color: #005499;
   border: none;
   box-shadow: 0px 5px 10px 0px #3289FF66;
+}
+
+.input-box__input:invalid {
+  border: 1px solid #DA1313;
+}
+
+.input-box__input:invalid + .input-box__clear-button {
+  display: block;
+}
+
+.input-box__input:invalid ~ .input-box__error-message {
+  display: block;
 }
