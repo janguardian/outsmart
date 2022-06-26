@@ -1,5 +1,6 @@
 .form__item {
   min-height: 64px;
+  height: 100%;
   max-width: 560px;
   width: 100%;
   border-radius: 6px;

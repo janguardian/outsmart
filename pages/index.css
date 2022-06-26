@@ -47,8 +47,9 @@
 @import url('../blocks/cards/__item/_portfolio/cards__item_portfolio.css');
 @import url('../blocks/cards/__item/_selected-customers/cards__item_selected-customers.css');
 @import url('../blocks/cards/_selected-customers/cards_selected-customers.css');
+@import url('../blocks/cards/__heading/_approach/cards__heading_approach.css');
 
-/*cards*/
+/*certifications*/
 @import url('../blocks/certifications/certifications.css');
 @import url('../blocks/certifications/__content/certifications__content.css');
 @import url('../blocks/certifications/__logos/certifications__logos.css');
@@ -109,6 +110,7 @@
 @import url('../blocks/list/list.css');
 @import url('../blocks/list/__text/list__text.css');
 @import url('../blocks/list/__text/_background-violet/list__text_background-violet.css');
+@import url('../blocks/list/__link/list__link.css');
 
 /*logo*/
 @import url('../blocks/logo/logo.css');

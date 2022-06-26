@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 404px;
+  min-height: 404px;
   max-width: 560px;
   width: 100%;
   margin: auto;

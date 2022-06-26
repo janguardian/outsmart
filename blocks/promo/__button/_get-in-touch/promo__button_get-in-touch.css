@@ -4,6 +4,7 @@
   background-color: #fff;
   border-radius: 24px;
   box-shadow: 0px 5px 30px 8px rgba(50, 137, 255, 0.5) ;
+  transition: box-shadow 0.5s ease-in-out;
   }
   
 .promo__button_get-in-touch:hover {

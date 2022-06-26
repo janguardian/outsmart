@@ -1,0 +1,7 @@
+.button {
+  transition: cursor 1s ease;
+}
+
+.button:hover {
+  cursor: pointer; 
+}

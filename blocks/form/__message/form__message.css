@@ -1,5 +1,30 @@
 .form__message {
   border: 0;
+  margin: 0;
+  padding: 0;
+  display: grid;
+}
+
+.form__message::after {
+  content: attr(data-replicated-value) " ";
+  white-space: pre-wrap;
+  visibility: hidden;
+}
+
+.form__message > textarea {
+  resize: none;
+  overflow: hidden;
+}
+
+.form__message > textarea,
+.form__message::after {
+  border: 0;
   margin: auto;
   padding: 0;
+  grid-area: 1 / 1 / 2 / 2;
 }
+
+
+
+
+
