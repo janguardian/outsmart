@@ -1,346 +1,139 @@
-@import url(../vendor/normalize.css);
-
 @import url(../vendor/fonts.css);
 
-.root {
-  font-family: "Graphik LC", "Arial", "Helvetica", sans-serif;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  box-sizing: border-box;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 1.6;
-  letter-spacing: 1px;
-  color: #63727e;
-}
+@import url(../blocks/root/root.css);
 
-.page {
-  outline: #df0013 solid 1px;
-  box-sizing: border-box;
-  overflow: hidden;
-  display: grid;
-  min-height: 100vh;
-  grid-template: minmax(min-content, max-content) 1fr minmax(min-content, max-content)/1fr;
-  grid-template-areas: "header" "main" "footer";
-}
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__header/page__header.css);
+@import url(../blocks/page/__main/page__main.css);
+@import url(../blocks/page/__footer/page__footer.css);
 
-.main {
-  box-sizing: border-box;
-  grid-area: main;
-}
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/__coverage/main__coverage.css);
+@import url(../blocks/main/__get-in-touch/main__get-in-touch.css);
 
-.main__header {
-  position: relative;
-  grid-area: header;
-  outline: #df9900 solid 1px;
-}
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__block-row/header__block-row.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__text/header__text.css);
+@import url(../blocks/header/__title/header__title.css);
 
-.header {
-  box-sizing: border-box;
-  padding: 100px 0;
-}
+@import url(../blocks/block-row/block-row.css);
+@import url(../blocks/block-row/__box/block-row__box.css);
+@import url(../blocks/block-row/__button/block-row__button.css);
+@import url(../blocks/block-row/__image-logo/block-row__image-logo.css);
 
-.header_theme_neon-light {
-  color: #fff;
-}
+@import url(../blocks/coverage/coverage.css);
+@import url(../blocks/coverage/__cads-block/coverage__cads-block.css);
+@import url(../blocks/coverage/__card/coverage__card.css);
+@import url(../blocks/coverage/__container/coverage__container.css);
+@import url(../blocks/coverage/__section-title/coverage__section-title.css);
+@import url(../blocks/coverage/__text/coverage__text.css);
+@import url(../blocks/coverage/__title/coverage__title.css);
 
-.header__container {
-  box-sizing: border-box;
-  max-width: 1230px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
+@import url(../blocks/our-services/our-services.css);
+@import url(../blocks/our-services/__container/our-services__container.css);
+@import url(../blocks/our-services/__cards-block/our-services__cards-block.css);
+@import url(../blocks/our-services/__card/our-services__card.css);
+@import url(../blocks/our-services/__section-title/our-services__section-title.css);
+@import url(../blocks/our-services/__title/our-services__title.css);
+@import url(../blocks/our-services/__text/our-services__text.css);
+@import url(../blocks/our-services/__buttons-block/our-services__buttons-block.css);
 
-.header:after {
-  content: "";
-  position: absolute;
-  background: url(../images/overlay.svg) center no-repeat;
-  opacity: 0.1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+@import url(../blocks/approach/approach.css);
+@import url(../blocks/approach/__cads-block/approach__cads-block.css);
+@import url(../blocks/approach/__card/approach__card.css);
+@import url(../blocks/approach/__container/approach__container.css);
+@import url(../blocks/approach/__icon/approach__icon.css);
+@import url(../blocks/approach/__image-box/approach__image-box.css);
+@import url(../blocks/approach/__number/approach__number.css);
+@import url(../blocks/approach/__section-title/approach__section-title.css);
+@import url(../blocks/approach/__text/approach__text.css);
+@import url(../blocks/approach/__title/approach__title.css);
+@import url(../blocks/approach/__title-box/approach__title-box.css);
 
-.header__block-logo-links {
-  position: relative;
-  z-index: 1;
-  margin: 0 0 394px 0;
-}
+@import url(../blocks/certifications/certifications.css);
+@import url(../blocks/certifications/__container/certifications__container.css);
+@import url(../blocks/certifications/__logo/certifications__logo.css);
+@import url(../blocks/certifications/__logos-block/certifications__logos-block.css);
+@import url(../blocks/certifications/__section-title/certifications__section-title.css);
+@import url(../blocks/certifications/__text/certifications__text.css);
 
-.header__title {
-  position: relative;
-  z-index: 1;
-  font-weight: 200;
-  font-size: 80px;
-  line-height: 1;
-  letter-spacing: -2px;
-  margin: 0 0 40px 0;
-  max-width: 840px;
-}
+@import url(../blocks/afterword/afterword.css);
+@import url(../blocks/afterword/__blockquote/afterword__blockquote.css);
+@import url(../blocks/afterword/__container/afterword__container.css);
+@import url(../blocks/afterword/__image/afterword__image.css);
+@import url(../blocks/afterword/__main-blockquote/afterword__main-blockquote.css);
+@import url(../blocks/afterword/__section-title/afterword__section-title.css);
+@import url(../blocks/afterword/__subtitle/afterword__subtitle.css);
+@import url(../blocks/afterword/__text-block/afterword__text-block.css);
+@import url(../blocks/afterword/__title/afterword__title.css);
+@import url(../blocks/afterword/__title/afterword__title.css);
 
-.header__text {
-  position: relative;
-  z-index: 1;
-  margin: 0;
-  padding: 0;
-  max-width: 840px;
-}
+@import url(../blocks/why-outsmart/why-outsmart.css);
+@import url(../blocks/why-outsmart/__cads-block/why-outsmart__cads-block.css);
+@import url(../blocks/why-outsmart/__card/why-outsmart__card.css);
+@import url(../blocks/why-outsmart/__container/why-outsmart__container.css);
+@import url(../blocks/why-outsmart/__icon/why-outsmart__icon.css);
+@import url(../blocks/why-outsmart/__section-title/why-outsmart__section-title.css);
+@import url(../blocks/why-outsmart/__text/why-outsmart__text.css);
+@import url(../blocks/why-outsmart/__title/why-outsmart__title.css);
 
-.block-logo-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: space-between;
-  align-items: center;
-}
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__achievement-block/portfolio__achievement-block.css);
+@import url(../blocks/portfolio/__achievement-box/portfolio__achievement-box.css);
+@import url(../blocks/portfolio/__achievement-main-text/portfolio__achievement-main-text.css);
+@import url(../blocks/portfolio/__achievement-text/portfolio__achievement-text.css);
+@import url(../blocks/portfolio/__buttons-block/portfolio__buttons-block.css);
+@import url(../blocks/portfolio/__card/portfolio__card.css);
+@import url(../blocks/portfolio/__cards-block/portfolio__cards-block.css);
+@import url(../blocks/portfolio/__container/portfolio__container.css);
+@import url(../blocks/portfolio/__logo/portfolio__logo.css);
+@import url(../blocks/portfolio/__section-title/portfolio__section-title.css);
+@import url(../blocks/portfolio/__text/portfolio__text.css);
 
-.block-logo-links__logo {
-  max-width: 200px;
-  max-height: 43px;
-}
+@import url(../blocks/selected-customers/selected-customers.css);
+@import url(../blocks/selected-customers/__card/selected-customers__card.css);
+@import url(../blocks/selected-customers/__container/selected-customers__container.css);
+@import url(../blocks/selected-customers/__logo/selected-customers__logo.css);
+@import url(../blocks/selected-customers/__section-title/selected-customers__section-title.css);
 
-.block-logo-links__box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 23px;
-}
+@import url(../blocks/get-in-touch/get-in-touch.css);
+@import url(../blocks/get-in-touch/__button/get-in-touch__button.css);
+@import url(../blocks/get-in-touch/__container/get-in-touch__container.css);
+@import url(../blocks/get-in-touch/__error-text/get-in-touch__error-text.css);
+@import url(../blocks/get-in-touch/__error-text/_activ/get-in-touch__error-text_activ.css);
+@import url(../blocks/get-in-touch/__form/get-in-touch__form.css);
+@import url(../blocks/get-in-touch/__input/_error/get-in-touch__input_error.css);
+@import url(../blocks/get-in-touch/__input/get-in-touch__input.css);
+@import url(../blocks/get-in-touch/__section-title/get-in-touch__section-title.css);
+@import url(../blocks/get-in-touch/__fieldset/get-in-touch__fieldset.css);
+@import url(../blocks/get-in-touch/__fieldset/_error/get-in-touch__fieldset_error.css);
 
-.block-logo-links__button {
-  text-decoration: none;
-  display: inline-flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  background: #fff;
-  box-shadow: 0px 5px 30px rgba(50, 137, 255, 0.5);
-  border-radius: 24px;
-  padding: 13.5px 25px;
-  margin: 0;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 1;
-  color: #5f4cff;
-  transition: all 0.3s ease 0s;
-}
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__line/footer__line.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__phone-number/footer__phone-number.css);
 
-.block-logo-links__button:hover {
-  box-shadow: 0px 2px 7px rgba(50, 137, 255, 0.7);
-  color: #1c3c56;
-}
+@import url(../blocks/title/title.css);
+@import url(../blocks/title/_color/title_color_white.css);
 
-.block-logo-links__button:active {
-  box-shadow: 0px 1px 2px rgba(50, 137, 255, 0.9);
-  transform: translate(0, 1px);
-}
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_color/section-title_color_white.css);
 
-.coverage {
-  outline: #df9900 solid 1px;
-  position: relative;
-  box-sizing: border-box;
-  grid-area: header;
-  padding: 0 0 160px 0;
-}
+@import url(../blocks/adaptiv-image/adaptiv-image.css);
+@import url(../blocks/adaptiv-image/_position/adaptiv-image_position_absolute.css);
 
-.coverage__container {
-  outline: #df9900 solid 1px;
-  box-sizing: border-box;
-  max-width: 1230px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
+@import url(../blocks/action-menu/action-menu.css);
+@import url(../blocks/action-menu/__path/action-menu__path.css);
 
-.coverage:after {
-  content: "";
-  position: absolute;
-  background: url(../images/overlay-wite.svg) top no-repeat;
-  opacity: 0.3;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
+@import url(../blocks/line/line.css);
 
-.coverage__section-title {
-  position: relative;
-  z-index: 1;
-  margin: 0;
-}
+@import url(../blocks/buttons-block/buttons-block.css);
+@import url(../blocks/buttons-block/__links-row/buttons-block__links-row.css);
+@import url(../blocks/buttons-block/__link/buttons-block__link.css);
 
-.coverage__title {
-  position: relative;
-  z-index: 1;
-  padding: 0;
-  margin: 0 0 40px 0;
-}
-
-.coverage__text {
-  position: relative;
-  z-index: 1;
-  margin: 0;
-  padding: 0;
-}
-
-.coverage__cads-block {
-  box-sizing: border-box;
-  overflow: hidden;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 23px;
-}
-
-.coverage__card {
-  box-sizing: border-box;
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
-  padding: 100px 60px;
-  margin: 0;
-  max-width: 588px;
-  outline: #df9900 solid 1px;
-}
-
-.coverage__card_theme_neon-light {
-  color: #fff;
-}
-
-.footer {
-  background: #1c3c56;
-  box-sizing: border-box;
-  grid-area: footer;
-  padding: 80px 0 0 0;
-  font-size: 16px;
-  line-height: 1;
-}
-
-.footer__container {
-  box-sizing: border-box;
-  max-width: 1230px;
-  padding: 0 15px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 70px 15px;
-}
-
-.footer__phone-number {
-  box-sizing: border-box;
-  overflow: hidden;
-  text-decoration: none;
-  font-size: 36px;
-  letter-spacing: 0;
-  color: #fff;
-  align-self: flex-start;
-  transition: all 0.3s ease 0s;
-}
-
-.footer__phone-number:hover {
-  color: #37e0ff;
-}
-
-.footer__menu {
-  box-sizing: border-box;
-  flex: 0 1 480px;
-  display: flex;
-  gap: 15px;
-  margin: 0 0 30px 0;
-}
-
-.footer__column-links {
-  box-sizing: border-box;
-  overflow: hidden;
-  list-style-type: none;
-  margin: 0 0 0 0;
-  padding: 0;
-  flex: 0 1 46.5%;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.footer__link {
-  color: #b2cfdb;
-  text-decoration: none;
-  transition: all 0.3s ease 0s;
-}
-
-.footer__link:hover {
-  color: #37e0ff;
-}
-
-.footer__copyright {
-  box-sizing: border-box;
-  overflow: hidden;
-  color: #b2cfdb;
-  width: 100%;
-  min-height: 120px;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  border-top: 1px solid rgba(178, 207, 219, 0.2);
-}
-
-.title {
-  box-sizing: border-box;
-  color: #005499;
-  font-size: 36px;
-  line-height: 1;
-  letter-spacing: 0;
-}
-
-.title_theme_neon-light {
-  color: #fff;
-}
-
-.section-title {
-  box-sizing: border-box;
-  padding: 100px 0;
-  font-size: 16px;
-  line-height: 1;
-  letter-spacing: 16px;
-  text-transform: uppercase;
-  color: #63727e;
-}
-
-.section-title_theme_neon-light {
-  color: #fff;
-}
-
-.background-image {
-  min-width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
-.background-image_position_absolute {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.action-menu {
-  width: 24px;
-  height: 4px;
-  padding: 17px 7px;
-}
-
-.action-menu:hover {
-  cursor: pointer;
-}
-
-.action-menu:hover .action-menu__path {
-  fill: #1c3c56;
-}
-
-.action-menu__path {
-  transition: all 0.3s ease 0s;
-}
-/*# sourceMappingURL=index.css.map */
+@import url(../blocks/textarea/textarea.css);

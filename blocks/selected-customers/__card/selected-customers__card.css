@@ -1,0 +1,5 @@
+.selected-customers__card {
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px solid #dff0f6;
+}

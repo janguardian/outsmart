@@ -1,0 +1,11 @@
+.certifications__container {
+  box-sizing: border-box;
+  overflow: hidden;
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 50%;
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  gap: 80px 20px;
+}

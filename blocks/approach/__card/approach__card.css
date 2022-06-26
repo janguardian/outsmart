@@ -1,0 +1,13 @@
+.approach__card {
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0;
+  padding: 60px;
+  border: 1px solid #dff0f6;
+  border-radius: 6px;
+  display: grid;
+  grid-template-columns: 1fr 61.7021%;
+  grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
+  justify-content: space-between;
+  gap: 10px 20px;
+}

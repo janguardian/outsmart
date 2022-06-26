@@ -1,0 +1,8 @@
+.approach__title-box {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  margin: 0;
+}

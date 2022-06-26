@@ -1,0 +1,11 @@
+.footer__container {
+  overflow: hidden;
+  box-sizing: border-box;
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 60px 30px;
+}

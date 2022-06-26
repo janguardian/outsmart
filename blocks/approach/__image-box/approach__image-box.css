@@ -1,0 +1,8 @@
+.approach__image-box {
+  box-sizing: border-box;
+  position: relative;
+  width: 120px;
+  height: 120px;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}

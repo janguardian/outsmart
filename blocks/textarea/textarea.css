@@ -1,0 +1,11 @@
+.textarea {
+  resize: vertical;
+  padding-top: 24px;
+  min-height: 66px;
+}
+
+.textarea:invalid {
+  background: #ffffff;
+  color: #005499;
+  border: 0;
+}

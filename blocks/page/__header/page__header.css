@@ -1,0 +1,4 @@
+.page__header {
+  position: relative;
+  grid-area: header;
+}

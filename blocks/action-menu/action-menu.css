@@ -1,0 +1,13 @@
+.action-menu {
+  width: 24px;
+  height: 4px;
+  padding: 17px 7px;
+}
+
+.action-menu:hover {
+  cursor: pointer;
+}
+
+.action-menu:hover .action-menu__path {
+  fill: #1c3c56;
+}

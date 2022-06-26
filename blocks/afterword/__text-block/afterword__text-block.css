@@ -1,0 +1,5 @@
+.afterword__text-block {
+  overflow: hidden;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}

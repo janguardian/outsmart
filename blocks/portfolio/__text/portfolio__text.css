@@ -1,0 +1,8 @@
+.portfolio__text {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  max-width: 660px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}

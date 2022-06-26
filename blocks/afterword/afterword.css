@@ -1,0 +1,7 @@
+.afterword {
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0;
+  margin: 0 0 20px 0;
+  background: linear-gradient(180deg, #ebf4fa 0%, #ffffff 48.7%);
+}

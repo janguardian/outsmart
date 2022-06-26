@@ -1,0 +1,7 @@
+.portfolio__achievement-box {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 31.5789473684%;
+}

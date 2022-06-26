@@ -1,0 +1,12 @@
+.get-in-touch__form {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  margin: 0 auto 8px auto;
+  width: 100%;
+  max-width: 560px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
