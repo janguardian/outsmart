@@ -1,9 +1,22 @@
 .content {
-  margin: 0;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 .portfolio .content {
   max-width: 760px;
 }
+
+.certifications .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.approach .content {
+  gap: 48px;
+}
+

@@ -1,20 +1,21 @@
 .input {
+  border-radius: 6px;
+  border: 0 none;
   box-sizing: border-box;
-  width: 560px;
+  color: #005499;
+  font-size: 16px;
+  font-weight: 400;
+  height: 64px;
+  line-height: 16px;
   margin:0;
   padding: 24px;
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 400;
-  border: 0 none;
-  border-radius: 6px;
-  color: #005499;
   resize: none;
-  height: 68px;
+  width: 560px;
 }
 
 
 .input::placeholder {
+  font-family: 'Graphik LC', Arial, sans-serif;
   color:#B2CFDB;
 }
 

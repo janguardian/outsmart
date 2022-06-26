@@ -1,7 +1,7 @@
 .content__heading {
-  margin: 0;
-  font-size: 36px;
-  line-height: 36px;
-  font-weight: 300;
   color: #005499;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 36px;
+  margin: 0;
 }

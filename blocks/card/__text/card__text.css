@@ -1,7 +1,7 @@
-  .card__text {
-  margin: 0;
-  font-weight: 300;
+.card__text {
   font-size: 20px;
-  line-height: 32px;
+  font-weight: 300;
   letter-spacing: 1px;
+  line-height: 32px;
+  margin: 0;
 }

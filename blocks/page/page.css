@@ -1,8 +1,8 @@
 .page {
-  margin: 0 auto;
-  /* max-width: 1440px; */
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  -moz-font-feature-settings: "liga", "clig";
+  -webkit-font-feature-settings: "liga", "clig";
   font-family: 'Graphik LC', Arial, sans-serif;
-  /* text-rendering: optimizeLegibility; */
-  /* font-variant-ligatures: normal; */
+  font-feature-settings: "liga", "clig";
+  font-variant-ligatures: common-ligatures;
+  margin: 0 auto;
 }

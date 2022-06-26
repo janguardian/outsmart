@@ -1,8 +1,8 @@
 .logos {
-  margin: 0 auto;
-  max-width: 1200px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
   padding-top: 80px;
 }

@@ -1,0 +1,10 @@
+.button_theme_dark {
+  background-color: #1C3C56;
+  border-radius: 32px;
+  box-shadow: 0px 5px 30px rgba(50, 137, 255, 0.5);
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  padding: 16px 40px;
+}
