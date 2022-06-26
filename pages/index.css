@@ -27,8 +27,6 @@
 @import url('../blocks/cards/__item/_type-1/cards__item_type-1.css');
 @import url('../blocks/cards/__item/_type-2/cards__item_type-2.css');
 @import url('../blocks/cards/__item/_type-3/cards__item_type-3.css');
-@import url('../blocks/cards/__item/_type-4/cards__item_type-4.css');
-@import url('../blocks/cards/__item/_type-5/cards__item_type-5.css');
 @import url('../blocks/cards/__item/_type-6/cards__item_type-6.css');
 @import url('../blocks/cards/__item/_type-7/cards__item_type-7.css');
 @import url('../blocks/cards/__item/_type-8/cards__item_type-8.css');
@@ -102,6 +100,10 @@
 /*icon*/
 @import url('../blocks/icon/icon.css');
 @import url('../blocks/icon/_why-outsmart/icon_why-outsmart.css');
+@import url('../blocks/icon/_approach/_approach-audit/icon_approach-audit.css');
+@import url('../blocks/icon/_approach/_approach-delivery/icon_approach-delivery.css');
+@import url('../blocks/icon/_approach/_approach-discovery/icon_approach-discovery.css');
+@import url('../blocks/icon/_approach/_approach-support/icon_approach-support.css');
 
 /*list*/
 @import url('../blocks/list/list.css');
