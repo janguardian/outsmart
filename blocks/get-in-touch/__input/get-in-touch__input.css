@@ -1,5 +1,10 @@
 .get-in-touch__input {
   box-sizing: border-box;
+  font-family: 'Graphik LC';
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  letter-spacing: 0;
   background: #ffffff;
   border-radius: 6px;
   color: #005499;
@@ -33,32 +38,36 @@
 
 .get-in-touch__input::placeholder {
   color: #b2cfdb;
-  font-size: inherit;
-  font-weight: inherit;
-  font-family: inherit;
+  font-family: 'Graphik LC';
   font-style: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  letter-spacing: 0;
 }
 
 .get-in-touch__input::-webkit-input-placeholder {
   color: #b2cfdb;
-  font-size: inherit;
-  font-weight: inherit;
-  font-family: inherit;
+  font-family: 'Graphik LC';
   font-style: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  letter-spacing: 0;
 }
 
 .get-in-touch__input::-moz-placeholder {
   color: #b2cfdb;
-  font-size: inherit;
-  font-weight: inherit;
-  font-family: inherit;
+  font-family: 'Graphik LC';
   font-style: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  letter-spacing: 0;
 }
 
 .get-in-touch__input::-ms-input-placeholder {
   color: #b2cfdb;
-  font-size: inherit;
-  font-weight: inherit;
-  font-family: inherit;
+  font-family: 'Graphik LC';
   font-style: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  letter-spacing: 0;
 }
