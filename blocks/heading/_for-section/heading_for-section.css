@@ -1,5 +1,5 @@
 .heading_for-section {
-  min-width: 212px;
+  max-width: 1200px;
   width: 100%;
   height: 16px;
   padding: 100px 0px 100px 0px;
@@ -10,5 +10,5 @@
   text-align: left;
   text-transform: uppercase;
   color: #63727E;
-  margin: 0;
+  margin: auto;
 }

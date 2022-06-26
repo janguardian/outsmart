@@ -2,8 +2,9 @@
   height: 800px;
   background-image: url('../../images/background-main.png');
   padding: 0 120px;
-  max-width: 1220px;
+  min-width: 1220px;
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  box-sizing: border-box;
 }

@@ -1,9 +1,10 @@
 .certifications {
   background-color: #fff;
-  max-width: 1220px;
+  min-width: 1220px;
   width: 100%;
   height: 440px;
   padding: 0 120px;
+  box-sizing: border-box;
 }
 
 

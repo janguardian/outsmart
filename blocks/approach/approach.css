@@ -2,7 +2,8 @@
   min-height: 960px;
   height: 100%;
   background-color: #fff;
-  padding: 0 120px;
-  max-width: 1220px;
+  padding: 0 120px 160px;
+  min-width: 1220px;
   width: 100%;
+  box-sizing: border-box;
 }

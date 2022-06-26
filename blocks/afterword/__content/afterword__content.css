@@ -1,8 +1,10 @@
 .afterword__content {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 80px;
-  max-width: 1080px;
+  max-width: 1200px;
   width: 100%;
   padding-bottom: 120px;
+  margin: auto;
+  box-sizing: border-box;
 }
