@@ -1,0 +1,7 @@
+.why-outsmart__container {
+  box-sizing: border-box;
+  overflow: hidden;
+  max-width: 1230px;
+  padding: 0 15px 100px 15px;
+  margin: 0 auto;
+}

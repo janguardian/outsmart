@@ -1,0 +1,48 @@
+.our-services__card {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: url(../../../images/our-servises-bg-2.jpg) center/cover no-repeat;
+  box-shadow: 0px 1px 5px rgba(0, 81, 192, 0.5);
+  border-radius: 6px;
+  padding: 60px;
+  margin: 0 0 20px 0;
+  display: grid;
+  grid-template-columns: 35.926% 61.111%;
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  align-items: start;
+  justify-content: space-between;
+  gap: 32px 20px;
+  transition: all 0.3s ease 0s;
+}
+
+.our-services__card:hover {
+  color: #fff;
+  background: url(../../../images/our-servises-bg-1.jpg) center/cover no-repeat;
+}
+
+.our-services__card:hover .our-services__title {
+  color: #fff;
+}
+
+.our-services__card .buttons-block__link {
+  transition: all 0.3s ease 0s;
+}
+
+.our-services__card:hover .buttons-block__link {
+  background-color: #fff;
+  color: #4e7595;
+}
+
+.our-services__card:hover .buttons-block__link:hover {
+  color: #37e0ff;
+}
+
+@media (min-resolution: 2dppx) {
+  .our-services__card {
+    background-image: url(../../../images/our-servises-bg-2@2x.jpg);
+  }
+  .our-services__card:hover {
+    background-image: url(../../../images/coverage-bg-1@2x.jpg);
+  }
+}

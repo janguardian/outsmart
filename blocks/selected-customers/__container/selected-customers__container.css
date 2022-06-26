@@ -1,0 +1,7 @@
+.selected-customers__container {
+  overflow: hidden;
+  box-sizing: border-box;
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}

@@ -1,0 +1,11 @@
+.approach__cads-block {
+  box-sizing: border-box;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 49.1666666667% 49.1666666667%;
+  grid-template-rows: repeat(auto-fill, minmax(332px, auto));
+  grid-auto-rows: minmax(332px, auto);
+  gap: 20px;
+}

@@ -1,0 +1,8 @@
+.page {
+  outline: #df0013 solid 1px;
+  box-sizing: border-box;
+  display: grid;
+  min-height: 100vh;
+  grid-template: minmax(min-content, max-content) 1fr minmax(min-content, max-content)/1fr;
+  grid-template-areas: "header""main""footer";
+}

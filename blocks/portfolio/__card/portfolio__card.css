@@ -1,0 +1,16 @@
+.portfolio__card {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  min-height: 448px;
+  box-shadow: 0px 1px 5px rgba(0, 81, 192, 0.5);
+  border-radius: 6px;
+  display: grid;
+  grid-template-columns: minmax(min-content, 27.7777777778%) 70.3703703704%;
+  grid-template-rows: repeat(3, minmax(min-content, max-content));
+  align-items: start;
+  justify-content: space-between;
+  gap: 15px 20px;
+  margin: 0 0 20px 0;
+  padding: 5%;
+}

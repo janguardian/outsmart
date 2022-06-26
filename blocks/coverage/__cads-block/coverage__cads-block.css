@@ -1,0 +1,11 @@
+.coverage__cads-block {
+  box-sizing: border-box;
+  overflow: hidden;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 49% 49%;
+  gap: 15px;
+}

@@ -1,0 +1,16 @@
+.textarea {
+  resize: vertical;
+  padding-top: 24px;
+  min-height: 66px;
+  font-family: 'Graphik LC';
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  letter-spacing: 0;
+}
+
+.textarea:invalid {
+  background: #ffffff;
+  color: #005499;
+  border: 0;
+}

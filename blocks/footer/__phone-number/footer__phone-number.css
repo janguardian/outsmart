@@ -1,0 +1,14 @@
+.footer__phone-number {
+  box-sizing: border-box;
+  overflow: hidden;
+  text-decoration: none;
+  font-size: 36px;
+  letter-spacing: 0;
+  color: #fff;
+  align-self: flex-start;
+  transition: all 0.3s ease 0s;
+}
+
+.footer__phone-number:hover {
+  color: #37e0ff;
+}

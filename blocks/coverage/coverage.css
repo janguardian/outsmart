@@ -1,0 +1,19 @@
+.coverage {
+  box-sizing: border-box;
+  padding: 0 0 160px 0;
+  color: #fff;
+}
+
+.coverage:after {
+  content: '';
+  position: absolute;
+  background-image: url(../../images/overlay-wite.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  mix-blend-mode: normal;
+  opacity: 0.35;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

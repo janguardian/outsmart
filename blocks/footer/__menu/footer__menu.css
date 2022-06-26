@@ -1,0 +1,7 @@
+.footer__menu {
+  box-sizing: border-box;
+  flex: 0 1 480px;
+  display: flex;
+  gap: 15px;
+  margin: 0 0 40px 0;
+}

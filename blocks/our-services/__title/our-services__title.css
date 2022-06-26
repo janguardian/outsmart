@@ -1,0 +1,11 @@
+.our-services__title {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  align-self: stretch;
+  transition: all 0.3s ease 0s;
+}

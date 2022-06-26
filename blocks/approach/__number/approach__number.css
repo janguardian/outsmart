@@ -1,0 +1,9 @@
+.approach__number {
+  overflow: hidden;
+  margin: -50px -30px 0 0;
+  padding: 0;
+  color: #edf5fb;
+  font-size: 120px;
+  line-height: 1;
+  letter-spacing: 0;
+}

@@ -1,0 +1,11 @@
+.afterword__container {
+  overflow: hidden;
+  box-sizing: border-box;
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 46.6666666667% minmax(min-content, 440px);
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  column-gap: 6.6666666667%;
+}

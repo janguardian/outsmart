@@ -1,0 +1,11 @@
+.portfolio__achievement-block {
+  position: relative;
+  z-index: 1;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 5px 0 0 0;
+}

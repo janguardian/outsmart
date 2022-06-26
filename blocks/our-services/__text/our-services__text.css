@@ -1,0 +1,9 @@
+.our-services__text {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin: 0;
+  padding: 0;
+}
