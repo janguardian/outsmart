@@ -1,0 +1,7 @@
+.content_place_afterword {
+  margin: 0 auto;
+  max-width: 1200px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 80px;
+}

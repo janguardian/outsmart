@@ -5,4 +5,9 @@
   background-position: center;
   min-width: 24px;
   min-height: 4px;
+  cursor: pointer;
+}
+
+.promo__menu:hover {
+  filter: brightness(0%);
 }

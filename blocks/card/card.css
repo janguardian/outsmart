@@ -1,0 +1,9 @@
+.card {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  border-radius: 6px;
+  padding: 100px 58px 100px 60px;
+  max-width: 588px;
+  /* align-items: flex-start; */
+}

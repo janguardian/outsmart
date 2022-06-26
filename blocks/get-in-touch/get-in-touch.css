@@ -1,0 +1,11 @@
+.get-in-touch {
+  background: url('../../images/Header-background.png');
+  background-position: center;
+  background-size: cover;
+  padding-top:160px;
+  padding-bottom:160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

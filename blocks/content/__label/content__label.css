@@ -1,0 +1,16 @@
+.content__label {
+  box-sizing: border-box;
+  margin: 0;
+  border-radius: 16px;
+  padding: 8px 20px;
+  background-color: #5f4cff;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.long-card_place_services:nth-of-type(2) .content__label {
+  background-color: #ffffff;
+  color: #4e7595;
+}

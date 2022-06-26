@@ -1,5 +1,8 @@
 .page {
   margin: 0 auto;
+  /* max-width: 1440px; */
   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Graphik LC', Arial, sans-serif;
+  /* text-rendering: optimizeLegibility; */
+  /* font-variant-ligatures: normal; */
 }

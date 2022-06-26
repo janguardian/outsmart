@@ -1,0 +1,10 @@
+.card_place_approach {
+  width: 590px;
+  height: 332px;
+  padding: 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  border: 1px solid #DFF0F6;
+  border-radius: 6px;
+}

@@ -1,0 +1,7 @@
+.content__achievements {
+  margin: 0;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}

@@ -1,0 +1,8 @@
+.input-fields {
+  margin: 0;
+  padding: 100px 0 80px;
+  border: 0 none;
+  display: flex;
+  flex-direction: column;
+  gap:32px;
+}

@@ -1,0 +1,11 @@
+.card__icon {
+  margin: 0;
+  width: 120px;
+  height: 120px;
+}
+
+.why-outsmart .card__icon {
+  width: auto;
+  height: 48px;
+  padding-bottom: 40px;
+}

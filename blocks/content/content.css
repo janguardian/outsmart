@@ -1,0 +1,9 @@
+.content {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio .content {
+  max-width: 760px;
+}

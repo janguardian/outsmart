@@ -1,0 +1,6 @@
+.content__labels {
+  margin: 0;
+  display: flex;
+  padding-top: 32px;
+  column-gap: 8px;
+}

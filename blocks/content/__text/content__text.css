@@ -1,0 +1,12 @@
+.content__text {
+  margin: 0;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  max-width: 660px;
+}
+
+.portfolio .content__text {
+  color: #4E7595;
+}

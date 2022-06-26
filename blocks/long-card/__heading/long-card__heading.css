@@ -1,0 +1,11 @@
+.long-card__heading {
+  margin: 0;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 300;
+  color: #005499;
+}
+
+.long-card_place_services:nth-of-type(2) .long-card__heading {
+  color: white;
+}

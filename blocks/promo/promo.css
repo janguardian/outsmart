@@ -1,13 +1,9 @@
-h1{
-  /* border: 1px red solid; */
-}
-
 .promo {
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-  
-  background: url('../../images/Header-background.png');
+  background: url('../../images/Overlay-fill.png'), url('../../images/Header-background.png');
   background-position: center;
-  background-size: cover;
+  background-blend-mode: soft-light, normal;
+  background-size: contain, cover;
+  background-repeat: no-repeat;
   color: white;
   display: flex;
   flex-direction: column;
