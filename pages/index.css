@@ -139,7 +139,6 @@
 @import url('../blocks/promo/__button/promo__button.css');
 @import url('../blocks/promo/__button/_text/promo__button_text.css');
 @import url('../blocks/promo/__button/_text/_text-left/promo__button_text-left.css');
-@import url('../blocks/promo/__button/_text/_text-right/promo__button_text-right.css');
 
 /*services*/
 @import url('../blocks/services/services.css');
@@ -149,7 +148,6 @@
 
 /*text*/
 @import url('../blocks/text/text.css');
-@import url('../blocks/text/_button/text_button.css');
 @import url('../blocks/text/_promo/text_promo.css');
 @import url('../blocks/text/_coverage/text_coverage.css');
 @import url('../blocks/text/_services-background-white/text_services-background-white.css');
