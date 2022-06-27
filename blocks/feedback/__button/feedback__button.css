@@ -1,19 +1,21 @@
 .feedback__button {
+  align-items: center;
   background-color: #1C3C56;
   border-radius: 32px;
   border: 0;
   box-shadow: 0px 5px 30px 0px #3289FF80;
-  height: 62px;
-  padding: 16px 40px 16px 40px;
-  width: 224px;
   color: #FFF;
+  cursor: pointer;
+  display: flex;
   font-family: Graphik LC;
   font-size: 20px;
   font-weight: 400;
+  height: 62px;
   line-height: 32px;
+  padding: 16px 40px 16px 40px;
   text-align: center;
-  cursor: pointer;
   transition: all 0.1s ease-in-out;
+  width: 224px;
 }
 
 .feedback__button:hover {
