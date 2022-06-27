@@ -2,24 +2,4 @@
   display: inline-block;
   resize: none;
   overflow: hidden;
-  height: auto;
-}
-
-.feedback__message:empty::before {
-  color: #4E7595;
-  content: "Message";
-  font-family: 'Graphik LC';
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  height: 68px;
-  margin: 0;
-  position: absolute;
-  top: 26px;
-  left: 24px;
-  border:none;
-}
-
-.feedback__message:not(:empty){
-  height: auto;
 }
