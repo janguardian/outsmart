@@ -1,5 +1,8 @@
 .feedback__message {
-  display: block;
+  display: inline-block;
+  resize: none;
+  overflow: hidden;
+  height: auto;
 }
 
 .feedback__message:empty::before {

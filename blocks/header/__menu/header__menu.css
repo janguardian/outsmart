@@ -1,17 +1,17 @@
 .header__menu {
-  cursor: pointer;
   background-color: transparent;
-  background-image: url(../../../images/menu.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
   border: none;
-  height: 12px;
+  cursor: pointer;
+  display: flex;
+  gap: 6px;
+  height: 4px;
+  justify-content: space-between;
+  margin: 0;
   padding: 0;
   transition: all 0.3s ease-in-out;
   width: 24px;
 }
 
-.header__menu:hover {
-  background-image: url(../../../images/menu-hover.svg);
+.header__menu:hover .header__point {
+  background-color: #1C3C56;
 }

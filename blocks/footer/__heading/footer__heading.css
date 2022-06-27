@@ -1,10 +1,12 @@
 .footer__heading {
   color: #FFF;
+  cursor: default;
   font-family: 'Graphik LC';
   font-size: 36px;
   font-weight: 300;
   line-height: 36px;
   margin: 0;
   padding: 0;
+  text-decoration: none;
   white-space: nowrap;
 }
