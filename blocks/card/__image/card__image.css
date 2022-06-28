@@ -3,4 +3,8 @@
   border: none;
   height: 120px;
   width: 120px;
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

@@ -6,10 +6,11 @@
   box-shadow: 0px 5px 30px 0px #3289FF80;
   cursor: pointer;
   display: flex;
-  height: 62px;
+  height: 64px;
+  justify-content: center;
   padding: 16px 40px 16px 40px;
   transition: all 0.1s ease-in-out;
-  width: 224px;
+  width: 218px;
 }
 
 .feedback__button:hover {
