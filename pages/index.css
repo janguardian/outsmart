@@ -65,6 +65,7 @@
 @import url(../blocks/afterword/afterword.css);
 @import url(../blocks/afterword/__content/afterword__content.css);
 @import url(../blocks/afterword/__photo/afterword__photo.css);
+@import url(../blocks/afterword/__photo-2x/afterword__photo-2x.css);
 @import url(../blocks/afterword/__column/afterword__column.css);
 @import url(../blocks/afterword/__heading/afterword__heading.css);
 @import url(../blocks/afterword/__name/afterword__name.css);

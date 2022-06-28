@@ -1,8 +1,10 @@
 .card__label {
+  align-items: center;
   background-color: #5F4CFF;
   border-radius: 16px;
   border: 0;
   color: #FFF;
+  display: flex;
   font-family: 'Graphik LC';
   font-size: 16px;
   font-weight: 400;

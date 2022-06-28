@@ -1,4 +1,5 @@
-.afterword__photo{
+.afterword__photo-2x {
+  display: none;
   object-position: center;
   object-fit: contain;
   width: 560px;
@@ -10,7 +11,7 @@
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-resolution: 192dpi),
 only screen and (min-resolution: 2dppx) {
-  .afterword__photo {
-    display: none;
+  .afterword__photo-2x {
+    display: block;
   }
 }

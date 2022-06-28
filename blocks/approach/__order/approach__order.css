@@ -8,5 +8,8 @@
   padding: 0;
   position: absolute;
   right: 30px;
+  text-align: right;
   top: 20px;
+  display: flex;
+  align-items: center;
 }

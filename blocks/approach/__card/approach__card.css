@@ -3,6 +3,7 @@
   box-sizing: border-box;
   flex-direction: row;
   gap: 60px;
+  height: 332px;
   padding: 60px;
   position: relative;
   width: 590px;
