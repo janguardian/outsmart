@@ -115,6 +115,7 @@
 @import url(../blocks/feedback/__inputs/feedback__inputs.css);
 @import url(../blocks/feedback/__button/feedback__button.css);
 @import url(../blocks/feedback/__message/feedback__message.css);
+@import url(../blocks/feedback/__button-text/feedback__button-text.css);
 
 
 @import url(../blocks/footer/footer.css);

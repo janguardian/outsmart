@@ -1,0 +1,13 @@
+.feedback__button-text {
+  color: #FFF;
+  font-family: Graphik LC;
+  font-size: 20px;
+  font-weight: 400;
+  height: 32px;
+  line-height: 32px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  white-space: nowrap;
+  width: 138px;
+}
