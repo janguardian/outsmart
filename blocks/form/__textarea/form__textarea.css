@@ -1,13 +1,90 @@
 .form__textarea {
-  max-width: 404px;
-  min-height: 64px;
+  display: block;
   max-height: 126px;
-  resize: none;
+  resize: none !important;
+  color: var(--colorUsafaBlue);
+  -moz-transition: box-shadow 0.3s ease-out, outline 0.3s ease-out;
+  transition: box-shadow 0.3s ease-out, outline 0.3s ease-out; 
   overflow: hidden;
-  box-sizing: border-box;
+  outline: none;
   padding: 2px 48px 2px 24px;
   border-top: 22px;
   border-bottom: 22px;
   border-style: solid;
   border-color: transparent;
+  border-radius: 6px;
+  font-family: 'Graphik', 'Arial', sans-serif;
+  line-height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.form__textarea::-webkit-input-placeholder {
+  color: var(--colorLightSteelBlue);
+  font-family: 'Graphik', 'Arial', sans-serif;
+}
+
+.form__textarea::-moz-placeholder {
+  color: var(--colorLightSteelBlue);
+  font-family: 'Graphik', 'Arial', sans-serif;
+}
+
+.form__textarea:-ms-input-placeholder {
+  color: var(--colorLightSteelBlue);
+  font-family: 'Graphik', 'Arial', sans-serif;
+}
+
+.form__textarea::-ms-input-placeholder {
+  color: var(--colorLightSteelBlue);
+  font-family: 'Graphik', 'Arial', sans-serif;
+}
+
+.form__textarea::placeholder {
+  color: var(--colorLightSteelBlue);
+  font-family: 'Graphik', 'Arial', sans-serif;
+}
+
+.form__textarea:focus {
+  -webkit-box-shadow: 0px 2px 7px rgba(50, 137, 255, 0.7);
+          box-shadow: 0px 2px 7px rgba(50, 137, 255, 0.7);
+}
+
+.form__textarea:-moz-submit-invalid {
+  box-shadow: none;
+  outline: 1px solid #e21111;
+}
+
+.form__textarea:-moz-ui-invalid {
+  box-shadow: none;
+  outline: 1px solid #e21111;
+}
+
+.form__textarea:invalid {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: 1px solid #e21111;
+}
+
+.form__textarea:-moz-submit-invalid + .form__caption {
+  opacity: 1;
+}
+
+.form__textarea:-moz-ui-invalid + .form__caption {
+  opacity: 1;
+}
+
+.form__textarea:invalid + .form__caption {
+  opacity: 1;
+}
+
+.form__textarea:-moz-submit-invalid ~ .form__close-icon {
+  opacity: 1;
+}
+
+.form__textarea:-moz-ui-invalid ~ .form__close-icon {
+  opacity: 1;
+}
+
+.form__textarea:invalid ~ .form__close-icon {
+  opacity: 1;
 }
