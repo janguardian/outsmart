@@ -1,3 +1,5 @@
 .box__item-container {
+  position: relative;
+  z-index: 5;
   max-width: 1080px;
 }

@@ -4,11 +4,11 @@
 }
 
 .no-webp .coverage__item_background_pink {
-  background-image: url('../../../../images/background/background-main-direct-1x.png');
+  background-image: url('../../../../images/background/background-main@1x.png');
 }
 
 .webp .coverage__item_background_pink {
-  background-image: url('../../../../images/background/background-main-direct-1x.webp');
+  background-image: url('../../../../images/background/background-main@1x.webp');
 }
 
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
@@ -16,10 +16,10 @@ only screen and (-moz-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) {
   .no-webp .coverage__item_background_pink {
-    background-image: url('../../../../images/background/background-main-direct-2x.png');
+    background-image: url('../../../../images/background/background-main@2x.png');
   }
   
   .webp .coverage__item_background_pink {
-    background-image: url('../../../../images/background/background-main-direct-2x.webp');
+    background-image: url('../../../../images/background/background-main@2x.webp');
   }
 }

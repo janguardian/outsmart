@@ -1,8 +1,4 @@
-.services__text {
-  overflow: hidden;
-  margin: 0;
-  color: var(--colorAuroMetalSaurus);
-  letter-spacing: 1px;
+.services__subtitle {
   -webkit-transition: color 0.3s ease-out;
   -o-transition: color 0.3s ease-out;
   transition: color 0.3s ease-out;
