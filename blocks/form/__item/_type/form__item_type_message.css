@@ -3,7 +3,12 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 1;
-    min-height: 67px;
+    height: 67px;
+    max-height: 200px;
     margin: 0;
-    resize: vertical;
+    /* resize: vertical; */
+    resize: none;
+    /* display: inline-block; */
+    overflow: hidden;
+
 }

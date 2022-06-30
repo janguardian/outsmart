@@ -9,21 +9,19 @@
     color: #5F4CFF;
     height: 32px;
     -webkit-transition:
-        background-color .2s linear,
-        color .2s linear;
+        background-color .1s linear,
+        color .1s linear,
+        box-shadow .1s linear;
     -o-transition:
-        background-color .2s linear,
-        color .2s linear;
+        background-color .1s linear,
+        color .1s linear,
+        box-shadow .1s linear;
     transition:
-        background-color .2s linear,
-        color .2s linear;
+        background-color .1s linear,
+        color .1s linear,
+        box-shadow .1s linear;
 }
 
 .button:first-of-type {
     margin: 0;
-}
-
-.button:hover {
-    cursor: pointer;
-    opacity: .8;
 }

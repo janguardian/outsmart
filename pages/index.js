@@ -1,15 +1,27 @@
-import './index.css'
+import "./index.css";
 
-// const cardSizeS = document.querySelectorAll('.card_size_m');
+//'get in touch' button to 'feedback' section
+let getInTouchButton = document.querySelector(".button_size_m");
 
-//     cardSizeS.forEach(function(card) {
-//         card.addEventListener('mouseenter', (e) => {
-//             card.classList.add('card_theme_dark',
-//         'card_background_blue-purple');
-//         })
-//         card.addEventListener('mouseleave', () => {
-//             card.classList.remove('card_theme_dark',
-//         'card_background_blue-purple');
-//         })
-//     })
+getInTouchButton.addEventListener("click", () => {
+  location.href = "#feedback";
+});
 
+// footer buttons to different sections
+let footerButtons = document.querySelectorAll(".footer__link");
+
+footerButtons.forEach((btn) => {
+  btn.addEventListener("click", (e) => {
+    location.href = e.target.id;
+  });
+});
+
+// textarea sizes (своровано, но адаптировано)
+let textarea = document.querySelector(".form__item_type_message");
+
+textarea.addEventListener("input", autoResize, false);
+
+function autoResize() {
+  this.style.height = "auto";
+  this.style.height = this.scrollHeight + "px";
+}

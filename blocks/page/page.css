@@ -8,10 +8,10 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
-    -webkit-font-variant-ligatures:
-        normal contextual common-ligatures discretionary-ligatures historical-ligatures;
-    font-variant-ligatures:
-        normal contextual common-ligatures discretionary-ligatures historical-ligatures;
+    font-variant-ligatures: common-ligatures;
+    -moz-font-feature-settings: "liga", "clig";
+    -webkit-font-feature-settings: "liga", "clig";
+    font-feature-settings: "liga", "clig";
 }
 
 /* -webkit- -moz- -o- -ms- */

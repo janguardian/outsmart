@@ -14,6 +14,9 @@
 @import url(../blocks/button/_theme/button_theme_dark.css);
 @import url(../blocks/button/_theme/button_theme_night.css);
 @import url(../blocks/button/_shadow/button_shadow_active.css);
+@import url(../blocks/button/_hover-type/button_hover-type_m.css);
+@import url(../blocks/button/_hover-type/button_hover-type_s.css);
+@import url(../blocks/button/_hover-type/button_hover-type_l.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__overlay/header__overlay.css);
 @import url(../blocks/promo/promo.css);
@@ -103,9 +106,11 @@
 @import url(../blocks/form/__message-text/form__message-text.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__phone-link/footer__phone-link.css);
 @import url(../blocks/footer/__phone/footer__phone.css);
 @import url(../blocks/footer/__nav/footer__nav.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__links_item/footer__links-item.css);
 @import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__line/footer__line.css);
 @import url(../blocks/footer/__copyritht/footer__copyright.css);

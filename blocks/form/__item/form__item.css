@@ -13,13 +13,6 @@
     box-sizing: border-box;
 }
 
-.form__item:invalid {
-    background-image: url(../../../images/form-cross.svg);
-    background-position: 515px 22px;
-    background-repeat: no-repeat;
-    outline: 1px solid red;
-}
-
 .form__item::-webkit-input-placeholder {
     color: #B2CFDB;
 }
@@ -43,6 +36,15 @@
 .form__item:focus {
     -webkit-box-shadow: 0px 2px 7px rgba(50, 137, 255, 0.7);
     box-shadow: 0px 2px 7px rgba(50, 137, 255, 0.7);
-    /* -webkit-box-sizing: border-box; */
     outline: none;
 }
+
+
+
+/* .form__item:invalid {
+    background-image: url(../../../images/form-cross.svg);
+    background-position: 515px 22px;
+    background-repeat: no-repeat;
+    outline: 1px solid red;
+} */
+/* in future may be will need */

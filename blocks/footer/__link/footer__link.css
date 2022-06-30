@@ -5,12 +5,15 @@
     letter-spacing: 1px;
     margin: 0;
     padding: 0;
-    text-decoration: none;
+    background-color: inherit;
+    border: none;
     color: #B2CFDB;
+    transition: color .1s linear;
 }
 
 .footer__link:hover {
-    opacity: .8;
+    color: #37E0FF;
+    cursor: pointer;
 }
 
 .footer__link:visited {
