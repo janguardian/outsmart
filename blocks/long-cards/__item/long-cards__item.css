@@ -1,0 +1,58 @@
+.long-cards__item {
+  background-position: center;
+  border-radius: 6px;
+  box-shadow: 0 1px 5px rgba(0, 81, 192, 0.5);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  padding: 60px;
+  width: 100%;
+}
+
+.webp .long-cards__item {
+  background-image: url(../../../images/webp/bg-sec.webp);
+}
+
+.no-webp .long-cards__item {
+  background-image: url(../../../images/png/bg-sec.png);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .webp .long-cards__item {
+    background-image: url(../../../images/webp2x/bg-sec@2x.webp);
+  }
+
+  .no-webp .long-cards__item {
+    background-image: url(../../../images/png2x/bg-sec@2x.png);
+  }
+}
+
+
+.webp .long-cards__item:nth-child(2) {
+  background-image: url(../../../images/webp/bg-sec-rev.webp);
+}
+
+.no-webp .long-cards__item:nth-child(2) {
+  background-image: url(../../../images/png/bg-sec-rev.png);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .webp .long-cards__item:nth-child(2) {
+    background-image: url(../../../images/webp2x/bg-sec-rev@2x.webp);
+  }
+
+  .no-webp .long-cards__item:nth-child(2) {
+    background-image: url(../../../images/png2x/bg-sec-rev@2x.png);
+  }
+}

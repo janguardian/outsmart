@@ -1,0 +1,56 @@
+.coverage__card {
+  border-radius: 6px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 100px 0;
+  width: 588px;
+}
+
+.webp .coverage__card:first-of-type {
+  background-image: url(../../../images/webp/card-bg.webp);
+}
+
+.no-webp .coverage__card:first-of-type {
+  background-image: url(../../../images/png/card-bg.png);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .webp .coverage__card:first-of-type {
+    background-image: url(../../../images/webp2x/card-bg@2x.webp);
+  }
+
+  .no-webp .coverage__card:first-of-type {
+    background-image: url(../../../images/png2x/card-bg@2x.png);
+  }
+}
+
+
+.webp .coverage__card:last-of-type {
+  background-image: url(../../../images/webp/card-bg2.webp);
+}
+
+.no-webp .coverage__card:last-of-type {
+  background-image: url(../../../images/png/card-bg2.png);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .webp .coverage__card:last-of-type {
+    background-image: url(../../../images/webp2x/card-bg2@2x.webp);
+  }
+
+  .no-webp .coverage__card:last-of-type {
+    background-image: url(../../../images/png2x/card-bg2@2x.png);
+  }
+}

@@ -1,0 +1,7 @@
+.customer__cards {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  max-width: 1200px;
+  width: 100%;
+  gap: 20px;
+}

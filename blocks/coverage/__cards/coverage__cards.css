@@ -1,0 +1,7 @@
+.coverage__cards {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+}

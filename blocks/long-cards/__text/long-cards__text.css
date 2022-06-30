@@ -1,0 +1,6 @@
+.long-cards__text {
+  max-width: 660px;
+  width: 100%;
+  margin: 0;
+  transition: color .3s linear;
+}

@@ -1,0 +1,10 @@
+.promo__overlay {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  margin: auto;
+  opacity: .5;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

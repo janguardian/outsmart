@@ -1,0 +1,33 @@
+.get-in-touch {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 120px 20px 160px;
+}
+
+.webp .get-in-touch {
+  background-image: url(../../images/webp/bg.webp);
+}
+
+.no-webp .get-in-touch {
+  background-image: url(../../images/png/bg.png);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .webp .get-in-touch {
+    background-image: url(../../images/webp2x/bg@2x.webp);
+  }
+
+  .no-webp .get-in-touch {
+    background-image: url(../../images/png2x/bg@2x.png);
+  }
+}

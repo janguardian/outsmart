@@ -1,0 +1,97 @@
+.long-cards__item_place_services {
+  transition: background-image .3s linear;
+}
+
+.long-cards__item_place_services:hover .long-cards__heading,
+.long-cards__item_place_services:hover .long-cards__caption,
+.long-cards__item_place_services:hover .long-cards__text {
+  color: #fff;
+}
+
+.long-cards__item_place_services:hover .long-cards__label {
+  background-color: #fff;
+  color: #4e7595;
+}
+
+.webp .long-cards__item_place_services:hover:nth-child(1) {
+  background-image: url(../../../../images/webp/bg-reverse.webp);
+  background-position: top center;
+}
+
+.no-webp .long-cards__item_place_services:hover:nth-child(1) {
+  background-image: url(../../../../images/png/bg-reverse.png);
+  background-position: top center;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .webp .long-cards__item_place_services:hover:nth-child(1) {
+    background-image: url(../../../../images/webp2x/bg-reverse@2x.webp);
+    background-position: top center;
+  }
+
+  .no-webp .long-cards__item_place_services:hover:nth-child(1) {
+    background-image: url(../../../../images/png2x/bg-reverse@2x.png);
+    background-position: top center;
+  }
+}
+
+
+.webp .long-cards__item_place_services:hover:nth-child(2) {
+  background-image: url(../../../../images/webp/bg-reverse.webp);
+  background-position: center center;
+}
+
+.no-webp .long-cards__item_place_services:hover:nth-child(2) {
+  background-image: url(../../../../images/png/bg-reverse.png);
+  background-position: center center;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .webp .long-cards__item_place_services:hover:nth-child(2) {
+    background-image: url(../../../../images/webp2x/bg-reverse@2x.webp);
+    background-position: center center;
+  }
+
+  .no-webp .long-cards__item_place_services:hover:nth-child(2) {
+    background-image: url(../../../../images/png2x/bg-reverse@2x.png);
+    background-position: center center;
+  }
+}
+
+
+.webp .long-cards__item_place_services:hover:nth-child(3) {
+  background-image: url(../../../../images/webp/bg-reverse.webp);
+  background-position: bottom center;
+}
+
+.no-webp .long-cards__item_place_services:hover:nth-child(3) {
+  background-image: url(../../../../images/png/bg-reverse.png);
+  background-position: bottom center;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .webp .long-cards__item_place_services:hover:nth-child(3) {
+    background-image: url(../../../../images/webp2x/bg-reverse@2x.webp);
+    background-position: bottom center;
+  }
+
+  .no-webp .long-cards__item_place_services:hover:nth-child(3) {
+    background-image: url(../../../../images/png2x/bg-reverse@2x.png);
+    background-position: bottom center;
+  }
+}

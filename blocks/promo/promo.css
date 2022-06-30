@@ -1,0 +1,36 @@
+.promo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 920px;
+  justify-content: space-between;
+  padding: 100px 120px 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.webp .promo {
+  background-image: url(../../images/webp/bg.webp);
+}
+
+.no-webp .promo {
+  background-image: url(../../images/png/bg.png);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .webp .promo {
+    background-image: url(../../images/webp2x/bg@2x.webp);
+  }
+
+  .no-webp .promo {
+    background-image: url(../../images/png2x/bg@2x.png);
+  }
+}

@@ -1,0 +1,7 @@
+.get-in-touch__fieldset {
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0;
+}

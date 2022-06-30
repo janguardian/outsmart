@@ -1,0 +1,4 @@
+.certifications__logos {
+  display: flex;
+  justify-content: space-between;
+}
