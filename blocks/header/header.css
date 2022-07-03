@@ -3,7 +3,7 @@
     background-size: cover;
     color: #fff;
     min-height: 920px;
-    /* min-height: 1vh; */
+    max-height: 100vh;
 }
 
 /* TODO выбрать height */
