@@ -1,0 +1,18 @@
+.header__link {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  text-decoration: none;
+  text-align: center;
+  margin: 0;
+  max-width: 90px;
+  color: #5f4cff;
+  white-space: nowrap;
+  z-index: 3;
+}
+.header__button:hover .header__link {
+  color: #1c3c56;
+}
+.header__button:checked .header__link {
+  color: #1c3c56;
+}
