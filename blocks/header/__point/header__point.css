@@ -2,5 +2,6 @@
   background-color: #FFF;
   border-radius: 50%;
   height: 4px;
+  transition: all 0.3s ease-in-out;
   width: 4px;
 }
