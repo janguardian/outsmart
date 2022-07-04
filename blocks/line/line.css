@@ -1,5 +1,6 @@
 .line {
-  border: .5px solid #B2CFDB;
+  /* border: 1px solid #B2CFDB; */
   height: 0px;
   width: 1200px;
+  color: #B2CFDB;
 }

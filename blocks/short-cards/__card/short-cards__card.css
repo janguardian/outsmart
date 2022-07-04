@@ -2,9 +2,8 @@
   border-radius: 6px;
   box-sizing: border-box;
   margin: 0;
-  max-height: 396px;
   max-width: 588px;
-  min-height: 396px;
+  min-height: 404px;
   padding: 100px 60px;
   width: 100%;
 }
