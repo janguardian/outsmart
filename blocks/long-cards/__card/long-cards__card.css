@@ -9,4 +9,10 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 60px;
+  -webkit-transition: background-image .5s ease-in-out;
+}
+
+.long-cards__card:hover {
+  background-image: url(../../../images/long-card_back_hover.png);
+  box-shadow: 0px 10px 20px rgba(50, 137, 255, 0.4);
 }

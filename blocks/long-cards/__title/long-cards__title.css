@@ -9,4 +9,9 @@
   line-height: 36px;
   color: #005499;
   mix-blend-mode: normal;
+  transition: color .5s ease-in-out;
+}
+
+.long-cards__card:hover .long-cards__title {
+  color: #FFF;
 }

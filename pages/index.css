@@ -3,6 +3,7 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_padding_9/section-title_padding_9.css);
+@import url(../blocks/container/_type/container_type_promo.css);
 /*promo*/
 @import url(../blocks/promo/promo.css);
 @import url(../blocks/header/header.css);
@@ -16,6 +17,7 @@
 @import url(../blocks/promo/__overlay/promo__overlay.css);
 /*coverage*/
 @import url(../blocks/coverage/coverage.css);
+@import url(../blocks/coverage/__overlay/coverage__overlay.css);
 @import url(../blocks/short-cards/short-cards.css);
 @import url(../blocks/short-cards/__card/short-cards__card.css);
 @import url(../blocks/short-cards/__card/_back/short-cards__card_back_purple.css);
@@ -26,15 +28,11 @@
 @import url(../blocks/services/services.css);
 @import url(../blocks/long-cards/long-cards.css);
 @import url(../blocks/long-cards/__card/long-cards__card.css);
-@import url(../blocks/long-cards/__card/_hover/long-cards__card_hover.css);
 @import url(../blocks/long-cards/__title/long-cards__title.css);
-@import url(../blocks/long-cards/__title/_hover/long-cards__title_hover.css);
 @import url(../blocks/long-cards/__content/long-cards__content.css);
 @import url(../blocks/long-cards/__description/long-cards__description.css);
-@import url(../blocks/long-cards/__description/_hover/long-cards__description_hover.css);
 @import url(../blocks/buttons-card/buttons-card.css);
 @import url(../blocks/buttons-card/__button/buttons-card__button.css);
-@import url(../blocks/buttons-card/__button/_hover/buttons-card__button_hover.css);
 /*approach*/
 @import url(../blocks/approach/approach.css);
 @import url(../blocks/items-list/items-list.css);

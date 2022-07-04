@@ -12,4 +12,10 @@
   color: #FFFFFF;
   background-color: #5F4CFF;
   mix-blend-mode: normal;
+  transition: background-color .5s ease-in-out, color .5s ease-in-out;
+}
+
+.long-cards__card:hover .buttons-card__button {
+  background-color: #fff;
+  color: #4E7595;
 }
