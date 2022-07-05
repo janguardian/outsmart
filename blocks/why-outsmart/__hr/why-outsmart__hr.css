@@ -1,5 +1,6 @@
 .why-outsmart__hr {
-  width: 100%;
+  border: 0;
+  border-top: 1px solid #b2cfdb;
   margin: 0;
-  border: 1px solid #b2cfdb;
+  width: 100%;
 }

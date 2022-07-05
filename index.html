@@ -14,8 +14,8 @@
       <div class="promo__header">
         <img class="promo__logo" src="./images/logos/outsmart.svg" alt="outsmart.">
         <nav class="promo__buttons">
-          <button class="promo__button" href="#get-in-touch">Get in touch</button>
-          <button class="promo__menu"></button>
+          <button class="promo__button" type="button" href="#get-in-touch">Get in touch</button>
+          <button class="promo__menu" type="button"></button>
         </nav>
       </div>
       <div class="promo__text">
@@ -31,7 +31,7 @@
         <div class="coverage__cards">
           <div class="coverage__card">
             <h3 class="coverage__card-heading">Outsourcing companies</h3>
-            <p class="coverage__card-text">We provide marketing and sales support services for custom software development companies whatever domain or industry they are operating in.</p>
+            <p class="coverage__card-text">We provide marketing and sales support services for custom software development companies whatever domain or industry<br>they are operating in.</p>
           </div>
           <div class="coverage__card">
             <h3 class="coverage__card-heading">Product developers</h3>
@@ -47,7 +47,7 @@
             <div class="long-cards__item long-cards__item_place_services">
               <h3 class="long-cards__heading">Digital marketing</h3>
               <div class="long-cards__content">
-                <p class="long-cards__text">We provide marketing and sales support services for custom software development companies whatever domain or industry they are operating in.</p>
+                <p class="long-cards__text">We offer and implement digital marketing strategies that advertise your products or services through online channels and have a measurable impact on the performance of your business.</p>
                 <div class="long-cards__labels">
                   <a class="long-cards__label" href="#">Digital content</a>
                   <a class="long-cards__label" href="#">Online advertising</a>
@@ -77,7 +77,7 @@
                 <div class="long-cards__labels">
                   <a class="long-cards__label" href="#">Brand messaging</a>
                   <a class="long-cards__label" href="#">Brand identity</a>
-                  <a class="long-cards__label" href="#">Typograph</a>
+                  <a class="long-cards__label" href="#">Typography</a>
                   <a class="long-cards__label" href="#">Visuals</a>
                 </div>
               </div>
@@ -98,7 +98,7 @@
               <h3 class="cards__heading">Discovery</h3>
               <p class="cards__text">We hold online and face-to-face sessions with C-level executives to understand your pains.</p>
             </div>
-            <img class="cards__figure" src="./images/1.svg" alt="1.">
+            <p class="cards__figure">1</p>
           </div>
 
           <div class="cards__item">
@@ -109,7 +109,7 @@
               <h3 class="cards__heading">Audit</h3>
               <p class="cards__text">We audit your current expertise or product, pinpointing weaknesses along the way.</p>
             </div>
-            <img class="cards__figure" src="./images/2.svg" alt="2.">
+            <p class="cards__figure">2</p>
           </div>
 
           <div class="cards__item">
@@ -120,7 +120,7 @@
               <h3 class="cards__heading">Delivery</h3>
               <p class="cards__text">We implement a strategy that achieves the agreed KPIs, staying within the budget.</p>
             </div>
-            <img class="cards__figure" src="./images/3.svg" alt="3.">
+            <p class="cards__figure">3</p>
           </div>
 
           <div class="cards__item">
@@ -131,7 +131,7 @@
               <h3 class="cards__heading">Support</h3>
               <p class="cards__text">We offer continuous support to further expand your newly acquired marketing capabilities.</p>
             </div>
-            <img class="cards__figure" src="./images/4.svg" alt="4.">
+            <p class="cards__figure">4</p>
           </div>
 
         </div>
@@ -139,7 +139,7 @@
 
       <section class="certifications">
         <div class="certifications__content">
-          <h2 class="heading">Certifications</h2>
+          <h2 class="heading heading_place_certifications">Certifications</h2>
           <p class="certifications__text">Our marketing consultants are certiﬁed by industry leaders. That means you’re getting effcient advertising, comprehensive analytics and detailed reporting that will help you gain deep insights on your performance and boost ROI. </p>
         </div>
         <div class="certifications__logos">
@@ -222,17 +222,17 @@
                   </div>
                   <div class="long-cards__achievement">
                     <h3 class="long-cards__heading">A+</h3>
-                    <p class="long-cards__caption">Decrease in sales cycle</p>
+                    <p class="long-cards__caption">WebPageTest</p>
                   </div>
                   <div class="long-cards__achievement">
                     <h3 class="long-cards__heading">50ms</h3>
-                    <p class="long-cards__caption">Sales efforts saved</p>
+                    <p class="long-cards__caption">TTFB</p>
                   </div>
                 </div>
                 <div class="long-cards__content">
-                  <p class="long-cards__text">In a time span of 4 months we delivered 1 collateral, 20 case studies and 17 oﬀerings covering Jetsys’ industrial, technological, solution and service expertise to support company’s oﬀshore sales eﬀorts.</p>
+                  <p class="long-cards__text">We developed a new brand identity for a BPM provider, spanning a logo, palette and typography, and delivered a website and product look-and-feel revamp in preparation for the release of version 2.0.</p>
                   <div class="long-cards__labels">
-                    <a class="long-cards__label" href="#">Collaterals</a>
+                    <a class="long-cards__label" href="#">Brand identity</a>
                     <a class="long-cards__label" href="#">Visual design</a>
                     <a class="long-cards__label" href="#">Typography</a>
                     <a class="long-cards__label" href="#">Web design</a>
@@ -274,7 +274,7 @@
             </div>
 
             <div class="long-cards__item">
-              <div class="long-cards__customer-logo">
+              <div class="long-cards__customer-logo long-cards__customer-logo_brand_workflowengine">
                 <img src="./images/logos/workflowengine.svg" alt="logo workflowengine.">
               </div>
               <div class="long-cards__content long-cards__content_place_portfolio">
@@ -344,7 +344,7 @@
 
       <section class="get-in-touch" id="get-in-touch">
         <h2 class="heading heading_place_get-in-touch">Get in touch</h2>
-        <form class="get-in-touch__form" action="/" method="POST">
+        <form class="get-in-touch__form" action="/" method="POST" name="get-in-touch">
           <fieldset class="get-in-touch__fieldset">
             <input class="get-in-touch__form-item" type="text" name="username" placeholder="Name">
             <input class="get-in-touch__form-item" type="email" name="email" placeholder="Email">
@@ -375,8 +375,8 @@
             <ul class="footer__links-column">
               <li><a class="footer__link" href="">Afterword</a></li>
               <li><a class="footer__link" href="">Why Outsmart</a></li>
-              <li><a class="footer__link" href="">Our customers</a></li>
               <li><a class="footer__link" href="">Portfolio</a></li>
+              <li><a class="footer__link" href="">Our customers</a></li>
             </ul>
           </nav>
         </div>

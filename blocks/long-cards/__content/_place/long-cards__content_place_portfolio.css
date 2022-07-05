@@ -1,4 +1,6 @@
 .long-cards__content_place_portfolio {
+  box-sizing: border-box;
   gap: 32px;
+  padding: 8px 0;
   width: 760px;
 }

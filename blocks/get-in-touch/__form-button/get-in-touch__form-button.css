@@ -8,8 +8,8 @@
   font-size: 20px;
   height: 64px;
   line-height: 32px;
-  width: 218px;
   transition: box-shadow .2s linear;
+  width: 218px;
 }
 
 .get-in-touch__form-button:hover {

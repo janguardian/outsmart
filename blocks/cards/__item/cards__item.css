@@ -1,9 +1,9 @@
 .cards__item {
   border-radius: 6px;
-  border: 1px solid #dff0f6;
   box-sizing: border-box;
   display: flex;
   gap: 60px;
+  outline: 1px solid #dff0f6;
   padding: 60px;
   position: relative;
   width: 590px;

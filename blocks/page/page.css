@@ -1,12 +1,11 @@
 .page {
-  color: #63727e;
-  font-family: 'Graphik LC', sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-  letter-spacing: 1px;
-  line-height: 32px;
-  font-variant-ligatures: common-ligatures;
   -moz-font-feature-settings: "liga", "clig";
   -webkit-font-feature-settings: "liga", "clig";
+  color: #63727e;
+  font-family: 'Graphik LC', sans-serif;
   font-feature-settings: "liga", "clig";
+  font-size: 20px;
+  font-variant-ligatures: common-ligatures;
+  font-weight: 300;
+  line-height: 32px;
 }

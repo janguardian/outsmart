@@ -1,10 +1,10 @@
 .cards__icon {
-  width: 120px;
-  height: 120px;
+  align-items: center;
   border-radius: 6px;
   display: flex;
-  align-items: center;
+  height: 120px;
   justify-content: center;
+  width: 120px;
 }
 
 .webp .cards__icon {

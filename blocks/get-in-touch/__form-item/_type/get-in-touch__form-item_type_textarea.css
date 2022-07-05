@@ -8,7 +8,7 @@
   padding-right: 68px;
 }
 
-.get-in-touch__form-item_type_textarea:invalid .get-in-touch__form-item-cross {
+.get-in-touch__form-item_type_textarea:invalid + .get-in-touch__form-item-cross {
   background-image: url(../../../../images/cross.svg);
   display: block;
   height: 20px;

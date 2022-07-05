@@ -1,5 +1,6 @@
 .coverage__card-text {
+  color: #fff;
+  letter-spacing: 0.92px;
   margin: 0 auto;
   width: 470px;
-  color: #fff;
 }

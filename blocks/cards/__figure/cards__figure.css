@@ -1,6 +1,9 @@
 .cards__figure {
+  color: #edf5fb;
+  font-size: 120px;
+  line-height: 120px;
+  margin: 0;
   position: absolute;
-  top: 20px;
   right: 30px;
-  height: 120px;
+  top: 20px;
 }

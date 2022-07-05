@@ -1,5 +1,9 @@
 .promo__tagline {
   color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.92px;
+  line-height: 32px;
   margin: 0;
   max-width: 840px;
   width: 100%;

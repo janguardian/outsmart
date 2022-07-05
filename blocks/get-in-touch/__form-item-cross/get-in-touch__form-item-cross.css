@@ -1,3 +1,12 @@
 .get-in-touch__form-item-cross {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
   display: none;
+  /*width: 20px;
+  background-image: url(../../../images/cross.svg);
+  height: 20px;
+  position: absolute;
+  right: 24px;
+  top: 24px;*/
 }
