@@ -6,4 +6,12 @@
   align-items: stretch;
   padding: 100px 60px;
   color: white;
+  background-image: url("./images/bg-main-direct.png");
+  background-repeat: no-repeat;
+
+}
+@media (min-resolution: 2dppx) {
+  .coverage__card {
+    background-image: url("./images/bg-main-direct@2x.png");
+  }
 }

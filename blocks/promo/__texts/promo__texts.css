@@ -1,0 +1,7 @@
+.promo__texts{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 840px;
+  z-index: 2;
+}

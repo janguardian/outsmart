@@ -1,9 +1,18 @@
 .header__menu{
   background-image: url("./images/menu.svg");
   width: 24px;
-  height: 4px;
+  height: 100%;
   background-repeat: no-repeat;
-  margin: auto 0;
+  background-position: center;
+  margin: 0;
   padding: 0;
-
+  box-sizing: content-box;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+.header__menu:hover{
+  background-image: url("../../../images/menu-hover.svg");
+  border: 0;
+  box-shadow: none;
 }

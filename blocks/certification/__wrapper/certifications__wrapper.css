@@ -1,0 +1,8 @@
+.certifications__wrapper{
+  padding: 0 120px 160px 120px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+
+}

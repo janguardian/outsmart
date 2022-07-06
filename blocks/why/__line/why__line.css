@@ -1,6 +1,7 @@
 .why__line{
-  color:  #B2CFDB;
   margin: 0;
   padding: 0;
   margin-top: 100px;
+  border: 0;
+  border-bottom: 1px solid #B2CFDB;
 }

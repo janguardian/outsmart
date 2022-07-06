@@ -1,20 +1,16 @@
 .promo {
-  background-image: url("./images/bgd.png");
-  max-width: 1440px;
+  background-image: url("./images/bg-main-direct.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
   min-height: 920px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding: 100px 120px;
   box-sizing: border-box;
   font-family: 'Graphik', Arial, sans-serif;
   color: white;
   position: relative;
 }
-
 @media (min-resolution: 2dppx) {
   .promo {
-    background-image: url("./images/bgd-x2.png");
+    background-image: url("./images/bg-main-direct@2x.png");
   }
 }

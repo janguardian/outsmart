@@ -6,4 +6,10 @@
   background: #5F4CFF;
   border-radius: 16px;
   padding: 8px 20px;
+  transition: .3s ease-in-out;
+
 }
+.services__card:hover .label{
+   color: #4E7595;
+   background-color: #FFFFFF;
+ }

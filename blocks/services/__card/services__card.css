@@ -1,8 +1,22 @@
-.services__card{
-  background-image: url("./images/services-background.png");
+.services__card {
+  background-image: url("./images/bg-sec-direct.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  color: #005499;
+  transition: .1s ease-in-out;
 }
+
+.services__card:hover {
+  background-image: url("./images/bg-main-reverse.png");
+  color: #FFFFFF;
+}
+
 @media (min-resolution: 2dppx) {
-  .services__card{
-    background-image: url("./images/services-background-x2.png");
+  .services__card {
+    background-image: url("./images/bg-sec-direct@2x.png");
+  }
+
+  .services__card:hover {
+    background-image: url("./images/bg-main-reverse@2x.png");
   }
 }

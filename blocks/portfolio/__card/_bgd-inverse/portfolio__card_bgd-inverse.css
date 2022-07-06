@@ -1,8 +1,0 @@
-.portfolio__card_bgd-inverse {
-  background-image: url("./images/portfolio-background-2.png")
-}
-@media (min-resolution: 2dppx) {
-  .portfolio__card_bgd-inverse {
-    background-image: url("./images/portfolio-background-2-x2.png")
-  }
-}

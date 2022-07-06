@@ -1,5 +1,8 @@
 .footer__wrapper{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 100px;
+  padding: 80px 120px 60px 120px;
+  box-sizing: border-box;
+
 }

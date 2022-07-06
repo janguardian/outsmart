@@ -1,0 +1,9 @@
+.approach__card-icon-wrapper{
+  background-image: url("../images/bg-main-direct.png");
+  background-repeat: no-repeat;
+  min-height: 120px;
+  min-width: 120px;
+  display: flex;
+  justify-content: center;
+  border-radius: 6px;
+}

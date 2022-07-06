@@ -1,4 +1,4 @@
-.customers__card{
+.customers__card {
   border: 1px solid #DFF0F6;
   min-height: 240px;
   display: flex;
@@ -6,4 +6,8 @@
   justify-content: center;
   margin: 0;
   padding: 0;
+}
+
+.customers__card:hover {
+  box-shadow: 0 1px 10px rgba(0, 81, 192, 0.1);
 }

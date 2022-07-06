@@ -1,4 +1,4 @@
-.services__text{
+.services__text {
   margin: 0;
   padding: 0;
   font-weight: 300;
@@ -6,5 +6,10 @@
   line-height: 32px;
   letter-spacing: 1px;
   color: #63727E;
-  
+  transition: color .3s ease-in-out;
+
+}
+
+.services__card:hover .services__text {
+  color: white;
 }

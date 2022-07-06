@@ -1,14 +1,11 @@
 .get{
-  padding-top: 120px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 100px;
-  background-image: url("./images/bgd.png");
+  background-image: url("./images/bg-main-direct.png");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 @media (min-resolution: 2dppx) {
   .get{
-    background-image: url("./images/bgd-x2.png");
+    background-image: url("./images/bg-main-direct@2x.png");
   }
 }
