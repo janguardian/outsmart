@@ -6,7 +6,9 @@
 @import url(../blocks/section/__background/section__background.css);
 @import url(../blocks/section/__heading/section__heading.css);
 @import url(../blocks/section/__content/section__content.css);
-@import url(../blocks/section/_promo/section_promo.css);
+@import url(../blocks/section/_position/section_position_promo.css);
+@import url(../blocks/section/_position/section_position_services.css);
+@import url(../blocks/section/_position/section_postion_footer.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -39,6 +41,7 @@
 
 @import url(../blocks/services/services.css);
 @import url(../blocks/services/__cards/services__cards.css);
+@import url(../blocks/services/__content/services__content.css);
 @import url(../blocks/services/__long-card/services__long-card.css);
 @import url(../blocks/services/__text/services__text.css);
 
