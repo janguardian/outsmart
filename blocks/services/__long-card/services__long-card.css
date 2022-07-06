@@ -17,21 +17,21 @@
 }
 
 .services__long-card:hover {
-  background-image: url(../../../images/reverse-background.webp);
+  background-image: url(../../../images/reverse-background.png);
+  background-image: image-set('../../../images/reverse-background.png' 1x, '../../../images/reverse-background-2x.png' 2x);
+  background-image: -webkit-image-set(url('../../../images/reverse-background.png') 1x,
+      url('../../../images/reverse-background-2x.png') 2x);
   background-repeat: no-repeat;
   background-position: center;
   box-shadow: 0 10px 20px rgba(50, 137, 255, 0.4);
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-resolution: 192dpi),
-only screen and (min-resolution: 2dppx) {
+@supports (background-image: url('../../../images/reverse-background.webp')) {
   .services__long-card:hover {
-    background-image: url(../../../images/reverse-background-x2.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0 10px 20px rgba(50, 137, 255, 0.4);
+    background-image: url('../../../images/reverse-background.webp');
+    background-image: image-set('../../../images/reverse-background.webp' 1x, '../../../images/reverse-background-2x.webp' 2x);
+    background-image: -webkit-image-set(url('../../../images/reverse-background.webp') 1x,
+        url('../../../images/reverse-background-2x.webp') 2x);
   }
 }
 
