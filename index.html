@@ -1,12 +1,526 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Outsmart</title>
-  </head>
-  <body>
-    <p class="paragraph">Hello, World!</p>
-    <script type="module" src="/pages/index.js"></script>
-  </body>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Outsmart</title>
+  <link rel="stylesheet" href="pages/index.css">
+</head>
+
+<body class="page">
+
+  <!-- The README.MD file contains some nuances about the project (lang - ru) -->
+
+  <!-- HEADER / PROMO -->
+
+  <header class="header">
+    <section class="promo">
+      <div class="header__overlay"></div>
+      <div class="promo__header">
+        <img class="promo__header-logo" src="images/main-logo/logo.svg" alt="main logo.">
+        <div class="promo__header-buttons">
+          <button class="button button_size_m button_shadow_active button_hover-type_m" type="button">Get
+            in&nbsp;touch</button>
+          <button class="promo__header-button-menu" type="button" aria-label="Menu"></button>
+        </div>
+      </div>
+      <div class="promo__main">
+        <h1 class="promo__title">
+          <span class="promo__title-wrap">Progress</span> through numbers
+        </h1>
+        <p class="promo__subtitle">We are a marketing consultant. We help small and medium-sized software development
+          companies gain traction by attracting new prospects and leading them all the way up to becoming your
+          customers.</p>
+      </div>
+    </section>
+  </header>
+  <main class="main">
+
+    <!-- COVERAGE -->
+
+    <section class="coverage" id="coverage">
+      <div class="coverage__overlay"></div>
+      <h2 class="title title_padding-size_s">Coverage</h2>
+      <ul class="cards cards_short">
+        <li class="card card_background_purple card_size_s">
+          <h3 class="card__heading card___padding-top-size_l">Outsourcing companies</h3>
+          <p class="card__text card__text_box-size_s">We&nbsp;provide marketing and sales support services for custom
+            software development
+            companies whatever domain or&nbsp;industry they are operating&nbsp;in.</p>
+        </li>
+        <li class="card card_background_blue card_size_s">
+          <h3 class="card__heading card___padding-top-size_l">Product developers</h3>
+          <p class="card__text card__text_box-size_s">Outsmart renders marketing, promotion, placement, enhancement and
+            sales services for
+            independent software vendors with proprietary products.</p>
+        </li>
+      </ul>
+
+    </section>
+
+    <!-- SERVICES -->
+
+    <section class="services" id="services">
+      <div class="center-content">
+        <h2 class="title title_padding-size_s">Our services</h2>
+        <ul class="cards">
+          <li class="card card_theme_light card_background_light card_shadow-size_s card_hover_active card_size_m">
+            <h3 class="card__heading">Digital marketing</h3>
+            <div class="card__content">
+              <p class="card__text">We&nbsp;offer and implement digital marketing strategies that advertise your
+                products or
+                services through online channels and have a&nbsp;measurable impact on&nbsp;the performance of&nbsp;your
+                business.</p>
+              <ul class="card__buttons">
+                <li class="card__button">
+                  <button class="button button_size_s button_theme_dark button_hover-type_s" type="button">Digital
+                    content</button>
+                </li>
+                <li class="card__button">
+                  <button class="button button_size_s button_theme_dark button_hover-type_s" type="button">Online
+                    advertising</button>
+                </li>
+                <li class="card__button">
+                  <button class="button button_size_s button_theme_dark button_hover-type_s"
+                    type="button">Placement</button>
+                </li>
+                <li class="card__button">
+                  <button class="button button_size_s button_theme_dark button_hover-type_s" type="button">SEO</button>
+                </li>
+                <li class="card__button">
+                  <button class="button button_size_s button_theme_dark button_hover-type_s" type="button">SMM</button>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="card card_theme_light card_background_light card_shadow-size_s card_hover_active card_size_m">
+            <h3 class="card__heading">Content marketing</h3>
+
+            <div class="card__content">
+              <p class="card__text">Outsmart renders descriptive and technical content on digital and in-print media,
+                lowering presale expenses, shortening cycles, enhancing user engagement, increasing sales, and
+                decreasing support loads.</p>
+              <ul class="card__buttons">
+                <li class="card__button">
+                  <button class="button button_size_s button_theme_dark button_hover-type_s"
+                    type="button">Collaterals</button>
+                </li>
+                <li class="card__button">
+                  <button class="button button_size_s button_theme_dark button_hover-type_s"
+                    type="button">Offerings</button>
+                </li>
+                <li class="card__button">
+                  <button class="button button_size_s button_theme_dark button_hover-type_s" type="button">Case
+                    studies</button>
+                </li>
+                <li class="card__button">
+                  <button class="button button_size_s button_theme_dark button_hover-type_s"
+                    type="button">Whitepapers</button>
+                </li>
+                <li class="card__button">
+                  <button class="button button_size_s button_theme_dark button_hover-type_s"
+                    type="button">Guides</button>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="card card_theme_light card_background_light card_shadow-size_s card_size_m card_hover_active">
+            <h3 class="card__heading">Branding &amp; design</h3>
+            <div class="card__content">
+              <p class="card__text">We&nbsp;develop unique and compelling brand identities, visuals, and web designs
+                with
+                legible and correct typography to&nbsp;ensure consistent delivery of&nbsp;your brand message across all
+                digital channels.</p>
+              <ul class="card__buttons">
+                <li class="card__button">
+                  <button class="button button_size_s button_theme_dark button_hover-type_s" type="button">Brand
+                    messaging</button>
+                </li>
+                <li class="card__button">
+                  <button class="button button_size_s button_theme_dark button_hover-type_s" type="button">Brand
+                    identity</button>
+                </li>
+                <li class="card__button">
+                  <button class="button button_size_s button_theme_dark button_hover-type_s"
+                    type="button">Typograph</button>
+                </li>
+                <li class="card__button">
+                  <button class="button button_size_s button_theme_dark button_hover-type_s"
+                    type="button">Visuals</button>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- APPROACH -->
+
+    <section class="approach" id="approach">
+      <h2 class="title">Approach</h2>
+      <ul class="approach__cards">
+        <li class="approach__card approach__card_ico_bino">
+          <h3 class="approach__title">Discovery</h3>
+          <p class="approach__subtitle">We&nbsp;hold online and face-to-face sessions with C-level executives
+            to&nbsp;understand your pains.</p>
+        </li>
+        <li class="approach__card approach__card_ico_lens">
+          <h3 class="approach__title">Audit</h3>
+          <p class="approach__subtitle">We&nbsp;audit your current expertise or&nbsp;product, pinpointing weaknesses
+            along the way.</p>
+        </li>
+        <li class="approach__card approach__card_ico_arrow">
+          <h3 class="approach__title">Delivery</h3>
+          <p class="approach__subtitle">We&nbsp;implement a&nbsp;strategy that achieves the agreed KPIs, staying within
+            the budget.</p>
+        </li>
+        <li class="approach__card approach__card_ico_like">
+          <h3 class="approach__title">Support</h3>
+          <p class="approach__subtitle">We offer continuous support to further expand your newly acquired marketing
+            capabilities.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+
+    <section class="certificat" id="certificat">
+      <div class="certificat__content">
+        <h2 class="title title_position_left">certifications</h2>
+        <p class="certificat__text">Our marketing consultants are certiﬁed by industry leaders. That means you’re
+          getting effcient advertising, comprehensive analytics and detailed reporting that will help you gain deep
+          insights on your performance and boost ROI. </p>
+      </div>
+      <ul class="certificat__logos">
+        <li class="certificat__logos-item">
+          <img class="certificat__logo" src="images/logos/microsoft.svg" alt="logo Microdoft">
+        </li>
+        <li class="certificat__logos-item">
+          <img class="certificat__logo" src="images/logos/google-analytics.svg"
+            alt="logo one of marketing services google">
+        </li>
+        <li class="certificat__logos-item">
+          <img class="certificat__logo" src="images/logos/google-ads.svg" alt="logo one of analytics services google">
+        </li>
+        <li class="certificat__logos-item">
+          <img class="certificat__logo" src="images/logos/hubspot.svg" alt="logo of HubSpot">
+        </li>
+      </ul>
+    </section>
+
+    <!-- AFTERWORD -->
+
+    <section class="afterword" id="afterword">
+      <div class="center-content">
+        <h2 class="title title_padding-size_s">afterword</h2>
+        <article class="afterword__content">
+          <div class="afterwood__image-container">
+            <picture>
+              <source srcset="images/afterword-authorx2.webp 2x" type="image/webp">
+              <source srcset="images/afterword-author.webp" type="image/webp">
+              <source srcset="images/afterword-authorx2.png 2x" type="image/png">
+              <source srcset="images/afterword-author.png" type="image/png">
+              <img class="afterword__author-image" src="images/afterwood_iamage.png" alt="Photo of Jan Guardian.">
+            </picture>
+          </div>
+          <div class="afterword__author-info">
+            <h3 class="afterword__author-name">Jan Guardian</h3>
+            <p class="afterword__author-description">Marketing Executive</p>
+            <div class="afterword__paragraphs">
+              <p class="afterword__paragraph">
+                <span class="afterword__paragraph-accent">Hi, I&rsquo;m Jan. Becoming our customer, you&rsquo;re doomed
+                  to&nbsp;fall in&nbsp;my&nbsp;hands.</span>
+              </p>
+              <p class="afterword__paragraph">If&nbsp;you&nbsp;do, I&nbsp;will eagerly share a&nbsp;wide range
+                of&nbsp;handpicked practices and over 10&nbsp;years of&nbsp;experience in&nbsp;visual design, web
+                development, and digital marketing.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- OUTSMART -->
+
+    <section class="outsmart" id="outsmart">
+      <h2 class="title">why Outsmart</h2>
+      <ul class="outsmart__cards">
+        <li class="outsmart__card outsmart__card_type_label">
+          <h3 class="outsmart__title">Cost</h3>
+          <p class="outsmart__paragraph">You get a&nbsp;team of&nbsp;experts at&nbsp;a&nbsp;fraction of&nbsp;the cost
+            of&nbsp;a&nbsp;full-time executive with no&nbsp;commitment.</p>
+        </li>
+        <li class="outsmart__card outsmart__card_type_clock">
+          <h3 class="outsmart__title">Time</h3>
+          <p class="outsmart__paragraph">You receive deliverables across multiple channels faster than you would from
+            an&nbsp;in-house team.</p>
+        </li>
+        <li class="outsmart__card outsmart__card_type_key">
+          <h3 class="outsmart__title">Ownership</h3>
+          <p class="outsmart__paragraph">You remain the owner of all the accumulated data, learnings and marketing
+            deliverables. </p>
+        </li>
+        <li class="outsmart__card outsmart__card_type_cloud">
+          <h3 class="outsmart__title">Experience</h3>
+          <p class="outsmart__paragraph">You get familiar with the target market, marketing channels and opportunities
+            available.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- PORTFOLIO -->
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="title title_padding-size_s">portfolio</h2>
+      <ul class="cards">
+        <li class="card card_theme_light card_background_light card_shadow-size_s card_size_l">
+          <div class="card__logo-container">
+            <img class="card__logo" src="images/logos/dwkit.svg" alt="logo DWKIT.">
+          </div>
+          <div class="card__content card__content_size_l">
+            <ul class="card__achivments">
+              <li class="card__achivments-item">
+                <p class="card__achivment">99%</p>
+                <p class="card__achivment-text">PageSpeed Insights</p>
+              </li>
+              <li class="card__achivments-item">
+                <p class="card__achivment">A+</p>
+                <p class="card__achivment-text">WebPageTest</p>
+              </li>
+              <li class="card__achivments-item">
+                <p class="card__achivment">50ms</p>
+                <p class="card__achivment-text">TTFB</p>
+              </li>
+            </ul>
+            <p class="card__text card__text_box-size_l">We developed a new brand identity for a BPM provider, spanning a
+              logo, palette and typography, and delivered a website and product look-and-feel revamp in preparation for
+              the release of version 2.0. </p>
+            <ul class="card__buttons">
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark" type="button">Brand
+                  identity</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark" type="button">Visual
+                  design</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark" type="button">Typography</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark" type="button">Web
+                  design</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark" type="button">Content</button>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="card card_theme_light card_background_light-reversed card_shadow-size_s card_size_l">
+          <div class="card__logo-container">
+            <img class="card__logo card__logo_size_s" src="images/logos/jet.svg" alt="logo Jet.">
+          </div>
+          <div class="card__content card__content_size_l">
+            <ul class="card__achivments">
+              <li class="card__achivments-item">
+                <p class="card__achivment">+$8</p>
+                <p class="card__achivment-text">Increase in&nbsp;hourly rates</p>
+              </li>
+              <li class="card__achivments-item">
+                <p class="card__achivment">x2</p>
+                <p class="card__achivment-text">Decrease in&nbsp;sales cycle</p>
+              </li>
+              <li class="card__achivments-item">
+                <p class="card__achivment">20%</p>
+                <p class="card__achivment-text">Sales efforts saved</p>
+              </li>
+            </ul>
+            <p class="card__text card__text_box-size_l">In&nbsp;a&nbsp;time span of&nbsp;4&nbsp;months we&nbsp;delivered
+              1&nbsp;collateral, 20&nbsp;case studies and 17&nbsp;oﬀerings covering Jetsys&rsquo; industrial,
+              technological, solution and service expertise to&nbsp;support company&rsquo;s oﬀshore sales eﬀorts.</p>
+            <ul class="card__buttons">
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark" type="button">Collaterals</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark" type="button">Offerings</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark" type="button">Case
+                  studies</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark" type="button">Whitepapers</button>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="card card_theme_light card_background_light card_shadow-size_s card_size_l">
+          <div class="card__logo-container">
+            <img class="card__logo card__logo_size_l" src="images/logos/workflow.svg" alt="logo Workflow Engine.">
+          </div>
+          <div class="card__content card__content_size_l">
+            <ul class="card__achivments">
+              <li class="card__achivments-item">
+                <p class="card__achivment">x2</p>
+                <p class="card__achivment-text">Increase in&nbsp;sales</p>
+              </li>
+              <li class="card__achivments-item">
+                <p class="card__achivment">#1</p>
+                <p class="card__achivment-text">SERP in&nbsp;2&nbsp;months</p>
+              </li>
+              <li class="card__achivments-item">
+                <p class="card__achivment">$0.35</p>
+                <p class="card__achivment-text">Average CPC</p>
+              </li>
+            </ul>
+            <p class="card__text card__text_box-size_l">We&nbsp;revamped the product&rsquo;s website, having delivered
+              a&nbsp;360&deg; overview wrapped in&nbsp;a&nbsp;brand-new design. A&nbsp;PPC campaign boosted lead-gen
+              in&nbsp;a&nbsp;short term, whereas keyword infusion and targeted media placements improved SERPs.</p>
+            <ul class="card__buttons">
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark" type="button">Digital
+                  content</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark" type="button">Online
+                  advertising</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark" type="button">Placement</button>
+              </li>
+              <li class="card__button">
+                <button class="button button_size_s button_theme_dark" type="button">SEO</button>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!--OUR CUSTOMERS -->
+
+    <section class="customers" id="customers">
+      <h2 class="title">Selected customers</h2>
+      <ul class="customers__list">
+        <li class="customers__item">
+          <a class="customers__link" href="#">
+            <img class="customers__customer-logo" src="images/logos/staylime.svg" alt="logo Staylime.">
+          </a>
+        </li>
+        <li class="customers__item">
+          <a class="customers__link" href="#">
+            <img class="customers__customer-logo" src="images/logos/paralect.svg" alt="logo Paralect.">
+          </a>
+        </li>
+        <li class="customers__item">
+          <a class="customers__link" href="#">
+            <img class="customers__customer-logo" src="images/logos/Jet.svg" alt="logo Jet.">
+          </a>
+        </li>
+        <li class="customers__item">
+          <a class="customers__link" href="#">
+            <img class="customers__customer-logo" src="images/logos/customatix.svg" alt="logo Customatix.">
+          </a>
+        </li>
+        <li class="customers__item">
+          <a class="customers__link" href="#">
+            <img class="customers__customer-logo" src="images/logos/webile-soft.svg" alt="logo Webile Soft.">
+          </a>
+        </li>
+        <li class="customers__item">
+          <a class="customers__link" href="#">
+            <img class="customers__customer-logo" src="images/logos/intosoft.svg" alt="logo Intosoft.">
+          </a>
+        </li>
+        <li class="customers__item">
+          <a class="customers__link" href="#">
+            <img class="customers__customer-logo" src="images/logos/optimajet.svg" alt="logo Optimajet.">
+          </a>
+        </li>
+        <li class="customers__item">
+          <a class="customers__link" href="#">
+            <img class="customers__customer-logo" src="images/logos/alverden.svg" alt="logo Alverden.">
+          </a>
+        </li>
+        <li class="customers__item">
+          <a class="customers__link" href="#">
+            <img class="customers__customer-logo" src="images/logos/smartym.svg" alt="logo Smartym.">
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- FEEDBACK -->
+
+
+    <section class="feedback" id="feedback">
+      <h2 class="title title_padding-size_l title_position_center title_color_white">get in touch</h2>
+      <form class="form" name="form" novalidate>
+        <input class="form__item form__item_type_name" type="text" name="name" placeholder="Name">
+        <input class="form__item form__item_type_email" type="email" name="email" placeholder="Email">
+        <fieldset class="form__fieldset">
+          <textarea class="form__item form__item_type_message" name="message" placeholder="Your message" id="message"
+            rows="1"></textarea>
+          <p class="form__message-text">Please, enter your message</p>
+        </fieldset>
+        <button class="button button_size_l button_theme_night button_hover-type_l" type="submit">Send message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+    <div class="footer__content">
+      <a class="footer__phone-link" href="#">
+        <h3 class="footer__phone">+375 (44) 553-61-17</h3>
+      </a>
+      <nav class="footer__nav">
+        <ul class="footer__links">
+          <li class="footer__links-item">
+            <button class="footer__link" id="#coverage" type="button">Coverage</button>
+          </li>
+          <li class="footer__links-item">
+            <button class="footer__link" id="#services" type="button">Our services</button>
+          </li>
+          <li class="footer__links-item">
+            <button class="footer__link" id="#approach" type="button">Approach</button>
+          </li>
+          <li class="footer__links-item">
+            <button class="footer__link" id="#certificat" type="button">Certifications</button>
+          </li>
+        </ul>
+      </nav>
+      <nav class="footer__nav">
+        <ul class="footer__links">
+          <li class="footer__links-item">
+            <button class="footer__link" id="#afterword" type="button">Afterword</button>
+          </li>
+          <li class="footer__links-item">
+            <button class="footer__link" id="#outsmart" type="button">Why Outsmart</button>
+          </li>
+          <li class="footer__links-item">
+            <button class="footer__link" id="#portfolio" type="button">Portfolio</button>
+          </li>
+          <li class="footer__links-item">
+            <button class="footer__link" id="#customers" type="button">Our customers</button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <hr class="footer__line" />
+    <p class="footer__copyright">© 2022 Outsmart</p>
+  </footer>
+
+  <script>
+    document.documentElement.classList.remove("no-js");
+  </script>
+  <script type="module" src="/vendor/modernizr-custom.js"></script>
+  <script type="module" src="/pages/index.js"></script>
+</body>
+
 </html>

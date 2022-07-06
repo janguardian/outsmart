@@ -1,0 +1,9 @@
+.approach__card {
+    outline: 1px solid #DFF0F6;
+    border-radius: 6px;
+    max-width: 590px;
+    position: relative;
+    margin: 0;
+    padding: 58px 56px 60px 240px;
+    list-style: none;
+}

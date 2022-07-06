@@ -1,0 +1,4 @@
+.button_shadow_active {
+    -webkit-box-shadow: 0px 5px 30px rgba(50, 137, 255, 0.5);
+    box-shadow: 0px 5px 30px rgba(50, 137, 255, 0.5);
+}

@@ -1,0 +1,48 @@
+.approach__card_ico_lens::before {
+    content: '';
+    position: absolute;
+    top: 61px;
+    left: 60px;
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+}
+
+.approach__card_ico_lens::after {
+    content: '';
+    position: absolute;
+    top: 27px;
+    right: 30px;
+    width: 67px;
+    height: 90px;
+    background-image: url(../../../../images/ico/two-ico.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.webp .approach__card_ico_lens::before {
+    background-image: url(../../../../images/ico/lens-ico.svg), url(../../../../images/ico/backs-ico/lens-back-ico.webp);
+}
+
+.no-webp .approach__card_ico_lens::before {
+    background-image: url(../../../../images/ico/lens-ico.svg), url(../../../../images/ico/backs-ico/lens-back-ico.jpg);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+
+    .webp .approach__card_ico_lens::before {
+        background-image: url(../../../../images/ico/lens-ico.svg), url(../../../../images/ico/backs-ico/lens-back-icox2.webp);
+    }
+
+    .no-webp .approach__card_ico_lens::before {
+        background-image: url(../../../../images/ico/lens-ico.svg), url(../../../../images/ico/backs-ico/lens-back-icox2.jpg);
+    }
+}

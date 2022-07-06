@@ -1,0 +1,7 @@
+.footer__links-item {
+    margin-bottom: 18px;
+}
+
+.footer__links-item:last-of-type {
+    margin: 0;
+}

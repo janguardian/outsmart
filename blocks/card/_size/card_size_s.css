@@ -1,0 +1,34 @@
+.card_size_s {
+    max-width: 588px;
+    margin: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+
+}
+
+.card_size_s {
+    max-width: 588px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 0px 1.11fr;
+    grid-template-rows: 1fr 1.11fr;
+    gap: 0px;
+    padding-bottom: 100.5px;
+}
+
+/* свойства ниже проставил автопрефиксер https://autoprefixer.github.io/ru/ */
+
+.card_size_s>*:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+
+.card_size_s>*:nth-child(2) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+}

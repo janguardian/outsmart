@@ -1,0 +1,5 @@
+.button_hover-type_l:hover {
+    cursor: pointer;
+    background-color: #005499;
+    box-shadow: 0px 2px 7px rgba(50, 137, 255, 0.7);
+}

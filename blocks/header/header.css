@@ -1,0 +1,41 @@
+.header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    min-height: 920px;
+    max-height: 100vh;
+}
+
+/* TODO выбрать height */
+
+.webp .header {
+    background-image: url(../../images/header-background.webp);
+}
+
+.no-webp .header {
+    background-image: url(../../images/header-background.jpg);
+}
+
+.no-js .header {
+    background-image: url(../../images/header-background.jpg);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+
+    .webp .header {
+        background-image: url(../../images/header-backgroundx2.webp);
+    }
+
+    .no-js .header {
+        background-image: url(../../images/header-backgroundx2.jpg);
+    }
+
+    .no-webp .header {
+        background-image: url(../../images/header-backgroundx2.jpg);
+    }
+}

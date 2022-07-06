@@ -1,0 +1,48 @@
+.approach__card_ico_like::before {
+    content: '';
+    position: absolute;
+    top: 61px;
+    left: 60px;
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+}
+
+.approach__card_ico_like::after {
+    content: '';
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    width: 67px;
+    height: 90px;
+    background-image: url(../../../../images/ico/four-ico.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.webp .approach__card_ico_like::before {
+    background-image: url(../../../../images/ico/like-ico.svg), url(../../../../images/ico/backs-ico/like-back-arr.webp);
+}
+
+.no-webp .approach__card_ico_ike::before {
+    background-image: url(../../../../images/ico/like_item.svg), url(../../../../images/ico/backs-ico/like-back-arr.jpg);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+
+    .webp .approach__card_ico_ike::before {
+        background-image: url(../../../../images/ico/like-ico.svg), url(../../../../images/ico/backs-ico/like-back-icox2.webp);
+    }
+
+    .no-webp .approach__card_ico_ike::before {
+        background-image: url(../../../../images/ico/like-ico.svg), url(../../../../images/ico/backs-ico/like-back-icox2.jpg);
+    }
+}

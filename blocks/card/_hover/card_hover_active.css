@@ -1,0 +1,11 @@
+.card_hover_active:hover {
+    background-image: url(../../../images/card-backs/card-background-blue-purple.svg);
+    color: #fff;
+    -webkit-box-shadow: 0px 10px 20px rgba(50, 137, 255, 0.4);
+    box-shadow: 0px 10px 20px rgba(50, 137, 255, 0.4);
+}
+
+.card_hover_active:hover .button {
+    background-color: #fff;
+    color: #5F4CFF;
+}

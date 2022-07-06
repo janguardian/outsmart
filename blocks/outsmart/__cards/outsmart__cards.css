@@ -1,0 +1,10 @@
+.outsmart__cards {
+    margin: 0;
+    padding: 101px 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 53.33px;
+    list-style: none;
+    position: relative;
+}

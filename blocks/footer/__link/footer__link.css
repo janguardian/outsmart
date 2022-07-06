@@ -1,0 +1,21 @@
+.footer__link {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+    background-color: inherit;
+    border: none;
+    color: #B2CFDB;
+    transition: color .1s linear;
+}
+
+.footer__link:hover {
+    color: #37E0FF;
+    cursor: pointer;
+}
+
+.footer__link:visited {
+    color: #B2CFDB;
+}

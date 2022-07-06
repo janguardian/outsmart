@@ -1,0 +1,9 @@
+.outsmart__card_type_cloud::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 64px;
+    height: 48px;
+    background-image: url(../../../../images/ico/cloud-ico.svg);
+}

@@ -1,0 +1,10 @@
+.form__item_type_message {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    height: 67px;
+    margin: 0;
+    resize: none;
+    overflow: hidden;
+}

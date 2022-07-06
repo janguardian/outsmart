@@ -1,0 +1,12 @@
+.certificat__logos {
+    max-width: 1200px;
+    margin: 81px auto 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+}

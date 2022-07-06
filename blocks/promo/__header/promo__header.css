@@ -1,0 +1,11 @@
+.promo__header {
+    position: relative;
+    z-index: 2;
+    padding: 100px 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
