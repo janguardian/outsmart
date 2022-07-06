@@ -1,13 +1,12 @@
-.phone-number {
-  display: inline-block;  
-  color: var(--colorWhite);
+.footer__menu-link {
+  color: var(--colorLightSteelBlue);
   text-decoration: none;
   -webkit-transition: color 0.3s ease-out;
   -o-transition: color 0.3s ease-out;
   transition: color 0.3s ease-out;
 }
 
-.phone-number:hover,
-.phone-number:focus {
+.footer__menu-link:hover,
+.footer__menu-link:focus {
   color: #37e0ff;
 }

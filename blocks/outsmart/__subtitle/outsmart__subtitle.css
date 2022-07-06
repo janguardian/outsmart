@@ -1,7 +1,7 @@
 .outsmart__subtitle {
   margin: 0;
   color: var(--colorUsafaBlue);
-  letter-spacing: 1px;
+  letter-spacing: .8px;
   font-size: 20px;
   font-weight: 400;
 }

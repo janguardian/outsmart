@@ -1,23 +1,23 @@
 @font-face {
   src:
-    url('../fonts/Graphik-Extralight-Web.woff2') format('woff2'),
-    url('../fonts/Graphik-Extralight-Web.woff') format('woff');
+    url('./fonts/Graphik-Extralight-Web.woff2') format('woff2'),
+    url('./fonts/Graphik-Extralight-Web.woff') format('woff');
   font-family: 'Graphik';
   font-weight: 200;
 }
 
 @font-face {
   src:
-    url('../fonts/Graphik-Light-Web.woff2') format('woff2'),
-    url('../fonts/Graphik-Light-Web.woff') format('woff');
+    url('./fonts/Graphik-Light-Web.woff2') format('woff2'),
+    url('./fonts/Graphik-Light-Web.woff') format('woff');
   font-family: 'Graphik';
   font-weight: 300;
 }
 
 @font-face {
   src:
-    url('../fonts/Graphik-Regular-Web.woff2') format('woff2'),
-    url('../fonts/Graphik-Regular-Web.woff') format('woff');
+    url('./fonts/Graphik-Regular-Web.woff2') format('woff2'),
+    url('./fonts/Graphik-Regular-Web.woff') format('woff');
   font-family: 'Graphik';
   font-weight: 400;
 }

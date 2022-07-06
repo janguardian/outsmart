@@ -2,7 +2,7 @@
   overflow: hidden;
   margin: 0;
   color: var(--colorAuroMetalSaurus);
-  letter-spacing: 1px;
+  letter-spacing: .9px;
   -webkit-transition: color 0.3s ease-out;
   -o-transition: color 0.3s ease-out;
   transition: color 0.3s ease-out;

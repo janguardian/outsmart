@@ -1,5 +1,6 @@
 .properties__caption {
   margin: 0;
   color: var(--colorJellyBeanBlue);
+  letter-spacing: -0.2px;
   font-weight: 400;
 }

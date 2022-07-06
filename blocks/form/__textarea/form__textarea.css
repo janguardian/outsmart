@@ -7,9 +7,9 @@
   transition: box-shadow 0.3s ease-out, outline 0.3s ease-out; 
   overflow: hidden;
   outline: none;
-  padding: 2px 48px 2px 24px;
+  padding: 2px 48px 2px 22px;
   border-top: 22px;
-  border-bottom: 22px;
+  border-bottom: 25px;
   border-style: solid;
   border-color: transparent;
   border-radius: 6px;

@@ -1,14 +1,4 @@
 .root {
-  --colorWhite: #fff;
-  --colorGrey: #dff0f6;
-  --colorPurple: #5f4cff;
-  --colorJapaneseIndigo: #1c3c56;
-  --colorAuroMetalSaurus: #63727e;
-  --colorUsafaBlue: #005499;
-  --colorJellyBeanBlue: #4e7595;
-  --colorAliceBlue: #edf5fb;
-  --colorLightSteelBlue: #b2cfdb;
-
   margin: 0;
   font-variant-ligatures: common-ligatures;
   -moz-font-feature-settings: "liga", "clig";
@@ -20,6 +10,7 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%; 
+  letter-spacing: -.1px;
   line-height: 32px;
   font-family: 'Graphik', 'Arial', sans-serif;
   font-weight: 300;

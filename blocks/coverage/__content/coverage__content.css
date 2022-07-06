@@ -6,8 +6,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  row-gap: 40px;
-  max-width: 470px;
+  row-gap: 42px;
   max-height: 720px;
   overflow: hidden;
 }

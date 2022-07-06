@@ -6,4 +6,5 @@
       -ms-flex: 0 1 240px;
           flex: 0 1 240px;
   overflow: hidden;
+  padding-top: 1px;
 }

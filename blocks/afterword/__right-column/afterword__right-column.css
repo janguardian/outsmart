@@ -7,7 +7,8 @@
       -ms-flex-direction: column;
           flex-direction: column;
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 440px;
-          flex: 0 1 440px;
+      -ms-flex: 0 1 441px;
+          flex: 0 1 441px;
   row-gap: 72px;
+  padding-top: 109px;
 }
