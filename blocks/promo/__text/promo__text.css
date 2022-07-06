@@ -1,6 +1,6 @@
 .promo__text {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 44px;
   z-index: 2;
 }

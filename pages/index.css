@@ -3,9 +3,7 @@
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/section/section.css);
-@import url(../blocks/section/_background/section_background_image.css);
-@import url(../blocks/section/_background/section_background_gradient.css);
-@import url(../blocks/section/_background/section_background_footer.css);
+@import url(../blocks/section/__background/section__background.css);
 @import url(../blocks/section/__heading/section__heading.css);
 @import url(../blocks/section/__content/section__content.css);
 @import url(../blocks/section/_promo/section_promo.css);

@@ -1,18 +1,17 @@
 .header__button {
-  align-items: center;
   background-color: #FFF;
   border-radius: 24px;
   border: none;
   box-shadow: 0 5px 30px rgba(50, 137, 255, 0.5);
   color: #5F4CFF;
   cursor: pointer;
-  display: flex;
+  display: block;
   font-family: 'Graphik LC';
   font-size: 16px;
   font-weight: 300;
   line-height: 16px;
-  padding: 14px 24px;
-  text-align: center;
+  height: 44px;
+  padding: 0px 24px 2px 24px;
   transition: all 0.1s ease-in-out;
 }
 
