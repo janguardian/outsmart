@@ -1,18 +1,26 @@
 .coverage__right-card {
-    background-image: url(../../../images/background.webp);
-    background-position: bottom left;
-    background-repeat: no-repeat;
-    width: 588px;
-    box-sizing: border-box;
+  background-image: url('../../../images/background.png');
+
+  background-image: image-set('../../../images/background.png' 1x, '../../../images/background-2x.png' 2x);
+
+  background-image: -webkit-image-set(url('../../../images/background.png') 1x,
+      url('../../../images/background-2x.png') 2x);
+
+
+  background-position: bottom 0 left 0;
+  background-repeat: no-repeat;
+  background-size: 1440px 920px;
+  box-sizing: border-box;
+  width: 588px;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-resolution: 192dpi),
-only screen and (min-resolution: 2dppx) {
+@supports (background-image: url('../../../images/background.webp')) {
   .coverage__right-card {
-    background-image: url(../../../images/reverse-background-x2.webp);
-    background-position: bottom left;
-    background-repeat: no-repeat;
-    background-size: 1440px 920px;
+    background-image: url('../../../images/background.webp');
+
+    background-image: image-set('../../../images/background.webp' 1x, '../../../images/background-2x.webp' 2x);
+
+    background-image: -webkit-image-set(url('../../../images/background.webp') 1x,
+        url('../../../images/background-2x.webp') 2x);
   }
 }

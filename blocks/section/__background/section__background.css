@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 
-  background-image: url('../../../images/background-2x.png');
+  background-image: url('../../../images/background.png');
 
   background-image: image-set('../../../images/background.png' 1x, '../../../images/background-2x.png' 2x);
 
@@ -13,7 +13,7 @@
 
 @supports (background-image: url('../../../images/background.webp')) {
   .section__background {
-    background-image: url('../../../images/background-2x.webp');
+    background-image: url('../../../images/background.webp');
 
     background-image: image-set('../../../images/background.webp' 1x, '../../../images/background-2x.webp' 2x);
 
