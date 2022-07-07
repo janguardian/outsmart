@@ -6,4 +6,7 @@
   min-height: 960px;
   padding: 0 120px;
   row-gap: 100px;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
 }

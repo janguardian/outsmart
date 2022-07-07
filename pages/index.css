@@ -3,7 +3,12 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_padding_9/section-title_padding_9.css);
+@import url(../blocks/container/container.css);
 @import url(../blocks/container/_type/container_type_promo.css);
+@import url(../blocks/container/_type/container_type_services.css);
+@import url(../blocks/container/_type/container_type_afterword.css);
+@import url(../blocks/container/_type/container_type_feedback.css);
+@import url(../blocks/container/_type/container_type_footer.css);
 /*promo*/
 @import url(../blocks/promo/promo.css);
 @import url(../blocks/header/header.css);

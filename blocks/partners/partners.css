@@ -6,5 +6,7 @@
   gap: 100px;
   min-height: 1036px;
   padding: 0px 120px 160px;
-  width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1440px;
 }

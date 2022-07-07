@@ -4,11 +4,9 @@
   align-items: center;
   padding: 120px 120px 160px;
   gap: 100px;
-  width: 1440px;
   height: 800px;
-  background-image: url(../../images/promo__back-gradient.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1440px;
 }

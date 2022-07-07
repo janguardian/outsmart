@@ -1,0 +1,16 @@
+.container {
+  box-sizing: border-box;
+  margin: auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+@media screen and (max-width:1439px) {
+  .container {
+    max-width: 1440px;
+    background-size: contain;
+  }
+
+}
