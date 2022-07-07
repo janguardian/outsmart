@@ -1,0 +1,13 @@
+.navbar {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+  width: 100%;
+  min-height: 920px;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 30px rgba(50, 137, 255, 0.5);
+}
