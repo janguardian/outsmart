@@ -1,0 +1,6 @@
+.menu__nav-wrap{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: flex-start;
+}

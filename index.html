@@ -13,8 +13,25 @@
     <header class="header">
       <img src="./images/header-logo.svg" alt="Outsmart logo" class="header__logo">
       <nav class="header__nav">
-        <button type="button" class="header__button">Get in touch</button>
+        <button onclick="location.href='#get'" class="header__button">Get in touch</button>
         <button type="button" class="header__menu"></button>
+        <div class="menu">
+          <button type="button" class="menu__close-btn"></button>
+          <div class="menu__nav-wrap">
+            <ul class="menu__links">
+              <li><a href="#coverage" class="menu__link">Coverage</a></li>
+              <li><a href="#services" class="menu__link">Our services</a></li>
+              <li><a href="#approach" class="menu__link">Approach</a></li>
+              <li><a href="#certifications" class="menu__link">Certifications</a></li>
+              <li><a href="#afterword" class="menu__link">Afterword</a></li>
+              <li><a href="#why" class="menu__link">Why Outsmart</a></li>
+              <li><a href="#portfolio" class="menu__link">Portfolio</a></li>
+              <li><a href="#customers" class="menu__link">Selected customers</a></li>
+            </ul>
+            <button type="button" class="menu__get-btn">Get in touch</button>
+          </div>
+        </div>
+
       </nav>
     </header>
     <div class="promo__texts">
@@ -25,6 +42,7 @@
     </div>
   </div>
 </section>
+
 <section id="coverage" class="section coverage">
   <div class="section__wrapper coverage__wrapper">
     <h2 class="section__title">Coverage</h2>
