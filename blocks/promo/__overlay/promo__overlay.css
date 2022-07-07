@@ -11,5 +11,4 @@
   top: 50%;
   transform: translate(-50%, -50%);
   mix-blend-mode: soft-light;
-  z-index: 10;
 }

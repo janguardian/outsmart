@@ -4,12 +4,17 @@
   line-height: 16px;
   padding: 24px;
   margin: 0;
-  min-width: 560px;
+  width: 100%;
+  min-height: 68px;
   background: #FFFFFF;
   border-radius: 6px;
   border: none;
   color: #005499;
   box-sizing: border-box;
+  resize: vertical;
+  overflow: auto;
+  outline: none;
+
 }
 
 .get__input::placeholder {
@@ -25,7 +30,8 @@
   color: #005499;
   outline-width: 0;
 }
-.get__input:invalid{
+
+.get__input:invalid {
   border: 1px solid #E21111;
   box-shadow: 0 2px 7px rgba(50, 137, 255, 0.7);
   outline-width: 0;

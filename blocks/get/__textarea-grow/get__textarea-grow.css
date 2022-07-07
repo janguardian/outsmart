@@ -1,0 +1,27 @@
+.get__textarea-grow{
+  display: grid;
+}
+.get__textarea-grow::after{
+  content: attr(data-replicated-value) " ";
+  white-space: pre-wrap;
+  visibility: hidden;
+}
+.get__textarea-grow > .get__input {
+  resize: vertical;
+  overflow: hidden;
+}
+.get__textarea-grow > .get__input , .get__textarea-grow::after{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 24px;
+  margin: 0;
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 6px;
+  border: none;
+  color: #005499;
+  overflow: auto;
+  outline: none;
+  grid-area: 1 / 1 / 2 / 2;
+}

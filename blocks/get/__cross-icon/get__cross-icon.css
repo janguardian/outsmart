@@ -1,0 +1,12 @@
+.get__cross-icon{
+  background-image: url("../images/get-form-cross.svg");
+  background-color: transparent;
+  position: absolute;
+  border: none;
+  top: 24px;
+  right: 24px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  display: block;
+}

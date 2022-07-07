@@ -1,22 +1,23 @@
 .portfolio__card {
   align-items: flex-start;
-  background-image: url("./images/bg-sec-direct.png");
   background-repeat: no-repeat;
   background-position: center center;
   transition: background .3s ease-in-out;
+  background-image: url("./images/bg-sec-direct.png");
 }
 
-.portfolio__card:hover {
+.portfolio__card:nth-of-type(odd) {
   background-image: url("./images/bg-sec-reverse.png");
-
 }
 
 @media (min-resolution: 2dppx) {
   .portfolio__card {
     background-image: url("./images/bg-sec-direct@2x.png");
   }
+}
 
-  .portfolio__card:hover {
+@media (min-resolution: 2dppx) {
+  .portfolio__card:nth-of-type(odd) {
     background-image: url("./images/bg-sec-reverse@2x.png");
   }
 }
