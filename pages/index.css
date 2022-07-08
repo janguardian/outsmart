@@ -22,6 +22,11 @@
 @import url(../blocks/promo/__overlay/promo__overlay.css);
 @import url(../blocks/navbar/navbar.css);
 @import url(../blocks/navbar/__close/navbar__close.css);
+@import url(../blocks/navbar/__navigation/navbar__navigation.css);
+@import url(../blocks/navbar/__link/navbar__link.css);
+@import url(../blocks/header/__button/_place/header__button_place_navbar.css);
+@import url(../blocks/header/__link/_place/header__link_place_navbar.css);
+@import url(../blocks/navbar/_opened/navbar_opened.css);
 /*coverage*/
 @import url(../blocks/coverage/coverage.css);
 @import url(../blocks/coverage/__overlay/coverage__overlay.css);
