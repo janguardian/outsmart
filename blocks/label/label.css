@@ -1,15 +1,23 @@
-.label{
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  color: #FFFFFF;
+.label {
   background: #5F4CFF;
   border-radius: 16px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
   padding: 8px 20px;
   transition: .3s ease-in-out;
 
 }
-.services__card:hover .label{
-   color: #4E7595;
-   background-color: #FFFFFF;
- }
+
+.services__card:hover .label {
+  background-color: #FFFFFF;
+  color: #4E7595;
+}
+
+@media (max-width: 1439px) {
+  .label {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}

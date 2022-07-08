@@ -3,3 +3,8 @@
   box-sizing: border-box;
 
 }
+@media (max-width: 1439px) {
+  .coverage__wrapper {
+    padding: 80px 48px;
+  }
+}

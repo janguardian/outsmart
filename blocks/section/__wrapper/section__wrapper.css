@@ -1,5 +1,9 @@
-.section__wrapper{
+.section__wrapper {
   margin: 0 auto;
   max-width: 1440px;
   min-height: 100%;
+}
+@media (max-width: 1439px) {
+  .section__wrapper{
+  }
 }

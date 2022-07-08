@@ -3,3 +3,10 @@
   gap: 24px;
   justify-content: center;
 }
+@media (max-width: 1439px) {
+  .coverage__cards {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+}

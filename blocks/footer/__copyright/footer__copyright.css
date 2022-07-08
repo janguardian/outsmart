@@ -11,3 +11,9 @@
   align-items: flex-end;
   border-top: 1px solid rgba(178, 207, 219, 0.2);
 }
+
+@media (max-width: 1439px) {
+  .footer__copyright {
+    min-height: 56px;
+  }
+}

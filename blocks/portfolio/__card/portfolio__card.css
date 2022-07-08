@@ -1,14 +1,13 @@
 .portfolio__card {
   align-items: flex-start;
-  background-repeat: no-repeat;
-  background-position: center center;
-  transition: background .3s ease-in-out;
   background-image: url("./images/bg-sec-direct.png");
   background-image: -webkit-image-set(
     url("./images/bg-sec-direct.webp") 1x,
     url("./images/bg-sec-direct.png") 1x
   );
-
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: background .3s ease-in-out;
 }
 
 .portfolio__card:nth-of-type(odd) {
@@ -17,7 +16,6 @@
     url("./images/bg-sec-reverse.webp") 1x,
     url("./images/bg-sec-reverse.png") 1x
   );
-
 }
 
 @media (min-resolution: 2dppx) {
@@ -27,7 +25,6 @@
       url("./images/bg-sec-direct@2x.webp") 1x,
       url("./images/bg-sec-direct@2x.png") 1x
     );
-
   }
 }
 
@@ -38,6 +35,49 @@
       url("./images/bg-sec-reverse@2x.webp") 1x,
       url("./images/bg-sec-reverse@2x.png") 1x
     );
+  }
+}
 
+@media (max-width: 1439px) {
+  .portfolio__card {
+    flex-direction: column;
+    gap: 40px;
+    padding: 48px;
+    padding-bottom: 56px;
+    background-image: url("./images/bg-sec-reverse.png");
+    background-image: -webkit-image-set(
+      url("./images/bg-sec-reverse.webp") 1x,
+      url("./images/bg-sec-reverse.png") 1x
+    );
+
+  }
+}
+@media (max-width: 1439px) {
+
+  .portfolio__card:nth-of-type(odd) {
+    background-image: url("./images/bg-sec-direct.png");
+    background-image: -webkit-image-set(
+      url("./images/bg-sec-direct.webp") 1x,
+      url("./images/bg-sec-direct.png") 1x
+    );
+  }
+}
+@media (min-resolution: 2dppx),(max-width: 1439px) {
+  .portfolio__card {
+    background-image: url("./images/bg-sec-reverse@2x.png");
+    background-image: -webkit-image-set(
+      url("./images/bg-sec-reverse@2x.webp") 1x,
+      url("./images/bg-sec-reverse@2x.png") 1x
+    );
+  }
+}
+
+@media (min-resolution: 2dppx),(max-width: 1439px) {
+  .portfolio__card:nth-of-type(odd) {
+    background-image: url("./images/bg-sec-direct@2x.png");
+    background-image: -webkit-image-set(
+      url("./images/bg-sec-direct@2x.webp") 1x,
+      url("./images/bg-sec-direct@2x.png") 1x
+    );
   }
 }

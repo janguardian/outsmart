@@ -3,3 +3,8 @@
   box-sizing: border-box;
 
 }
+@media (max-width: 1439px) {
+  .afterword__wrapper {
+    padding: 80px 48px 120px 48px;
+  }
+}

@@ -1,8 +1,17 @@
-.portfolio__achievement-figure{
-  font-weight: 300;
-  font-size: 36px;
-  line-height: 36px;
+.portfolio__achievement-figure {
   color: #005499;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 36px;
   margin: 0;
   padding: 0;
+}
+
+@media (max-width: 1439px) {
+  .portfolio__achievement-figure {
+    font-size: 32px;
+    line-height: 32px;
+    max-width: 140px;
+
+  }
 }

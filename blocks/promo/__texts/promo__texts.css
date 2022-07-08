@@ -5,3 +5,8 @@
   max-width: 840px;
   z-index: 2;
 }
+@media (max-width: 1439px) {
+  .promo__texts {
+    max-width: 672px;
+  }
+}

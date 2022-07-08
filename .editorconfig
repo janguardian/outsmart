@@ -4,3 +4,4 @@ insert_final_newline = false
 charset = utf-8
 indent_style = space
 indent_size = 2
+ij_css_properties_order = name

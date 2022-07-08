@@ -83,6 +83,7 @@
 @import url(../blocks/afterword/__wrapper/afterword__wrapper.css);
 /*section why*/
 @import url(../blocks/why/why.css);
+@import url(../blocks/why/__section-title/why__section-titlle.css);
 @import url(../blocks/why/__cards/why__cards.css);
 @import url(../blocks/why/__card/why__card.css);
 @import url(../blocks/why/__card-icon/why__card-icon.css);
@@ -121,6 +122,7 @@
 @import url(../blocks/get/__wrapper/get__wrapper.css);
 @import url(../blocks/get/__row/get__row.css);
 @import url(../blocks/get/__textarea-grow/get__textarea-grow.css);
+@import url(../blocks/get/__bgd/get__bgd.css);
 /*footer*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__phone/footer__phone.css);

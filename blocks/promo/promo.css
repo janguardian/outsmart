@@ -4,16 +4,17 @@
     url("./images/bg-main-direct.webp") 1x,
     url("./images/bg-main-direct.png") 1x
   );
-
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Graphik', Arial, sans-serif;
   height: 100vh;
   min-height: 920px;
-  box-sizing: border-box;
-  font-family: 'Graphik', Arial, sans-serif;
-  color: white;
   position: relative;
 }
+
 @media (min-resolution: 2dppx) {
   .promo {
     background-image: url("./images/bg-main-direct@2x.png");
@@ -21,6 +22,5 @@
       url("./images/bg-main-direct@2x.webp") 2x,
       url("./images/bg-main-direct@2x.png") 2x
     );
-
   }
 }

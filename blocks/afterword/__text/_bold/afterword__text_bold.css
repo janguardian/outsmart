@@ -1,4 +1,11 @@
-.afterword__text_bold{
-  font-weight: 400;
+.afterword__text_bold {
   color: #005499;
+  font-weight: 400;
+}
+
+@media (max-width: 1439px) {
+  .afterword__text_bold {
+    font-size: 18px;
+    line-height: 28px;
+  }
 }

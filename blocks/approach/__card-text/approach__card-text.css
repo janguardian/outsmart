@@ -8,3 +8,10 @@
   color: #63727E;
   max-width: 290px;
 }
+
+@media (max-width: 1439px) {
+  .approach__card-text {
+    font-size: 18px;
+    max-width: 336px;
+  }
+}

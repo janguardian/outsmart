@@ -1,30 +1,28 @@
-.coverage__card{
-  flex-direction: column;
-  gap: 40px;
-  border-radius: 6px;
-  max-width: 588px;
-  align-items: stretch;
-  padding: 100px 60px;
-  color: white;
+.get__bgd {
   background-image: url("./images/bg-main-direct.png");
   background-image: -webkit-image-set(
     url("./images/bg-main-direct.webp") 1x,
     url("./images/bg-main-direct.png") 1x
   );
+  background-position: 50% 50%;
   background-repeat: no-repeat;
-
+  background-size: cover;
+  height: 100%;
+  left: 50%;
+  min-width: 1440px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: -1;
 }
+
 @media (min-resolution: 2dppx) {
-  .coverage__card {
+  .get__bgd {
     background-image: url("./images/bg-main-direct@2x.png");
     background-image: -webkit-image-set(
       url("./images/bg-main-direct@2x.webp") 2x,
       url("./images/bg-main-direct@2x.png") 2x
     );
-  }
-}
-@media (max-width: 1439px) {
-  .coverage__card {
-    padding: 64px 48px;
   }
 }

@@ -1,10 +1,16 @@
-.afterword__text{
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 32px;
-  letter-spacing: 1px;
+.afterword__text {
   color: #63727E;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 32px;
   margin: 0;
   padding: 0;
 
+}
+
+@media (max-width: 1439px) {
+  .afterword__text {
+    font-size: 18px;
+  }
 }

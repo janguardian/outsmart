@@ -5,3 +5,8 @@
   border: 0;
   border-bottom: 1px solid #B2CFDB;
 }
+@media (max-width: 1439px) {
+  .why__line {
+    margin-top: 80px;
+  }
+}

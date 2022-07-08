@@ -1,10 +1,17 @@
-.portfolio__card-text{
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 32px;
-  letter-spacing: 1px;
+.portfolio__card-text {
   color: #63727E;
-  max-width: 660px;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 32px;
   margin: 0;
+  max-width: 660px;
   padding: 0;
+}
+
+@media (max-width: 1439px) {
+  .portfolio__card-text {
+    font-size: 18px;
+    line-height: 32px;
+  }
 }

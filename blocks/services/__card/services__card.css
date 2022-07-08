@@ -4,8 +4,8 @@
     url("./images/bg-sec-direct.webp") 1x,
     url("./images/bg-sec-direct.png") 1x
   );
-  background-repeat: no-repeat;
   background-position: 50% 50%;
+  background-repeat: no-repeat;
   color: #005499;
   transition: .1s ease-in-out;
 }

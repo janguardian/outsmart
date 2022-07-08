@@ -1,16 +1,16 @@
-.menu{
-  position: absolute;
+.menu {
+  background-color: #FFFFFF;
+  box-shadow: 0 5px 30px rgba(50, 137, 255, 0.5);
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  background-color: #FFFFFF;
-  min-width: 360px;
-  width: 25vw;
-  min-height: 920px;
   height: 100vh;
-  top: 0;
-  right: 0;
+  justify-content: space-between;
+  min-height: 920px;
   padding: 60px 56px 60px 49px;
-  box-sizing: border-box;
-  box-shadow: 0 5px 30px rgba(50, 137, 255, 0.5);
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 360px;
+  z-index: 100;
 }

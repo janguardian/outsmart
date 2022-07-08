@@ -8,3 +8,11 @@
   gap: 60px;
   align-items: flex-start;
 }
+
+@media (max-width: 1439px) {
+  .approach__card {
+    padding: 48px;
+    gap: 56px;
+
+  }
+}

@@ -9,3 +9,9 @@
   padding: 0;
 
 }
+@media (max-width: 1439px) {
+  .customers__cards {
+    grid-template-rows: auto auto ;
+    grid-template-columns: auto auto ;
+  }
+}

@@ -6,3 +6,8 @@
   padding-top: 112px;
   margin: 0;
 }
+@media (max-width: 1439px) {
+  .afterword__content {
+    padding-top: 56px;
+  }
+}

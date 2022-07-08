@@ -4,3 +4,9 @@
   gap: 40px;
   align-items: flex-start;
 }
+
+@media (max-width: 1439px) {
+  .why__card {
+    max-width: 304px;
+  }
+}

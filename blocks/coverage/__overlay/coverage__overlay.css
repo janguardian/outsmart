@@ -1,9 +1,11 @@
 .coverage__overlay{
   background-image: url("../../../images/coverage-overlay.svg");
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 1000px;
+  width: 70%;
+  max-width: 100%;
+  min-width: 100%;
   height: 920px;
   position: absolute;
   left: 50%;
@@ -11,4 +13,5 @@
   transform: translate(-50%, -50%);
   z-index: -1;
   opacity: .35;
+  overflow: hidden;
 }

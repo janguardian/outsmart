@@ -1,8 +1,8 @@
-.menu__links{
-  list-style: none;
+.menu__links {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  list-style: none;
   margin: 0;
   padding: 0;
 }

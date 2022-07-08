@@ -1,13 +1,19 @@
 .customers__card {
-  border: 1px solid #DFF0F6;
-  min-height: 240px;
-  display: flex;
   align-items: center;
+  border: 1px solid #DFF0F6;
+  display: flex;
   justify-content: center;
   margin: 0;
+  min-height: 240px;
   padding: 0;
 }
 
 .customers__card:hover {
   box-shadow: 0 1px 10px rgba(0, 81, 192, 0.1);
+}
+
+@media (max-width: 1439px) {
+  .customers__card:last-of-type {
+    grid-column: span 2;
+  }
 }

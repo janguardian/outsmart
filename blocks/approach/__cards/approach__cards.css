@@ -8,3 +8,10 @@
   margin: 0;
   padding: 0;
 }
+@media (max-width: 1439px) {
+  .approach__cards {
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+
+  }
+}

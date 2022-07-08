@@ -4,5 +4,12 @@
   gap: 100px;
   padding: 80px 120px 60px 120px;
   box-sizing: border-box;
+}
 
+@media (max-width: 1439px) {
+  .footer__wrapper {
+    flex-direction: column;
+    gap: 48px;
+    padding: 80px 48px 60px 48px;
+  }
 }

@@ -1,8 +1,16 @@
-.portfolio__achievement-caption{
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
+.portfolio__achievement-caption {
   color: #4E7595;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
   margin: 0;
   padding: 0;
+}
+
+@media (max-width: 1439px) {
+  .portfolio__achievement-caption {
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 140px;
+  }
 }

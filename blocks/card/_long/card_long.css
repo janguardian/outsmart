@@ -1,8 +1,14 @@
-.card_long{
+.card_long {
   padding: 60px;
   box-shadow: 0 1px 5px rgba(0, 81, 192, 0.5);
   border-radius: 6px;
   background: #FFFFFF;
   justify-content: space-between;
 
+}
+
+@media (max-width: 1439px) {
+  .card_long {
+    padding: 40px;
+  }
 }

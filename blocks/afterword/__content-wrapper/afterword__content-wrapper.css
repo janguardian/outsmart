@@ -7,3 +7,8 @@
   padding: 0;
 
 }
+@media (max-width: 1439px) {
+  .afterword__content-wrapper {
+    gap: 56px;
+  }
+}

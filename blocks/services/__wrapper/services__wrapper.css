@@ -1,6 +1,10 @@
-.services__wrapper{
-  padding: 100px 120px 160px 120px;
+.services__wrapper {
   box-sizing: border-box;
+  padding: 100px 120px 160px 120px;
+}
 
-
+@media (max-width: 1439px) {
+  .services__wrapper {
+    padding: 80px 48px 120px 48px;
+  }
 }

@@ -15,23 +15,6 @@
       <nav class="header__nav">
         <button onclick="location.href='#get'" class="header__button">Get in touch</button>
         <button type="button" class="header__menu"></button>
-        <div class="menu">
-          <button type="button" class="menu__close-btn"></button>
-          <div class="menu__nav-wrap">
-            <ul class="menu__links">
-              <li><a href="#coverage" class="menu__link">Coverage</a></li>
-              <li><a href="#services" class="menu__link">Our services</a></li>
-              <li><a href="#approach" class="menu__link">Approach</a></li>
-              <li><a href="#certifications" class="menu__link">Certifications</a></li>
-              <li><a href="#afterword" class="menu__link">Afterword</a></li>
-              <li><a href="#why" class="menu__link">Why Outsmart</a></li>
-              <li><a href="#portfolio" class="menu__link">Portfolio</a></li>
-              <li><a href="#customers" class="menu__link">Selected customers</a></li>
-            </ul>
-            <button type="button" onclick="location.href='#get'" class="menu__get-btn">Get in touch</button>
-          </div>
-        </div>
-
       </nav>
     </header>
     <div class="promo__texts">
@@ -40,9 +23,24 @@
         companies
         gain traction by attracting new prospects and leading them all the way up to becoming your customers.</p>
     </div>
+    <div class="menu">
+      <button type="button" class="menu__close-btn"></button>
+      <div class="menu__nav-wrap">
+        <ul class="menu__links">
+          <li><a href="#coverage" class="menu__link">Coverage</a></li>
+          <li><a href="#services" class="menu__link">Our services</a></li>
+          <li><a href="#approach" class="menu__link">Approach</a></li>
+          <li><a href="#certifications" class="menu__link">Certifications</a></li>
+          <li><a href="#afterword" class="menu__link">Afterword</a></li>
+          <li><a href="#why" class="menu__link">Why Outsmart</a></li>
+          <li><a href="#portfolio" class="menu__link">Portfolio</a></li>
+          <li><a href="#customers" class="menu__link">Selected customers</a></li>
+        </ul>
+        <button type="button" onclick="location.href='#get'" class="menu__get-btn">Get in touch</button>
+      </div>
+    </div>
   </div>
 </section>
-
 <section id="coverage" class="section coverage">
   <div class="section__wrapper coverage__wrapper">
     <h2 class="section__title">Coverage</h2>
@@ -181,10 +179,10 @@
         performance and boost ROI. </p>
     </div>
     <ul class="certification__logos">
-      <li class="certification__logo"><img src="images/cert-microsoft.svg" alt="microsoft logo"></li>
-      <li class="certification__logo"><img src="images/cert-google-analytics.svg" alt="Google analytics logo"></li>
-      <li class="certification__logo"><img src="images/cert-google-a.svg" alt="Google Ads logo"></li>
-      <li class="certification__logo"><img src="images/cert-hubspot.svg" alt="HubSpot logo"></li>
+      <li><img class="certification__logo" src="images/cert-microsoft.svg" alt="microsoft logo"></li>
+      <li><img class="certification__logo" src="images/cert-google-analytics.svg" alt="Google analytics logo"></li>
+      <li><img class="certification__logo" src="images/cert-google-a.svg" alt="Google Ads logo"></li>
+      <li><img class="certification__logo" src="images/cert-hubspot.svg" alt="HubSpot logo"></li>
     </ul>
   </div>
 </section>
@@ -217,7 +215,7 @@
 </section>
 <section id="why" class="section why">
   <div class="section__wrapper why__wrapper">
-    <h2 class="section__title">Why outsmart</h2>
+    <h2 class="section__title why__section-title">Why outsmart</h2>
     <ul class="cards why__cards">
       <li class="card why__card">
         <img src="images/why-icon-label.svg" alt="Price tag icon" class="why__card-icon">
@@ -258,7 +256,7 @@
 </section>
 <section id="portfolio" class="section portfolio">
   <div class="section__wrapper portfolio__wrapper">
-    <h2 class="section__title">Portfolio</h2>
+    <h2 class="section__title ">Portfolio</h2>
     <ul class="cards portfolio__cards">
       <li class="card card_long portfolio__card ">
         <img src="images/portfolio-logo-dwkit.svg" alt="DWKIT logo" class="portfolio__card-logo">
@@ -413,6 +411,7 @@
       </fieldset>
       <button type="submit" class="get__button get__button_hover">Send message</button>
     </form>
+    <div class="get__bgd"></div>
   </div>
 </section>
 <footer class="section footer">
