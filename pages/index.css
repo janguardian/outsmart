@@ -7,7 +7,7 @@
 @import url(../blocks/section/__heading/section__heading.css);
 @import url(../blocks/section/__content/section__content.css);
 @import url(../blocks/section/_position/section_position_promo.css);
-@import url(../blocks/section/_position/section_position_services.css);
+@import url(../blocks/section/_position/section_position_content.css);
 @import url(../blocks/section/_position/section_postion_footer.css);
 
 @import url(../blocks/header/header.css);
@@ -46,6 +46,8 @@
 @import url(../blocks/services/__text/services__text.css);
 
 @import url(../blocks/approach/approach.css);
+@import url(../blocks/approach/__title/approach__title.css);
+@import url(../blocks/approach/__icon/approach__icon.css);
 @import url(../blocks/approach/__cards/approach__cards.css);
 @import url(../blocks/approach/__card/approach__card.css);
 @import url(../blocks/approach/__order/approach__order.css);
@@ -66,7 +68,6 @@
 @import url(../blocks/afterword/afterword.css);
 @import url(../blocks/afterword/__content/afterword__content.css);
 @import url(../blocks/afterword/__photo/afterword__photo.css);
-@import url(../blocks/afterword/__photo-2x/afterword__photo-2x.css);
 @import url(../blocks/afterword/__column/afterword__column.css);
 @import url(../blocks/afterword/__heading/afterword__heading.css);
 @import url(../blocks/afterword/__name/afterword__name.css);
@@ -88,6 +89,7 @@
 @import url(../blocks/portfolio/portfolio.css);
 @import url(../blocks/portfolio/__cards/portfolio__cards.css);
 @import url(../blocks/portfolio/__card/portfolio__card.css);
+@import url(../blocks/portfolio/__labels/portfolio__labels.css);
 @import url(../blocks/portfolio/__card/_middle/portfolio__card_middle.css);
 @import url(../blocks/portfolio/__content/portfolio__content.css);
 @import url(../blocks/portfolio/__achievements/portfolio__achievements.css);
@@ -107,9 +109,10 @@
 @import url(../blocks/customers/__icon/_company/customers__icon_company_paralect.css);
 
 @import url(../blocks/input-box/input-box.css);
+@import url(../blocks/input-box/_invalid/input-box_invalid.css);
 @import url(../blocks/input-box/__input/input-box__input.css);
-@import url(../blocks/input-box/__clear-button/input-box__clear-button.css);
 @import url(../blocks/input-box/__error-message/input-box__error-message.css);
+@import url(../blocks/input-box/__input/_invalid/input-box__input_invalid.css);
 
 @import url(../blocks/feedback/feedback.css);
 @import url(../blocks/feedback/__heading/feedback__heading.css);

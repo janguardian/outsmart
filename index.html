@@ -53,7 +53,7 @@
       </ul>
     </div>
   </section>
-  <section class="section section_position_services" id="services">
+  <section class="section section_position_content" id="services">
     <div class="section__content services">
       <h2 class="section__heading">Our services</h2>
       <ul class="services__cards">
@@ -96,7 +96,7 @@
             <ul class="card__labels">
               <li class="card__label">Brand messaging</li>
               <li class="card__label">Brand identity</li>
-              <li class="card__label">Typograph</li>
+              <li class="card__label">Typography</li>
               <li class="card__label">Visuals</li>
             </ul>
           </div>
@@ -110,36 +110,44 @@
       <ul class="approach__cards">
         <li class="card approach__card">
           <p class="approach__order">1</p>
-          <div class="card__image approach_type_discovery"></div>
+          <div class="card__image approach_type_discovery">
+            <img class="approach__icon" src="./images/discovery.svg" alt="Discovery icon.">
+          </div>
           <div class="card__content approach__content">
-            <h3 class="card__title">Discovery</h3>
+            <h3 class="card__title approach__title">Discovery</h3>
             <p class="card__text approach__text">We&nbsp;hold online and face-to-face sessions with C-level executives
               to&nbsp;understand your pains.</p>
           </div>
         </li>
         <li class="card approach__card">
           <p class="approach__order">2</p>
-          <div class="card__image approach_type_audit"></div>
+          <div class="card__image approach_type_audit">
+            <img class="approach__icon" src="./images/audit.svg" alt="Audit icon.">
+          </div>
           <div class="card__content approach__content">
-            <h3 class="card__title">Audit</h3>
+            <h3 class="card__title approach__title">Audit</h3>
             <p class="card__text approach__text">We&nbsp;audit your current expertise or&nbsp;product, pinpointing
               weaknesses along the way.</p>
           </div>
         </li>
         <li class="card approach__card">
           <p class="approach__order">3</p>
-          <div class="card__image approach_type_delivery"></div>
+          <div class="card__image approach_type_delivery">
+            <img class="approach__icon" src="./images/delivery.svg" alt="Delivery icon.">
+          </div>
           <div class="card__content approach__content">
-            <h3 class="card__title">Delivery</h3>
+            <h3 class="card__title approach__title">Delivery</h3>
             <p class="card__text approach__text">We&nbsp;implement a&nbsp;strategy that achieves the agreed KPIs,
               staying within the budget.</p>
           </div>
         </li>
         <li class="card approach__card">
           <p class="approach__order">4</p>
-          <div class="card__image approach_type_support"></div>
+          <div class="card__image approach_type_support">
+            <img class="approach__icon" src="./images/support.svg" alt="Support icon.">
+          </div>
           <div class="card__content approach__content">
-            <h3 class="card__title">Support</h3>
+            <h3 class="card__title approach__title">Support</h3>
             <p class="card__text approach__text">We&nbsp;offer continuous support to&nbsp;further expand your newly
               acquired marketing capabilities.</p>
           </div>
@@ -151,9 +159,9 @@
     <div class="section__content certifications">
       <div class="certifications__content">
         <h2 class="section__heading certifications__title">Certifications</h2>
-        <p class="certifications__text">Our marketing consultants are certiﬁed by&nbsp;industry leaders. That means
+        <p class="certifications__text">Our marketing consultants are certiﬁed by industry leaders. That means
           you&rsquo;re getting effcient advertising, comprehensive analytics and detailed reporting that will help you
-          gain deep insights on&nbsp;your performance and boost ROI.</p>
+          gain deep insights on your performance and boost ROI.</p>
       </div>
       <div class="certifications__logos">
         <img src="./images/microsoft.svg" alt="Microsoft logo." class="certifications__logo">
@@ -163,12 +171,17 @@
       </div>
     </div>
   </section>
-  <section class="section section_background_gradient" id="afterword">
+  <section class="section section_position_content" id="afterword">
     <div class="section__content afterword">
       <h2 class="section__heading">Afterword</h2>
       <div class="afterword__content">
-        <img class="afterword__photo" src="./images/photo.webp" alt="Jan Guardian photo.">
-        <img class="afterword__photo-2x" src="./images/photo-x2.webp" alt="Jan Guardian photo.">
+
+        <picture class="afterword__photo">
+          <source type="image/webp" srcset="./images/photo.webp, ./images/photo-x2.webp 2x">
+          <source type="image/jpeg" srcset="./images/photo.png, ./images/photo-x2.png 2x"> 
+          <img class="afterword__photo" src="./images/photo.png" alt="Jan Guardian photo.">
+        </picture>
+
         <div class="afterword__column">
           <div class="afterword__heading">
             <h3 class="afterword__name">Jan Guardian</h3>
@@ -176,7 +189,7 @@
           </div>
           <div class="afterword__comments">
             <q class="afterword__text afterword__quote">Hi, I&rsquo;m Jan. Becoming our customer, you&rsquo;re doomed
-              to&nbsp;fall in&nbsp;my&nbsp;hands.</q>
+              to fall in my hands.</q>
             <p class="afterword__text">If&nbsp;you&nbsp;do, I&nbsp;will eagerly share a&nbsp;wide range
               of&nbsp;handpicked practices and over 10&nbsp;years
               of&nbsp;experience in&nbsp;visual design, web development, and digital marketing.</p>
@@ -193,8 +206,8 @@
           <img src="./images/why-icon-1.svg" alt="Sale icon." class="why-outsmart__icon">
           <div class="why-outsmart__content">
             <q class="why-outsmart__title">Cost</q>
-            <p class="why-outsmart__text">You get a&nbsp;team of&nbsp;experts at&nbsp;a&nbsp;fraction of&nbsp;the cost
-              of&nbsp;a&nbsp;full-time executive with
+            <p class="why-outsmart__text">You get a team of experts at a fraction of the cost&nbsp;of
+               a full-time executive with
               no&nbsp;commitment.</p>
           </div>
         </li>
@@ -203,14 +216,14 @@
           <div class="why-outsmart__content">
             <q class="why-outsmart__title">Time</q>
             <p class="why-outsmart__text">You receive deliverables across multiple channels faster than you would from
-              an&nbsp;in-house team.</p>
+              an in-house team.</p>
           </div>
         </li>
         <li class="why-outsmart__card">
           <img src="./images/why-icon-3.svg" alt="Key icon." class="why-outsmart__icon">
           <div class="why-outsmart__content">
             <q class="why-outsmart__title">Ownership</q>
-            <p class="why-outsmart__text">You remain the owner of&nbsp;all the accumulated data, learnings and marketing
+            <p class="why-outsmart__text">You remain the owner of all the accumulated data, learnings and marketing
               deliverables.</p>
           </div>
         </li>
@@ -250,8 +263,8 @@
             <p class="card__text portfolio__text">We&nbsp;developed a&nbsp;new brand identity for a&nbsp;BPM provider,
               spanning a&nbsp;logo, palette and typography, and
               delivered a&nbsp;website and product look-and-feel revamp in&nbsp;preparation for the release
-              of&nbsp;version 2.0.</p>
-            <ul class="card__labels">
+              of version 2.0.</p>
+            <ul class="card__labels portfolio__labels">
               <li class="card__label">Brand identity</li>
               <li class="card__label">Visual design</li>
               <li class="card__label">Typography</li>
@@ -359,27 +372,24 @@
       </ul>
     </div>
   </section>
-  <section class="section section_background_image">
+  <section class="section section__background">
     <div class="section__content feedback">
       <h2 class="section__heading feedback__heading">Get in touch</h2>
       <form class="feedback__form" novalidate>
         <fieldset class="feedback__inputs">
           <div class="input-box">
-            <input type="text" placeholder="Name" class="input-box__input">
-            <button class="input-box__clear-button"></button>
+            <input placeholder="Name" class="input-box__input">
             <p class="input-box__error-message">This field is incorrect</p>
           </div>
 
           <div class="input-box">
-            <input type="email" placeholder="Email" class="input-box__input">
-            <button type="reset" class="input-box__clear-button"></button>
+            <input placeholder="Email" class="input-box__input">
             <p class="input-box__error-message">This field is incorrect</p>
           </div>
 
-          <div class="input-box">
+          <div class="input-box input-box_invalid">
             <textarea rows="1" placeholder="Message" oninput="auto_grow(this)"
-              class="feedback__message input-box__input"></textarea>
-            <button class="input-box__clear-button"></button>
+              class="input-box__input_invalid input-box__input feedback__message"></textarea>
             <p class="input-box__error-message">Please, enter your message</p>
           </div>
         </fieldset>

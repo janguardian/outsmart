@@ -1,7 +1,7 @@
 .input-box__input {
   background-color: #FFF;
   border-radius: 6px;
-  border: none;
+  border: 1px solid transparent;
   box-shadow: 0px 2px 7px 0px #3289FFB2;
   box-sizing: border-box;
   color: #005499;
@@ -11,23 +11,24 @@
   height: 64px;
   line-height: 16px;
   outline: none;
-  padding: 24px;
+  padding: 23px 24px 24px 23px;
   width: 560px;
 }
+
 .input-box__input::-webkit-input-placeholder {
-  color: #4E7595;
+  color: #B2CFDB;
 }
 
 .input-box__input::-moz-placeholder {
-  color: #4E7595;
+  color: #B2CFDB;
 }
 
 .input-box__input:-moz-placeholder {
-  color: #4E7595;
+  color: #B2CFDB;
 }
 
 .input-box__input:-ms-input-placeholder {
-  color: #4E7595;
+  color: #B2CFDB;
 }
 
 .input-box__input:hover {
@@ -35,18 +36,5 @@
 }
 
 .input-box__input:active {
-  border: none;
   box-shadow: 0px 5px 10px 0px #3289FF66;
-}
-
-.input-box__input:invalid {
-  border: 1px solid #DA1313;
-}
-
-.input-box__input:invalid + .input-box__clear-button {
-  display: block;
-}
-
-.input-box__input:invalid ~ .input-box__error-message {
-  display: block;
 }

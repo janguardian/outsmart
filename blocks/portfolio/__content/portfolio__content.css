@@ -1,3 +1,5 @@
 .portfolio__content {
-  padding: 8px 0;
+  box-sizing: border-box;
+  height: 328px;
+  padding: 5px 0 8px 0;
 }

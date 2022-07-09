@@ -1,17 +1,3 @@
 .approach_type_discovery {
-  background-image: url(../../../images/discovery.webp);
   background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-resolution: 192dpi),
-only screen and (min-resolution: 2dppx) {
-  .approach_type_discovery {
-    background: url(../../../images/discovery-x2.webp);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
 }
