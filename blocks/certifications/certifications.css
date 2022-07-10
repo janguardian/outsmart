@@ -2,3 +2,16 @@
   gap: 82px;
   padding: 0 120px 160px 120px;
 }
+
+@media screen and (max-width:1279px) {
+  .certifications {
+    padding: 0 60px 80px 60px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .certifications {
+    gap: 81px;
+    padding: 0 48px 80px 48px;
+  }
+}

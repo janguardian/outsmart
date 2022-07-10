@@ -2,9 +2,15 @@
   padding: 0 120px 158px 120px;
 }
 
+@media screen and(max-width:1279px) {
+  .approach {
+    padding: 0 60px 80px 60px;
+  }
+}
+
 @media screen and (max-width: 1439px) {
   .approach {
     gap: 66px;
-    padding: 0 48px 80px 48px;
+    padding: 0 48px 79px 48px;
   }
 }
