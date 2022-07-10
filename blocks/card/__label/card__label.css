@@ -13,3 +13,10 @@
   padding: 8px 20px;
   transition: all 0.3s ease-in-out;
 }
+
+@media screen and (max-width: 1079px) {
+  .card__label {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}

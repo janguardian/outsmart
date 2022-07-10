@@ -8,12 +8,12 @@
   box-shadow: 0 1px 5px rgba(0, 81, 192, 0.5);
   box-sizing: border-box;
   flex-direction: row;
-  gap: 40px;
+  gap: 60px;
   justify-content: space-between;
   mix-blend-mode: multiply;
-  padding: 58px 50px 60px 60px;
+  padding: 59px 50px 60px 60px;
   transition: all 0.2s ease-in-out;
-  width: 1200px;
+  width: 100%;
 }
 
 .services__long-card:hover {
@@ -42,4 +42,11 @@
 
 .services__long-card:hover .card__title {
   color: #FFF;
+}
+
+@media screen and (max-width:1079px) {
+  .services__long-card {
+    gap: 64px;
+    padding: 38px 40px 40px 40px;
+  }
 }

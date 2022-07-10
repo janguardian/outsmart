@@ -3,9 +3,17 @@
   box-sizing: border-box;
   flex-direction: row;
   gap: 40px;
-  height: 332px;
   justify-content: space-between;
+  min-height: 332px;
   padding: 59px 59px 60px 59px;
   position: relative;
-  width: 590px;
+}
+
+@media screen and (max-width: 1279px) {
+  .approach__card {
+    gap: 56px;
+    justify-content: flex-start;
+    min-height: 0;
+    padding: 47px 48px 48px 47px;
+  }
 }

@@ -50,6 +50,7 @@
 
 @import url(../blocks/services/services.css);
 @import url(../blocks/services/__cards/services__cards.css);
+@import url(../blocks/services/__title/services__title.css);
 @import url(../blocks/services/__content/services__content.css);
 @import url(../blocks/services/__long-card/services__long-card.css);
 @import url(../blocks/services/__text/services__text.css);
