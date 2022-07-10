@@ -1,8 +1,7 @@
-.afterword__photo{
-  object-position: center;
-  object-fit: contain;
-  width: 560px;
-  height: 680px;
+.afterword__photo {
   border-radius: 5px;
-  border: none;
+  flex-shrink: 2.43;
+  max-width: 560px;
+  min-width: 0;
+  width: 100%;
 }

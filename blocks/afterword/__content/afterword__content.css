@@ -2,3 +2,9 @@
   display: flex;
   gap: 80px;
 }
+
+@media screen and (max-width:768px) {
+  .afterword__content {
+    gap: 56px;
+  }
+}
