@@ -1,0 +1,15 @@
+.header__menu {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  background-image: url(../../../images/Menu.svg);
+  background-position: center;
+  background-repeat: none;
+  padding: 0;
+  margin: 0;
+  height: 4px;
+  width: 24px;
+}
+.header__menu:hover {
+  background-image: none;
+  background-image: url(../../../images/Menu_hover.svg);
+}

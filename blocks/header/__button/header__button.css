@@ -1,0 +1,24 @@
+.header__button {
+  align-items: center;
+  border: 0;
+  background-color: #fff;
+  border-radius: 24px;
+  box-shadow: 0px 5px 30px rgba(50, 137, 255, 0.5);
+  color: #5f4cff;
+  display: flex;
+  height: min-content;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  max-width: 138px;
+  width: 100%;
+  min-height: 44px;
+  z-index: 2;
+}
+.header__button:hover {
+  box-shadow: 0px 2px 7px rgba(50, 137, 255, 0.7);
+}
+
+.header__button:checked {
+  box-shadow: 0px 1px 2px rgba(50, 137, 255, 0.9);
+}

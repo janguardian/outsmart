@@ -1,0 +1,12 @@
+.footer__columns {
+  align-items: flex-start;
+  box-sizing: border-box;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+  height: 124px;
+  padding: 0px;
+  min-width: 1200px;
+}

@@ -1,0 +1,21 @@
+.long-cards__card {
+  align-items: flex-start;
+  /* background-color: #fff; */
+  border-radius: 6px;
+  box-shadow: 0px 1px 5px rgba(0, 81, 192, 0.5);
+  box-sizing: border-box;
+  column-gap: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 60px;
+  background-color: rgba(255, 255, 255, 1);
+  transition: background-color .5s ease-in-out;
+}
+
+.long-cards__card:hover {
+
+  background-image: url(../../../images/long-card-back-hover.png);
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 0px 10px 20px rgba(50, 137, 255, 0.4);
+}

@@ -1,0 +1,9 @@
+.items-list__content {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  row-gap: 48px;
+}

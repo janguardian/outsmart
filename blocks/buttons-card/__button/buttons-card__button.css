@@ -1,0 +1,21 @@
+.buttons-card__button {
+  width: fit-content;
+  height: fit-content;
+  padding: 8px 20px;
+  margin: 0;
+  border-radius: 16px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+  background-color: #5F4CFF;
+  mix-blend-mode: normal;
+  transition: background-color .5s ease-in-out, color .5s ease-in-out;
+}
+
+.long-cards__card:hover .buttons-card__button {
+  background-color: #fff;
+  color: #4E7595;
+}

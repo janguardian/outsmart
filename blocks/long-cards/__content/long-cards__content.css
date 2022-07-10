@@ -1,0 +1,10 @@
+.long-cards__content {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 160px;
+  margin: 0;
+  padding: 0;
+  row-gap: 32px;
+  width: 660px;
+}

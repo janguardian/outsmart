@@ -1,0 +1,17 @@
+.long-cards__title {
+  padding: 0;
+  margin: 0;
+  width: fit-content;
+  height: fit-content;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 36px;
+  color: #005499;
+  mix-blend-mode: normal;
+  transition: color .5s ease-in-out;
+}
+
+.long-cards__card:hover .long-cards__title {
+  color: #FFF;
+}

@@ -1,0 +1,10 @@
+.short-cards {
+  box-sizing: border-box;
+  column-gap: 24px;
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0;
+  width: 100%;
+}

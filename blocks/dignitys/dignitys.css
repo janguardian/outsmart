@@ -1,0 +1,12 @@
+.dignitys {
+  align-items: flex-start;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 468px;
+  padding: 0 120px;
+  row-gap: 100px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1440px;
+}

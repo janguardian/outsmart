@@ -1,0 +1,11 @@
+.promo__overlay {
+  opacity: 0.5;
+  position: absolute;
+  /* left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+  z-index: 1;
+  object-fit: cover;
+  left: calc(50% - 1000px/2);
+  top: calc(50% - 920px/2);
+}

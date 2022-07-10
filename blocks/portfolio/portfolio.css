@@ -1,0 +1,12 @@
+.portfolio {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  flex-direction: column;
+  gap: 100px;
+  min-height: 1752px;
+  padding: 100px 120px 160px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1440px;
+}

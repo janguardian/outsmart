@@ -1,0 +1,9 @@
+.items-list__title {
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 36px;
+  mix-blend-mode: normal;
+  color: #005499;
+}

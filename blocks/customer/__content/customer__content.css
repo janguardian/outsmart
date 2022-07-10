@@ -1,0 +1,10 @@
+.customer__content {
+  align-items: flex-start;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  height: 328px;
+  padding: 8px 0px;
+  width: 760px;
+}

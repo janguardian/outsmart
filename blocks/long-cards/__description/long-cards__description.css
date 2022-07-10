@@ -1,0 +1,14 @@
+.long-cards__description {
+  padding: 0;
+  margin: 0;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  color: #63727E;
+  mix-blend-mode: normal;
+}
+
+.long-cards__card:hover .long-cards__description {
+  color: #FFF;
+}

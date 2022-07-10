@@ -1,0 +1,17 @@
+.promo__subtitle {
+  padding: 0;
+  margin: 42px 480px 0 120px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  color: #fff;
+  letter-spacing: 1px;
+  max-width: 840px;
+}
+
+@media screen and (max-width:767px) {
+  .promo__subtitle {
+    font-size: 18px;
+  }
+
+}

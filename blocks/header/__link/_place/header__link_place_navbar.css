@@ -1,0 +1,11 @@
+.header__link_place_navbar {
+  color: #FFFFFF;
+}
+
+.header__link_place_navbar:hover {
+  color: #FFFFFF;
+}
+
+.header__link_place_navbar:checked {
+  color: #FFFFFF;
+}

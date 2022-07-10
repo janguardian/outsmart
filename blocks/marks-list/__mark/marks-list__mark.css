@@ -1,0 +1,8 @@
+.marks-list__mark {
+  align-items: flex-start;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  max-width: 260px;
+  row-gap: 40px;
+}

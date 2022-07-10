@@ -11,5 +11,8 @@
   },
   "devDependencies": {
     "vite": "^2.9.12"
+  },
+  "dependencies": {
+    "corepack": "^0.11.2"
   }
 }

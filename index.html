@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Outsmart</title>
-  </head>
-  <body>
-    <p class="paragraph">Hello, World!</p>
-    <script type="module" src="/pages/index.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Outsmart</title>
+  <link rel="stylesheet" href="./pages/index.css" />
+</head>
+
+<body class="page">
+  <!-- Promo -->
+  <div class="container container_type_promo">
+    <section class="promo">
+      <header class="header">
+        <img class="header__logo" src="./images/logo.svg" alt="logotype outsmart" />
+        <div class="header__buttons">
+          <button class="header__button" type="button">
+            <a href="#get-in-touch" class="header__link"> Get in touch </a>
+          </button>
+          <button class="header__menu" type="button"></button>
+        </div>
+      </header>
+      <img class="promo__overlay" src="./images/promo-overlay.svg" alt="two triangles" />
+      <h1 class="promo__title">Progress <br />through numbers</h1>
+      <p class="promo__subtitle">
+        We&nbsp;are a&nbsp;marketing consultant. We&nbsp;help small and
+        medium-sized software development companies gain traction by&nbsp;
+        attracting new prospects and leading them all the way
+        up&nbsp;to&nbsp;becoming your customers.
+      </p>
+      <nav class="navbar ">
+        <button type="button" class="navbar__close"></button>
+        <ul class="navbar__navigation">
+          <li><a class="navbar__link" href="#">Coverages</a>
+          </li>
+          <li><a class="navbar__link" href="#">Our services</a>
+          </li>
+          <li><a class="navbar__link" href="#">Approach</a>
+          </li>
+          <li><a class="navbar__link" href="#">Certifications</a>
+          </li>
+          <li><a class="navbar__link" href="#">Afterword</a>
+          </li>
+          <li><a class="navbar__link" href="#">Why Outsmart</a>
+          </li>
+          <li><a class="navbar__link" href="#">Portfolio</a>
+          </li>
+          <li><a class="navbar__link" href="#">Selected customers</a>
+          </li>
+        </ul>
+        <button class="header__button header__button_place_navbar" type="button">
+          <a href="#get-in-touch" class="header__link header__link_place_navbar"> Get in touch </a>
+        </button>
+      </nav>
+    </section>
+  </div>
+
+  <script type="module" src="./pages/index.js"></script>
+</body>
+
 </html>

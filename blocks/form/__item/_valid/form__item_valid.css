@@ -1,0 +1,4 @@
+.form__item_valid:valid {
+  background-color: #fff;
+  color: #005499;
+}

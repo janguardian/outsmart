@@ -1,0 +1,13 @@
+.page {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  font-family: "Graphik", "Arial", sans-serif;
+  width: 100%;
+}
+
+@media screen and (max-width: 1439px) {
+  .page {
+    max-width: 1440px;
+  }
+}

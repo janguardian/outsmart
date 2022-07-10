@@ -1,0 +1,12 @@
+.afterword {
+  align-self: start;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 956px;
+  padding: 100px 120px 120px 120px;
+  row-gap: 40px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1440px;
+}

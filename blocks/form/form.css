@@ -1,0 +1,11 @@
+.form {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  min-height: 404px;
+  padding: 0px;
+  margin: 0;
+  width: 560px;
+}

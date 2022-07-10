@@ -1,0 +1,11 @@
+.certificate {
+  min-height: 440px;
+  padding: 0 0 160px 0;
+  /* margin: 0; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+}

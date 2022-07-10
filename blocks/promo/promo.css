@@ -1,0 +1,12 @@
+.promo {
+  /* background-image: url(../../../images/promo-back-gradient.png);
+  background-repeat: no-repeat;
+  background-position: center; */
+  box-sizing: border-box;
+  min-height: 920px;
+  padding-top: 100px;
+  position: relative;
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+}
