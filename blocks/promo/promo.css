@@ -9,3 +9,16 @@
   position: relative;
   width: 100%;
 }
+
+@media screen and (max-width:1439px) {
+  .promo {
+    min-height: 0;
+    padding: 100px 60px 102px 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .promo {
+    padding: 80px 48px;
+  }
+}

@@ -1,0 +1,23 @@
+.menu__back-button {
+  background-color: rgba(99, 114, 126, 0.1);
+  background-image: url(../../../images/back-icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+  border: none;
+  display: block;
+  height: 48px;
+  margin: 0;
+  padding: 0;
+  width: 48px;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.menu__back-button:hover{
+  background-color: rgba(99, 114, 126, 0.3);
+}
+
+.menu__back-button:active{
+  background-color: rgba(99, 114, 126, 0.55);
+}

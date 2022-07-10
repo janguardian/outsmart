@@ -6,5 +6,12 @@
   letter-spacing: 0.9px;
   line-height: 32px;
   margin: 0;
-  width: 840px;
+  max-width: 840px;
+}
+
+@media screen and (max-width: 768px) {
+  .promo__description {
+    font-size: 18px;
+    max-width: 672px;
+  }
 }

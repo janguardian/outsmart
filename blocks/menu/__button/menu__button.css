@@ -1,0 +1,26 @@
+.menu__button {
+  background-image: linear-gradient(45deg, #6F38FE 0%, #EF09D2 100%);
+  border-radius: 24px;
+  border: none;
+  box-shadow: 0px 5px 20px 0px #774ef180;
+  color: #FFF;
+  cursor: pointer;
+  display: block;
+  font-family: 'Graphik LC';
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  padding: 13px 24px 15px 24px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  width: fit-content;
+}
+
+.menu__button:hover {
+  background: linear-gradient(265.52deg, #DC14D7 30.39%, #A931E4 100%);
+  box-shadow: 0px 2px 7px 0px #774EF1B2;
+}
+
+.menu__button:active {
+  box-shadow: 0px 1px 2px 0px #774EF1E5;
+}

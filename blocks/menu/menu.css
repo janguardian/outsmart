@@ -1,0 +1,17 @@
+.menu {
+  background-color: #FFF;
+  box-shadow: 0px 5px 30px 0px rgba(50, 137, 255, 0.5);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  height: 100%;
+  justify-content: space-between;
+  padding: 60px 0 60px 48px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  visibility: hidden;
+  width: 359px;
+  z-index: 3;
+}
