@@ -8,3 +8,10 @@
   margin: 0;
   text-transform: uppercase;
 }
+
+@media screen and (max-width:1079px) {
+  .section__heading {
+    font-size: 14px;
+    letter-spacing: 14px;
+  }
+}

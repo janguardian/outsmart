@@ -6,3 +6,10 @@
   margin:0;
   padding:0 0 160px;
 }
+
+@media screen and (max-width: 1079px) {
+  .coverage__cards{
+    flex-direction: column;
+    gap: 20px;
+  }
+}

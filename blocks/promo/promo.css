@@ -2,6 +2,7 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  gap: 100px;
   height: 100%;
   justify-content: space-between;
   min-height: 920px;
@@ -17,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1079px) {
   .promo {
     padding: 80px 48px;
   }

@@ -4,3 +4,16 @@
   padding: 99px 120px 0;
   position: relative;
 }
+
+@media screen and (max-width:1439px) {
+  .coverage {
+    padding: 99px 60px 0;
+  }
+}
+
+@media screen and (max-width: 1079px) {
+  .coverage {
+    gap: 66px;
+    padding: 78px 48px 0;
+  }
+}

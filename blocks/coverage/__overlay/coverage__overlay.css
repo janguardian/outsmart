@@ -3,9 +3,15 @@
   background-image: url(../../../images/coverage-overlay.svg);
   background-position: center;
   background-repeat: no-repeat;
-  height: 1000px;
+  height: 920px;
   position: absolute;
-  top: -110px;
-  width: 920px;
+  top: -70px;
+  width: 1000px;
   z-index: -1;
+}
+
+@media screen and (max-width: 1079px) {
+  .coverage__overlay {
+    top: -30px;
+  }
 }

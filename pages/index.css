@@ -42,10 +42,11 @@
 @import url(../blocks/coverage/coverage.css);
 @import url(../blocks/coverage/__overlay/coverage__overlay.css);
 @import url(../blocks/coverage/__cards/coverage__cards.css);
+@import url(../blocks/coverage/__card/coverage__card.css);
+@import url(../blocks/coverage/__card/_position/coverage__card_position_left.css);
+@import url(../blocks/coverage/__card/_position/coverage__card_position_right.css);
 @import url(../blocks/coverage/__title/coverage__title.css);
 @import url(../blocks/coverage/__text/coverage__text.css);
-@import url(../blocks/coverage/__left-card/coverage__left-card.css);
-@import url(../blocks/coverage/__right-card/coverage__right-card.css);
 
 @import url(../blocks/services/services.css);
 @import url(../blocks/services/__cards/services__cards.css);

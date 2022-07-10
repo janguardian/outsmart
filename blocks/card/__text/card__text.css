@@ -6,6 +6,11 @@
   letter-spacing: 0.9px;
   line-height: 32px;
   margin: 0;
-  max-width: 450px;
   transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width:1079px) {
+  .card__text {
+    font-size: 18px;
+  }
 }

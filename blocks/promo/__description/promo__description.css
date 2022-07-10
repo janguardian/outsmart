@@ -9,7 +9,7 @@
   max-width: 840px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1079px) {
   .promo__description {
     font-size: 18px;
     max-width: 672px;
