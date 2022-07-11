@@ -11,3 +11,10 @@
       -ms-flex: 0 1 240px;
           flex: 0 1 240px;
 }
+
+@media screen and (max-width: 960px) {
+  .properties__column {
+    gap: 19px;   
+    width: 150px;
+  }
+}

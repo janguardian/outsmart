@@ -26,3 +26,9 @@ only screen and (min-device-pixel-ratio: 1.5) {
     background-image: url('../../../images/background/background-main@2x.webp');
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .wrapper_section_touch {
+    background-size: auto;
+  }
+}

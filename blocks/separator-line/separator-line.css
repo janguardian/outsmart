@@ -11,3 +11,15 @@
   color: var(--colorLightSteelBlue);
   background-color: var(--colorLightSteelBlue);
 }
+
+@media screen and (max-width: 1320px) {
+  .separator-line {
+    width: 90.91%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .separator-line {    
+    width: 87.5%;
+  }
+}

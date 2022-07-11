@@ -4,3 +4,11 @@
   letter-spacing: -0.2px;
   font-weight: 400;
 }
+
+@media screen and (max-width: 960px) {
+  .properties__caption {
+    width: 77%;
+    line-height: 1.33;
+    letter-spacing: -.1px;
+  }
+}

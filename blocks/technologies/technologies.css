@@ -9,3 +9,9 @@
   margin: 0;
   list-style: none;
 }
+
+@media screen and (max-width: 1023px) {
+  .technologies {
+    gap: 9px;
+  }
+}

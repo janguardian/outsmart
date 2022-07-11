@@ -4,3 +4,9 @@
   letter-spacing: -0.2px;
   font-weight: 400;
 }
+
+@media screen and (max-width: 1023px) {
+  .afterword__author-speciality {    
+    letter-spacing: 1px;
+  }
+}

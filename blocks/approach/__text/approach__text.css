@@ -3,3 +3,10 @@
   color: var(--colorAuroMetalSaurus);
   letter-spacing: .9px;
 }
+
+@media screen and (max-width: 1023px) {
+  .approach__text {
+    width: 91%;  
+    letter-spacing: 1.05px;
+  }
+}

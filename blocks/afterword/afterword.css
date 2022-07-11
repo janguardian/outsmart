@@ -1,6 +1,13 @@
 .afterword {
-  -webkit-column-gap: 20px;
-     -moz-column-gap: 20px;
-          column-gap: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 80px;
   max-width: 1080px;
+}
+
+@media screen and (max-width: 768px) {
+  .afterword {   
+    gap: 56px;
+  }
 }

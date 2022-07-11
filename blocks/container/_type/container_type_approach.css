@@ -1,3 +1,10 @@
 .container_type_approach {
-  padding: 0 0 158px;
+  padding-top: 0;
+  padding-bottom: 156px;
+}
+
+@media screen and (max-width: 1023px) {
+  .container_type_approach {
+    padding-bottom: 76px;
+  }
 }

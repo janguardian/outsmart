@@ -11,3 +11,9 @@
   margin: 0;
   list-style: none;
 }
+
+@media screen and (max-width: 960px) {
+  .properties {
+    gap: 3.5%;
+  }
+}

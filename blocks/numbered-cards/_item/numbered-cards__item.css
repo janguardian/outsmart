@@ -1,4 +1,5 @@
 .numbered-cards__item {
+  border: 1px solid var(--colorGrey);
   position: relative;
 }
 

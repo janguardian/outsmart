@@ -16,3 +16,10 @@
   font-weight: 300;
   font-size: 20px;
 }
+
+@media screen and (max-width: 1023px) {
+  .root { 
+    line-height: 1.78;
+    font-size: calc(1vw + 10px);
+  }
+}

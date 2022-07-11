@@ -1,3 +1,9 @@
 .container_type_footer {
-  padding: 77px 0 60px;
+  padding: 79px 0 60px;
+}
+
+@media screen and (max-width: 1320px) {
+  .container_type_footer  {
+    gap: 49px;
+  }
 }

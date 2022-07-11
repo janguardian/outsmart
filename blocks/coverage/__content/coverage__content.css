@@ -6,7 +6,13 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  row-gap: 42px;
+  gap: 40px;
   max-height: 720px;
   overflow: hidden;
+}
+
+@media screen and (max-width: 960px) {
+  .coverage__content {
+    gap: 46px;
+  }
 }

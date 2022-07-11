@@ -1,8 +1,16 @@
 .approach__left-column {
   -ms-flex-item-align: start;
       align-self: flex-start;
-  flex: 0 1 120px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 120px;
+          flex: 0 1 120px;
   position: relative;
   overflow: hidden;
   padding-top: 2px;
+}
+
+@media screen and (max-width: 1023px) {
+  .approach__left-column {
+    padding-top: 0;
+  }
 }

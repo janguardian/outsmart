@@ -1,3 +1,11 @@
 .portfolio__item {
-  padding: 65px 60px 67px;
+  max-height: 920px;
+  box-sizing: border-box;
+  padding: 65px 5% 67px;
+}
+
+@media screen and (max-width: 1023px) {
+  .portfolio__item {
+    padding: 48px 7.2% 54px;
+  }
 }

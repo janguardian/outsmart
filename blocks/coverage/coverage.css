@@ -1,9 +1,20 @@
 .coverage {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   gap: 24px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
   color: var(--colorWhite);
+}
+
+@media screen and (max-width: 960px) {
+  .coverage {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
 }

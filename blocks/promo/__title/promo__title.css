@@ -1,7 +1,13 @@
 .promo__title {
   margin: 0;
-  line-height: 80px;
+  line-height: 1;
   letter-spacing: -2.3px;
   font-size: 80px;
   font-weight: 200;
+}
+
+@media screen and (max-width: 768px) {
+  .promo__title {
+    font-size: 64px;
+  }
 }

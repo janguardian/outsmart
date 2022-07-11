@@ -1,3 +1,5 @@
-.container_type_portfolio {
-  padding-bottom: 159px;
+@media screen and (max-width: 1023px) {
+  .container_type_portfolio {
+    padding-bottom: 120px;
+  }
 }

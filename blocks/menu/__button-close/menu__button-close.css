@@ -1,0 +1,23 @@
+.menu__button-close {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  position: relative;
+  cursor: pointer;
+  padding: 24px;
+  border: 0;
+  border-radius: 50%;
+  background-color: rgba(99, 114, 126, 0.1);
+  -webkit-transition: background-color 0.3s ease-out;
+  -o-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+
+.menu__button-close:hover,
+.menu__button-close:focus {
+  background-color: rgba(99, 114, 126, 0.3);
+}
+
+.menu__button-close:active {
+  background-color: rgba(99, 114, 126, 0.55);
+}

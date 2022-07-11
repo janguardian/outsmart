@@ -7,3 +7,11 @@
   font-weight: 300;
   letter-spacing: 16px;
 }
+
+@media screen and (max-width: 1023px) {
+  .section-title {    
+    line-height: 1.14;
+    letter-spacing: 14.2px;
+    font-size: calc(1vw + 6px);
+  }
+}

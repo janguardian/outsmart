@@ -10,6 +10,12 @@
       -ms-flex-pack: normal;
           justify-content: normal;
   width: 260px;
-  row-gap: 40px;
-  border: none;
+  gap: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+  .outsmart__item { 
+    gap: 40.5px;   
+    width: 100%;
+  }
 }

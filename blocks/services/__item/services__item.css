@@ -1,6 +1,6 @@
 .services__item {
   position: relative;
-  padding-top: 58px;
+  padding: 58px 60px 60px;
 }
 
 .services__item::after {
@@ -57,5 +57,11 @@ only screen and (min-device-pixel-ratio: 1.5) {
   
   .webp .services__item:hover::after {
     background-image: url('../../../images/background/background-main@2x.webp');
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .services__item {  
+    padding: 39px 5.95% 40px;
   }
 }

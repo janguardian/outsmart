@@ -3,7 +3,14 @@
   padding: 8px 20px;
   border-radius: 16px;
   color: var(--colorWhite);
-  line-height: 16px;
+  line-height: 1;
   font-size: 16px;
   font-weight: 400;
+}
+
+@media screen and (max-width: 1023px) {
+  .technologies__item {
+    font-size: calc(1vw + 6px);
+    letter-spacing: 0;
+  }
 }

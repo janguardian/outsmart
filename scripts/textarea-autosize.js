@@ -1,1 +1,1 @@
-(autosize(document.getElementById('autosize-example')))();
+autosize(document.getElementById('autosize-example'));

@@ -1,6 +1,21 @@
 .outsmart {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  row-gap: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4.45%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .outsmart {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: minmax(-webkit-min-content, 1fr) 9.5% minmax(-webkit-min-content, 1fr);
+    -ms-grid-columns: minmax(min-content, 1fr) 9.5% minmax(min-content, 1fr);
+    grid-template-columns: repeat(2, minmax(-webkit-min-content, 1fr));
+    grid-template-columns: repeat(2, minmax(min-content, 1fr));
+    gap: 64px 9.5%;
+  }
 }

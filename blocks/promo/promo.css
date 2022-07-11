@@ -1,6 +1,4 @@
 .promo {
-  position: relative;
-  z-index: 10;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8,6 +6,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  row-gap: 44px;
+  gap: 44px;
+  position: relative;
+  z-index: 10;
   max-width: 840px;
 }

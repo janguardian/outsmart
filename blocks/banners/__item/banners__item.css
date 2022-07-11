@@ -1,3 +1,9 @@
 .banners__item {  
   max-height: 40px;
 }
+
+@media screen and (max-width: 1023px) {
+  .banners__item {  
+    max-height: 28px;
+  }
+}

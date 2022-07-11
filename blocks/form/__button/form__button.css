@@ -7,7 +7,14 @@
   color: var(--colorWhite);
   background-color: var(--colorJapaneseIndigo);
   line-height: 32px;
-  font-family: "Graphik", "Arial", sans-serif;
   font-weight: 400;
   font-size: 20px;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.form__button:hover,
+.form__button:focus {
+  background-color: var(--colorWhite);
 }

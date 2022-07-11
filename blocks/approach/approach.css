@@ -1,8 +1,21 @@
 .approach {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(-webkit-min-content, 1fr) 1.67% minmax(-webkit-min-content, 1fr);
+  -ms-grid-columns: minmax(min-content, 1fr) 1.67% minmax(min-content, 1fr);
+  grid-template-columns: repeat(2, minmax(-webkit-min-content, 1fr));
+  grid-template-columns: repeat(2, minmax(min-content, 1fr));
+  gap: 20px 1.67%;
+}
+
+@media screen and (max-width: 1023px) {
+  .approach {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }

@@ -1,7 +1,7 @@
 .wrapper_section_promo {
+  position: relative;
   min-height: 920px;
   height: 100vh;
-  overflow: hidden;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,5 +26,11 @@ only screen and (min-device-pixel-ratio: 1.5) {
   
   .webp .wrapper_section_promo {
     background-image: url('../../../images/background/background-main@2x.webp');
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .wrapper_section_promo {    
+    min-height: auto;
   }
 }

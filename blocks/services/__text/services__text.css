@@ -7,3 +7,10 @@
   -o-transition: color 0.3s ease-out;
   transition: color 0.3s ease-out;
 }
+
+@media screen and (max-width: 960px) {
+  .services__text {    
+    line-height: 1.82;
+    letter-spacing: 1.05px;
+  }
+}

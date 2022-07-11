@@ -1,4 +1,10 @@
 .container_type_customers {
   padding-top: 0;
-  row-gap: 101px;
+}
+
+@media screen and (max-width: 1023px) {
+  .container_type_customers {
+    gap: 80px;
+    padding-bottom: 99px;
+  }
 }
