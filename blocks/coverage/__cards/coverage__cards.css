@@ -7,8 +7,9 @@
   padding: 0 0 160px;
 }
 
-@media screen and (max-width: 1079px) {
+@media screen and (max-width: 840px) {
   .coverage__cards {
+    align-items: center;
     flex-direction: column;
     gap: 20px;
     padding: 0 0 80px;

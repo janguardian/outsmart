@@ -9,7 +9,7 @@
   max-width: 600px;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 768px) {
   .certifications__text {
     font-size: 18px;
   }

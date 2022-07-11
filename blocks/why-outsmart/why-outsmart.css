@@ -1,4 +1,19 @@
 .why-outsmart {
+  gap: 101px;
   padding: 0 120px 0 120px;
   width: 100%;
+}
+
+@media screen and (max-width:1439px) {
+  .why-outsmart {
+    gap: 82px;
+    padding: 0 60px 0 60px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .why-outsmart {
+    gap: 82px;
+    padding: 0 48px 0 48px;
+  }
 }

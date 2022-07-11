@@ -1,16 +1,16 @@
 .afterword {
   gap: 41px;
-  padding: 99px 120px 120px 120px;
+  padding: 99px 120px 115px 120px;
 }
 
 @media screen and (max-width:1439px) {
   .afterword {
-    padding: 78px 60px 120px 60px;
+    padding: 78px 60px 119px 60px;
   }
 }
 
 @media screen and (max-width:1079px) {
   .afterword {
-    padding: 78px 48px 120px 48px;
+    padding: 78px 48px 119px 48px;
   }
 }

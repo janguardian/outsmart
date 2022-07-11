@@ -9,7 +9,7 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width:1079px) {
+@media screen and (max-width:768px) {
   .section__heading {
     font-size: 14px;
     letter-spacing: 14px;

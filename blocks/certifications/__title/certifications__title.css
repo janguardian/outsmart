@@ -2,7 +2,7 @@
   padding: 9px 0;
 }
 
-@media screen and (max-width:1279px) {
+@media screen and (max-width:768px) {
   .certifications__title{
     padding: 8px 0;
   }

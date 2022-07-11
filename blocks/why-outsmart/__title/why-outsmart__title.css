@@ -3,7 +3,14 @@
   font-family: 'Graphik LC';
   font-size: 20px;
   font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 32px;
+  letter-spacing: 0.8px;
+  line-height: 34px;
   quotes: none;
+}
+
+@media screen and (max-width: 768px) {
+  .why-outsmart__title {
+    font-size: 18px;
+    line-height: 28px;
+  }
 }

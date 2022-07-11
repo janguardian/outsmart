@@ -5,8 +5,8 @@
   max-width: 441px;
 }
 
-@media screen and (max-width:1079px) {
+@media screen and (max-width:768px) {
   .afterword__comments {
-    gap: 23px;
+    gap: 20px;
   }
 }

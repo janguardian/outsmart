@@ -9,7 +9,7 @@
   }
 }
 
-@media screen and (max-width: 1079px) {
+@media screen and (max-width: 768px) {
   .certifications {
     gap: 81px;
     padding: 0 48px 80px 48px;

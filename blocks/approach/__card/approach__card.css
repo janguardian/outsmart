@@ -9,7 +9,7 @@
   position: relative;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 768px) {
   .approach__card {
     gap: 56px;
     justify-content: flex-start;

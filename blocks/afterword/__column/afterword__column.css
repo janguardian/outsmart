@@ -5,9 +5,9 @@
   gap: 69px;
 }
 
-@media screen and (max-width:1079px) {
+@media screen and (max-width:768px) {
   .afterword__column{
     padding: 55px 0 0 0;
-    gap: 70px;
+    gap: 71px;
   }
 }

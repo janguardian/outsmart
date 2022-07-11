@@ -8,7 +8,7 @@
   }
 }
 
-@media screen and (max-width: 1079px) {
+@media screen and (max-width: 768px) {
   .approach {
     gap: 66px;
     padding: 0 48px 79px 48px;
