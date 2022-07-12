@@ -100,12 +100,10 @@
 @import url(../blocks/portfolio/portfolio.css);
 @import url(../blocks/portfolio/__cards/portfolio__cards.css);
 @import url(../blocks/portfolio/__card/portfolio__card.css);
-@import url(../blocks/portfolio/__labels/portfolio__labels.css);
 @import url(../blocks/portfolio/__card/_middle/portfolio__card_middle.css);
 @import url(../blocks/portfolio/__content/portfolio__content.css);
 @import url(../blocks/portfolio/__achievements/portfolio__achievements.css);
 @import url(../blocks/portfolio/__achievement/portfolio__achievement.css);
-@import url(../blocks/portfolio/__achievement/_middle/portfolio__achievement_middle.css);
 @import url(../blocks/portfolio/__header/portfolio__header.css);
 @import url(../blocks/portfolio/__caption/portfolio__caption.css);
 @import url(../blocks/portfolio/__logo/portfolio__logo.css);

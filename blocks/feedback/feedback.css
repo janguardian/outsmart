@@ -2,3 +2,16 @@
   align-items: center;
   padding: 120px 120px 160px 120px;
 }
+
+@media screen and (max-width: 1439px) {
+  .feedback {
+    gap: 67px;
+    padding: 77px 60px 79px 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .feedback {
+    padding: 77px 48px 79px 48px;
+  }
+}

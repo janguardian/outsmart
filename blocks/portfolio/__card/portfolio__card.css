@@ -6,10 +6,20 @@
   box-shadow: 0px 1px 5px 0px #0051C080;
   box-sizing: border-box;
   flex-direction: row;
+  flex-wrap: wrap;
+  gap: 60px;
   justify-content: space-between;
+  min-height: 448px;
   mix-blend-mode: multiply;
   overflow: hidden;
-  padding: 60px;
+  padding: 60px 60px 60px 60px;
   position: relative;
-  width: 1200px;
+  width: 100%;
+}
+
+@media screen and (max-width:768px) {
+  .portfolio__card {
+    padding: 49px 48px 48px 48px;
+    gap: 41px;
+  }
 }

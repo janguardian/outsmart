@@ -4,3 +4,9 @@
   gap: 60px;
   justify-content: space-between;
 }
+
+@media screen and (max-width:1024px) {
+  .footer__copyright {
+    gap: 40px;
+  }
+}

@@ -7,3 +7,11 @@
   line-height: 32px;
   margin: 0;
 }
+
+@media screen and (max-width:768px) {
+  .portfolio__caption {
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 139px;
+  }
+}

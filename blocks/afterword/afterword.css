@@ -9,7 +9,7 @@
   }
 }
 
-@media screen and (max-width:1079px) {
+@media screen and (max-width:768px) {
   .afterword {
     padding: 78px 48px 119px 48px;
   }

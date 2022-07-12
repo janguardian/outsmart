@@ -6,4 +6,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 100%;
+}
+
+@media screen and (max-width:1024px) {
+  .customers__card {
+    width: calc((100% - 20px)/2);
+  }
 }
