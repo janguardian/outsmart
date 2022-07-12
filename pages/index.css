@@ -12,6 +12,8 @@
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/menu/__get-btn/menu__get-btn.css);
 @import url(../blocks/menu/__nav-wrap/menu__nav-wrap.css);
+@import url(../blocks/menu/__overlay/menu__overlay.css);
+@import url(../blocks/menu/__content/menu__content.css);
 /*section promo*/
 @import url(../blocks/promo/promo.css);
 @import url(../blocks/promo/__heading/promo__heading.css);
