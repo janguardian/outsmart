@@ -1,0 +1,10 @@
+.why__cards{
+  justify-content: space-between;
+}
+@media (max-width: 1439px) {
+  .why__cards {
+    flex-wrap: wrap;
+    gap: 64px;
+
+  }
+}

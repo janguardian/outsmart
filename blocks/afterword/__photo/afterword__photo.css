@@ -1,0 +1,8 @@
+.afterword__photo{
+  max-width: 560px;
+}
+@media (max-width: 1439px) {
+  .afterword__photo {
+    max-width: 280px;
+  }
+}

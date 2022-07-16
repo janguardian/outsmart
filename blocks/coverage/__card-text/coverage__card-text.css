@@ -1,0 +1,13 @@
+.coverage__card-text {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1439px) {
+  .coverage__card-text {
+    font-size: 18px;
+  }
+}

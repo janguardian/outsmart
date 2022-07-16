@@ -1,0 +1,9 @@
+.certification__content{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+@media (max-width: 1439px) {
+  .certification__content {
+  }
+}

@@ -1,0 +1,10 @@
+.approach__wrapper {
+  padding: 0 120px 160px 120px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1439px) {
+  .approach__wrapper {
+    padding: 0 48px 80px 48px;
+  }
+}

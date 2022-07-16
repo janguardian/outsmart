@@ -1,0 +1,21 @@
+.services__text {
+  color: #63727E;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 32px;
+  margin: 0;
+  padding: 0;
+  transition: color .3s ease-in-out;
+
+}
+
+.services__card:hover .services__text {
+  color: white;
+}
+
+@media (max-width: 1439px) {
+  .services__text {
+    font-size: 18px;
+  }
+}

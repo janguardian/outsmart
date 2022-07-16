@@ -1,0 +1,10 @@
+.portfolio__wrapper{
+  padding: 100px 120px 160px 120px;
+  box-sizing: border-box;
+
+}
+@media (max-width: 1439px) {
+  .portfolio__wrapper {
+    padding: 80px 48px 120px 48px;
+  }
+}

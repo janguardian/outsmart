@@ -1,0 +1,10 @@
+.service__card-content{
+  max-width: 660px;
+  gap: 32px;
+}
+
+@media (max-width: 1439px) {
+  .service__card-content {
+    max-width: 368px;
+  }
+}

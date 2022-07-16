@@ -1,0 +1,13 @@
+.card__title{
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 1439px) {
+  .card__title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}

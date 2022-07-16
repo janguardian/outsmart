@@ -1,0 +1,10 @@
+.customers__wrapper{
+  padding: 0 120px 160px 120px;
+  box-sizing: border-box;
+
+}
+@media (max-width: 1439px) {
+  .customers__wrapper {
+    padding: 0 48px 100px 48px;
+  }
+}

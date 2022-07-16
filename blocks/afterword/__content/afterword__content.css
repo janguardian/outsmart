@@ -1,0 +1,13 @@
+.afterword__content{
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  padding: 0;
+  padding-top: 112px;
+  margin: 0;
+}
+@media (max-width: 1439px) {
+  .afterword__content {
+    padding-top: 56px;
+  }
+}

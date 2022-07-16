@@ -1,0 +1,19 @@
+.footer__copyright{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  color: #B2CFDB;
+  min-height: 76px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-end;
+  border-top: 1px solid rgba(178, 207, 219, 0.2);
+}
+
+@media (max-width: 1439px) {
+  .footer__copyright {
+    min-height: 56px;
+  }
+}

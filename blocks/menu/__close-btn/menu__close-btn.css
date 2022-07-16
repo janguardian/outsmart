@@ -1,0 +1,19 @@
+.menu__close-btn {
+  background-color: rgba(99, 114, 126, .1);
+  background-image: url("../images/header-close-btn.svg");
+  background-position: top 12px left 20px;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+}
+
+.menu__close-btn:hover {
+  background-color: rgba(99, 114, 126, .25);
+
+}
+
+.menu__close-btn:active {
+  background-color: rgba(99, 114, 126, .5);
+}

@@ -1,0 +1,16 @@
+.promo__heading {
+  font-size: 80px;
+  font-weight: 200;
+  letter-spacing: -2px;
+  line-height: 80px;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+}
+
+@media (max-width: 1439px) {
+  .promo__heading {
+    font-size: 64px;
+    line-height: 64px;
+  }
+}

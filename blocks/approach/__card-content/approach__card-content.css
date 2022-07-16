@@ -1,0 +1,6 @@
+.approach__card-content{
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  justify-content: space-between;
+}

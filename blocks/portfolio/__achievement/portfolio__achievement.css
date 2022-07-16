@@ -1,0 +1,11 @@
+.portfolio__achievement{
+  min-width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@media (max-width: 1439px) {
+  .portfolio__achievement {
+    min-width: 177px;
+  }
+}

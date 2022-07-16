@@ -1,0 +1,11 @@
+.why__wrapper{
+  padding: 0 120px 0 120px;
+  box-sizing: border-box;
+
+}
+
+@media (max-width: 1439px) {
+  .why__wrapper {
+    padding: 0 48px 0 48px;
+  }
+}

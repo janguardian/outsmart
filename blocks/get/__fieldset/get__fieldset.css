@@ -1,0 +1,9 @@
+.get__fieldset{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 560px;
+}

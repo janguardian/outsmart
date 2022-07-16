@@ -1,0 +1,9 @@
+.approach__card-figure{
+  position: absolute;
+  font-weight: 300;
+  font-size: 120px;
+  line-height: 120px;
+  color: #EDF5FB;
+  right: 30px;
+  top: 20px;
+}

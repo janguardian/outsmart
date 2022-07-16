@@ -1,0 +1,12 @@
+.why__line{
+  margin: 0;
+  padding: 0;
+  margin-top: 100px;
+  border: 0;
+  border-bottom: 1px solid #B2CFDB;
+}
+@media (max-width: 1439px) {
+  .why__line {
+    margin-top: 80px;
+  }
+}
