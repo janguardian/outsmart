@@ -1,0 +1,34 @@
+.cards {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style-type: none;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0;
+}
+
+.services .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.selected-customers .cards {
+  gap: 20px;
+}
+
+.why-outsmart .cards {
+  gap: 53.33px;
+}
+
+.approach .cards {
+  gap: 20px;
+}
+
+.portfolio .cards {
+  flex-direction: column;
+  gap: 20px;
+}

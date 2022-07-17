@@ -1,0 +1,21 @@
+.menu__link {
+  text-decoration: none;
+  font-family: "Graphik LC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 1px;
+  color: #005499;
+  -webkit-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+
+.menu__link:hover {
+  color: #37E0FF;
+}
+/* 
+.menu__link:active {
+
+} */

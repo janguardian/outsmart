@@ -1,0 +1,32 @@
+.input {
+  border-radius: 6px;
+  border: 0 none;
+  box-sizing: border-box;
+  color: #005499;
+  font-size: 16px;
+  font-weight: 400;
+  height: 64px;
+  line-height: 16px;
+  margin:0;
+  padding: 24px;
+  resize: none;
+  width: 560px;
+  -webkit-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+
+.input::placeholder {
+  font-family: 'Graphik LC', Arial, sans-serif;
+  color:#B2CFDB;
+}
+
+.input:focus {
+  box-shadow: 0 2px 7px #3289ffb3;
+  outline: 0;
+}
+
+.input:invalid {
+  border:1px;
+}

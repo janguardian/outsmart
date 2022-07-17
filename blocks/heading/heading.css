@@ -1,0 +1,30 @@
+.heading {
+  box-sizing: border-box;
+  color: #63727E;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 16px;
+  line-height: 16px;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 100px 0;
+  text-transform: uppercase;
+}
+
+.certifications .heading {
+  line-height: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio .heading {
+  border-top: 1px solid #B2CFDB;
+}
+
+.why-outsmart .heading {
+  padding: 0 0 100px;
+}
+
+.afterword .heading {
+  padding: 100px 0 40px;
+}

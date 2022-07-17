@@ -1,0 +1,8 @@
+.links {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-bottom: 100px;
+  padding-top: 80px;
+}

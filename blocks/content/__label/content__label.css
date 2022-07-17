@@ -1,0 +1,22 @@
+.content__label {
+  background-color: #5f4cff;
+  border-radius: 16px;
+  box-sizing: border-box;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 0;
+  padding: 8px 20px;
+  -webkit-transition: background-color 0.3s ease-out;
+  -o-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+  -webkit-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+
+.long-card_place_services:hover .content__label {
+  background-color: white;
+  color: #4e7595;
+}

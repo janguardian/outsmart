@@ -1,0 +1,7 @@
+.card__icon_type_audit {
+  box-sizing: border-box;
+  background: url("../../../../images/background/main-direct@1x.png");
+  background-position: right;
+  padding: 30px;
+  border-radius: 6px;
+}

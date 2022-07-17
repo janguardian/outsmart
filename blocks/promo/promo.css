@@ -1,0 +1,42 @@
+.promo {
+  position: relative;
+  /* background: url('../../images/overlay-fill.svg'), url('../../images/Header-background.png'); */
+  background-position: center;
+  /* background-blend-mode: soft-light, normal; */
+  background-size: /*contain,*/ cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Graphik LC', Arial, sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  min-height: 920px;
+  height: 100vh;
+  width: 100%;
+}
+
+.no-webp .promo {
+  background-image: url('../../images/background/main-direct@1x.png');
+}
+
+.webp .promo {
+  background-image: url('../../images/background/main-direct@1x.webp');
+}
+
+@media /* only for retina displays */
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+  .no-webp .promo {
+    background-image: url('../../images/background/main-direct@2x.png');
+  }
+  
+  .webp .promo {
+    background-image: url('../../images/background/main-direct@2x.webp');
+  }
+}

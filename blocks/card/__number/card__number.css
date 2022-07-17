@@ -1,0 +1,12 @@
+.card__number {
+  color: #EDF5FB;
+  font-size: 120px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  line-height: 120px;
+  margin: 0;
+  position: absolute;
+  right: 30px;
+  text-align: right;
+  top: 20px;
+}

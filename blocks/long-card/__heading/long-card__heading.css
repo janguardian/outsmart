@@ -1,0 +1,14 @@
+.long-card__heading {
+  color: #005499;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 36px;
+  margin: 0;
+  -webkit-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+
+.long-card_place_services:hover .long-card__heading {
+  color: white;
+}

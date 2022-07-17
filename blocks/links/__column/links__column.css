@@ -1,0 +1,6 @@
+.links__column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 240px;
+}

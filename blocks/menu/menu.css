@@ -1,0 +1,20 @@
+.menu {
+  display: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  min-height: 920px;
+  height: 100vh;
+  min-width: 360px;
+  background-color: white;
+  box-shadow: 0px 5px 30px rgba(50, 137, 255, 0.5);
+  z-index: 10;
+}
+.menu::before {
+  content: '';
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  left: -100vw;
+}
