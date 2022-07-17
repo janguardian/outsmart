@@ -9,6 +9,26 @@
     <title>Outsmart</title>
   </head>
   <body class="body">
+    <!-- class="menu menu__opened" -->
+    <section class="menu menu_opened">
+      <div class="menu__container">
+        <button type="button" class="menu__close-button"></button>
+        <nav class="menu__navigation">
+          <ul class="menu__links">
+            <li class="menu__item"><a href="#coverage" class="menu__link">Coverage</a></li>
+            <li class="menu__item"><a href="#services" class="menu__link">Our services</a></li>
+            <li class="menu__item"><a href="#approach" class="menu__link">Approach</a></li>
+            <li class="menu__item"><a href="#certifications" class="menu__link">Certifications</a></li>
+            <li class="menu__item"><a href="#afterword" class="menu__link">Afterword</a></li>
+            <li class="menu__item"><a href="#why-outsmart" class="menu__link">Why Outsmart</a></li>
+            <li class="menu__item"><a href="#portfolio" class="menu__link">Portfolio</a></li>
+            <li class="menu__item"><a href="#customers" class="menu__link">Selected customers</a></li>
+          </ul>
+        </nav>
+        <button type="button" class="button button_theme_pink-gradient">Get in touch</button>
+      </div>
+    </section>
+
     <header class="promo">
       <img
         src="./images/overlay-fill.svg"
@@ -18,7 +38,7 @@
       <div class="promo__header">
         <div class="promo__logo"></div>
         <div class="promo__buttons">
-          <button type="button" class="button button_place_promo">Get in touch</button>
+          <button type="button" class="button">Get in touch</button>
           <button type="button" class="promo__menu"></button>
         </div>
       </div>
@@ -31,6 +51,7 @@
         </p>
       </div>
     </header>
+
     <main class="page">
       <section class="coverage" id="coverage">
         <img
@@ -416,7 +437,7 @@
           </li>
         </ul>
       </section>
-      
+
       <section class="selected-customers" id="selected-customers">
         <h2 class="heading heading_padding-top_zero">Selected customers</h2>
         <div class="cards cards_place_selected-customers">
@@ -540,5 +561,6 @@
     </main>
 
     <script src="./scripts/modernizr-custom.js"></script>
+    <script src="./scripts/textarea-autoresize.js"></script>
   </body>
 </html>

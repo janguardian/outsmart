@@ -1,3 +1,9 @@
 .body {
   margin: 0;
+  position: relative;
+  -moz-font-feature-settings: "liga", "clig";
+  -webkit-font-feature-settings: "liga", "clig";
+  font-family: 'Graphik LC', Arial, sans-serif;
+  font-feature-settings: "liga", "clig";
+  font-variant-ligatures: common-ligatures;
 }

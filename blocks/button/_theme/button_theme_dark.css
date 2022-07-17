@@ -4,11 +4,12 @@
   box-shadow: 0px 5px 30px rgba(50, 137, 255, 0.5);
   color: white;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 32px;
   padding: 16px 40px;
+  -webkit-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
   transition: all 0.3s ease-out;
-  /* transition: background-color 0.3s ease-out; */
 }
 
 .button_theme_dark:hover {

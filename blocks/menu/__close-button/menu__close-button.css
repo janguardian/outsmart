@@ -1,0 +1,25 @@
+.menu__close-button {
+  margin: 0;
+  padding: 0;
+  background-image: url("../../../images/menu/close-menu-button.svg");
+  background-color: rgba(99, 114, 126, 0.1);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  width: 48px;
+  height: 48px;
+  -webkit-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+
+.menu__close-button:hover {
+  background-color: rgba(99, 114, 126, 0.25);
+}
+
+.menu__close-button:active {
+  background-color: rgba(99, 114, 126, 0.5);
+}

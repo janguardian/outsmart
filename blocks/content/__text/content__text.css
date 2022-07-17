@@ -5,6 +5,8 @@
   line-height: 32px;
   margin: 0;
   max-width: 660px;
+  -webkit-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
   transition: color 0.3s ease-out;
 
 }

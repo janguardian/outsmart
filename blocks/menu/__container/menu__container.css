@@ -1,0 +1,9 @@
+.menu__container {
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 60px 56.6px 60px 49px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
