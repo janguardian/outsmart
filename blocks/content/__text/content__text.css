@@ -5,6 +5,12 @@
   line-height: 32px;
   margin: 0;
   max-width: 660px;
+  transition: color 0.3s ease-out;
+
+}
+
+.long-card_place_services:hover .content__text {
+  color: white;
 }
 
 .portfolio .content__text {

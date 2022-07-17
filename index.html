@@ -10,18 +10,20 @@
   </head>
   <body class="body">
     <header class="promo">
+      <img
+        src="./images/overlay-fill.svg"
+        alt="Overlay for section promo."
+        class="overlay overlay_place_promo"
+      />
       <div class="promo__header">
         <div class="promo__logo"></div>
         <div class="promo__buttons">
-          <a href="#" class="button button_place_promo">Get in touch</a>
-          <div class="promo__menu"></div>
+          <button type="button" class="button button_place_promo">Get in touch</button>
+          <button type="button" class="promo__menu"></button>
         </div>
       </div>
       <div class="promo__text">
-        <h1 class="promo__heading">
-          Progress <br />
-          through numbers
-        </h1>
+        <h1 class="promo__heading">Progress through&nbsp;numbers</h1>
         <p class="promo__tagline">
           We are a marketing consultant. We help small and medium-sized software
           development companies gain traction by attracting new prospects and
@@ -30,8 +32,13 @@
       </div>
     </header>
     <main class="page">
-      <section class="coverage">
-        <h2 class="heading">COVERAGE</h2>
+      <section class="coverage" id="coverage">
+        <img
+          src="./images/overlay-outline.svg"
+          alt="Overlay for section coverage."
+          class="overlay overlay_place_coverage"
+        />
+        <h2 class="heading">Coverage</h2>
         <ul class="cards">
           <li class="card card_place_coverage">
             <h3 class="card__heading">Outsourcing companies</h3>
@@ -52,8 +59,8 @@
         </ul>
       </section>
 
-      <section class="services">
-        <h2 class="heading">OUR SERVICES</h2>
+      <section class="services" id="services">
+        <h2 class="heading">Our services</h2>
         <ul class="cards cards_place_services">
           <li class="long-card long-card_place_services">
             <h3 class="long-card__heading">Digital marketing</h3>
@@ -63,13 +70,13 @@
                 advertise your products or services through online channels and
                 have a measurable impact on the performance of your business.
               </p>
-              <div class="content__labels">
-                <div class="content__label">Digital content</div>
-                <div class="content__label">Online advertising</div>
-                <div class="content__label">Placement</div>
-                <div class="content__label">SEO</div>
-                <div class="content__label">SMM</div>
-              </div>
+              <ul class="content__labels">
+                <li class="content__label">Digital content</li>
+                <li class="content__label">Online advertising</li>
+                <li class="content__label">Placement</li>
+                <li class="content__label">SEO</li>
+                <li class="content__label">SMM</li>
+              </ul>
             </div>
           </li>
 
@@ -82,13 +89,13 @@
                 cycles, enhancing user engagement, increasing sales, and
                 decreasing support loads.
               </p>
-              <div class="content__labels">
-                <div class="content__label">Collaterals</div>
-                <div class="content__label">Offerings</div>
-                <div class="content__label">Case studies</div>
-                <div class="content__label">Whitepapers</div>
-                <div class="content__label">Guides</div>
-              </div>
+              <ul class="content__labels">
+                <li class="content__label">Collaterals</li>
+                <li class="content__label">Offerings</li>
+                <li class="content__label">Case studies</li>
+                <li class="content__label">Whitepapers</li>
+                <li class="content__label">Guides</li>
+              </ul>
             </div>
           </li>
 
@@ -101,23 +108,27 @@
                 consistent delivery of your brand message across all digital
                 channels.
               </p>
-              <div class="content__labels">
-                <div class="content__label">Brand messaging</div>
-                <div class="content__label">Brand identity</div>
-                <div class="content__label">Typograph</div>
-                <div class="content__label">Visuals</div>
-              </div>
+              <ul class="content__labels">
+                <li class="content__label">Brand messaging</li>
+                <li class="content__label">Brand identity</li>
+                <li class="content__label">Typograph</li>
+                <li class="content__label">Visuals</li>
+              </ul>
             </div>
           </li>
         </ul>
       </section>
 
-      <section class="approach">
-        <h2 class="heading heading_padding-top_zero">APPROACH</h2>
+      <section class="approach" id="approach">
+        <h2 class="heading heading_padding-top_zero">Approach</h2>
         <ul class="cards">
           <li class="card card_place_approach">
             <p class="card__number">1</p>
-            <img src="./images/icon-discovery.png" alt="Discovery." class="card__icon" />
+            <img
+              src="./images/approach-icons/icon-discovery.svg"
+              alt="Discovery icon."
+              class="card__icon card__icon_place_approach card__icon_type_discovery"
+            />
             <div class="content content_place_approach">
               <h3 class="content__heading">Discovery</h3>
               <p class="content__text">
@@ -128,7 +139,11 @@
           </li>
           <li class="card card_place_approach">
             <p class="card__number">2</p>
-            <img src="./images/icon-audit.png" alt="Audit." class="card__icon" />
+            <img
+              src="./images/approach-icons/icon-audit.svg"
+              alt="Audit icon."
+              class="card__icon card__icon_place_approach card__icon_type_audit"
+            />
             <div class="content content_place_approach">
               <h3 class="content__heading">Audit</h3>
               <p class="content__text">
@@ -139,7 +154,11 @@
           </li>
           <li class="card card_place_approach">
             <p class="card__number">3</p>
-            <img src="./images/icon-delivery.png" alt="Delivery." class="card__icon" />
+            <img
+              src="./images/approach-icons/icon-delivery.svg"
+              alt="Delivery icon."
+              class="card__icon card__icon_place_approach card__icon_type_delivery"
+            />
             <div class="content content_place_approach">
               <h3 class="content__heading">Delivery</h3>
               <p class="content__text">
@@ -150,7 +169,11 @@
           </li>
           <li class="card card_place_approach">
             <p class="card__number">4</p>
-            <img src="./images/icon-support.png" alt="Support." class="card__icon" />
+            <img
+              src="./images/approach-icons/icon-support.svg"
+              alt="Support icon."
+              class="card__icon card__icon_place_approach card__icon_type_support"
+            />
             <div class="content content_place_approach">
               <h3 class="content__heading">Support</h3>
               <p class="content__text">
@@ -162,9 +185,9 @@
         </ul>
       </section>
 
-      <section class="certifications">
+      <section class="certifications" id="certifications">
         <div class="content content_place_certifications">
-          <h2 class="heading heading_place_certifications">CERTIFICATIONS</h2>
+          <h2 class="heading heading_place_certifications">Certifications</h2>
           <p class="content__text content__text_place_certifications">
             Our marketing consultants are certiﬁed by industry leaders. That
             means you're getting effcient advertising, comprehensive analytics
@@ -173,25 +196,48 @@
           </p>
         </div>
         <div class="logos">
-          <img src="./images/Microsoft.svg" alt="Microsoft." class="logo" />
-          <img src="./images/Google_Analytics.svg" alt="Google analytics." class="logo" />
-          <img src="./images/Google_logo.svg" alt="Google ads." class="logo" />
-          <img src="./images/HubSpot.svg" alt="Hubspot." class="logo" />
+          <img
+            src="./images/microsoft.svg"
+            alt="Microsoft logo."
+            class="logo"
+          />
+          <img
+            src="./images/google-analytics.svg"
+            alt="Google analytics logo."
+            class="logo"
+          />
+          <img src="./images/google-logo.svg" alt="Google ads." class="logo" />
+          <img src="./images/hubspot.svg" alt="Hubspot logo." class="logo" />
         </div>
       </section>
 
-      <section class="afterword">
+      <section class="afterword" id="afterword">
         <h2 class="heading">afterword</h2>
         <div class="content content_place_afterword">
-          <img
-            src="./images/Photo-Jan.png"
-            alt="Jan Guardian."
-            class="afterword__photo"
-          />
-          <div class="content content_width_441px">
-            
-            <h3 class="content__heading content__heading_padding_top112px">Jan Guardian</h3>
-            <p class="content__text content__text_type_post">Marketing Executive</p>
+          <picture class="afterword__photo">
+            <source
+              srcset="
+                ./images/afterword/photo-jan@1x.webp 1x,
+                ./images/afterword/photo-jan@2x.webp 2x
+              "
+            />
+            <img
+              src="./images/afterword/photo-jan@1x.png"
+              srcset="
+                ./images/afterword/photo-jan@1x.png 1x,
+                ./images/afterword/photo-jan@2x.png 2x
+              "
+              class="afterword__photo"
+              alt="Pictured Jan Guardian."
+            />
+          </picture>
+          <div class="content__container">
+            <h3 class="content__heading content__heading_place_afterword">
+              Jan Guardian
+            </h3>
+            <p class="content__text content__text_type_post">
+              Marketing Executive
+            </p>
             <p class="content__text content__text_type_subtitle">
               Hi, I’m Jan. Becoming our customer, you’re doomed to fall in my
               hands.
@@ -205,13 +251,13 @@
         </div>
       </section>
 
-      <section class="why-outsmart">
+      <section class="why-outsmart" id="why-outsmart">
         <h2 class="heading">Why outsmart</h2>
         <div class="cards">
           <div class="card card_place_why-outsmart">
             <img
-              src="./images/why-icons/Icon-tag.svg"
-              alt="tag."
+              src="./images/why-icons/icon-tag.svg"
+              alt="Tag icon."
               class="card__icon"
             />
             <h3 class="card__heading">Cost</h3>
@@ -222,8 +268,8 @@
           </div>
           <div class="card card_place_why-outsmart">
             <img
-              src="./images/why-icons/Icon-time.svg"
-              alt="hourglass."
+              src="./images/why-icons/icon-time.svg"
+              alt="Hourglass icon."
               class="card__icon"
             />
             <h3 class="card__heading">Time</h3>
@@ -234,8 +280,8 @@
           </div>
           <div class="card card_place_why-outsmart">
             <img
-              src="./images/why-icons/Icon-key.svg"
-              alt="key."
+              src="./images/why-icons/icon-key.svg"
+              alt="Key icon."
               class="card__icon"
             />
             <h3 class="card__heading">Ownership</h3>
@@ -246,8 +292,8 @@
           </div>
           <div class="card card_place_why-outsmart">
             <img
-              src="./images/why-icons/Icon-cloud.svg"
-              alt="cloud."
+              src="./images/why-icons/icon-cloud.svg"
+              alt="Cloud icon."
               class="card__icon"
             />
 
@@ -259,13 +305,13 @@
           </div>
         </div>
       </section>
-      <section class="portfolio">
+      <section class="portfolio" id="portfolio">
         <h2 class="heading">Portfolio</h2>
         <ul class="cards">
-          <li class="long-card">
+          <li class="long-card long-card_place_portfolio">
             <img
-              src="./images/customer-logos/DWKIT.svg"
-              alt="DWKIT."
+              src="./images/customer-logos/dwkit.svg"
+              alt="Dwkit icon."
               class="long-card__logo"
             />
             <div class="content">
@@ -289,19 +335,19 @@
                 product look-and-feel revamp in preparation for the release of
                 version 2.0.
               </p>
-              <div class="content__labels">
-                <div class="content__label">Brand identity</div>
-                <div class="content__label">Visual design</div>
-                <div class="content__label">Typography</div>
-                <div class="content__label">Web design</div>
-                <div class="content__label">Content</div>
-              </div>
+              <ul class="content__labels">
+                <li class="content__label">Brand identity</li>
+                <li class="content__label">Visual design</li>
+                <li class="content__label">Typography</li>
+                <li class="content__label">Web design</li>
+                <li class="content__label">Content</li>
+              </ul>
             </div>
           </li>
-          <li class="long-card">
+          <li class="long-card long-card_place_portfolio">
             <img
-              src="./images/customer-logos/Jet.svg"
-              alt="Jet."
+              src="./images/customer-logos/jet.svg"
+              alt="Jet logo."
               class="long-card__logo"
             />
             <div class="content">
@@ -325,18 +371,18 @@
                 technological, solution and service expertise to support
                 company’s oﬀshore sales eﬀorts.
               </p>
-              <div class="content__labels">
-                <div class="content__label">Collaterals</div>
-                <div class="content__label">Offerings</div>
-                <div class="content__label">Case studies</div>
-                <div class="content__label">Whitepapers</div>
-              </div>
+              <ul class="content__labels">
+                <li class="content__label">Collaterals</li>
+                <li class="content__label">Offerings</li>
+                <li class="content__label">Case studies</li>
+                <li class="content__label">Whitepapers</li>
+              </ul>
             </div>
           </li>
-          <li class="long-card">
+          <li class="long-card long-card_place_portfolio">
             <img
-              src="./images/customer-logos/Workflowengine.svg"
-              alt="Workflow engine."
+              src="./images/customer-logos/workflowengine.svg"
+              alt="Workflow engine logo."
               class="long-card__logo"
             />
             <div class="content">
@@ -360,85 +406,86 @@
                 lead-gen in a short term, whereas keyword infusion and targeted
                 media placements improved SERPs.
               </p>
-              <div class="content__labels">
-                <div class="content__label">Digital content</div>
-                <div class="content__label">Online advertising</div>
-                <div class="content__label">Placement</div>
-                <div class="content__label">SEO</div>
-              </div>
+              <ul class="content__labels">
+                <li class="content__label">Digital content</li>
+                <li class="content__label">Online advertising</li>
+                <li class="content__label">Placement</li>
+                <li class="content__label">SEO</li>
+              </ul>
             </div>
           </li>
         </ul>
       </section>
-      <section class="selected-customers">
+      
+      <section class="selected-customers" id="selected-customers">
         <h2 class="heading heading_padding-top_zero">Selected customers</h2>
         <div class="cards cards_place_selected-customers">
           <div class="card card_place_selected-customers">
             <img
-              src="./images/customer-logos/Staylime.svg"
-              alt="Staylime."
+              src="./images/customer-logos/staylime.svg"
+              alt="Staylime logo."
               class="logo"
             />
           </div>
           <div class="card card_place_selected-customers">
             <img
-              src="./images/customer-logos/Paralect.svg"
-              alt="Paralect."
+              src="./images/customer-logos/paralect.svg"
+              alt="Paralect logo."
               class="logo"
             />
           </div>
           <div class="card card_place_selected-customers">
             <img
-              src="./images/customer-logos/Jet.svg"
-              alt="Paralect."
+              src="./images/customer-logos/jet.svg"
+              alt="Jet logo."
               class="logo"
             />
           </div>
           <div class="card card_place_selected-customers">
             <img
-              src="./images/customer-logos/Customatix.svg"
+              src="./images/customer-logos/customatix.svg"
               alt="Customatix."
               class="logo"
             />
           </div>
           <div class="card card_place_selected-customers">
             <img
-              src="./images/customer-logos/Webile_Soft.svg"
-              alt="Webile Soft."
+              src="./images/customer-logos/webile-soft.svg"
+              alt="Webile Soft logo."
               class="logo"
             />
           </div>
           <div class="card card_place_selected-customers">
             <img
-              src="./images/customer-logos/Intosoft.svg"
-              alt="Webile Soft."
+              src="./images/customer-logos/intosoft.svg"
+              alt="Intosoft logo."
               class="logo"
             />
           </div>
           <div class="card card_place_selected-customers">
             <img
-              src="./images/customer-logos/Optimajet.svg"
-              alt="Optimajet."
+              src="./images/customer-logos/optimajet.svg"
+              alt="Optimajet logo."
               class="logo"
             />
           </div>
           <div class="card card_place_selected-customers">
             <img
-              src="./images/customer-logos/Alverden.svg"
-              alt="Alverden."
+              src="./images/customer-logos/alverden.svg"
+              alt="Alverden logo."
               class="logo"
             />
           </div>
           <div class="card card_place_selected-customers">
             <img
-              src="./images/customer-logos/Smartym.svg"
-              alt="Smartym."
+              src="./images/customer-logos/smartym.svg"
+              alt="Smartym logo."
               class="logo"
             />
           </div>
         </div>
       </section>
-      <section class="get-in-touch">
+      <section class="get-in-touch" id="get-in-touch">
         <h2 class="heading heading_padding_zero heading_color_white">
           Get in touch
         </h2>
@@ -471,23 +518,27 @@
       </section>
       <footer class="footer">
         <div class="links">
-          <h3 class="phone-number">+375 (44) 553-61-17</h3>
+          <a href="tel:+375445536117" class="phone-number"
+            >+375 (44) 553-61-17</a
+          >
           <nav class="links__column">
-            <a href="" class="links__link">Coverage</a>
-            <a href="" class="links__link">Our services</a>
-            <a href="" class="links__link">Approach</a>
-            <a href="" class="links__link">Certifications</a>
+            <a href="#coverage" class="links__link">Coverage</a>
+            <a href="#services" class="links__link">Our services</a>
+            <a href="#approach" class="links__link">Approach</a>
+            <a href="#certifications" class="links__link">Certifications</a>
           </nav>
           <nav class="links__column">
-            <a href="" class="links__link">Afterword</a>
-            <a href="" class="links__link">Why Outsmart</a>
-            <a href="" class="links__link">Portfolio</a>
-            <a href="" class="links__link">Our customers</a>
+            <a href="#afterword" class="links__link">Afterword</a>
+            <a href="#why-outsmart" class="links__link">Why Outsmart</a>
+            <a href="#portfolio" class="links__link">Portfolio</a>
+            <a href="#selected-customers" class="links__link">Our customers</a>
           </nav>
         </div>
-        <hr class="line line_opacity_20">
+        <hr class="line line_opacity_low" />
         <p class="copyright">&copy; 2022 Outsmart</p>
       </footer>
     </main>
+
+    <script src="./scripts/modernizr-custom.js"></script>
   </body>
 </html>

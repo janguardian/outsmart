@@ -1,0 +1,7 @@
+.card__icon_type_discovery {
+  box-sizing: border-box;
+  background: url("../../../../images/background/main-direct@1x.png");
+  background-position: center;
+  padding: 31px 24px ;
+  border-radius: 6px;
+}

@@ -7,6 +7,9 @@
   line-height: 16px;
   margin: 0;
   text-decoration: none;
+  -webkit-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
 }
 
 .links__link:hover {

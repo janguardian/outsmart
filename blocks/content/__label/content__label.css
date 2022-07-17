@@ -8,9 +8,12 @@
   line-height: 16px;
   margin: 0;
   padding: 8px 20px;
+  transition: background-color 0.3s ease-out;
+  transition: color 0.3s ease-out;
 }
 
-.long-card_place_services:nth-of-type(2) .content__label {
-  background-color: #ffffff;
+.long-card_place_services:hover .content__label {
+  background-color: white;
   color: #4e7595;
 }
+

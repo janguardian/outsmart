@@ -2,6 +2,18 @@
   font-size: 36px;
   font-weight: 300;
   line-height: 36px;
-  margin: 0;
-  min-width: 720px;
+  margin: 0 auto 0 0;
+  height: fit-content;
+  /* margin-right: auto; */
+  /* min-width: 720px; */
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+
+.phone-number:hover {
+  color: #37e0ff;
 }

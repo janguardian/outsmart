@@ -1,5 +1,5 @@
 .long-card {
-  background-image: url('../../images/secondary-background.png');
+  /* background-image: url('../../images/background/secondary-direct@1x.png'); */
   background-position: center center;
   background-repeat: no-repeat;
   border-radius: 6px;
@@ -10,10 +10,11 @@
   justify-content: space-between;
   margin: 0;
   padding: 60px 60px 60px 60px;
+  transition: background-image 0.3s ease-out;
 }
 
 
-.portfolio .long-card {
+/* .portfolio .long-card {
   align-items: flex-start;
   margin: 0;
   max-width: 1200px;
@@ -22,11 +23,23 @@
 }
 
 .portfolio .long-card:nth-of-type(2) {
-  background-image: url('../../images/secondary-reverse.png');
-}
+  background-image: url('../../images/background/secondary-reverse@1x.png');
+} */
 
-.services .long-card:nth-of-type(2) {
+/* .services .long-card:hover {
+  background-image: url('../../images/main-reverse.png');
+  color: white;
+
+} */
+
+
+
+/* .portfolio .long-card:nth-of-type(2) {
+  background-image: url('../../images/secondary-reverse.png');
+} */
+
+/* .services .long-card:nth-of-type(2) {
   background-image: url('../../../images/Main-reverse.png');
   box-shadow: 0px 10px 20px 0px #3289FF66;
   color: white;
-}
+} */

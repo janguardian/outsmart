@@ -2,5 +2,6 @@
   column-gap: 8px;
   display: flex;
   margin: 0;
-  padding-top: 32px;
+  padding: 32px 0 0;
+  list-style: none;
 }

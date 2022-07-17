@@ -1,0 +1,7 @@
+.card__icon_type_support {
+  box-sizing: border-box;
+  background: url("../../../../images/background/main-direct@1x.png");
+  background-position: 0 0;
+  padding: 16px 32px;
+  border-radius: 6px;
+}

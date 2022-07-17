@@ -1,0 +1,40 @@
+.no-webp .long-card_place_services {
+  background-image: url("../../../images/background/secondary-direct@1x.png");
+}
+
+.webp .long-card_place_services {
+  background-image: url("../../../images/background/secondary-direct@1x.webp");
+}
+
+.no-webp .long-card_place_services:hover {
+  background-image: url('../../../images/background/main-reverse@1x.png');
+}
+
+.webp .long-card_place_services:hover {
+  background-image: url('../../../images/background/main-reverse@1x.webp');
+}
+
+@media /* only for retina displays */
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+
+  .no-webp .long-card_place_services {
+    background-image: url("../../../images/background/secondary-direct@2x.png");
+  }
+  
+  .webp .long-card_place_services {
+    background-image: url("../../../images/background/secondary-direct@2x.webp");
+  }
+
+  .no-webp .long-card_place_services:hover {
+    background-image: url('../../../images/background/main-reverse@2x.png');
+  }
+  
+  .webp .long-card_place_services:hover {
+    background-image: url('../../../images/background/main-reverse@2x.webp');
+  }
+}

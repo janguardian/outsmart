@@ -1,8 +1,10 @@
 .coverage {
-  background: url("../../images/Overlay-stroke.png");
+  position: relative;
+  /* background: url("../../images/Overlay-stroke.png"); */
   background-position: center;
   background-repeat: no-repeat;
   margin: 0 auto;
   padding-bottom: 160px;
   align-items: center;
+  overflow: hidden;
 }
