@@ -1,40 +1,36 @@
 promoStates();
 
-
-
 function promoStates() {
-  let menu = document.getElementById('menu');
-  let openedMenu = document.getElementById('openedMenu');
-  let closeMenu = document.getElementById('closeMenu');
-  let headerButton = document.getElementById('headerButton');
-  let menuButton = document.getElementById('menuButton');
-  let menuLink = document.getElementsByClassName('menu__link');
-  let promoButton = document.getElementsByClassName('button__get-touch');
+  const menu = document.getElementById('menu');
+  const openedMenu = document.getElementById('openedMenu');
+  const closeMenu = document.getElementById('closeMenu');
+  const headerButton = document.getElementById('headerButton');
+  const menuButton = document.getElementById('menuButton');
+  const menuContainer = document.getElementById('menuContainer');
+  const menuLink = document.getElementsByClassName('menu__link');
+  const promoButton = document.getElementsByClassName('button__get-touch');
 
   openedMenu.addEventListener('click', (e) => {
     e.preventDefault;
     menu.classList.toggle('menu_opened');
-    headerButton.style.opacity = '0';
+    menuContainer.classList.toggle('menu__container_opened');
     headerButton.style.pointerEvents = 'none';
-    openedMenu.style.opacity = '0';
     openedMenu.style.pointerEvents = 'none';
   });
 
   closeMenu.addEventListener('click', (e) => {
     e.preventDefault;
     menu.classList.toggle('menu_opened');
-    headerButton.style.opacity = '1';
+    menuContainer.classList.toggle('menu__container_opened');
     headerButton.style.pointerEvents = 'auto';
-    openedMenu.style.opacity = '1';
     openedMenu.style.pointerEvents = 'auto';
   });
 
   for (let i = 0; i < menuLink.length; i++) {
     menuLink[i].addEventListener('click', () => {
       menu.classList.toggle('menu_opened');
-      headerButton.style.opacity = '1';
+      menuContainer.classList.toggle('menu__container_opened');
       headerButton.style.pointerEvents = 'auto';
-      openedMenu.style.opacity = '1';
       openedMenu.style.pointerEvents = 'auto';
     });
   };
@@ -42,9 +38,8 @@ function promoStates() {
   menuButton.addEventListener('click', (e) => {
     e.preventDefault;
     menu.classList.toggle('menu_opened');
-    headerButton.style.opacity = '1';
+    menuContainer.classList.toggle('menu__container_opened');
     headerButton.style.pointerEvents = 'auto';
-    openedMenu.style.opacity = '1';
     openedMenu.style.pointerEvents = 'auto';
     document.location.href = '#touch';
   });

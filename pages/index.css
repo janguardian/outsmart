@@ -129,6 +129,7 @@
 @import url('../blocks/container/_type/container_type_touch.css');
 @import url('../blocks/container/_type/container_type_footer.css');
 @import url('../blocks/menu/_opened/menu_opened.css');
+@import url('../blocks/menu/__container/_opened/menu__container_opened.css');
 @import url('../blocks/overlay/_section/overlay_section_promo.css');
 @import url('../blocks/overlay/_section/overlay_section_coverage.css');
 @import url('../blocks/box/__item/_background/box__item_background_bottom.css');
