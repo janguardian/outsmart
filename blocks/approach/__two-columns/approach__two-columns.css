@@ -2,13 +2,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 12.8%;
+  gap: 60px;
   position: relative;
   z-index: 5;
 }
 
 @media screen and (max-width: 1023px) {
   .approach__two-columns {
-    gap: 10.1%;
+    gap: 56px;
   }
 }

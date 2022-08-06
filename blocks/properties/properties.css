@@ -14,6 +14,6 @@
 
 @media screen and (max-width: 960px) {
   .properties {
-    gap: 3.5%;
+    gap: 20px;
   }
 }

@@ -8,7 +8,7 @@
 @media screen and (max-width: 960px) {
   .properties__caption {
     width: 77%;
-    line-height: 1.33;
+    line-height: 24px;
     letter-spacing: -.1px;
   }
 }

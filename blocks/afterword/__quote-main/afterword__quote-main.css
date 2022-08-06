@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 1023px) {
   .afterword__quote-main {    
-    line-height: 1.6;
+    line-height: 28px;
     letter-spacing: .95px;
   }
 }

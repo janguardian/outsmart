@@ -1,12 +1,8 @@
 .customers {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: minmax(-webkit-min-content, 386px) 1.75% minmax(-webkit-min-content, 386px) 1.75% minmax(-webkit-min-content, 386px);
-  -ms-grid-columns: minmax(min-content, 386px) 1.75% minmax(min-content, 386px) 1.75% minmax(min-content, 386px);
-  grid-template-columns: repeat(3, minmax(-webkit-min-content, 386px));
   grid-template-columns: repeat(3, minmax(min-content, 386px));
   grid-auto-rows: 240px;
-  gap: 20px 1.75%;
+  gap: 20px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -14,10 +10,6 @@
 
 @media screen and (max-width: 1023px) {
   .customers {
-    -ms-grid-columns: minmax(326px, 1fr) 3% minmax(326px, 1fr);
     grid-template-columns: repeat(2, minmax(326px, 1fr));
-    -webkit-column-gap: 3%;
-       -moz-column-gap: 3%;
-            column-gap: 3%;
   }
 }

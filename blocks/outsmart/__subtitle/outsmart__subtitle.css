@@ -8,8 +8,8 @@
 
 @media screen and (max-width: 1023px) {
   .outsmart__subtitle {    
-    line-height: 1.56;
-    font-size: calc(1vw + 10px);
+    line-height: 28px;
+    font-size: 18px;
     letter-spacing: 1.05px;
   }
 }

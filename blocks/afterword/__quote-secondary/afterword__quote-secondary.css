@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 1023px) {
   .afterword__quote-secondary {    
-    line-height: 1.8;
+    line-height: 32px;
     letter-spacing: 1.1px;
   }
 }

@@ -10,8 +10,8 @@
 
 @media screen and (max-width: 1023px) {
   .section-title {    
-    line-height: 1.14;
+    line-height: 16px;
     letter-spacing: 14.2px;
-    font-size: calc(1vw + 6px);
+    font-size: 14px;
   }
 }
