@@ -1,6 +1,7 @@
 .numbered-cards__item {
   border: 1px solid var(--colorGrey);
   position: relative;
+  box-sizing: border-box;
 }
 
 .numbered-cards__item::before {
@@ -14,7 +15,7 @@
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  top: 11px;
+  top: 19px;
   right: 29px;
   width: 75px;
   height: 120px;

@@ -2,6 +2,8 @@
   display: inline-block;  
   color: var(--colorWhite);
   text-decoration: none;
+  line-height: 36px;
+  font-size: 36px;
   -webkit-transition: color 0.3s ease-out;
   -o-transition: color 0.3s ease-out;
   transition: color 0.3s ease-out;

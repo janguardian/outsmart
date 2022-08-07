@@ -3,9 +3,9 @@
   color: var(--colorWhite);
   opacity: 0;
   line-height: 16px;
-  letter-spacing: -.2px;
   font-size: 16px;
   font-weight: 400;
+  letter-spacing: .01px;
   -moz-transition: opacity 0.3s ease-out;
   transition: opacity 0.3s ease-out;
 }

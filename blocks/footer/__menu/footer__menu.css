@@ -5,7 +5,6 @@
   -webkit-box-flex: 0;
       -ms-flex: 0 1 480px;
           flex: 0 1 480px;
-  padding-top: 1px;
 }
 
 @media screen and (max-width: 1023px) {

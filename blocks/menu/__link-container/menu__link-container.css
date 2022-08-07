@@ -6,7 +6,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 51px;
+  gap: 48px;
 }
 
 @media screen and (max-width: 1023px) {

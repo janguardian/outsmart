@@ -8,9 +8,3 @@
           flex-direction: column;
   gap: 4px;
 }
-
-@media screen and (max-width: 1023px) {
-  .outsmart__content {
-    gap: 6px;
-  }
-}

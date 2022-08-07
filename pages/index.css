@@ -103,7 +103,6 @@
 @import url('../blocks/form/__close-icon/form__close-icon.css');
 @import url('../blocks/form/__button/form__button.css');
 @import url('../blocks/footer/__row-top/footer__row-top.css');
-@import url('../blocks/footer/__contact/footer__contact.css');
 @import url('../blocks/phone-number/phone-number.css');
 @import url('../blocks/footer/__menu/footer__menu.css');
 @import url('../blocks/footer/__menu-list/footer__menu-list.css');
@@ -142,4 +141,3 @@
 @import url('../blocks/approach/__image-container/_type/approach__image-container_type_audit.css');
 @import url('../blocks/approach/__image-container/_type/approach__image-container_type_delivery.css');
 @import url('../blocks/approach/__image-container/_type/approach__image-container_type_support.css');
-@import url('../blocks/outsmart/__text/_width/outsmart__text_width_small.css');

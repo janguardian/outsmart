@@ -1,11 +1,11 @@
 .approach__item {
   box-sizing: border-box;
-  padding: 57px 60px 61px;  
+  padding: 58.5px;  
   border-radius: 6px;
 }
 
 @media screen and (max-width: 1023px) {
   .approach__item {
-    padding: 47px 48px 49px;
+    padding: 47px 48px;
   }
 }

@@ -1,15 +1,16 @@
 .portfolio__text {
   max-width: 660px;
   max-height: 544px;
+  padding-top: 6px;
   margin: 0;
   color: var(--colorAuroMetalSaurus);
   overflow: hidden;
-  letter-spacing: .9px;
+  letter-spacing: 1px;
 }
 
 @media screen and (max-width: 1023px) {
   .portfolio__text {
     max-width: none;
-    letter-spacing: 1.05px;
+    padding-top: 0;
   }
 }

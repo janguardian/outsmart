@@ -29,6 +29,6 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 @media screen and (max-width: 1023px) {
   .wrapper_section_touch {
-    background-size: auto;
+    background-size: 1440px 920px;
   }
 }

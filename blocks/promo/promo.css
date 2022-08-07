@@ -6,7 +6,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 44px;
+  gap: 40px;
   position: relative;
   z-index: 10;
   max-width: 840px;
