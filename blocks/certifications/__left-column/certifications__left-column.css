@@ -1,0 +1,11 @@
+.certifications__left-column {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 340px;
+          flex: 0 1 340px;
+}
+
+@media screen and (max-width: 1023px) {
+  .certifications__left-column {
+    padding-top: 8px;
+  }
+}

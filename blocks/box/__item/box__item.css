@@ -1,0 +1,8 @@
+.box__item {
+  max-height: 920px;
+  background-size: 1440px 920px;
+  overflow: hidden;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 1px 5px rgba(0, 81, 192, .5);
+          box-shadow: 0px 1px 5px rgba(0, 81, 192, .5);
+}

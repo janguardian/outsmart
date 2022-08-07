@@ -1,0 +1,27 @@
+.container_type_promo {
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 1320px) {
+  .container_type_promo {    
+    gap: 80px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .container_type_promo {    
+    padding-bottom: 80px;
+  }
+}

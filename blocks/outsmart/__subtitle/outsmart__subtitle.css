@@ -1,0 +1,14 @@
+.outsmart__subtitle {
+  margin: 0;
+  color: var(--colorUsafaBlue);
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1023px) {
+  .outsmart__subtitle {    
+    line-height: 28px;
+    font-size: 18px;
+  }
+}

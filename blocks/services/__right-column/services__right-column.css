@@ -1,0 +1,21 @@
+.services__right-column {
+    display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 660px;
+      flex: 0 1 660px;
+  gap: 32px;
+}
+
+@media screen and (max-width: 960px) {
+  .services__right-column {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 368px;
+            flex: 1 0 368px;
+  }
+}

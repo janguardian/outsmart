@@ -1,0 +1,10 @@
+.container_type_certifications {
+  gap: 80px;
+  padding-top: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .container_type_certifications {  
+    padding-bottom: 80px;
+  }
+}

@@ -1,0 +1,12 @@
+.afterword__quote-main {
+  margin: 0;
+  color: var(--colorUsafaBlue);
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1023px) {
+  .afterword__quote-main {    
+    line-height: 28px;
+  }
+}

@@ -1,0 +1,23 @@
+.afterword__right-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 442px;
+          flex: 0 1 442px;
+  gap: 72px;
+  padding-top: 112px;
+}
+
+@media screen and (max-width: 1023px) {
+  .afterword__right-column {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 336px;
+            flex: 1 0 336px;
+    padding-top: 56px;
+  }
+}

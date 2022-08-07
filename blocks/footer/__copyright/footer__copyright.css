@@ -1,0 +1,9 @@
+.footer__copyright {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin: 0;
+  color: var(--colorLightSteelBlue);
+  line-height: 16px;
+  letter-spacing: 1px;
+  font-size: 16px;
+}

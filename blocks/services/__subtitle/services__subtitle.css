@@ -1,0 +1,7 @@
+.services__subtitle {
+  width: 93%;
+  letter-spacing: .05px;
+  -webkit-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}

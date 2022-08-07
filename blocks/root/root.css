@@ -1,0 +1,25 @@
+.root {
+  margin: 0;
+  font-variant-ligatures: common-ligatures;
+  -moz-font-feature-settings: "liga", "clig";
+  -webkit-font-feature-settings: "liga", "clig";
+  font-feature-settings: "liga", "clig";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%; 
+  letter-spacing: -.1px;
+  line-height: 32px;
+  font-family: 'Graphik', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1023px) {
+  .root { 
+    line-height: 32px;
+    font-size: 18px;
+  }
+}

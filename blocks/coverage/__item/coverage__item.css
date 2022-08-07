@@ -1,0 +1,19 @@
+.coverage__item {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+  max-width: 588px;
+  width: 100%;
+  max-height: 920px;
+  border-radius: 6px;
+  padding: 100px 60px;
+  background-size: 1440px 920px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 960px) {
+  .coverage__item {
+    max-width: none;
+    padding: 64px 48px;
+  }
+}

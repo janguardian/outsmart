@@ -1,0 +1,10 @@
+.footer__row-bottom {
+  border-top: 1px solid rgba(178, 207, 219, 0.2);
+  padding-top: 59px;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__row-bottom {
+    padding-top: 39px;
+  }
+}

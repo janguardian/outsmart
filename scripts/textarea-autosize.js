@@ -1,0 +1,1 @@
+autosize(document.getElementById('autosize-example'));
