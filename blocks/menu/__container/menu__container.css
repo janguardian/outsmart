@@ -9,15 +9,17 @@
   justify-content: space-between;
   padding: 60px 0 60px 48px;
   position: absolute;
-  right: 0;
+  right: -359px;
   top: 0;
+  transition: right 0.3s ease-in-out;
   width: 359px;
-  z-index: 4;
+  z-index: 5;
 }
 
 @media screen and (max-width:768px) {
   .menu__container {
-    width: 360px;
     padding: 60px 0 60px 49px;
+    right: -360px;
+    width: 360px;
   }
 }

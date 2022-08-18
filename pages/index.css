@@ -25,6 +25,7 @@
 
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/_opened/menu_opened.css);
+@import url(../blocks/menu/__overlay/menu__overlay.css);
 @import url(../blocks/menu/__container/menu__container.css);
 @import url(../blocks/menu/__navigation/menu__navigation.css);
 @import url(../blocks/menu/__links/menu__links.css);
