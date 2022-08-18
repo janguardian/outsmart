@@ -25,7 +25,6 @@ hideMenuButton.addEventListener("click", () => {
 menuOverlay.addEventListener("click", () => {
   closeMenu();
 });
-
 messageInput.addEventListener("input", (e) => {
   autoHeightSet(e.target);
 });
