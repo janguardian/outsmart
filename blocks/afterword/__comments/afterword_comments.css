@@ -1,0 +1,12 @@
+.afterword__comments {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 441px;
+}
+
+@media screen and (max-width:768px) {
+  .afterword__comments {
+    gap: 20px;
+  }
+}

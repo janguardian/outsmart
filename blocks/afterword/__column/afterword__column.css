@@ -1,0 +1,13 @@
+.afterword__column {
+  display: flex;
+  flex-direction: column;
+  padding: 109px 0 0 0;
+  gap: 69px;
+}
+
+@media screen and (max-width:768px) {
+  .afterword__column{
+    padding: 55px 0 0 0;
+    gap: 71px;
+  }
+}

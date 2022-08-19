@@ -1,0 +1,13 @@
+.portfolio__achievement {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 240px;
+  width: 100%;
+}
+
+@media screen and (max-width:768px) {
+  .portfolio__achievement {
+    gap: 18px;
+  }
+}

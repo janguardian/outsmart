@@ -1,0 +1,6 @@
+.feedback__form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}

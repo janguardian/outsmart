@@ -1,0 +1,11 @@
+.menu__navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+@media screen and (max-width:768px) {
+  .menu__navigation {
+    gap: 49px;
+  }
+}

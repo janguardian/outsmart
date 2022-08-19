@@ -1,0 +1,7 @@
+.header__buttons {
+  align-items: center;
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  z-index: 2;
+}

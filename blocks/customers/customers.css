@@ -1,0 +1,16 @@
+.customers {
+  padding: 0 120px 160px 120px;
+}
+
+@media screen and (max-width:1439px) {
+  .customers {
+    padding: 0 60px 101px 60px;
+    gap: 83px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .customers {
+    padding: 0 48px 101px 48px;
+  }
+}

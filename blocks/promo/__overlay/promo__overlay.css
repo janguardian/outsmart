@@ -1,0 +1,10 @@
+.promo__overlay {
+  align-self: center;
+  background-image: url(../../../images/promo-overlay.svg), linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  height: 100%;
+  mix-blend-mode: soft-light;
+  position: absolute;
+  width: 100%;
+}

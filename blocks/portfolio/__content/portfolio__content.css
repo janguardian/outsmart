@@ -1,0 +1,12 @@
+.portfolio__content {
+  box-sizing: border-box;
+  padding: 5px 0 8px 0;
+  width: 100%;
+  max-width: 760px;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio__content {
+    gap: 34px;
+  }
+}

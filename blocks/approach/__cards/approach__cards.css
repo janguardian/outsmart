@@ -1,0 +1,17 @@
+.approach__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  .approach__cards {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}

@@ -1,0 +1,11 @@
+.certifications__logos {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+@media screen and (max-width: 1439px) {
+  .certifications__logos {
+    gap: 26px;
+  }
+}

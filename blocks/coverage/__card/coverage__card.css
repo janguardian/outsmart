@@ -1,0 +1,15 @@
+.coverage__card {
+  background-repeat: no-repeat;
+  background-size: 1440px 920px;
+  box-sizing: border-box;
+  max-width: 588px;
+  width:100%;
+}
+
+@media screen and (max-width:768px) {
+  .coverage__card {
+    max-width: 100%;
+    padding: 62px 48px 65px 48px;
+    gap:45px;
+  }
+}

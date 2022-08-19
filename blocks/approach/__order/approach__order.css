@@ -1,0 +1,15 @@
+.approach__order {
+  color: #EDF5FB;
+  font-family: 'Graphik LC';
+  font-size: 120px;
+  font-weight: 300;
+  line-height: 120px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 28px;
+  text-align: right;
+  top: 11px;
+  display: flex;
+  align-items: center;
+}

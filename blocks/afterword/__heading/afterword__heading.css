@@ -1,0 +1,11 @@
+.afterword__heading {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .afterword__heading {
+    gap: 10px;
+  }
+}

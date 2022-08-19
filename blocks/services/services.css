@@ -1,0 +1,17 @@
+.services {
+  gap: 100px;
+  padding: 99px 120px 160px 120px;
+}
+
+@media screen and (max-width: 1439px) {
+  .services {
+    padding: 78px 60px 118px 60px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .services {
+    gap: 66px;
+    padding: 78px 48px 118px 48px;
+  }
+}

@@ -1,0 +1,17 @@
+.portfolio__caption {
+  color: #4E7595;
+  font-family: Graphik LC;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 32px;
+  margin: 0;
+}
+
+@media screen and (max-width:768px) {
+  .portfolio__caption {
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 139px;
+  }
+}

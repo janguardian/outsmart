@@ -1,0 +1,6 @@
+.feedback__message {
+  display: inline-block;
+  height: 68px;
+  overflow: hidden;
+  resize: none;
+}

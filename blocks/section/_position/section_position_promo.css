@@ -1,0 +1,5 @@
+.section_position_promo {
+  position: relative;
+  height: 100vh;
+  min-height: 920px;
+}

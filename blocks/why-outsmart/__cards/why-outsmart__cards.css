@@ -1,0 +1,19 @@
+.why-outsmart__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  gap: 53px;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width:1023px) {
+  .why-outsmart__cards {
+    column-gap: 63px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 65px;
+  }
+}

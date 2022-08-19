@@ -1,0 +1,14 @@
+.customers__cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .customers__cards .customers__card:last-child {
+    width: 100%;
+  }
+}

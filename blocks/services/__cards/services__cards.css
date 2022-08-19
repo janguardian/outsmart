@@ -1,0 +1,16 @@
+.services__cards {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .services__cards {
+    gap: 20px;
+  }
+}

@@ -1,0 +1,12 @@
+.approach__content {
+  gap: 48px;
+  max-width: 290px;
+}
+
+@media screen and (max-width:1023px) {
+  .approach__content {
+    gap: 35px;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+}

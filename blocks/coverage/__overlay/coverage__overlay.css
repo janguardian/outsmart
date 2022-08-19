@@ -1,0 +1,18 @@
+.coverage__overlay {
+  align-self: center;
+  background-image: url(../../../images/coverage-overlay.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 920px;
+  position: absolute;
+  top: -70px;
+  width: 1000px;
+  z-index: -1;
+  opacity: 0.35;
+}
+
+@media screen and (max-width: 768px) {
+  .coverage__overlay {
+    top: -30px;
+  }
+}

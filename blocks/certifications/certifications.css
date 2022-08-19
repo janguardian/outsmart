@@ -1,0 +1,17 @@
+.certifications {
+  gap: 82px;
+  padding: 0 120px 160px 120px;
+}
+
+@media screen and (max-width:1439px) {
+  .certifications {
+    padding: 0 60px 80px 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .certifications {
+    gap: 81px;
+    padding: 0 48px 80px 48px;
+  }
+}

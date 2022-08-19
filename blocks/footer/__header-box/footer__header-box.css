@@ -1,0 +1,12 @@
+.footer__header-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__header-box {
+    flex-direction: column;
+    gap: 44px;
+    justify-content: flex-start;
+  }
+}

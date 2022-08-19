@@ -1,0 +1,18 @@
+.why-outsmart__text {
+  color: #63727E;
+  font-family: 'Graphik LC';
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.9px;
+  line-height: 32px;
+  margin: 0;
+  max-width: 261px;
+}
+
+@media screen and (max-width:1023px) {
+  .why-outsmart__text {
+    font-size: 18px;
+    letter-spacing: 0.96px;
+    max-width: 100%;
+  }
+}

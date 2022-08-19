@@ -1,0 +1,22 @@
+.card__label {
+  align-items: center;
+  background-color: #5F4CFF;
+  border-radius: 16px;
+  border: 0;
+  color: #FFF;
+  display: flex;
+  font-family: 'Graphik LC';
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.15px;
+  line-height: 16px;
+  padding: 8px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1079px) {
+  .card__label {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}

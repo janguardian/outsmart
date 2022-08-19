@@ -1,0 +1,40 @@
+.input-box__input {
+  background-color: #FFF;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 7px 0px #3289FFB2;
+  box-sizing: border-box;
+  color: #005499;
+  font-family: 'Graphik LC';
+  font-size: 16px;
+  font-weight: 400;
+  height: 64px;
+  line-height: 16px;
+  outline: none;
+  padding: 23px 24px 24px 23px;
+  width: 560px;
+}
+
+.input-box__input::-webkit-input-placeholder {
+  color: #B2CFDB;
+}
+
+.input-box__input::-moz-placeholder {
+  color: #B2CFDB;
+}
+
+.input-box__input:-moz-placeholder {
+  color: #B2CFDB;
+}
+
+.input-box__input:-ms-input-placeholder {
+  color: #B2CFDB;
+}
+
+.input-box__input:hover {
+  box-shadow: 0px 2px 5px 0px #3289FF4D;
+}
+
+.input-box__input:active {
+  box-shadow: 0px 5px 10px 0px #3289FF66;
+}

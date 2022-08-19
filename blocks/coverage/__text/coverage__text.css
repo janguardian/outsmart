@@ -1,0 +1,10 @@
+.coverage__text {
+  color: #FFF;
+  max-width: 450px;
+}
+
+@media screen and (max-width: 768px) {
+  .coverage__text{
+    max-width: 100%;
+  }
+}

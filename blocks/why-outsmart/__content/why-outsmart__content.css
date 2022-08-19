@@ -1,0 +1,11 @@
+.why-outsmart__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+@media screen and (max-width:768px) {
+  .why-outsmart__content {
+    gap: 4px;
+  }
+}

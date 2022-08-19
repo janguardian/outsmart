@@ -1,0 +1,17 @@
+.header__menu {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  gap: 6px;
+  height: 4px;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  transition: all 0.2s ease-in-out;
+  width: 24px;
+}
+
+.header__menu:hover .header__point {
+  background-color: #1C3C56;
+}

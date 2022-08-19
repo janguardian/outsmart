@@ -1,0 +1,18 @@
+.promo__title {
+  color: #FFFFFF;
+  font-family: 'Graphik LC';
+  font-weight: 200;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: -2.3px;
+  margin: 0;
+  max-width: 840px;
+}
+
+@media screen and (max-width:768px) {
+  .promo__title {
+    font-size: 64px;
+    line-height: 64px;
+    max-width: 672px;
+  }
+}

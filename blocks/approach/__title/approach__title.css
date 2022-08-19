@@ -1,0 +1,9 @@
+.approach__title {
+  line-height: 32px;
+}
+
+@media screen and (max-width:768px) {
+  .approach__title{
+    line-height: 28px;
+  }
+}
