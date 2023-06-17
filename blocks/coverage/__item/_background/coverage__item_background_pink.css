@@ -2,23 +2,31 @@
   background-position: top  left -425px;
 }
 
-.no-webp .coverage__item_background_pink {
+.coverage__item_background_pink {
+  background-image: url('../../../../images/background/background-main@1x.png');
+}
+
+/* .no-webp .coverage__item_background_pink {
   background-image: url('../../../../images/background/background-main@1x.png');
 }
 
 .webp .coverage__item_background_pink {
   background-image: url('../../../../images/background/background-main@1x.webp');
-}
+} */
 
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
 only screen and (-moz-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) {
-  .no-webp .coverage__item_background_pink {
+  .coverage__item_background_pink {
+    background-image: url('../../../../images/background/background-main@2x.png');
+  }
+
+  /* .no-webp .coverage__item_background_pink {
     background-image: url('../../../../images/background/background-main@2x.png');
   }
   
   .webp .coverage__item_background_pink {
     background-image: url('../../../../images/background/background-main@2x.webp');
-  }
+  } */
 }

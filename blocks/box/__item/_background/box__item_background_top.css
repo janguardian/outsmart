@@ -16,23 +16,31 @@
           transform: scale(-1);
 }
 
-.no-webp .box__item_background_top::before {
+.box__item_background_top::before {
+  background-image: url('../../../../images/background/background-secondary@1x.png');
+}
+
+/* .no-webp .box__item_background_top::before {
   background-image: url('../../../../images/background/background-secondary@1x.png');
 }
 
 .webp .box__item_background_top::before {
   background-image: url('../../../../images/background/background-secondary@1x.webp');
-}
+} */
 
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
 only screen and (-moz-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) {
-  .no-webp .box__item_background_top::before {
+  .box__item_background_top::before {
+    background-image: url('../../../../images/background/background-secondary@2x.png');
+  }
+
+  /* .no-webp .box__item_background_top::before {
     background-image: url('../../../../images/background/background-secondary@2x.png');
   }
   
   .webp .box__item_background_top::before {
     background-image: url('../../../../images/background/background-secondary@2x.webp');
-  }
+  } */
 }

@@ -24,6 +24,7 @@
 
 .services__item:hover::after {
   opacity: 1;
+  background-image: url('../../../images/background/background-main@1x.png');
 }
 
 .services__item:hover .services__subtitle {
@@ -39,25 +40,33 @@
   background-color: var(--colorWhite);
 } 
 
-.no-webp .services__item:hover::after {
+/* .services__item:hover::after {
+  background-image: url('../../../images/background/background-main@1x.png');
+} */
+
+/* .no-webp .services__item:hover::after {
   background-image: url('../../../images/background/background-main@1x.png');
 }
 
 .webp .services__item:hover::after {
   background-image: url('../../../images/background/background-main@1x.webp');
-}
+} */
 
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
 only screen and (-moz-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) {
-  .no-webp .services__item:hover::after {
+  .services__item:hover::after {
+    background-image: url('../../../images/background/background-main@2x.png');
+  }
+
+  /* .no-webp .services__item:hover::after {
     background-image: url('../../../images/background/background-main@2x.png');
   }
   
   .webp .services__item:hover::after {
     background-image: url('../../../images/background/background-main@2x.webp');
-  }
+  } */
 }
 
 @media screen and (max-width: 960px) {

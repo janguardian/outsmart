@@ -6,25 +6,33 @@
   background-size: cover;
 }
 
-.no-webp .wrapper_section_touch {
+.wrapper_section_touch {
+  background-image: url('../../../images/background/background-main@1x.png');
+}
+
+/* .no-webp .wrapper_section_touch {
   background-image: url('../../../images/background/background-main@1x.png');
 }
 
 .webp .wrapper_section_touch {
   background-image: url('../../../images/background/background-main@1x.webp');
-}
+} */
 
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
 only screen and (-moz-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) {
-  .no-webp .wrapper_section_touch {
+  .wrapper_section_touch {
+    background-image: url('../../../images/background/background-main@2x.png');
+  }
+
+  /* .no-webp .wrapper_section_touch {
     background-image: url('../../../images/background/background-main@2x.png');
   }
   
   .webp .wrapper_section_touch {
     background-image: url('../../../images/background/background-main@2x.webp');
-  }
+  } */
 }
 
 @media screen and (max-width: 1023px) {
