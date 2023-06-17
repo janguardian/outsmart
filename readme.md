@@ -25,3 +25,7 @@
 
 * [Дизайн макет в Figma](https://www.figma.com/file/RpKABoy6gfL5g2QbDdgF2F/Outsmart?node-id=46%3A2)
 * [Чеклист для самостоятельной проверки](https://code.s3.yandex.net/web-developer/checklists-pdf/web-plus/checklist-1.pdf)
+
+##
+
+Ссылка на демо сайта - https://outsmart-green.vercel.app/
