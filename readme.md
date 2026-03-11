@@ -69,20 +69,20 @@
 3. Установите зависимости:
 
    ```bash
-   yarn
+   npm install
 
    ```
 
 4. Запуск в режиме разработки:
 
    ```bash
-   yarn dev
+   npm run dev
 
    ```
 
 5. Сборка проекта:
 
    ```bash
-   yarn build
+   npm run build
 
    ```
