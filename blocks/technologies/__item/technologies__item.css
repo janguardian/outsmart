@@ -1,0 +1,16 @@
+.technologies__item {
+  background-color: var(--colorPurple);
+  padding: 8px 20.7px;
+  border-radius: 16px;
+  color: var(--colorWhite);
+  line-height: 1;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1023px) {
+  .technologies__item {
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+}

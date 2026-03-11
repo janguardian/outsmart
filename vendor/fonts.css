@@ -1,0 +1,23 @@
+@font-face {
+  src:
+    url('./fonts/Graphik-Extralight-Desktop.woff2') format('woff2'),
+    url('./fonts/Graphik-Extraligh-Desktop.woff') format('woff');
+  font-family: 'Graphik';
+  font-weight: 200;
+}
+
+@font-face {
+  src:
+    url('./fonts/Graphik-Light-Desktop.woff2') format('woff2'),
+    url('./fonts/Graphik-Light-Desktop.woff') format('woff');
+  font-family: 'Graphik';
+  font-weight: 300;
+}
+
+@font-face {
+  src:
+    url('./fonts/Graphik-Regular-Desktop.woff2') format('woff2'),
+    url('./fonts/Graphik-Regular-Desktop.woff') format('woff');
+  font-family: 'Graphik';
+  font-weight: 400;
+}

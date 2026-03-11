@@ -1,0 +1,24 @@
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  z-index: 15;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  background-color: var(--colorWhite);
+  -webkit-box-shadow: 0px 5px 30px rgba(50, 137, 255, 0.5);
+          box-shadow: 0px 5px 30px rgba(50, 137, 255, 0.5);
+  -webkit-transition: width 0.3s linear;
+  -o-transition: width 0.3s linear;
+  transition: width 0.3s linear;
+}

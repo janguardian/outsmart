@@ -1,0 +1,12 @@
+.coverage__text {
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 960px) {
+  .coverage__text {    
+    line-height: 32px;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+}

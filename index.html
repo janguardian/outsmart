@@ -1,12 +1,539 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="We are a marketing consultant. We help small and medium-sized software development companies gain traction by attracting new prospects and leading them all the way up to becoming your customers">
+    <meta name="keywords" content="marketing consultant, small and medium-sized software development companies, outsourcing companies, product developers, digital marketing, content marketing, branding & design">
+    <meta name="author" content="Кирилл Бегей">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
     <title>Outsmart</title>
   </head>
-  <body>
-    <p class="paragraph">Hello, World!</p>
+  <body class="root">    
+    
+    <section class="wrapper wrapper_section_promo">
+      <div class="container container_type_promo">
+        <div class="promo">
+          <h1 class="promo__title">Progress through&nbsp;numbers</h1>
+          <p class="promo__text">We are a marketing consultant. We help small and medium-sized software development companies
+            gain traction by attracting new prospects and leading them all the way up to becoming your customers.</p>
+          <button class="promo__button button button__get-touch">Get in touch</button>
+        </div>
+        <header class="header">
+          <img src="./images/promo/logo.svg" alt="Logo Outsmart." class="logo">
+          <div class="header__nav">
+            <button class="header__button button button__get-touch" id="headerButton">Get in touch</button>
+            <nav class="header__menu">
+              <button class="header__menu-link" id="openedMenu">
+                <svg class="header__menu-image">
+                  <use href="./images/promo/menu.svg#menu"></use>
+                </svg>
+              </button>
+            </nav>
+          </div>
+        </header>
+        <img src="./images/promo/overlay-promo.svg" class="overlay overlay_section_promo" alt="Overlay section promo.">
+      </div>
+      <div class="menu" id="menu">
+        <div class="menu__container" id="menuContainer">
+          <button class="menu__button-close" id="closeMenu">
+            <img src="./images/promo/menu-image-close.svg" alt="Collapse menu." class="menu__image-close">
+          </button>
+          <div class="menu__link-container">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#coverage" class="menu__link">Coverage</a>
+              </li>
+              <li class="menu__item">
+                <a href="#services" class="menu__link">Our services</a>
+              </li>
+              <li class="menu__item">
+                <a href="#approach" class="menu__link">Approach</a>
+              </li>
+              <li class="menu__item">
+                <a href="#certifications" class="menu__link">Certifications</a>
+              </li>
+              <li class="menu__item">
+                <a href="#afterword" class="menu__link">Afterword</a>
+              </li>
+              <li class="menu__item">
+                <a href="#outsmart" class="menu__link">Why Outsmart</a>
+              </li>
+              <li class="menu__item">
+                <a href="#portfolio" class="menu__link">Portfolio</a>
+              </li>
+              <li class="menu__item">
+                <a href="#customers" class="menu__link">Selected customers</a>
+              </li>
+            </ul>
+            <button class="menu__button button" id="menuButton">Get in touch</button>
+          </div>
+        </div>
+      </div>      
+    </section>
+
+    <section class="wrapper wrapper_section_coverage" id="coverage">
+      <div class="container container_type_coverage">
+        <h2 class="section-title">Coverage</h2>
+        <ul class="coverage">
+          <li class="coverage__item coverage__item_background_pink">
+            <div class="coverage__content">
+              <h3 class="coverage__title subtitle">Outsourcing companies</h3>
+              <p class="coverage__text coverage__text_width_small">We provide marketing and sales support services for custom software development companies whatever domain or industry they are operating in.</p>
+            </div>
+          </li>
+          <li class="coverage__item coverage__item_background_blue">
+            <div class="coverage__content">
+              <h3 class="coverage__title subtitle">Product developers</h3>
+              <p class="coverage__text">Outsmart renders marketing, promotion, placement, enhancement and sales services for independent software vendors with proprietary products.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <img src="./images/coverage/overlay-coverage.svg" alt="Overlay section coverage." class="overlay overlay_section_coverage">
+    </section>
+
+    <section class="wrapper wrapper_section_services" id="services">
+      <div class="container container_type_services">
+        <h2 class="section-title">Our services</h2>
+        <ul class="box services">
+          <li class="box__item box__item_background_bottom services__item">
+            <div class="box__item-container">
+              <div class="box__column services__left-column">
+                <h3 class="services__subtitle subtitle">Digital marketing</h3>
+              </div>
+              <div class="box__column services__right-column">
+                <p class="services__text">We offer and implement digital marketing strategies that advertise your products or services through online channels and have a measurable impact on the performance of your business.</p>
+                <ul class="technologies">
+                  <li class="technologies__item services__state">Digital content</li>
+                  <li class="technologies__item services__state">Online advertising</li>
+                  <li class="technologies__item services__state">Placement</li>
+                  <li class="technologies__item services__state">SEO</li>
+                  <li class="technologies__item services__state">SMM</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="box__item box__item_background_top services__item">
+            <div class="box__item-container">
+              <div class="box__column services__left-column">
+                <h3 class="services__subtitle subtitle">Content marketing</h3>
+              </div>
+              <div class="box__column services__right-column">
+                <p class="services__text">Outsmart renders descriptive and technical content on digital and in-print media, lowering presale expenses, shortening cycles, enhancing user engagement, increasing sales, and decreasing support loads.</p>
+                <ul class="technologies">
+                  <li class="technologies__item services__state">Collaterals</li>
+                  <li class="technologies__item services__state">Offerings</li>
+                  <li class="technologies__item services__state">Case studies</li>
+                  <li class="technologies__item services__state">Whitepapers</li>
+                  <li class="technologies__item services__state">Guides</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="box__item box__item_background_bottom services__item">
+            <div class="box__item-container">
+              <div class="box__column services__left-column">
+                <h3 class="services__subtitle subtitle">Branding & design</h3>
+              </div>
+              <div class="box__column services__right-column">
+                <p class="services__text">We develop unique and compelling brand identities, visuals, and web designs with legible and correct typography to ensure consistent delivery of your brand message across all digital channels.</p>
+                <ul class="technologies">
+                  <li class="technologies__item services__state">Brand messaging</li>
+                  <li class="technologies__item services__state">Brand identity</li>
+                  <li class="technologies__item services__state">Typography</li>
+                  <li class="technologies__item services__state">Visuals</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="wrapper" id="approach">
+      <div class="container container_type_approach">
+        <h2 class="section-title">Approach</h2>
+        <ol class="numbered-cards approach">
+          <li class="numbered-cards__item approach__item">
+            <div class="approach__two-columns">
+              <div class="approach__left-column">
+                <div class="approach__image-container approach__image-container_type_discovery">
+                  <img class="approach__image" src="./images/approach/image-discovery.svg" alt="White vector binoculars.">
+                </div>
+              </div>
+              <div class="approach__right-column">
+                <h3 class="subtitle">Discovery</h3>
+                <p class="approach__text">We hold online and face-to-face sessions with C-level executives to understand your pains.</p>
+              </div>
+            </div>
+          </li>
+          <li class="numbered-cards__item approach__item">
+            <div class="approach__two-columns">
+              <div class="approach__left-column">
+                <div class="approach__image-container approach__image-container_type_audit">
+                  <img class="approach__image" src="./images/approach/image-audit.svg" alt="White vector magnifier.">
+                </div>
+              </div>
+              <div class="approach__right-column">
+                <h3 class="subtitle">Audit</h3>
+                <p class="approach__text">We audit your current expertise or product, pinpointing weaknesses along the way.</p>
+              </div>
+            </div>
+          </li>
+          <li class="numbered-cards__item approach__item">
+            <div class="approach__two-columns">
+              <div class="approach__left-column">
+                <div class="approach__image-container approach__image-container_type_delivery">
+                  <img class="approach__image" src="./images/approach/image-delivery.svg" alt="White vector right arrow.">
+                </div>
+              </div>
+              <div class="approach__right-column">
+                <h3 class="subtitle">Delivery</h3>
+                <p class="approach__text">We implement a strategy that achieves the agreed KPIs, staying within the budget.</p>
+              </div>
+            </div>
+          </li>
+          <li class="numbered-cards__item approach__item">
+            <div class="approach__two-columns">
+              <div class="approach__left-column">
+                <div class="approach__image-container approach__image-container_type_support">
+                  <img class="approach__image" src="./images/approach/image-support.svg" alt="Thumb up white vector image.">
+                </div>
+              </div>
+              <div class="approach__right-column">
+                <h3 class="subtitle">Support</h3>
+                <p class="approach__text">We offer continuous support to further expand your newly acquired marketing capabilities.</p>
+              </div>
+            </div>
+          </li>
+        </ol>
+        <ul class="pagination approach__pagination">
+          <li class="pagination__item pagination__item_active"></li>
+          <li class="pagination__item"></li>
+          <li class="pagination__item"></li>
+          <li class="pagination__item"></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="wrapper" id="certifications">
+      <div class="container container_type_certifications">
+        <div class="certifications">
+          <h2 class="section-title certifications__left-column">Certifications</h2>
+          <p class="certifications__right-column">Our marketing consultants are certiﬁed by industry leaders. That means you’re getting effcient advertising, comprehensive analytics and detailed reporting that will help you gain deep insights on your performance and boost ROI.</p>
+        </div>
+        <ul class="banners">
+          <li class="banners__item">
+            <img src="./images/certifications/banner-microsoft.svg" alt="Microsoft logo." class="banners__image">
+          </li>
+          <li class="banners__item">
+            <img src="./images/certifications/banner-google-analytics.svg" alt="Google Analytics logo." class="banners__image">
+          </li>
+          <li class="banners__item">
+            <img src="./images/certifications/banner-ads.svg" alt="Google Analytics logo." class="banners__image">
+          </li>
+          <li class="banners__item">
+            <img src="./images/certifications/banner-hubspot.svg" alt="HubSpot logo." class="banners__image">
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="wrapper wrapper_section_afterword" id="afterword">
+      <div class="container container_type_afterword">
+        <h2 class="section-title">Afterword</h2>
+        <div class="afterword">
+          <div class="afterword__left-column">
+            <picture class="afterword__image-container">
+              <source srcset="./images/afterword/afterword-photo@2x.webp" media="(resolution:300dpi)">
+              <source srcset="./images/afterword/afterword-photo@2x.png" media="(resolution:300dpi)">
+              <source srcset="./images/afterword/afterword-photo@1x.webp">
+              <img src="./images/afterword/afterword-photo@1x.png" class="afterword__image" alt="Photography by Jan Guardian.">
+            </picture>
+          </div>
+          <div class="afterword__right-column">
+            <div class="afterword__author">
+              <h3 class="subtitle">Jan Guardian</h3>
+              <p class="afterword__author-speciality">Marketing Executive</p>
+            </div>
+            <blockquote class="afterword__quote">
+              <p class="afterword__quote-main">Hi, I’m Jan. Becoming our customer, you’re doomed to fall in my hands.</p>
+              <p class="afterword__quote-secondary">If you do, I will eagerly share a wide range of handpicked practices and over 10 years of experience in visual design, web development, and digital marketing.</p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrapper" id="outsmart">
+      <div class="container container_type_outsmart">
+        <h2 class="section-title">Why outsmart</h2>
+        <ul class="outsmart">
+          <li class="outsmart__item">
+            <div class="outsmart__image-container">
+              <img class="outsmart__image" src="./images/outsmart/cost.svg"  alt="Cost logo.">
+            </div>
+            <div class="outsmart__content">
+              <h3 class="outsmart__subtitle">Cost</h3>
+              <p class="outsmart__text">You get a team of experts at a fraction  of the cost of a full-time executive with no commitment.</p>
+            </div>
+          </li>
+          <li class="outsmart__item">
+            <div class="outsmart__image-container">
+              <img class="outsmart__image" src="./images/outsmart/time.svg"  alt="Time logo.">
+            </div>
+            <div class="outsmart__content">
+              <h3 class="outsmart__subtitle">Time</h3>
+              <p class="outsmart__text">You receive deliverables across multiple channels faster than you would from an in-house team.</p>
+            </div>
+          </li>
+          <li class="outsmart__item">
+            <div class="outsmart__image-container">
+              <img class="outsmart__image" src="./images/outsmart/ownership.svg"  alt="Ownership logo.">
+            </div>
+            <div class="outsmart__content">
+              <h3 class="outsmart__subtitle">Ownership</h3>
+              <p class="outsmart__text">You remain the owner of all the accumulated data, learnings and marketing deliverables. </p>
+            </div>
+          </li>
+          <li class="outsmart__item">
+            <div class="outsmart__image-container">
+            <img class="outsmart__image" src="./images/outsmart/experience.svg"  alt="Experience logo.">
+            </div>
+            <div class="outsmart__content">
+              <h3 class="outsmart__subtitle">Experience</h3>
+              <p class="outsmart__text">You get familiar with the target market, marketing channels and opportunities available.</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="pagination outsmart__pagination">
+          <li class="pagination__item pagination__item_active"></li>
+          <li class="pagination__item"></li>
+          <li class="pagination__item"></li>
+          <li class="pagination__item"></li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="separator-line">
+
+    <section class="wrapper" id="portfolio">
+      <div class="container container_type_portfolio">
+        <h2 class="section-title">Portfolio</h2>
+        <ul class="box portfolio">
+          <li class="box__item box__item_background_bottom portfolio__item">
+            <div class="box__item-container portfolio__item-container">
+              <div class="box__column portfolio__left-column">
+                <img src="./images/portfolio/dwkit.svg" alt="Dwkit logo." class="portfolio__image">
+              </div>
+              <div class="box__column portfolio__right-column">
+                <ul class="properties">
+                  <li class="properties__column">
+                    <p class="subtitle">99%</p>
+                    <p class="properties__caption">PageSpeed Insights</p>
+                  </li>
+                  <li class="properties__column">
+                    <p class="subtitle">A+</p>
+                    <p class="properties__caption">WebPageTest</p>
+                  </li>
+                  <li class="properties__column">
+                    <p class="subtitle">50ms</p>
+                    <p class="properties__caption">TTFB</p>
+                  </li>
+                </ul>
+                <p class="portfolio__text">We developed a new brand identity for a BPM provider, spanning a logo, palette and typography, and delivered a website and product look-and-feel revamp in preparation for the release of version 2.0.</p>
+                <ul class="technologies">
+                  <li class="technologies__item">Brand identity</li>
+                  <li class="technologies__item">Visual design</li>
+                  <li class="technologies__item">Typography</li>
+                  <li class="technologies__item">Web design</li>
+                  <li class="technologies__item">Content</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="box__item box__item_background_top portfolio__item">
+            <div class="box__item-container portfolio__item-container">
+              <div class="box__column portfolio__left-column">
+                <img src="./images/portfolio/jet.svg" alt="Jet logo." class="portfolio__image">
+              </div>
+              <div class="box__column portfolio__right-column">
+                <ul class="properties">
+                  <li class="properties__column">
+                    <p class="subtitle">+$8</p>
+                    <div class="properties__caption">Increase in hourly rates</div>
+                  </li>
+                  <li class="properties__column">
+                    <p class="subtitle">x2</p>
+                    <div class="properties__caption">Decrease in sales cycle</div>
+                  </li>
+                  <li class="properties__column">
+                    <p class="subtitle">20%</p>
+                    <div class="properties__caption">Sales efforts saved</div>
+                  </li>
+                </ul>
+                <p class="portfolio__text">In a time span of 4 months we delivered 1 collateral, 20 case studies and 17 offerings covering Jetsys’ industrial, technological, solution and service expertise to support company’s offshore sales efforts.</p>
+                <ul class="technologies">
+                  <li class="technologies__item">Collaterals</li>
+                  <li class="technologies__item">Offerings</li>
+                  <li class="technologies__item">Case studies</li>
+                  <li class="technologies__item">Whitepapers</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="box__item box__item_background_bottom portfolio__item">
+            <div class="box__item-container portfolio__item-container">
+              <div class="box__column portfolio__left-column">
+                <img src="./images/portfolio/workflowengine.svg" alt="Workflowengine logo." class="portfolio__image">
+              </div>
+              <div class="box__column portfolio__right-column">
+                <ul class="properties">
+                  <li class="properties__column">
+                    <p class="subtitle">x2</p>
+                    <div class="properties__caption">Increase in sales</div>
+                  </li>
+                  <li class="properties__column">
+                    <p class="subtitle">#1</p>
+                    <div class="properties__caption">SERP in 2 months</div>
+                  </li>
+                  <li class="properties__column">
+                    <p class="subtitle">$0.35</p>
+                    <div class="properties__caption">Average CPC</div>
+                  </li>
+                </ul>
+                <p class="portfolio__text">We revamped the product’s website, having delivered a 360° overview wrapped in a brand-new design. A PPC campaign boosted lead-gen in a short term, whereas keyword infusion and targeted media placements improved SERPs.</p>
+                <ul class="technologies">
+                  <li class="technologies__item">Digital content</li>
+                  <li class="technologies__item">Online advertising</li>
+                  <li class="technologies__item">Placement</li>
+                  <li class="technologies__item">SEO</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <button class="portfolio__button button button_states">Load more</button>  
+      </div>
+    </section>
+    
+    <section class="wrapper" id="customers">
+      <div class="container container_type_customers">
+        <h2 class="section-title">Selected customers</h2>
+        <ul class="customers">
+          <li class="customers__item">
+            <img src="./images/customers/staylime.svg" alt="Staylime logo." class="customers__image">
+          </li>
+          <li class="customers__item">
+            <img src="./images/customers/paralect.svg" alt="Paralect logo." class="customers__image">
+          </li>
+          <li class="customers__item">
+            <img src="./images/customers/jet.svg" alt="Jet logo." class="customers__image">
+          </li>
+          <li class="customers__item">
+            <img src="./images/customers/customatix.svg" alt="Customatix logo." class="customers__image">
+          </li>
+          <li class="customers__item">
+            <img src="./images/customers/webile-soft.svg" alt="Webile Soft logo." class="customers__image">
+          </li>
+          <li class="customers__item">
+            <img src="./images/customers/intosoft.svg" alt="Intosoft logo." class="customers__image">
+          </li>
+          <li class="customers__item">
+            <img src="./images/customers/optimajet.svg" alt="Optimajet logo." class="customers__image">
+          </li>
+          <li class="customers__item">
+            <img src="./images/customers/alverden.svg" alt="Alverden logo." class="customers__image">
+          </li>
+          <li class="customers__item">
+            <img src="./images/customers/smartym.svg" alt="Smartym logo." class="customers__image">
+          </li>
+        </ul>
+        <ul class="pagination customers__pagination">
+          <li class="pagination__item pagination__item_active"></li>
+          <li class="pagination__item"></li>
+          <li class="pagination__item"></li>
+          <li class="pagination__item"></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="wrapper wrapper_section_touch" id="touch">
+      <div class="container container_type_touch">
+        <h2 class="touch section-title">Get in touch</h2>
+        <form class="form" novalidate>
+          <div class="form__container">
+            <div class="form__row">
+              <input type="text" class="form__input" id="input-name" placeholder="Name">
+              <p class="form__caption">Please, enter your name</p>
+              <div class="form__close-icon"></div>
+            </div>
+            <div class="form__row">
+              <input type="email" class="form__input" placeholder="Email">
+              <p class="form__caption">Please, enter your email</p>
+              <div class="form__close-icon"></div>
+            </div>
+            <div class="form__row">
+              <textarea class="form__textarea" id="autosize-example" placeholder="Message" rows="1"></textarea>
+              <p class="form__caption">Please, enter your message</p>
+              <div class="form__close-icon"></div>
+            </div>
+          </div>
+          <button class="form__button button">Send message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="wrapper wrapper_section_footer">
+      <div class="container container_type_footer">
+        <div class="footer__row-top">
+          <div class="footer__contact">
+            <a href="tel:+375445536117" class="phone-number">+375 (44) 553-61-17</a>
+          </div>
+          <nav class="footer__menu">
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a href="#coverage" class="footer__menu-link">Coverage</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#services" class="footer__menu-link">Our services</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#approach" class="footer__menu-link">Approach</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#certifications" class="footer__menu-link">Certifications</a>
+              </li>
+            </ul>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a href="#afterword" class="footer__menu-link">Afterword</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#outsmart" class="footer__menu-link">Why Outsmart</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#portfolio" class="footer__menu-link">Portfolio</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#customers" class="footer__menu-link">Our customers</a>
+              </li>
+            </ul>
+          </nav>             
+        </div>
+        <div class="footer__row-bottom">
+          <p class="footer__copyright">&copy; 2022 Outsmart</p>
+        </div>
+      </div>
+    </footer>
+    
     <script type="module" src="/pages/index.js"></script>
+    <script src="./scripts/modernizr-wepb.js"></script>
+    <script src="./scripts/promo-states.js"></script>
+    <script src="./scripts/autosize.min.js"></script>
+    <script src="./scripts/textarea-autosize.js"></script>
   </body>
 </html>

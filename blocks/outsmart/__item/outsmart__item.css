@@ -1,0 +1,20 @@
+.outsmart__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: normal;
+      -ms-flex-pack: normal;
+          justify-content: normal;
+  width: 260px;
+  gap: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+  .outsmart__item { 
+    width: 100%;
+  }
+}

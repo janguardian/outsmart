@@ -1,0 +1,9 @@
+.coverage__text_width_small {
+  max-width: 450px;
+}
+
+@media screen and (max-width: 960px) {
+  .coverage__text_width_small {
+    max-width: none;
+  }
+}

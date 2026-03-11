@@ -1,0 +1,9 @@
+@media screen and (max-width: 1023px) {
+  .portfolio__item-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 47px;
+  }
+}

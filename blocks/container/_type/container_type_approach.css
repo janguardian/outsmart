@@ -1,0 +1,10 @@
+.container_type_approach {
+  padding-top: 0;
+  padding-bottom: 160px;
+}
+
+@media screen and (max-width: 1023px) {
+  .container_type_approach {
+    padding-bottom: 80px;
+  }
+}

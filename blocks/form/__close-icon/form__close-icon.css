@@ -1,0 +1,12 @@
+.form__close-icon {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 20px;
+  height: 20px;
+  opacity: 0;
+  cursor: pointer;
+  background: url('../../../images/form/close-icon.svg') center center no-repeat;
+  -moz-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+}

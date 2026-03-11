@@ -1,0 +1,15 @@
+.services__text {
+  overflow: hidden;
+  margin: 0;
+  color: var(--colorAuroMetalSaurus);
+  letter-spacing: .97px;
+  -webkit-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+
+@media screen and (max-width: 960px) {
+  .services__text {    
+    letter-spacing: 1px;
+  }
+}

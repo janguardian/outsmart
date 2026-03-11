@@ -1,0 +1,10 @@
+.container_type_touch {
+  max-width: 560px;
+  padding-top: 120px;
+}
+
+@media screen and (max-width: 1023px) {
+  .container_type_touch {
+    padding: 80px 0;
+  }
+}

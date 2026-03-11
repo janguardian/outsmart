@@ -1,0 +1,10 @@
+.container_type_outsmart {
+  padding: 0 0 100px;
+}
+
+@media screen and (max-width: 1023px) {
+  .container_type_outsmart {    
+    gap: 80px;
+    padding-bottom: 80px;
+  }
+}

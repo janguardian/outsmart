@@ -1,0 +1,16 @@
+.menu__link-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 48px;
+}
+
+@media screen and (max-width: 1023px) {
+  .menu__link-container {
+    gap: 46px;
+  }
+}

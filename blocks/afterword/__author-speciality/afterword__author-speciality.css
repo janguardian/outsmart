@@ -1,0 +1,12 @@
+.afterword__author-speciality {
+  margin: 0;
+  color: var(--colorAuroMetalSaurus);
+  letter-spacing: .1px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1023px) {
+  .afterword__author-speciality {    
+    letter-spacing: 1px;
+  }
+}

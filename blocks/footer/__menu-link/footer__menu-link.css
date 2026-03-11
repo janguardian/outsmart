@@ -1,0 +1,12 @@
+.footer__menu-link {
+  color: var(--colorLightSteelBlue);
+  text-decoration: none;
+  -webkit-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+
+.footer__menu-link:hover,
+.footer__menu-link:focus {
+  color: #37e0ff;
+}

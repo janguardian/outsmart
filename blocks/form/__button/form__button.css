@@ -1,0 +1,20 @@
+.form__button {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 16px 40px;
+  border-radius: 32px;
+  color: var(--colorWhite);
+  background-color: var(--colorJapaneseIndigo);
+  line-height: 32px;
+  font-weight: 400;
+  font-size: 20px;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.form__button:hover,
+.form__button:focus {
+  background-color: var(--colorWhite);
+}
